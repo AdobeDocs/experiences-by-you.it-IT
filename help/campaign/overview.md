@@ -1,0 +1,84 @@
+---
+title: Campaign per te
+description: Contenuto generato dal cliente
+role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
+level: Beginner
+doc-type: overview
+solution: Campaign
+thumbnail: null
+exl-id: cb9a03bd-8ce1-4681-929f-68f6ff435f6c
+source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 35%
+
+---
+
+# [!DNL Campaign] per te: risorse per utenti, per gli utenti.
+
+La cosa più potente riguardo [!DNL Adobe] Experienci Cloud di soluzioni? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include contenuti creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con il loro [!DNL Adobe] soluzioni Experienci Cloud. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
+<div id="staff-picks-section">
+
+## Proposte del nostro staff
+
+<table>
+<tr>
+  <td>
+    <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
+      <img alt="5 best practice per flussi di lavoro per gli addetti al marketing" src="https://video.tv.adobe.com/v/3410837?format=jpeg" />
+    </a>
+    <div>
+      <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
+    <strong>5 best practice per flussi di lavoro per gli addetti al marketing</strong>
+    </a>
+    </div>
+    <p>
+    <em>[!DNL Adobe Campaign Classic v7]</em>
+    <p>
+  </td>
+  <td>
+    <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
+      <img alt="Risoluzione dei problemi per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+    </a>
+    <div>
+      <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
+    <strong>Risoluzione dei problemi per addetti al marketing: 5 errori comuni di flusso di lavoro e consegna</strong>
+    </a>
+    </div>
+    <p>
+    <em>[!DNL Adobe Campaign Standard]</em>
+    <p>
+  </td>
+  <td>
+    <a href="/help/campaign/10-best-practices-for-marketers.md">
+      <img alt="Dieci best practice per il successo Adobe Campaign per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+    </a>
+    <div>
+      <a href="/help/campaign/10-best-practices-for-marketers.md">
+    <strong>Dieci best practice per il successo Adobe Campaign per gli addetti al marketing</strong>
+    </a>
+    </div>
+    <p>
+    <em>[!DNL Adobe Campaign]</em>
+    <p>
+  </td>
+</tr>
+</table>
+
+</div>
+
+## Risorse aggiuntive
+
+* [Community Adobe Campaign di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* Adobe Campaign v8 -  [Documentazione](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it)
+* Adobe Campaign Classic v7 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it)
+* ADOBE CAMPAIGN STANDARD - [Documentazione](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it)
+* [Informazioni sul prodotto Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html)
