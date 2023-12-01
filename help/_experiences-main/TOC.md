@@ -1,18 +1,18 @@
 ---
-user-guide-title: Esperienze personalizzate
+user-guide-title: Esperienze per te
 user-guide-description: Adobe di contenuti generati dal cliente
-breadcrumb-title: Esperienze personalizzate
+breadcrumb-title: Esperienze per te
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 69%
+ht-degree: 73%
 
 ---
 
 
-# Esperienze personalizzate {#experiences-by-you}
+# Esperienze per te {#experiences-by-you}
 
-+ [Esperienze personalizzate](/help/overview.md)
++ [Esperienze per te](/help/overview.md)
 
 + [!DNL Analytics] da te {#analytics}
    + [Panoramica](/help/analytics/overview.md)
