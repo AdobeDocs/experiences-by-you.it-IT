@@ -1,11 +1,11 @@
 ---
 user-guide-title: Esperienze per te
-user-guide-description: Adobe di contenuti generati dal cliente
+user-guide-description: Contenuto generato dal cliente Adobe
 breadcrumb-title: Esperienze per te
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
