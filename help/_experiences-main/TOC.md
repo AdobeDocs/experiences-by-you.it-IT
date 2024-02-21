@@ -2,10 +2,10 @@
 user-guide-title: Esperienze per te
 user-guide-description: Contenuto generato dal cliente Adobe
 breadcrumb-title: Esperienze per te
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: ab1af7dd740f61ba1c7bf8c2ad44826a3a013fc3
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 75%
+source-wordcount: '293'
+ht-degree: 64%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 75%
    + [!DNL Campaign Standard] {#campaign-standard}
       + [Risoluzione dei problemi per gli addetti al marketing](/help/campaign/acs/troubleshooting-for-marketers.md)
    + Strategia e leadership di pensiero{#strategy}
-      + [Dieci best practice per il successo di  [!DNL Adobe Campaign]  per gli addetti al marketing](/help/campaign/10-best-practices-for-marketers.md)
-+ Experience Manager per te {#experience-manager}
+      + [Dieci best practice per [!DNL Adobe Campaign] successo per gli esperti di marketing](/help/campaign/10-best-practices-for-marketers.md)
++ Experience Manager di te {#experience-manager}
    + [Panoramica](/help/experience-manager/overview.md)
    + AEM Sites {#sites}
       + [Valutazione della maturità di AEM Sites](/help/experience-manager/sites/expert-resources/maturity-assessment.md)
@@ -73,8 +73,10 @@ ht-degree: 75%
          + [Suggerimenti e trucchi per i campioni di AEM: sessione 2](/help/experience-manager/sites/expert-resources/champion-tips-2.md)
    + AEM as a Cloud Service {#cloud-service}
       + [[!DNL Cloud Manager] Playbook di onboarding](/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md)
-      + [[!DNL Cloud Manager] Tipi di ambienti](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
-      + [[!DNL Cloud Manager] Interfaccia utente](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
+      + [[!DNL Cloud Manager] Tipi di ambiente](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
+      + [Interfaccia utente [!DNL Cloud Manager]](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
+      + Best practice {#cloud-manager-best-practices}
+         + [Utilizzo dei registri in Cloud Manager](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-using-logs.md)
 + [!DNL Marketo Engage] da te {#marketo-engage}
    + [Panoramica](/help/marketo/overview.md)
    + Nozioni di base {#fundamentals}
