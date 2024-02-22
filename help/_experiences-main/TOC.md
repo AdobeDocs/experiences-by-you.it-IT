@@ -2,10 +2,10 @@
 user-guide-title: Esperienze per te
 user-guide-description: Contenuto generato dal cliente Adobe
 breadcrumb-title: Esperienze per te
-source-git-commit: ab1af7dd740f61ba1c7bf8c2ad44826a3a013fc3
+source-git-commit: 90e94736bc5f29829211cb954f6b9d54684c8eb7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 64%
+source-wordcount: '297'
+ht-degree: 63%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 64%
          + [Sbloccare la potenza della condivisione di sola visualizzazione](/help/analytics/analysis-workspace/curate-and-share-projects/unlocking-the-power-of-view-only-sharing.md)
       + Suggerimenti {#tips-and-tricks}
          + [Suggerimenti e trucchi per flussi di lavoro più efficienti con il clic destro del mouse](/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
+         + [#Tags - il tuo assistente personale](/help/analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
    + Amministrazione {#administration}
       + Competenze chiave dell’amministratore {#key-admin-skills}
          + [Creazione di una community autonoma](/help/analytics/administration/key-admin-skills/empowered-community.md)
