@@ -9,7 +9,7 @@ duration: 36000
 last-substantial-update: 2024-02-22T00:00:00Z
 jira: KT-14963
 thumbnail: KT-14963.jpeg
-source-git-commit: 718a4fcd0ae06f544d1a78926b0c4d13cda8808a
+source-git-commit: e63d6cf68e70622ddcdbe92064d84ad72ca483c3
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Beh, mi dispiace farle scoppiare la bolla, ma provi solo ad andarmene. ***Adobe 
 
 Quindi, questo è stato il gioco fin dal primo giorno, ma cosa succederebbe se potessimo cambiare le regole?
 
-E se potessimo creare il nostro assistente personale per cambiare per sempre quei ruoli?
+E se potessimo creare il nostro assistente personale per cambiare queste regole una volta per tutte?
 
 Sul serio, stiamo parlando di TAGS!  Esatto!!  È il nostro amico l&#39;hashtag, precedentemente noto come &quot;numero&quot; e &quot;cancelletto&quot;, proprio come l&#39;abbiamo visto al telefono.  Quelli di noi musicisti la chiamano persino &quot;tagliente&quot;.
 
