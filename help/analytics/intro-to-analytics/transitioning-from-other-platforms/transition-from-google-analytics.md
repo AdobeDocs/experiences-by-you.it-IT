@@ -7,11 +7,10 @@ role: User
 level: Beginner
 kt: 9830
 thumbnail: 34749.jpg
-exl-id: b2be6081-a1c0-4435-affb-454ed5a74662
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: c6c9e5b19c601592811151450aecd8dfdd084ff6
 workflow-type: tm+mt
-source-wordcount: '3290'
-ht-degree: 77%
+source-wordcount: '3323'
+ht-degree: 72%
 
 ---
 
@@ -31,7 +30,7 @@ Dovremmo anche fare un rapido confronto terminologico:
 
 ## 2. Interfacce
 
-Quando le persone confrontano [!DNL Adobe Analytics] e GOOGLE [!DNL Analytics], commentano che [!DNL Adobe]L&#39;interfaccia di è inizialmente impegnativa. Questo è vero ma, credeteci o no, è anche un punto di forza, non una debolezza. [!DNL Adobe] offre un’ampia gamma di strumenti e grande flessibilità nella visualizzazione dei dati, consentendoti di creare in modo molto più libero ciò di cui hai bisogno.
+Quando le persone confrontano [!DNL Adobe Analytics] e GOOGLE [!DNL Analytics], commentano che [!DNL Adobe]L&#39;interfaccia di è inizialmente impegnativa. Questo è vero ma, credeteci o no, è anche un punto di forza, non una debolezza. [!DNL Adobe] offre un’ampia gamma di strumenti e flessibilità nella visualizzazione dei dati, consentendoti di creare in modo molto più libero ciò di cui hai bisogno.
 
 Cominciamo guardando il reporting “in-site”.
 
@@ -43,7 +42,7 @@ Entrambi [!DNL Adobe Analytics] e GOOGLE [!DNL Analytics] fornire un modo per pe
 
 ##### 2.1.1.1. Schermata Home area di lavoro/personalizzata ([!DNL Adobe Analytics])
 
-[!DNL Adobe Analytics] non presume di creare un rapporto predefinito visibile a tutti gli utenti all’accesso. La pagina Home predefinita porta l’utente alla schermata di destinazione dell’area di lavoro che mostra a ogni utente tutti i rapporti dell’area di lavoro creati o condivisi. Inoltre, ogni utente ha la possibilità di impostare uno qualsiasi di questi rapporti come schermata Home, se lo desidera.
+[!DNL Adobe Analytics] non presume di creare un rapporto predefinito che tutti gli utenti potranno visualizzare all’accesso. La pagina Home predefinita porta l’utente alla schermata di destinazione dell’area di lavoro che mostra a ogni utente tutti i rapporti dell’area di lavoro creati o condivisi. Inoltre, ogni utente ha la possibilità di impostare uno qualsiasi di questi rapporti come schermata Home, se lo desidera.
 
 ![workspace-create-project](assets/ga-to-aa_1.png)
 
@@ -55,7 +54,7 @@ Di seguito in questa guida saranno riportati ulteriori dettagli sull’area di l
 
 
 
-##### 2.1.1.2. Informazioni approfondite sulla schermata Home (Google [!DNL Analytics])
+##### 2.1.1.2. Informazioni sulla schermata iniziale (Google [!DNL Analytics])
 
 * Google [!DNL Analytics] La schermata Home offre alcune visualizzazioni predefinite. Tra queste troviamo:
 * Utenti, Sessioni, Frequenza di rimbalzo e Durata della sessione negli ultimi sette giorni
@@ -71,7 +70,7 @@ In GA4 gli utenti hanno più opzioni per personalizzare e aggiungere i propri ra
 
 ![google-analytics-interfaces](assets/ga-to-aa_2.png)
 
-Questa è probabilmente l’unica cosa che ti manca di più in [!DNL Adobe Analytics]. Non c’è una schermata iniziale predefinita per te. Tuttavia, puoi facilmente impostare un’area di lavoro personalizzata per riprodurre ciò di cui hai bisogno dall’elenco precedente e impostarla come schermata di destinazione. Tratteremo ulteriormente questo argomento in seguito (oppure cfr. sezione 2.1.2.1. [!DNL Adobe] Workspace).
+Questa è probabilmente l&#39;unica cosa che ti manca di più [!DNL Adobe Analytics]. Non c’è una schermata iniziale predefinita per te. Tuttavia, puoi facilmente impostare un’area di lavoro personalizzata per riprodurre ciò di cui hai bisogno dall’elenco precedente e impostarla come schermata di destinazione. Tratteremo ulteriormente questo argomento in seguito (oppure cfr. sezione 2.1.2.1. [!DNL Adobe] Workspace).
 
 #### 2.1.2. Report Builder nel sito
 
@@ -268,10 +267,10 @@ Sottolineo, tuttavia, che raccomando di utilizzare entrambi [!DNL Adobe Analytic
 
 Oltre a questa guida sono disponibili numerose risorse che possono contribuire a migliorare la tua strategia:
 
-* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/?lang=it#home) - Contiene tutorial, video, documentazione e i forum della community
-* [[!DNL Adobe] Gruppi di utenti ](https://analytics-augs.adobe.com/): un hub di eventi gestiti dalla community per consentire agli utenti di connettersi tra loro e migliorare le implementazioni.
+* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/?lang=it#home) - Contiene tutorial, video, documentazione e forum della community
+* [[!DNL Adobe] Gruppi di utenti](https://analytics-augs.adobe.com/) - Hub di eventi gestiti dalla community per consentire agli utenti di connettersi tra loro e migliorare le implementazioni.
 * [[!DNL Adobe Analytics] Canale YouTube di User Groups](https://www.youtube.com/channel/UCQOHnCs7KZgsuFHVzwboQuA) - Impossibile creare un [!DNL Adobe Analytics] sessione del gruppo utenti? Guarda le sessioni precedenti da tutto il mondo e scopri come altri professionisti come te utilizzano questo strumento.
-* [Canale Slack di Measure Chat](https://www.measure.chat/)[!DNL Adobe Analytics] - Entra in contatto con gli utenti di in tutto il mondo e condividi esperienze nel settore, fai domande ad altri professionisti come te e partecipa a gruppi di interesse incentrati sulla misurazione.
+* [Misura canale di Slack chat](https://www.measure.chat/) - Connessione con [!DNL Adobe Analytics] utenti in tutto il mondo e condividi esperienze nel settore, fai domande ad altri professionisti come te e partecipa a gruppi di interesse incentrati sulla misurazione.
 * E altro ancora!
 
 ## Autore
