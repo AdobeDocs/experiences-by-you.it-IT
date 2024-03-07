@@ -10,7 +10,7 @@ doc-type: Article
 last-substantial-update: 2023-05-18T00:00:00Z
 jira: KT-13256
 thumbnail: KT-13256.jpeg
-source-git-commit: a27a5538a7009d00d01227865ced4c5039147496
+source-git-commit: 0fc67f48deb78d5a66d485093d1837cbeee7c4d4
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -22,7 +22,6 @@ ht-degree: 2%
 Di: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, Consulente senior, Meijer
 
 In qualità di Senior Engineer ed esperto cliente per [!DNL Adobe] Experience Cloud prodotti per gli ultimi cinque anni, consento agli utenti aziendali di [Meijer](https://www.meijer.com/){target="_blank"}, catena di supercentri americana fondata nel 1934, per gestire campagne di marketing e transazionali complesse con ACS. Alcuni dei progetti su cui ho lavorato includono campagne personalizzate per archiviare le offerte e dettagli degli ordini per la personalizzazione, integrate con [!DNL Adobe] Audience Manager e approfondimenti sul cliente per l’inserimento dei segmenti.
-
 
 Durante il mio periodo di utilizzo di ACS, ho riscontrato errori che possono richiedere molto tempo e che possono essere frustranti da risolvere. Conoscere gli errori più comuni può aiutare a risolvere i problemi più rapidamente e a migliorare la produttività. Di seguito sono riportati alcuni suggerimenti per la risoluzione dei problemi che consentono di risolvere in modo efficace errori simili quando si verificano.
 
