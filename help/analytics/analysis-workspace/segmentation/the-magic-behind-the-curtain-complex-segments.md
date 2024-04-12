@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-25T00:00:00Z
 jira: KT-15200
 thumbnail: KT-15200.jpeg
 exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
-source-git-commit: 59dbe503fb179ed24ec8380f0d3e853deec82a7b
+source-git-commit: 1e9e57c00adb37a01e42cbbb82e62918e7543b19
 workflow-type: tm+mt
 source-wordcount: '4102'
 ht-degree: 2%
@@ -202,7 +202,7 @@ Passiamo un po&#39; di tempo a svelarlo, visto che sta succedendo molto.
 
 In primo luogo, invece di mostrare un raggruppamento giornaliero, sto mostrando un raggruppamento di pagina, perché penso che questo aiuterà a illustrare meglio i due segmenti.
 
-<table border="0">
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Le prime tre colonne (Visualizzazioni di pagina, visite e visitatori univoci) non sono segmentate e quindi mostrano tutte le pagine all’interno del sito. Non ho incluso gli ordini qui, poiché gli ordini vengono tracciati su un'azione, e quindi non fanno parte dell'ambito della dimensione pagina.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail1.png" width="352"
@@ -210,7 +210,7 @@ In primo luogo, invece di mostrare un raggruppamento giornaliero, sto mostrando 
     </tr>
 </table>
 
-<table border="0">
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Ora sto mostrando il risultato del segmento semplice, che considera solo <strong>hit</strong> nelle due pagine specificate. Noterai che tutte le altre pagine del raggruppamento restituiscono 0, come previsto.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail2.png" width="352"
@@ -218,7 +218,7 @@ In primo luogo, invece di mostrare un raggruppamento giornaliero, sto mostrando 
     </tr>
 </table>
 
-<table border="0">
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Ora, ecco un piccolo suggerimento bonus, prima di mostrare il risultato del segmento avanzato, ho usato un altro semplice segmento di "Orders Exists" (a un ambito di livello HIT), e ho abbinato con visitatori unici. Questo mi restituirà il totale di UV che hanno effettuato ordini nel mio periodo di rapporto, così come i UV che hanno colpito ognuna di quelle pagine... questo aiuterà a illustrare meglio il prossimo set di colonne.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail3.png" width="352"
@@ -226,7 +226,7 @@ In primo luogo, invece di mostrare un raggruppamento giornaliero, sto mostrando 
     </tr>
 </table>
 
-<table>
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Il set finale di colonne viene impilato con il segmento complesso. Il totale di UV con ordini corrisponde al segmento semplice "Ordini esistenti" in ogni pagina, ma noterai che il totale è significativamente diverso; poiché questo set di dati limita esplicitamente il set di dati solo ai visitatori che hanno effettuato ordini E hanno raggiunto le pagine, sono esplicitamente interessato a.</td> <td style="border: 0;"><img src="assets/segment-example-3/segment3c-comparison-table-detail4.png" width="352">
         </td>
@@ -333,14 +333,14 @@ Iniziamo con il cambiare le cose guardando i confronti, poi approfondiamo i segm
 
 ![Segment5A-TableComparison](assets/segment-example-5/segment5a-table-comparison.png)
 
-<table>
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Le prime 4 colonne non sono segmentate e devono essere di facile comprensione. Tieni presente che *"Voci"* è fondamentalmente un valore calcolato in base al punto in cui i visitatori iniziano la sessione. L’ho aggiunto qui per mostrare che questo non restituisce le informazioni che stiamo cercando, poiché gli utenti possono accedere al sito tramite più canali di marketing (attraverso l’osservazione dei social media, l’esecuzione di ricerche, il clic sulle e-mail di marketing, ecc.). tutto all’interno della stessa visita/sessione).</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail1.png" width="352">
         </td>
     </tr>
 </table>
 
-<table>
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Il prossimo set di colonne utilizza un "Segmento hit standard", che esamina fondamentalmente gli hit in cui il canale di marketing è la "ricerca a pagamento". Tuttavia, questo restituirà TUTTI gli hit in base all’attribuzione Marketing Channel, non isolerà i click-through effettivi di "Ricerca a pagamento". Pertanto, questo non restituirà i dati di cui abbiamo bisogno.</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail2.png" width="352">
         </td>
@@ -350,7 +350,7 @@ Iniziamo con il cambiare le cose guardando i confronti, poi approfondiamo i segm
 
 ![Segment5A-PaidSearchHit](assets/segment-example-5/segment5a-paid-search-hit.png)
 
-<table>
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Ora, i due gruppi di dati successivi sembrano identici, e infatti, questi restituiranno gli stessi dati in due modi diversi. Ma ora sto specificamente guardando il <i>istanze</i> dove si trovava il canale di marketing <strong>set</strong> a "Paid Search" (Ricerca a pagamento).</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail3.png" width="352">
         </td>
