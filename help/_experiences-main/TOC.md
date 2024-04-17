@@ -2,10 +2,10 @@
 user-guide-title: Esperienze per te
 user-guide-description: Contenuto generato dal cliente Adobe
 breadcrumb-title: Esperienze per te
-source-git-commit: 56f6d47f6176aaa01343e4f807afbd54b2d49e08
+source-git-commit: 75b14fc5c051bffd8110a1e31f72bfdc965f9cff
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 56%
+source-wordcount: '341'
+ht-degree: 55%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 56%
          + [Porta l’analisi dei dati a un livello successivo con le metriche calcolate](../analytics/analysis-workspace/metrics/take-your-data-analysis-to-the-next-level-with-calculated-metrics.md)
       + Curare e condividere i progetti {#curate-and-share-projects}
          + [Sbloccare la potenza della condivisione di sola visualizzazione](/help/analytics/analysis-workspace/curate-and-share-projects/unlocking-the-power-of-view-only-sharing.md)
+         + [Sbloccare le informazioni analitiche; sfruttare la potenza delle annotazioni](../analytics/analysis-workspace/curate-and-share-projects/harnessing-the-power-of-annotations.md)
       + Suggerimenti {#tips-and-tricks}
          + [Suggerimenti e trucchi per flussi di lavoro più efficienti con il clic destro del mouse](/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
          + [#Tags - il tuo assistente personale](/help/analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
