@@ -2,7 +2,7 @@
 user-guide-title: Esperienze per te
 user-guide-description: Contenuto generato dal cliente Adobe
 breadcrumb-title: Esperienze per te
-source-git-commit: 75b14fc5c051bffd8110a1e31f72bfdc965f9cff
+source-git-commit: 41ca454dc8526d42848033ef30036e200b8adc99
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 55%
@@ -94,3 +94,4 @@ ht-degree: 55%
       + [Programmi di coinvolgimento](/help/marketo/programs/engagement-programs.md)
    + Reporting e analisi {#reporting-and-analytics}
       + [Reporting e analisi](/help/marketo/reporting/reporting-and-analytics.md)
+
