@@ -10,9 +10,9 @@ duration: 72000
 last-substantial-update: 2024-04-25T00:00:00Z
 jira: KT-15338
 thumbnail: KT-15338.jpeg
-source-git-commit: 484f93bc2828d2565486eff8ae4801a8d203d280
+source-git-commit: 35d2ea7d88d2c43b79730c700e73e539c5f0d8ac
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **Rivoluziona la tua strategia per i dati e responsabilizza il tuo team nella creazione di un documento SDR (Solution Design Reference) solido. Eliminare le lacune nelle misurazioni e promuovere una cultura collaborativa dei dati attraverso metodologie dettagliate.**
 
-È finalmente ora. È stata creata una Solution Design Reference (SDR) solida. Questa è la guida che utilizzi per implementare le metriche e le dimensioni, come si chiamano, quando attivano, e ai tuoi sviluppatori piace. Avete seguito l&#39;intero processo di implementazione, scritto i criteri di accettazione, controllato gli sprint, controllato l&#39;intera faccenda, ed è tutto fatto! È stato un sacco di lavoro, e ora è fatto. La tua istanza di Adobe Analytics dovrebbe essere far saltare il marketing e il prodotto mentre si immergono nei dati, ottenere nuove rivelazioni sui tuoi clienti, e trovare tutte le aree di successo e, beh, le aree di meno successo. Ma non sentite i riconoscimenti che vi aspettavate.
+È finalmente ora. È stata creata una Solution Design Reference (SDR) solida. Questa è la guida che si usa per implementare le metriche e le dimensioni, come si chiamano, quando attivano, e i tuoi sviluppatori l&#39;hanno apprezzata. Avete seguito l&#39;intero processo di implementazione, scritto i criteri di accettazione, controllato gli sprint, controllato l&#39;intera faccenda, ed è tutto fatto! È stato un sacco di lavoro, e ora è fatto. La tua istanza di Adobe Analytics dovrebbe essere far saltare il marketing e il prodotto mentre si immergono nei dati, ottenere nuove rivelazioni sui tuoi clienti, e trovare tutte le aree di successo e, beh, le aree di meno successo. Ma non sentite i riconoscimenti che vi aspettavate.
 
 Da un campo si sentono le lamentele.
 
@@ -30,7 +30,7 @@ Da un campo si sentono le lamentele.
 
 &quot;Perché non c&#39;è una metrica per questo?&quot;
 
-&quot;Mi servono molti più dettagli! Una metrica da sola non è sufficiente. Ci sono almeno tre dimensioni diverse che devo capire le prestazioni. Perché non li hai messi?&quot;
+&quot;Mi servono molti più dettagli! Una metrica da sola non è sufficiente. Ci sono almeno tre dimensioni diverse che mi servono per capire le prestazioni. Perché non li hai messi?&quot;
 
 Ma è l&#39;altro campo che desta maggiori preoccupazioni. Da loro, non sentite proprio niente. Ma ancora peggio, vedete grafici che sono stati chiaramente presi dalla vostra vecchia soluzione di analisi, sapete, quella che non viene più mantenuta, e ogni giorno sta cadendo ancora più in una palude di decrepitudine e dati sporchi. Un senso di terrore ti riempie quando pensi alle decisioni che potrebbero essere prese con quel casino.
 
@@ -107,7 +107,7 @@ Questo non è il modo più veloce per mettere insieme un documento SDR. Si tratt
 
 Questo documento è stato scritto da:
 
-![gitai-headshot](assets/gitai-headshot.png)
+![gitai-headshot](assets/gitai-headshot-150.jpg)
 
 Gitai Ben-Ammi, Business Architecture Associate Manager di Accenture
 
