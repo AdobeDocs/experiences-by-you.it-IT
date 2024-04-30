@@ -10,13 +10,13 @@ duration: 72000
 last-substantial-update: 2024-04-25T00:00:00Z
 jira: KT-15338
 thumbnail: KT-15338.jpeg
-source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
+exl-id: 99fcf68f-5698-4270-9055-ab224e6323a1
+source-git-commit: b3b98aee5ee23e323a9bc762c673700b02366f4c
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 0%
 
 ---
-
 
 # Creazione di una cultura dei dati e di un migliore riferimento di progettazione della soluzione
 
@@ -61,7 +61,7 @@ Comincerò lasciandovi un po&#39; uscire dall&#39;amo. C&#39;è *sempre* sarà u
 ***Dashboard di anteprima***
 
 1. Utilizzando la mappa funnel come guida, crea dei dashboard fittizi.
-1. Dovrebbe essere disponibile una visualizzazione complessiva, ad esempio una dashboard di riepilogo esecutivo e dashboard per ciascuno dei funnel.
+1. Dovrebbe essere presente una visualizzazione complessiva, ad esempio [Dashboard di riepilogo esecutivo](driving-success-with-executive-summary-dashboards.md), e dashboard per ciascuno dei funnel.
 1. Saranno inoltre disponibili informazioni più specifiche per il sito o l’app, ad esempio prestazioni del prodotto o del contenuto.
 1. Distribuiscili alle parti interessate e ricevi feedback sulla progettazione.
 1. Effettua gli aggiornamenti richiesti e, se sono necessarie nuove metriche o dimensioni, aggiungili al tuo SDR.
@@ -112,4 +112,3 @@ Questo documento è stato scritto da:
 Gitai Ben-Ammi, Business Architecture Associate Manager di Accenture
 
 Adobe Analytics Champion
-
