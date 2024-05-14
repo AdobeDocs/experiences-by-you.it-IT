@@ -2,10 +2,10 @@
 user-guide-title: Esperienze per te
 user-guide-description: Contenuto generato dal cliente Adobe
 breadcrumb-title: Esperienze per te
-source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
+source-git-commit: 3e7b293813327b3aad362b0e05220a32aa65ea78
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 53%
+source-wordcount: '358'
+ht-degree: 52%
 
 ---
 
@@ -60,6 +60,8 @@ ht-degree: 53%
          + [Favorire il successo con dashboard di riepilogo esecutive](../analytics/administration/admin-tips/driving-success-with-executive-summary-dashboards.md)
          + [Creare dashboard operative](../analytics/administration/admin-tips/create-operational-dashboards.md)
          + [Creazione di una cultura dei dati e di un migliore riferimento di progettazione della soluzione](../analytics/administration/admin-tips/better-sdr.md)
+   + Implementazione {#implementation}
+      + [Guida strategica all’implementazione di Web SDK](../analytics/implementation/strategic-guide-to-implementing-web-sdk.md)
 + [!DNL Campaign] da te {#campaign}
    + [Panoramica](/help/campaign/overview.md)
    + [!DNL Campaign Classic v7] {#campaign-classic-v7}
