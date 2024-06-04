@@ -6,11 +6,12 @@ breadcrumb-url: /docs/experiences-by-you/experiences-by-you/marketo-tutorial-inh
 index: false
 role: Admin
 level: Beginner
+solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: 7ab38e2b60d34926e55f2ddcc938233a69d41225
+source-git-commit: 5c97b4fa98a54c7891fa0537b9540beb5bbfffdf
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 12%
+source-wordcount: '69'
+ht-degree: 2%
 
 ---
 
@@ -23,6 +24,7 @@ ht-degree: 12%
 + [Sviluppare una guida alla governance delle istanze](/help/marketo-tutorial-inherited-instance/develop-an-instance-governance-guide.md)
 + [Mappa visivamente lo stack tecnologico di marketing](/help/marketo-tutorial-inherited-instance/create-a-visual-data-flow-diagram.md)
 + [Processo di controllo qualità pre-lancio del programma](/help/marketo-tutorial-inherited-instance/essential-program-pre-launch-qa.md)
++ [[!DNL Marketo Engage] da te](/https://experienceleague.adobe.com/en/docs/experiences-by-you/experiences-by-you/marketo-engage/overview)
 + [[!DNL Marketo Engage] Tutorial](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=it)
 
 
