@@ -8,9 +8,9 @@ role: Admin
 level: Beginner
 solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: 5c97b4fa98a54c7891fa0537b9540beb5bbfffdf
+source-git-commit: 3f0c335cc1660e7fbafd46dc372d3bab65eff763
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 2%
 
 ---
@@ -27,5 +27,4 @@ ht-degree: 2%
 + [Organizzazione di una nuova istanza e definizione di convenzioni di denominazione](./organizing-new-instance.md)
 + [Progettazione di marketing conversazionale omni-channel con Dynamic Chat](./designing-omnichannel-conversational-marketing.md)
 + [Guida introduttiva alla governance e documentazione delle istanze](./documenting-your-instance.md)
-+ [[!DNL Marketo Engage] da te](/https://experienceleague.adobe.com/en/docs/experiences-by-you/experiences-by-you/marketo-engage/overview)
 + [[!DNL Marketo Engage] Tutorial](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=it)
