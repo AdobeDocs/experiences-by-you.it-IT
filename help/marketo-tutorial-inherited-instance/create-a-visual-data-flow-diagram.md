@@ -11,20 +11,20 @@ jira: KT-13877
 thumbnail: KT-13877.jpeg
 hide: false
 exl-id: 088bdcf1-4e49-44a7-ac78-a03742ff680b
-source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
+source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '571'
 ht-degree: 2%
 
 ---
 
 # Creare un diagramma visivo del flusso di dati per comprendere lo stack tecnologico del marketing
 
-Come amministratore che assume il controllo di un [!DNL [!DNL Marketo Engage]] istanza che è stata live per anni, è come una missione impossibile da controllare e riordinare l&#39;istanza in modo efficiente. Quando [!DNL Adobe] [!DNL Marketo Champion] (2019), Kelly Jo Horton, è entrata in un caso consolidato, ha affrontato questa sfida con [creazione di un diagramma di &quot;Lead e origini dati&quot;](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} per acquisire familiarità con l&#39;universo dei dati. In questo tutorial imparerai a creare un diagramma di flusso dei dati personalizzato basandoti sugli esempi condivisi da Kelly Jo Horton. Impariamo a conoscere il tuo ecosistema MarTech!
+Come amministratore che assume il controllo di un [!DNL Marketo Engage] istanza che è stata live per anni, è come una missione impossibile da controllare e riordinare l&#39;istanza in modo efficiente. Quando [!DNL Adobe] [!DNL Marketo Champion] (2019), Kelly Jo Horton, è entrata in un caso consolidato, ha affrontato questa sfida con [creazione di un diagramma di &quot;Lead e origini dati&quot;](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} per acquisire familiarità con l&#39;universo dei dati. In questo tutorial imparerai a creare un diagramma di flusso dei dati personalizzato basandoti sugli esempi condivisi da Kelly Jo Horton. Impariamo a conoscere il tuo ecosistema MarTech!
 
 ## Perché creare un diagramma dell’architettura per l’istanza ereditata?
 
-1. **Acquisisci familiarità con lo stack tecnologico di marketing ereditato da un’istanza live.** Tutti i responsabili delle operazioni di marketing e i responsabili delle operazioni della piattaforma sono invitati a svolgere questo esercizio quando si inizia da una nuova azienda. Questo processo di creazione consente agli utenti amministratori di visualizzare il quadro completo dei dati e delle attività inviate dalle integrazioni esterne a [!DNL [!DNL Marketo Engage]] e per risolvere facilmente gli errori API.
+1. **Acquisisci familiarità con lo stack tecnologico di marketing ereditato da un’istanza live.** Tutti i responsabili delle operazioni di marketing e i responsabili delle operazioni della piattaforma sono invitati a svolgere questo esercizio quando si inizia da una nuova azienda. Questo processo di creazione consente agli utenti amministratori di visualizzare il quadro completo dei dati e delle attività inviati dalle integrazioni esterne a [!DNL Marketo Engage] e per risolvere facilmente gli errori API.
 2. **Acquisisci familiarità con le principali parti interessate che gestiscono le integrazioni esterne.** Un suggerimento che Kelly Jo Horton utilizza per identificare rapidamente le parti interessate è quello di fare riferimento all’elenco degli utenti API.
    1. **Passa alla scheda &quot;Integrazione>LaunchPoint&quot; nella sezione &quot;Amministratore&quot;.** Ulteriori informazioni su come passare alla scheda LaunchPoint: [Creare un servizio personalizzato da utilizzare con l’API REST](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api.html){target="_blank"}.
    2. Trova le statistiche sull’utilizzo dell’API per utente API nella scheda Integration>Web Services della sezione Informazioni sulla chiamata API. Facendo clic sul numero di chiamata API, puoi visualizzare le singole chiamate specifiche effettuate da ciascun utente.
@@ -46,12 +46,12 @@ Creare un diagramma di &quot;Stato futuro&quot; da utilizzare per presentare la 
 
 ### Passaggio 3: versione tecnica
 
-Crea una versione tecnica che mostri dettagli come il nome utente API per ogni integrazione, una breve descrizione del tipo di dati inviato a [!DNL [!DNL Marketo Engage]] o estratto da [!DNL [!DNL Marketo Engage]] e un diagramma dettagliato di tutti i flussi e i trigger middleware.  Ecco un esempio:
+Crea una versione tecnica che mostri dettagli come il nome utente API di ogni integrazione, con una breve descrizione del tipo di dati inviato a [!DNL Marketo Engage] o estratto da [!DNL Marketo Engage]e un diagramma dettagliato di tutti i flussi e i trigger middleware.  Ecco un esempio:
 
 ![Versione tecnica](/help/marketo-tutorial-inherited-instance/_assets/data-flow-diagram/Lead-Data-Source-Diagram-KellyJo-Horton.png){align="center"}
 
 
-## Passaggio successivo?
+## Quali sono le prossime novità?
 
 **Introduzione agli esempi:**
 Scarica uno dei diagrammi di esempio del flusso di dati per mappare lo stato corrente dello stack tecnologico di marketing, della persona e del flusso di dati oppure crea un diagramma per l’universo di dati da zero durante l’audit dell’istanza:
@@ -120,7 +120,7 @@ Scarica uno dei diagrammi di esempio del flusso di dati per mappare lo stato cor
 
 Questi sono alcuni strumenti che puoi utilizzare: draw.io (Google Docs), [!DNL Adobe] XD, Figma, Gliffy (in Confluenza)
 
-**Cosa succede se sono già presenti diagrammi di architettura?** I nuovi membri del gruppo potrebbero avere prospettive diverse. Valore aggiunto nell&#39;avere nuovo [!DNL [!DNL Marketo Engage]] gli amministratori eseguono questo esercizio come parte del loro processo di onboarding e lo condividono con altri.
+**Cosa succede se sono già presenti diagrammi di architettura?** I nuovi membri del gruppo potrebbero avere prospettive diverse. È importante disporre di [!DNL Marketo Engage] gli amministratori eseguono questo esercizio come parte del loro processo di onboarding e lo condividono con altri utenti.
 
 ## Autori
 

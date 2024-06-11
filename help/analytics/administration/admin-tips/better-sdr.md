@@ -1,6 +1,6 @@
 ---
-title: Creazione di una cultura dei dati e di un migliore riferimento di progettazione della soluzione
-description: Rivoluziona la tua strategia per i dati e responsabilizza il tuo team nella creazione di un documento Solution Design Reference (SDR) solido. Eliminare le lacune nelle misurazioni e promuovere una cultura collaborativa dei dati attraverso metodologie dettagliate.
+title: Creazione di una cultura dei dati e di una migliore documentazione di progettazione della soluzione
+description: Rivoluziona la tua strategia per i dati e responsabilizza il tuo team nella creazione di un documento Solution Design Reference (SDR) solido. Elimina le lacune nelle misurazioni e promuovi una cultura collaborativa dei dati attraverso metodologie dettagliate.
 feature: Implementation Basics
 topic: Administration
 role: User
@@ -11,54 +11,64 @@ last-substantial-update: 2024-04-25T00:00:00Z
 jira: KT-15338
 thumbnail: KT-15338.jpeg
 exl-id: 99fcf68f-5698-4270-9055-ab224e6323a1
-source-git-commit: b3b98aee5ee23e323a9bc762c673700b02366f4c
+source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
 
 # Creazione di una cultura dei dati e di un migliore riferimento di progettazione della soluzione
 
-**Rivoluziona la tua strategia per i dati e responsabilizza il tuo team nella creazione di un documento SDR (Solution Design Reference) solido. Eliminare le lacune nelle misurazioni e promuovere una cultura collaborativa dei dati attraverso metodologie dettagliate.**
+_Rivoluziona la tua strategia per i dati e responsabilizza il tuo team nella creazione di un documento Solution Design Reference (SDR) solido. Eliminare le lacune nelle misurazioni e promuovere una cultura collaborativa dei dati attraverso metodologie dettagliate._
 
-È finalmente ora. È stata creata una Solution Design Reference (SDR) solida. Questa è la guida che si usa per implementare le metriche e le dimensioni, come si chiamano, quando attivano, e i tuoi sviluppatori l&#39;hanno apprezzata. Avete seguito l&#39;intero processo di implementazione, scritto i criteri di accettazione, controllato gli sprint, controllato l&#39;intera faccenda, ed è tutto fatto! È stato un sacco di lavoro, e ora è fatto. La tua istanza di Adobe Analytics dovrebbe essere far saltare il marketing e il prodotto mentre si immergono nei dati, ottenere nuove rivelazioni sui tuoi clienti, e trovare tutte le aree di successo e, beh, le aree di meno successo. Ma non sentite i riconoscimenti che vi aspettavate.
+È finalmente ora. Avete messo insieme un solido documento SDR. Un documento SDR è la guida che utilizzi per implementare le metriche e le dimensioni. Hai definito come si chiamano quando si attivano, e i tuoi sviluppatori lo adorano. Avete affrontato l&#39;intero processo di implementazione, scritto i criteri di accettazione, fatto gli sprint, li avete testati, ed è fatto! L’istanza di [!DNL Adobe Analytics] I team di marketing e prodotto dovrebbero festeggiare mentre analizzano i dati, ottengono nuove rivelazioni sui tuoi clienti e trovano tutte le aree di successo e quelle meno riuscite. Ma non sentite i riconoscimenti che vi aspettavate.
 
-Da un campo si sentono le lamentele.
+Da un team, si sentono lamentele del tipo:
 
 &quot;Perché non riesco a capire il tasso di conversione su questo funnel?&quot;
 
 &quot;Perché non c&#39;è una metrica per questo?&quot;
 
-&quot;Mi servono molti più dettagli! Una metrica da sola non è sufficiente. Ci sono almeno tre dimensioni diverse che mi servono per capire le prestazioni. Perché non li hai messi?&quot;
+&quot;Ho bisogno di più dettagli! Una metrica da sola non è sufficiente. Ci sono almeno tre dimensioni diverse che devo capire le prestazioni. Perché non li hai messi?&quot;
 
-Ma è l&#39;altro campo che desta maggiori preoccupazioni. Da loro, non sentite proprio niente. Ma ancora peggio, vedete grafici che sono stati chiaramente presi dalla vostra vecchia soluzione di analisi, sapete, quella che non viene più mantenuta, e ogni giorno sta cadendo ancora più in una palude di decrepitudine e dati sporchi. Un senso di terrore ti riempie quando pensi alle decisioni che potrebbero essere prese con quel casino.
+Ma è l&#39;altra squadra che desta maggiori preoccupazioni. Da loro, non sentite proprio niente. Peggio ancora, puoi vedere grafici che sono stati chiaramente tratti dalla tua vecchia soluzione di analisi (quella che non è più mantenuta, e ogni giorno sta cadendo ulteriormente in una palude di decrepitudine e dati sporchi). Un senso di terrore ti riempie mentre consideri le decisioni che potrebbero essere prese con quel caos originale.
 
-Cos’è andato storto? Perché esistono delle lacune nella misurazione? Perché i membri del tuo team non accettano questa proposta?
+_Cos’è andato storto?_
 
-Comincerò lasciandovi un po&#39; uscire dall&#39;amo. C&#39;è *sempre* sarà un po&#39; di revisione. Se il tuo sito o la tua app sono abbastanza complessi da richiedere una soluzione di analisi aziendale, è praticamente certo che ti mancherà qualcosa. Ma non abbastanza per spiegare i divari di misura di cui sto parlando qui. Ciò che è andato storto è molto più difficile da inserire in un foglio di calcolo. Hai perso le prime possibilità di creare una cultura dei dati collaborativa nello stesso momento in cui hai creato il tuo SDR. Voglio descrivervi un metodo che io e i miei colleghi abbiamo sviluppato sia per creare un SDR migliore con meno spazi, sia per coinvolgere gli utenti finali e, occasionalmente, entusiasmarli per la loro nuova istanza di Adobe Analytics. Andiamo a vedere i motivi.
+_Perché esistono delle lacune nella misurazione?_
 
-**Il Come**
+_Perché i membri del tuo team non accettano questa proposta?_
 
-***La conferenza di misurazione:***
+Comincerò lasciandovi scendere leggermente dall&#39;amo. C&#39;è _sempre_ sarà un po&#39; di revisione. Se il sito o l’applicazione sono abbastanza complessi da richiedere una soluzione di analisi aziendale, è sicuro che ti mancherà qualcosa. Ma in questo caso, non vi siete persi abbastanza da spiegare le distanze di misura che sto descrivendo.
 
-1. Riunisci le parti interessate, di persona o virtualmente, con l’obiettivo di scoprire cosa misurare. Dovrebbero essere inclusi alcuni esempi.
-1. Sulla bacheca sono già presenti alcuni esempi ovvi su note di Sticky Notes, elementi come ricavi, vendite o lead, in cui verranno misurati i KPI di base noti. Ripeti con dimensioni, elementi come stato di accesso, categorie di prodotti o termini di ricerca.
-1. Chiedi a tutti di aggiungere le proprie note, raggruppandole in base alle esigenze
-1. Fate votare quelli che pensate siano importanti. Si tratta di voti illimitati, dato che forse tutte queste metriche e dimensioni contano.
-1. Per coloro che hanno voti bassi, chiedere alle parti interessate che li hanno richiesti di spiegare per cosa li useranno. Se esiste un buon caso d’uso, lo conservi. Se c&#39;è un modo migliore di ottenere quei dati, non possono spiegare come siano fruibili, o c&#39;è un altro buon motivo per non tenerli, eliminarli dalla lavagna.
-1. Aggiungi queste metriche e dimensioni al tuo SDR per una revisione iniziale da parte delle parti interessate presenti
+Ciò che è andato storto è molto più difficile da inserire in un foglio di calcolo. In sostanza, hai perso la prima occasione di creare una cultura dei dati collaborativa mentre hai creato il tuo SDR.
 
-***La mappa funnel***
+Voglio illustrarvi un metodo che io e i miei colleghi abbiamo sviluppato sia per creare un SDR migliore con meno spazi, sia per coinvolgere gli utenti finali (e occasionalmente entusiasmarli) nella loro nuova istanza di [!DNL Adobe Analytics]. Passiamo ora a spiegare come e perché dovresti considerare questo metodo.
 
-1. Ottieni una visualizzazione di tutti i funnel, passo dopo passo con ogni stato incluso
-1. Con i designer e i product manager, affrontate ogni fase e parlate di ciò che considerano un successo in quel funnel. È il tasso di conversione? Sta scegliendo un percorso particolare? Utilizza alcune funzionalità?
+## Il come
+
+_Scopri la conferenza sulla misurazione. Utilizza una mappa funnel per visualizzare ogni passaggio del piano. Crea dashboard fittizie da rivedere come gruppo. Crea un dizionario dati per gli utenti._
+
+### La conferenza di misurazione
+
+1. Riunisci le parti interessate, di persona o virtualmente, con l’obiettivo di scoprire cosa misurare. Questa riunione dovrebbe includere alcuni dirigenti.
+1. Includi esempi ovvi già nella bacheca delle note, ad esempio ricavi, vendite o lead, gli indicatori KPI (Key Product Indicators) che sai verranno misurati. Ripeti con dimensioni quali stato di accesso, categorie di prodotti o termini di ricerca.
+1. Chiedi a tutti di aggiungere le proprie note, raggruppandole in base alle esigenze.
+1. Chiedete alla gente di votare quelli che ritengono importanti. Si tratta di voti illimitati, perché tutte queste metriche e dimensioni probabilmente contano.
+1. Per qualsiasi metrica e dimensione con voti bassi, chiedi alle parti interessate che ne hanno fatto richiesta di spiegare perché questi componenti verrebbero utilizzati. Se esiste un buon caso d’uso, mantieni questi componenti. Se esiste un modo migliore per ottenere tali dati, o se nessuno può spiegare in che modo questi dati possano essere utilizzati, o se esiste un altro buon motivo per rimuovere metriche e dimensioni, procedi in questo modo.
+1. Aggiungi queste metriche e dimensioni al tuo SDR per una revisione iniziale da parte delle parti interessate presenti.
+
+### La mappa funnel
+
+1. Ottieni una visualizzazione di tutti i funnel, passo dopo passo con ogni stato incluso.
+1. Con i designer e i product manager, segui ogni passaggio e discuti su ciò che tutti considerano il successo in quel funnel. È il tasso di conversione? Sta scegliendo un percorso particolare? Utilizza alcune funzionalità?
 1. Poni domande sulle metriche e sulle dimensioni necessarie per comprendere le prestazioni del funnel in ogni passaggio del funnel e nel complesso.
-1. Sopra ogni passaggio del funnel, aggiungi le metriche e le dimensioni che verranno misurate su quel passaggio, incluse le metriche calcolate.
-1. All’inizio di ciascun funnel, scrivi i rapporti che verranno utilizzati dal responsabile prodotto per monitorare le prestazioni, ad esempio un rapporto sull’abbandono, i tassi di conversione del mese corrente e delle tendenze e altro ancora.
+1. Sopra ogni passaggio del funnel, aggiungi le metriche e le dimensioni misurate su quel passaggio, comprese le metriche calcolate.
+1. All’inizio di ogni funnel, scrivi i rapporti che vanno nel dashboard che il product manager può utilizzare per monitorare le prestazioni. Questi rapporti includono [rapporto di fallout](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mese corrente](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tassi di conversione con tendenze](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line)e qualsiasi cosa più specifica per quel funnel.
 1. Aggiungi le nuove metriche e dimensioni scoperte al documento SDR e invialo alle parti interessate per una seconda revisione.
 
-***Dashboard di anteprima***
+### Dashboard di anteprima
 
 1. Utilizzando la mappa funnel come guida, crea dei dashboard fittizi.
 1. Dovrebbe essere presente una visualizzazione complessiva, ad esempio [Dashboard di riepilogo esecutivo](driving-success-with-executive-summary-dashboards.md), e dashboard per ciascuno dei funnel.
@@ -67,41 +77,47 @@ Comincerò lasciandovi un po&#39; uscire dall&#39;amo. C&#39;è *sempre* sarà u
 1. Effettua gli aggiornamenti richiesti e, se sono necessarie nuove metriche o dimensioni, aggiungili al tuo SDR.
 1. Invia le dashboard e i documenti SDR di anteprima aggiornati per una revisione finale.
 
-***Strumenti di democratizzazione dei dati***
+### Strumenti di democratizzazione dei dati
 
-1. Crea un dizionario dati. Il documento SDR è destinato ai tuoi sviluppatori. Il dizionario dati è destinato agli utenti finali. Rendilo leggibile per gli utenti finali in modo che possano facilmente cercare i dati disponibili e sapere come utilizzarli. Gli utenti finali dovrebbero essere gli approvatori finali di questo elemento.
-1. Annotazioni. In ogni organizzazione, ci sono certe date che contano ogni anno e altre che verranno fuori. Assicurati di raccogliere quelli pertinenti dalle parti interessate e aggiungerli come annotazioni per migliorare la comprensione dei dati visualizzati.
+1. Creare un dizionario dati. L’SDR è per gli sviluppatori, ma il dizionario dati è per gli utenti finali. Rendilo leggibile in modo che tutti possano facilmente cercare i dati disponibili e sapere come utilizzarli. Gli utenti finali dovrebbero essere gli approvatori finali di questo elemento.
+1. Annota. In ogni organizzazione, ci sono certe date che contano ogni anno e altre che verranno fuori. Raccogli le date pertinenti dalle parti interessate e aggiungili come annotazioni per comprendere meglio i dati visualizzati.
 1. Cura. Se il tuo DSP è grande, potrebbe essere travolgente. La paralisi della scelta non si applica solo ai clienti. Scopri cosa è importante per ogni gruppo di utenti e cura gli elementi che vedranno.
 
-**Il perché**
+## Il perché
 
-***Per Ottenere I Requisiti***
+_Scopri come raccogliere i requisiti, creare una cultura dei dati, avviare una riflessione approfondita sui dati, creare un senso di proprietà sui dati e semplificare i dati._
 
-Si tratta di un metodo ovvio, ma esistono altri modi efficaci per soddisfare i requisiti. Ne ho usata una su una serie di interviste, questionari e revisioni di report esistenti. Questi funzioneranno, anche se non credo bene come i metodi che ho appena descritto. Onestamente non credo che il divario nella raccolta dei requisiti sia così grande però. Il metodo che ho descritto vi porterà al 95% della strada, e questi altri metodi vi porteranno al 90% della strada. Allora, qual è il grande motivo?
+### Raccogli i requisiti
 
-***Per creare la lingua dei dati***
+Raccogliere i requisiti è ovvio, ma esistono diversi modi efficaci per farlo. Ho usato interviste individuali, questionari e revisioni di rapporti esistenti. Queste strategie funzionano, ma non così come i metodi che ho appena descritto. tuttavia, non credo che la differenza tra i metodi per la raccolta dei requisiti sia significativa. Il metodo che ho descritto vi porta al 95% della strada, e questi altri metodi vi portano al 90% della strada.
+
+Quindi, qual è la _perché_?
+
+### Genera impostazioni cultura dati
 
 Con questo processo:
 
-- Pensare profondamente su come misurare il successo
-- Creare un senso di proprietà nelle parti interessate
-- Facilitare la comprensione dei dati da parte delle parti interessate
+* Pensare profondamente su come misurare il successo
+* Creare un senso di proprietà nelle parti interessate
+* Facilitare la comprensione dei dati da parte delle parti interessate
 
-***Approfondimento sui dati***
+### Riflettere profondamente sui dati
 
-Per molte persone della tua azienda, i dati sono qualcosa che consumano. Loro la usano. Lo analizzano. Loro non ci pensano profondamente. Alcuni di essi hanno ereditato relazioni e processi dai loro predecessori che non hanno modificato a causa della necessità di continuità. Non hanno mai avuto bisogno di pensare al perché dei dati.
+Per molte persone della tua azienda, i dati sono qualcosa che consumano. Loro la usano. Lo analizzano. Loro non ci pensano profondamente. Alcune persone hanno ereditato i rapporti e i processi dai loro predecessori, ma non li hanno modificati per il bene della continuità. Forse queste persone non avevano mai avuto bisogno di pensare al _perché_ dei dati.
 
-Questo processo offre loro l&#39;opportunità di *comprendere* dati. Domande, cos&#39;è il successo? Come sapresti se avessi successo? Come sapresti cosa cambiare se non hai avuto successo? Questo è un esercizio che dovrebbe essere fatto all&#39;inizio della creazione di ogni sito, app e prodotto, ma troppo spesso non lo è. Ponendo queste domande, contribuisci ad approfondire la loro comprensione non solo dei dati, ma anche del loro prodotto.
+Questo processo offre loro l&#39;opportunità di _comprendere_ dati. Domande come, Cos’è il successo? Come sapresti se avessi successo? Come sapresti cosa cambiare se non hai avuto successo? A queste domande è necessario rispondere all&#39;inizio della creazione di tutti i siti, le applicazioni e i prodotti, ma troppo spesso non è così. Ponendo queste domande, contribuisci ad approfondire la comprensione di una persona non solo dei dati, ma anche del suo prodotto.
 
-***Creazione di un senso di proprietà sui dati***
+### Creare un senso di proprietà sui dati
 
-Questo non è qualcosa che è stato tramandato dall&#39;alto. Questo non è qualcosa che è stato un incontro di trenta minuti tre mesi fa. Questo non è un questionario così fastidioso che sono stati perseguitati per una settimana a rispondere e che lo hanno fatto in fretta perché avevano una demo per arrivare in modo da poter fare la data di rilascio sprint. Questo è il prodotto del loro pensiero profondo e del loro lavoro con voi e i loro colleghi, quello che hanno analizzato più volte, fornito feedback continui per, e che hanno approvato dopo che il feedback è stato incorporato. È loro! Il fatto che sia utile è dovuto a loro. È *loro* ed è il processo che li ha resi loro.
+Un senso di proprietà non è qualcosa che una persona acquisisce facilmente. Non è stato trovato in quella riunione di 30 minuti a cui hanno partecipato tre mesi fa. Non è stato creato da questo un fastidioso questionario a cui hanno risposto troppo rapidamente a causa di altri problemi di lavoro pressanti come le demo e le date di rilascio sprint.
 
-***Rendere i dati più facili da comprendere***
+La proprietà è il prodotto del pensiero profondo di qualcuno e del suo lavoro con te e i colleghi. È ciò che hanno esaminato più volte, fornito un feedback continuo, e ciò che hanno approvato dopo che il feedback è stato incorporato. È loro! Il fatto che sia utile è dovuto a loro. È _loro_ ed è quel processo che li ha resi loro.
 
-Hai anche mostrato loro come lo useranno e come apparirà nelle dashboard di anteprima. Qualsiasi nuova soluzione è *duro*. C&#39;è così tanto da imparare e data l&#39;enorme personalizzabilità di Adobe Analytics, la curva di apprendimento può essere piuttosto ripida. Hai rimosso l&#39;80% di questo però. Anche prima che sia stata scritta la prima riga di codice, le parti interessate sanno come saranno le loro dashboard. Sapranno come leggerli e ottenere significato da loro. Sapranno come si presenta il successo, perché vi hanno detto quali metriche e dimensioni definiscono il successo, e avete detto loro come verrà visualizzato per loro. La distribuzione delle dashboard effettive è un aggiornamento, non una nuova e spaventosa attività di apprendimento.
+### Semplificare i dati
 
-Questo non è il modo più veloce per mettere insieme un documento SDR. Si tratta di un sacco di lavoro e richiede un sacco di coordinamento di programmi, soprattutto perché è fondamentale che ci sono alcuni eccessi nel mix. Alla fine, però, una soluzione di analisi aziendale rappresenta un enorme investimento di tempo e denaro e vuoi essere certo che l’adozione e la soddisfazione siano elevate. Questo metodo ha fatto molta strada per realizzarlo.
+Hai anche mostrato loro come utilizzeranno il processo e come apparirà attraverso il [dashboard di anteprima](#the-preview-dashboards). Qualsiasi nuova soluzione è _duro_. C&#39;è così tanto da imparare, e data l&#39;incredibile personalizzabilità di [!DNL Adobe Analytics], la curva di apprendimento può essere ripida. Hai rimosso l&#39;80% di questo però. Anche prima che sia stata scritta la prima riga di codice, le parti interessate sanno come saranno le loro dashboard. Sapranno come leggerli e ottenere significato da loro. Sapranno come si presenta il successo, perché vi hanno detto quali metriche e dimensioni definiscono il successo. E avete detto loro come questo successo verrà visualizzato loro. La distribuzione delle dashboard effettive è un aggiornamento, non una nuova e spaventosa attività di apprendimento.
+
+Questo non è necessariamente il modo più rapido per mettere insieme un documento SDR. Si tratta di un sacco di lavoro e richiede un sacco di coordinamento di programmi, soprattutto perché è fondamentale che ci sono alcuni dirigenti nel mix. Alla fine, tuttavia, una soluzione di analisi aziendale rappresenta un enorme investimento di tempo e denaro e vuoi essere certo che l’adozione e la soddisfazione siano elevate. Questo metodo ha fatto molta strada per realizzarlo.
 
 **Autore**
 
@@ -111,4 +127,4 @@ Questo documento è stato scritto da:
 
 Gitai Ben-Ammi, Business Architecture Associate Manager di Accenture
 
-Adobe Analytics Champion
+[!DNL Adobe Analytics] Campione

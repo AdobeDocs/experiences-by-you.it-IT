@@ -1,6 +1,6 @@
 ---
 title: Traduzione [!DNL Adobe Analytics] linguaggio tecnico in modo non tecnico
-description: Con la sempre crescente attenzione sul mondo digitale, è sempre più necessario comprendere, analizzare e intervenire sui dati avanzati disponibili nei propri [!DNL Adobe Analytics] configurazione. E tra le parti interessate ci sono anche utenti che non conoscono ancora il mondo delle proprietà e delle eVar. Come i [!DNL Adobe Analytics] esperti, sei fondamentale per aiutare le parti interessate a comprendere i dettagli tecnici e trarre il massimo dai tuoi [!DNL Adobe Analytics] investimenti.
+description: Con la sempre maggiore attenzione al mondo digitale, è sempre più necessario comprendere, analizzare e intervenire sui dati avanzati disponibili nei propri [!DNL Adobe Analytics] configurazione. Questa maggiore attenzione potrebbe far emergere una serie di soggetti interessati che sono completamente nuovi al mondo delle proprietà e delle eVar. Come i [!DNL Adobe Analytics] esperti, sei fondamentale per aiutare le parti interessate a comprendere i dettagli tecnici e trarre il massimo dal tuo [!DNL Adobe Analytics] investimenti.
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -10,10 +10,10 @@ level: Experienced
 thumbnail: 342066.jpg
 kt: 10128
 exl-id: b26f8b1e-e57d-4684-86c2-7a13f67521e6
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 71%
+source-wordcount: '981'
+ht-degree: 0%
 
 ---
 
@@ -23,51 +23,51 @@ ht-degree: 71%
 
 ## Parlare lingue diverse
 
-Con la sempre crescente attenzione sul mondo digitale, è sempre più necessario comprendere, analizzare e intervenire sui dati avanzati disponibili nei propri [!DNL Adobe Analytics] configurazione. E tra le parti interessate ci sono anche utenti che non conoscono ancora il mondo delle proprietà e delle eVar. Come i [!DNL Adobe Analytics] esperti, sei fondamentale per aiutare le parti interessate a comprendere i dettagli tecnici e trarre il massimo dai tuoi [!DNL Adobe Analytics] investimenti.
+Con la sempre maggiore attenzione al mondo digitale, è sempre più necessario comprendere, analizzare e intervenire sui dati avanzati disponibili nei propri [!DNL Adobe Analytics] configurazione. Questa maggiore attenzione potrebbe far emergere una serie di soggetti interessati che sono completamente nuovi al mondo delle proprietà e delle eVar. Come i [!DNL Adobe Analytics] esperti, sei fondamentale per aiutare le parti interessate a comprendere i dettagli tecnici e trarre il massimo dal tuo [!DNL Adobe Analytics] investimenti.
 
-Ecco quattro suggerimenti che ho trovato utili per aiutare altri a comprendere il linguaggio tecnico di [!DNL Adobe Analytics].
+Di seguito sono riportati quattro suggerimenti che ho trovato utili per aiutare le mie parti interessate a comprendere il linguaggio tecnico di [!DNL Adobe Analytics].
 
-## 1 - Fornire alle parti interessate una solida base
+## Suggerimento #1: avvia le parti interessate da strong
 
-Un solido programma di onboarding per i nuovi [!DNL Adobe Analytics] è fondamentale per promuovere fin dall&#39;inizio l&#39;adozione di questo sistema. Spesso, il tuo programma di onboarding rappresenterà il primo contatto con il meraviglioso mondo di prop ed eVar. Per essere certi che i tuoi utenti continuino a usare questo strumento, il programma di onboarding deve essere accessibile, pertinente e memorabile.
+Un solido programma di onboarding per i nuovi [!DNL Adobe Analytics] è fondamentale per promuovere fin dall&#39;inizio l&#39;adozione di questo sistema. Molte volte, il tuo programma di onboarding sarà la prima esposizione al meraviglioso mondo di prop ed eVar. Il programma di onboarding deve essere accessibile, pertinente e memorabile per garantire che gli utenti continuino a utilizzare lo strumento.
 
-Ad esempio, ecco come mi piace spiegare le eVar e i metodi di allocazione a un nuovo analista: immagina di passeggiare per le strade del tuo quartiere e... di calpestare una gomma da masticare! Per il resto della passeggiata, ti resterà appiccicata alla suola (proprio come un eVar!). Fai un paio di passi, e un’altra gomma da masticare ti si appiccica alla scarpa. Alla fine della passeggiata, decidi di buttar via le scarpe. Cosa ti ha fatto prendere questa decisione? È stata la prima gomma da masticare che hai calpestato? L’ultima? O forse entrambe?
+Per esempio, ecco il mio modo preferito di spiegare le eVar e i metodi di allocazione a nuovi analisti: Immaginate di passeggiare per il vostro quartiere e, oh no, di calpestare una gomma da masticare. Per il resto della passeggiata, quel pezzo di gomma da masticare è ora attaccato alla parte inferiore della scarpa (proprio come un eVar!). Fai un paio di passi e un&#39;altra gomma da masticare ti si appiccica alla scarpa. Alla fine della passeggiata, decidi di buttare via le scarpe. Cosa ti ha portato a quella decisione? È stata la prima gomma da masticare che hai calpestato, l&#39;ultima, o entrambe?
 
 >[!TIP]
 >
->**Assegnare nomi chiari ai componenti (dimensioni, segmenti e metriche) con relative descrizioni.**
->È sempre utile condividere con i colleghi il dizionario dati di eVar e prop, ma non aspettarti che un utente sporadico possa ricordare con il loro numero o codice tutte le variabili personalizzate e il loro utilizzo. Invece, in [!DNL Adobe] In Workspace, assicurati che i nomi dei componenti siano descrittivi con tag e descrizioni significativi. Gli utenti potranno così trovare rapidamente la metrica necessaria tra le centinaia di eVar e l’infinità di metriche e segmenti.
+>**Assegnare nomi chiari ai componenti (dimensioni, segmenti e metriche) con relative descrizioni**
+>La condivisione del dizionario dati di eVar e prop è sempre un buon passaggio nella democratizzazione dei dati della tua organizzazione, ma non aspettarti che un utente occasionale memorizzi tutte le variabili personalizzate e il loro utilizzo previsto per indice/numero. Invece, in [!DNL Adobe] In Workspace, assicurati che i nomi dei componenti siano descrittivi con tag e descrizioni significativi. Questo aiuterà i tuoi utenti a trovare rapidamente la metrica corretta tra le centinaia di eVar e infinite metriche/segmenti.
 
-## 2 - Trovare una lingua comune
+## Suggerimento #2: trova una lingua comune
 
 Indipendentemente dal settore in cui lavori, trova il linguaggio comune che connette il mondo della [!DNL Adobe Analytics] a qualcosa di familiare per le parti interessate.
 
-In [!DNL The Home Depot], un commerciante o il manager di un negozio potrebbe non sapere cosa sono gli hit, le visite o i visitatori univoci. Potremmo parlare loro delle chiamate al server di Analytics, delle sessioni di navigazione, dei timeout e dei cookie... oppure potremmo riportarli al negozio fisico e ai clienti (linguaggio comune). Un visitatore univoco diventa così un cliente che entra nel negozio. Le visite al sito web sono paragonabili alle volte che il cliente è entrato in un negozio [!DNL Home Depot]. E gli hit sono come le azioni eseguite dal cliente, ad esempio camminare lungo le varie corsie o parlare con un addetto alla vendita.
+A [!DNL The Home Depot], un commerciante o il manager di un negozio potrebbe non sapere cosa sono gli hit, le visite o i visitatori univoci. Potremmo spiegare loro le chiamate al server di Analytics, le sessioni di navigazione, i timeout e i cookie... oppure potremmo riportarli al negozio fisico e ai clienti (nella stessa lingua). Un visitatore univoco diventa un cliente che entra nel negozio. Le visite al sito web sono paragonabili ai viaggi in un [!DNL Home Depot] memorizza che il cliente ha creato. E gli hit sono come le azioni del cliente, come camminare lungo le varie corsie o parlare con un addetto alla vendita.
 
 >[!TIP]
 >
->**Assicurarsi che l’implementazione rifletta il linguaggio comune.**
->Quasi tutto nella sezione [!DNL Adobe Analytics] L’interfaccia utente è personalizzabile. Se nella tua organizzazione, ad esempio, il “carrello” viene chiamato “shopper”, puoi cambiare il nome dell’evento Carrello in Shopper.
+>**Assicurarsi che l’implementazione rifletta il linguaggio comune**
+>Quasi tutto nella sezione [!DNL Adobe Analytics] L’interfaccia utente è personalizzabile. Se la tua organizzazione definisce i carrelli acquisti come sacche della spesa, puoi rinominare l’evento carrello in borsa della spesa.
 >
->E se internamente usate diversi sinonimi oppure alcuni termini creano spesso confusione, potrai creare un glossario “ufficiale” specifico per la tua organizzazione e cogliere l’opportunità per promuovere la standardizzazione in base alla terminologia preferita. Inoltre, nelle sessioni di onboarding e formazione, dedica del tempo a chiarire quei termini che generano più spesso confusione.
+>Prendi in considerazione la creazione di un vocabolario controllato per la tua organizzazione se trovi diversi sinonimi in circolazione o se ci sono termini che solitamente sconcertano i tuoi utenti. Prendi l’iniziativa di promuovere la standardizzazione della terminologia preferita. Inoltre, nelle sessioni di onboarding e formazione, controlla i termini che generano più spesso confusione per aiutare gli utenti a comprendere.
 
-## 3 - Formare un gruppo di esperti
+## Suggerimento #3: formate un gruppo di rock star
 
-Tieni d’occhio gli utenti che brillano di più nell’analisi, quelli che riescono a cogliere rapidamente [!DNL Adobe Analytics] sfumature tecniche e possono applicarle facilmente durante le analisi. Che sia in modo formale o informale, usa questo gruppo di esperti per testare le modifiche che apporti al programma di onboarding o magari come utenti beta di un nuovo tipo di rapporto. Potranno anche segnalarti quando riscontrano delle lacune nei loro team.
+Tieni d’occhio gli utenti che brillano di più nell’analisi, quelli che riescono a cogliere rapidamente [!DNL Adobe Analytics] sfumature tecniche e possono applicarle facilmente durante le analisi. In modo formale o informale, rivolgiti al gruppo di esperti per testare le modifiche apportate al programma di onboarding o come utenti beta di un nuovo rapporto. Possono anche segnalare quando si verificano lacune nelle conoscenze di Analytics all’interno dei propri team.
 
-Presso [!DNL The Home Depot], abbiamo organizzato una sfida su , proponendo una serie di domande complesse che gli utenti potevano risolvere con questo strumento. [!DNL Adobe Analytics] La sfida ha contrassegnato alcuni esperti di analisi e ci ha aiutato a comprendere quanto bene le parti interessate comprendessero le [!DNL Adobe Analytics] dettagli.
+A [!DNL The Home Depot], abbiamo ospitato un [!DNL Adobe Analytics] dove abbiamo posto agli utenti domande complesse che potevano essere risolte con lo strumento. La sfida ha contrassegnato alcuni esperti di analisi e ci ha aiutato a comprendere quanto bene le parti interessate comprendessero le [!DNL Adobe Analytics] dettagli.
 
 >[!TIP]
 >
->**Creare modelli e indicazioni con annotazioni per specifici modelli di Workspace.**
->Utilizza i rapporti aziendali (modelli) e le visualizzazioni di testo in Analysis Workspace per creare guide contestuali che aiuteranno i tuoi esperti a rimanere sulla strada giusta.
+>**Creare modelli e indicazioni con annotazioni per specifici modelli di Workspace**
+>Sfrutta i rapporti aziendali (modelli) e le visualizzazioni di testo in Analysis Workspace per creare guide contestuali che aiuteranno i tuoi esperti a rimanere sulla strada giusta.
 >
->La flessibilità di Analysis Workspace consente di creare modelli per analisi più veloci e abilitare funzioni self-service e per l’auto-formazione. Combinando funzionalità quali modelli curati, annotazioni e collegamenti Workspace interni ed esterni, puoi creare guide efficaci, accessibili e facili da divulgare agli utenti non tecnici nel contesto di [!DNL Adobe Analytics].
+>La flessibilità di Analysis Workspace consente di creare modelli per analisi più rapide e abilitare funzioni self-service e di abilitazione autonoma. Combinando funzionalità quali modelli curati, annotazioni e collegamenti Workspace interni ed esterni, puoi creare guide efficienti, accessibili e facili da divulgare agli utenti non tecnici nel contesto di [!DNL Adobe Analytics].
 
-## 4 - Mantenere canali di comunicazione aperti
+## Suggerimento #4: mantenere canali di comunicazione aperti
 
-Offrire alle parti interessate ampie opportunità di ottenere aiuto durante la creazione [!DNL Adobe Analytics] dashboard. Puoi ospitare sessioni aperte negli orari di lavoro, in cui gli utenti possono portare le loro domande ed essere messi in contatto con un esperto. Oppure crea un canale di assistenza che consenta di porre domande in un ambiente di apprendimento sicuro.
+Offrire alle parti interessate ampie opportunità di ottenere aiuto durante la creazione [!DNL Adobe Analytics] dashboard. Puoi ospitare sessioni aperte negli orari di lavoro, in cui le parti interessate possono rispondere a domande ed essere messe in contatto con un esperto. Oppure crea un canale di assistenza che consenta alle parti interessate di porre domande in un ambiente di apprendimento sicuro.
 
-In [!DNL The Home Depot], i nostri utenti apprezzano molto le sessioni aperte negli orari di lavoro e il canale di assistenza su Slack. Sin dall&#39;introduzione di questi canali, abbiamo registrato una maggiore precisione nella creazione dei rapporti e nelle [!DNL Adobe Analytics] l&#39;adozione è schizzata alle stelle. In passato, siamo entrati nel primo 5% di [!DNL Adobe Analytics] punteggi di adozione, per tutti i retailer nel mondo!
+A [!DNL The Home Depot], i nostri utenti apprezzano molto le sessioni aperte negli orari di lavoro e il canale di assistenza per lo Slack. Fin dall&#39;introduzione di questi canali, abbiamo registrato una maggiore precisione nella creazione dei rapporti e nelle [!DNL Adobe Analytics] l&#39;adozione è schizzata alle stelle. In passato, siamo entrati nel primo 5% di [!DNL Adobe Analytics] punteggi di adozione, per tutti i retailer nel mondo!
 
-Aiutare gli utenti a comprendere il mondo tecnico di [!DNL Adobe Analytics] Non è un&#39;impresa facile. Ma spero che questi suggerimenti ed esempi ti aiutino ad aiutare i tuoi utenti a entrare in questo ambiente senza timori, a creare tabelle a forma libera e a innamorarsi del meraviglioso mondo di prop ed eVar.
+Aiutare gli utenti a comprendere il mondo tecnico di [!DNL Adobe Analytics] Non è un&#39;impresa facile. Spero che questi suggerimenti ed esempi aiutino le parti interessate a immergersi in profondità, a creare tabelle a forma libera e a innamorarsi del mondo di prop ed eVar.
