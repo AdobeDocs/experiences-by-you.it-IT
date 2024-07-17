@@ -1,6 +1,6 @@
 ---
 title: Progettazione di marketing conversazionale omni-channel con Dynamic Chat
-description: Inizia rapidamente a progettare il marketing conversazionale con Adobi Dynamic Chat, il canale di coinvolgimento conversazionale nativo in Adobe Marketo Engage. Questa esercitazione offre ricette utilizzabili per implementare casi d’uso quali prenotazione di riunioni di vendita, coinvolgimento con contenuti del sito web e promozione di eventi/webinar.
+description: Inizia rapidamente a progettare il marketing conversazionale con Adobe Dynamic Chat, il canale di coinvolgimento conversazionale nativo in Adobe Marketo Engage. Questa esercitazione offre ricette utilizzabili per implementare casi d’uso quali prenotazione di riunioni di vendita, coinvolgimento con contenuti del sito web e promozione di eventi/webinar.
 role: Admin
 level: Beginner
 doc-type: Article
@@ -26,7 +26,7 @@ Questo tutorial illustra il processo di pensiero e i casi d’uso principali con
 
 I visitatori navigano nel tuo sito web per un motivo. Potrebbero cercare contenuti sui tuoi prodotti o servizi o cercare informazioni di contatto per parlare con i tuoi rappresentanti commerciali. Potrebbero essere i tuoi clienti alla ricerca di informazioni di prodotto aggiuntive. La chat consente ai visitatori del sito web di self-service e autoqualificarsi se sono pronti a parlare con il team di vendita.
 
-Quando Sara Barriuso ha implementato il Dynamic Chat, è stata attirata dalla sua integrazione perfetta con il Marketo Engage e il [attivatori attività predefiniti](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} che attivano programmi di Marketo Engage e viceversa. Ha sviluppato le sue strategie di coinvolgimento conversazionale pensando a tre segmenti di pubblico:
+Quando Sara Barriuso ha implementato Dynamic Chat, è stata attirata dalla sua integrazione perfetta con Marketo Engage e dai [trigger di attività pregenerati](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} che attivano i programmi di Marketo Engage e viceversa. Ha sviluppato le sue strategie di coinvolgimento conversazionale pensando a tre segmenti di pubblico:
 
 1. Potenziali sconosciuti: offri in modo proattivo chiamate demo per generare nuovi lead.
 2. Clienti lead noti: prolunga il tempo dedicato dai visitatori alla navigazione dei contenuti e offri chiamate dimostrative per generare opportunità di upselling e cross-selling.
@@ -65,7 +65,7 @@ Questa finestra di dialogo fornisce cinque opzioni iniziali tra cui i visitatori
 
 1. In &quot;Pubblico&quot;, aggiungi un URL di pagina web in &quot;Target&quot; per indicare dove verrà visualizzata la finestra di dialogo.
 2. In &quot;Impostazioni&quot;, aggiungi il nome, la descrizione, la priorità e la lingua della campagna.
-3. Fai clic su Pubblica
+3. Fai clic su &quot;Publish&quot;
 
 >[!TAB Marketo Engage]
 
@@ -93,12 +93,12 @@ Puoi migliorare ulteriormente la finestra di dialogo predefinita onnicomprensiva
 >[!TAB Dynamic Chat]
 
 1. Clona la &quot;finestra di dialogo predefinita&quot; e rinominala.
-2. In &quot;Progettazione flussi&quot;, adattare i messaggi di dialogo al settore di destinazione (un solo flusso + la domanda iniziale).
+2. In &quot;Stream Designer&quot;, adatta i messaggi di Dialogo al settore di destinazione (un solo flusso + la domanda iniziale).
 3. Chiedi a 2-3 persone di testare la Finestra di dialogo e raccogliere feedback.
 4. Crea un collegamento di test e condividilo.
 5. In &quot;Pubblico&quot;, aggiungi un URL di pagina web in cui la finestra di dialogo visualizzerà e aggiornerà la destinazione al settore desiderato.
 6. In &quot;Impostazioni&quot;, aggiungi il nome della campagna, la priorità della descrizione e la lingua.
-7. Fai clic su &quot;Pubblica&quot;.
+7. Fare clic su &quot;Publish&quot;.
 
 >[!TAB Marketo Engage]
 
@@ -126,7 +126,7 @@ Eventi e webinar sono tattiche di marketing popolari per le aziende B2B per gene
 1. Clona il modello.
 2. Copiare e incollare testo nel messaggio di dialogo per un nuovo evento
 3. Aggiorna i parametri UTM utilizzati nel collegamento dell’evento (ad esempio utm_medium=website&amp;utm_source=adobe).
-4. Crea un collegamento di test, fai clic su &quot;Pubblica&quot; e condividilo con il richiedente.
+4. Crea un collegamento di test, fai clic su &quot;Publish&quot; e condividilo con il richiedente.
 5. Esamina tra pari e applica il feedback.
 
 
@@ -157,11 +157,11 @@ Eventi e webinar sono tattiche di marketing popolari per le aziende B2B per gene
 >[!TAB Dynamic Chat]
 
 1. Clona la finestra di dialogo per la promozione di eventi/webinar.
-2. In Stream Designer, dopo che l’utente ha risposto &quot;Sì&quot;, aggiungi una scheda di domande &quot;L’indirizzo e-mail è stato condiviso in precedenza con noi. Conservare per i dettagli dell&#39;evento?&quot;
+2. In Stream Designer, dopo che l’utente ha risposto &quot;Sì&quot;, aggiungi una scheda di domande &quot;In precedenza hai condiviso il tuo indirizzo e-mail con noi. Conservare per i dettagli dell&#39;evento?&quot;
 3. Se rispondono &quot;Sì&quot; - aggiungi una scheda di messaggio &quot;Riceverai un’e-mail di conferma con i dettagli dell’evento/webinar&quot;.
 4. Se rispondono &quot;No&quot; - aggiungi una scheda di messaggio &quot;Compila il modulo nella pagina di registrazione&quot;.
-5. Crea un collegamento di test, fai clic su &quot;Pubblica&quot; e condividilo con il richiedente.
-6. Nella scheda Pubblico, aggiungi [l’e-mail non è vuota].
+5. Crea un collegamento di test, fai clic su &quot;Publish&quot; e condividilo con il richiedente.
+6. Nella scheda Pubblico, aggiungi [e-mail non è vuoto].
 
 >[!TAB Marketo Engage]
 
@@ -193,7 +193,7 @@ Estensione del coinvolgimento con i contenuti di Campaign - Configurazione:
 
 ## Quali sono le prossime novità?
 
-* Mappare il flusso conversazionale in [Progettazione flussi](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} o un diagramma di flusso offline.
+* Mappa il tuo flusso conversazionale in [Streaming Designer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} o un diagramma di flusso offline.
 * Crea una finestra di dialogo catch-all predefinita nel Dynamic Chat.
 * Attiva il coinvolgimento post-campagna delle conversazioni utilizzando i trigger di automazione nel Marketo Engage.
 

@@ -1,6 +1,6 @@
 ---
-title: Suggerimenti e trucchi per i campioni di AEM - [!DNL Cloud Manager] UI
-description: Consulta questi suggerimenti su come utilizzare [!DNL Cloud Manager]Interfaccia utente di Rakesh Pasupuleti, campione ed esperto di AEM.
+title: Suggerimenti e trucchi per i campioni AEM - [!DNL Cloud Manager] UI
+description: Consulta questi suggerimenti su come utilizzare l'interfaccia utente di  [!DNL Cloud Manager] dal campione ed esperto di AEM, Rakesh Pasupuleti.
 version: Cloud Service
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager
 feature-set: Marketo Engage, Experience Manager
@@ -14,17 +14,17 @@ jira: KT-13230
 exl-id: c977d316-5e5d-43b9-ba10-a11433d33ca5
 source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '69'
 ht-degree: 2%
 
 ---
 
-# Suggerimenti e trucchi per i campioni di AEM - [!DNL Cloud Manager] UI
+# Suggerimenti e trucchi per i campioni AEM - Interfaccia utente [!DNL Cloud Manager]
 
-Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh è un [!DNL Adobe] campione Experience Manager, e spiega come navigare e capire [!DNL Cloud Manager]dell’interfaccia utente di.
+Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh è un campione Experience Manager di [!DNL Adobe] e spiega come navigare e comprendere l&#39;interfaccia utente di [!DNL Cloud Manager].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419298?quality=12&learn=on)
 
 ## Risorse aggiuntive {#additional-resources}
 
-* [Introduzione a [!DNL Cloud Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/concepts/cloud-manager-introduction.html) - Documentazione sull’utilizzo di [!DNL Cloud Manager] in AEM as a Cloud Service
+* [Introduzione a [!DNL Cloud Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/concepts/cloud-manager-introduction.html) - Documentazione sull&#39;utilizzo di [!DNL Cloud Manager] in AEM as a Cloud Service

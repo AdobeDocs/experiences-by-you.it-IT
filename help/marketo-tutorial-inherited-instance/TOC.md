@@ -1,7 +1,7 @@
 ---
-user-guide-title: 'Tutorial: suggerimenti per il controllo di un’ereditata [!DNL Marketo Engage] istanza '
-user-guide-description: Suggerimenti per il controllo di un'ereditata [!DNL Marketo Engage] istanza
-breadcrumb-title: 'Tutorial: suggerimenti per il controllo di un’ereditata [!DNL Marketo Engage] istanza '
+user-guide-title: 'Tutorial: suggerimenti per il controllo di un''istanza  [!DNL Marketo Engage]  ereditata '
+user-guide-description: Suggerimenti per il controllo di un'istanza  [!DNL Marketo Engage]  ereditata
+breadcrumb-title: 'Tutorial: suggerimenti per il controllo di un''istanza  [!DNL Marketo Engage]  ereditata '
 breadcrumb-url: /docs/experiences-by-you/experiences-by-you/marketo-tutorial-inherited-instance/overview.html
 index: false
 role: Admin
@@ -16,7 +16,7 @@ ht-degree: 2%
 ---
 
 
-# Tutorial: suggerimenti per il controllo di un’ereditata [!DNL Marketo Engage] istanza {#auditing-an-inherited-instance}
+# Tutorial: suggerimenti per il controllo di un&#39;istanza [!DNL Marketo Engage] ereditata {#auditing-an-inherited-instance}
 
 + [Tutorial: panoramica](/help/marketo-tutorial-inherited-instance/overview.md)
 + [Controllare un’istanza ereditata](/help/marketo-tutorial-inherited-instance/audit-an-inherted-instance.md)

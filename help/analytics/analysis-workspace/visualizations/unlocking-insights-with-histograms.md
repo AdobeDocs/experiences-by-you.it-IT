@@ -1,6 +1,6 @@
 ---
-title: Sblocco di informazioni con istogrammi; oltre le medie in [!DNL Analytics]
-description: Scopri l’impatto degli istogrammi in Analytics per approfondimenti che vanno al di là degli schemi.
+title: Sblocco di insights con istogrammi; oltre le medie in [!DNL Analytics]
+description: Scopri l’impatto degli istogrammi nell’analisi per informazioni che vanno oltre le medie.
 feature-set: Analytics
 feature: Visualizations
 role: User
@@ -12,16 +12,16 @@ thumbnail: KT-13833.jpeg
 exl-id: 46a9dab2-17f8-435e-949c-45d4a60343f0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 5%
+source-wordcount: '1091'
+ht-degree: 0%
 
 ---
 
-# Sblocco degli approfondimenti con istogrammi: al di là degli schemi in [!DNL Analytics]
+# Sblocco di approfondimenti con istogrammi: oltre le medie in [!DNL Analytics]
 
-_Scopri l’impatto degli istogrammi in Analytics per approfondimenti che vanno al di là degli schemi. Gli istogrammi rivelano pattern di dati nel comportamento del cliente, nel coinvolgimento dei visitatori, nelle prestazioni tecniche e negli errori di modulo, consentendo di ottenere informazioni più approfondite e decisioni informate in [!DNL Adobe] Workspace._
+_Scopri l&#39;impatto degli istogrammi nelle analisi per informazioni che vanno oltre le medie. Gli istogrammi rivelano pattern di dati nel comportamento del cliente, nel coinvolgimento dei visitatori, nelle prestazioni tecniche e negli errori di modulo, consentendo approfondimenti più approfonditi e decisioni informate in [!DNL Adobe] Workspace._
 
-Saltiamo subito dentro. Dovresti usare [istogrammi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html?lang=it). Vi spiegherò perché, ma voglio rispondere alla vostra prima domanda: Cosa diavolo è un istogramma? Capisco. Nella maggior parte dei casi, quando vedete un mucchio di barre salire, potreste pensare che sia un grafico a barre. Sì, gli istogrammi sembrano simili, ma vi assicuro che sono diversi. Un grafico a barre confronta gli elementi, mentre un istogramma mostra la frequenza con cui si è verificata una variabile. Dai un’occhiata. Ecco un grafico a barre:
+Saltiamo subito dentro. Dovresti usare [istogrammi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html). Vi spiegherò perché, ma voglio rispondere alla vostra prima domanda: Cosa diavolo è un istogramma? Capisco. Nella maggior parte dei casi, quando vedete un mucchio di barre salire, potreste pensare che sia un grafico a barre. Sì, gli istogrammi sembrano simili, ma vi assicuro che sono diversi. Un grafico a barre confronta gli elementi, mentre un istogramma mostra la frequenza con cui si è verificata una variabile. Dai un&#39;occhiata. Ecco un grafico a barre:
 
 ![Grafico a barre 1](assets/bar-chart-1.png)
 
@@ -69,7 +69,7 @@ Potreste chiedervi, quali sono le differenze rispetto al semplice fatto di avere
 
   ![Istogramma 4](assets/histogram-4.png)
 
-Come potete vedere, gli istogrammi non solo hanno i loro usi, ma approfondiscono anche l&#39;intuizione che si ottiene da una media. Sono una visualizzazione preconfigurata in [!DNL Adobe Analytics] e facile da creare. Speriamo che questi casi d’uso siano utili per te o suscitino un po’ di ispirazione. Visualizzazione felice!
+Come potete vedere, gli istogrammi non solo hanno i loro usi, ma approfondiscono anche l&#39;intuizione che si ottiene da una media. Si tratta di una visualizzazione predefinita in [!DNL Adobe Analytics] e facile da creare. Speriamo che questi casi d’uso siano utili per te o suscitino un po’ di ispirazione. Visualizzazione felice!
 
 ## Autore
 
@@ -79,4 +79,4 @@ Questo documento è stato scritto da:
 
 **Gitai Ben-Ammi**, Principal Consultant di Concentrix Catalyst
 
-[!DNL Adobe Analytics] Campione
+[!DNL Adobe Analytics] campione

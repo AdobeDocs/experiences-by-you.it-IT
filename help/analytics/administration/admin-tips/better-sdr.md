@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Creazione di una cultura dei dati e di un migliore riferimento di progettazione della soluzione
 
-_Rivoluziona la tua strategia per i dati e responsabilizza il tuo team nella creazione di un documento Solution Design Reference (SDR) solido. Eliminare le lacune nelle misurazioni e promuovere una cultura collaborativa dei dati attraverso metodologie dettagliate._
+_Rivoluziona la tua strategia di gestione dei dati e consenti al tuo team di creare un solido documento Solution Design Reference (SDR). Eliminare le lacune nelle misurazioni e promuovere una cultura collaborativa dei dati attraverso metodologie dettagliate._
 
-È finalmente ora. Avete messo insieme un solido documento SDR. Un documento SDR è la guida che utilizzi per implementare le metriche e le dimensioni. Hai definito come si chiamano quando si attivano, e i tuoi sviluppatori lo adorano. Avete affrontato l&#39;intero processo di implementazione, scritto i criteri di accettazione, fatto gli sprint, li avete testati, ed è fatto! L’istanza di [!DNL Adobe Analytics] I team di marketing e prodotto dovrebbero festeggiare mentre analizzano i dati, ottengono nuove rivelazioni sui tuoi clienti e trovano tutte le aree di successo e quelle meno riuscite. Ma non sentite i riconoscimenti che vi aspettavate.
+È finalmente ora. Avete messo insieme un solido documento SDR. Un documento SDR è la guida che utilizzi per implementare le metriche e le dimensioni. Hai definito come si chiamano quando si attivano, e i tuoi sviluppatori lo adorano. Avete affrontato l&#39;intero processo di implementazione, scritto i criteri di accettazione, fatto gli sprint, li avete testati, ed è fatto! L&#39;istanza di [!DNL Adobe Analytics] dovrebbe far festeggiare i team di marketing e di prodotto mentre analizzano i dati, ottengono nuove rivelazioni sui tuoi clienti e trovano tutte le aree di successo e quelle meno riuscite. Ma non sentite i riconoscimenti che vi aspettavate.
 
 Da un team, si sentono lamentele del tipo:
 
@@ -34,21 +34,21 @@ Da un team, si sentono lamentele del tipo:
 
 Ma è l&#39;altra squadra che desta maggiori preoccupazioni. Da loro, non sentite proprio niente. Peggio ancora, puoi vedere grafici che sono stati chiaramente tratti dalla tua vecchia soluzione di analisi (quella che non è più mantenuta, e ogni giorno sta cadendo ulteriormente in una palude di decrepitudine e dati sporchi). Un senso di terrore ti riempie mentre consideri le decisioni che potrebbero essere prese con quel caos originale.
 
-_Cos’è andato storto?_
+_Si è verificato un errore?_
 
 _Perché esistono delle lacune nella misurazione?_
 
-_Perché i membri del tuo team non accettano questa proposta?_
+_Perché i membri del tuo team non lo abbracciano?_
 
-Comincerò lasciandovi scendere leggermente dall&#39;amo. C&#39;è _sempre_ sarà un po&#39; di revisione. Se il sito o l’applicazione sono abbastanza complessi da richiedere una soluzione di analisi aziendale, è sicuro che ti mancherà qualcosa. Ma in questo caso, non vi siete persi abbastanza da spiegare le distanze di misura che sto descrivendo.
+Comincerò lasciandovi scendere leggermente dall&#39;amo. Ci saranno _sempre_ revisioni. Se il sito o l’applicazione sono abbastanza complessi da richiedere una soluzione di analisi aziendale, è sicuro che ti mancherà qualcosa. Ma in questo caso, non vi siete persi abbastanza da spiegare le distanze di misura che sto descrivendo.
 
 Ciò che è andato storto è molto più difficile da inserire in un foglio di calcolo. In sostanza, hai perso la prima occasione di creare una cultura dei dati collaborativa mentre hai creato il tuo SDR.
 
-Voglio illustrarvi un metodo che io e i miei colleghi abbiamo sviluppato sia per creare un SDR migliore con meno spazi, sia per coinvolgere gli utenti finali (e occasionalmente entusiasmarli) nella loro nuova istanza di [!DNL Adobe Analytics]. Passiamo ora a spiegare come e perché dovresti considerare questo metodo.
+Voglio illustrarvi un metodo che i miei colleghi ed io abbiamo sviluppato per creare un SDR migliore con meno spazi, e per coinvolgere gli utenti finali (e occasionalmente entusiasmati) nella loro nuova istanza di [!DNL Adobe Analytics]. Passiamo ora a spiegare come e perché dovresti considerare questo metodo.
 
 ## Il come
 
-_Scopri la conferenza sulla misurazione. Utilizza una mappa funnel per visualizzare ogni passaggio del piano. Crea dashboard fittizie da rivedere come gruppo. Crea un dizionario dati per gli utenti._
+_Informazioni sulla conferenza di misurazione. Utilizza una mappa funnel per visualizzare ogni passaggio del piano. Crea dashboard fittizie da rivedere come gruppo. Creare un dizionario dati per gli utenti._
 
 ### La conferenza di misurazione
 
@@ -65,13 +65,13 @@ _Scopri la conferenza sulla misurazione. Utilizza una mappa funnel per visualizz
 1. Con i designer e i product manager, segui ogni passaggio e discuti su ciò che tutti considerano il successo in quel funnel. È il tasso di conversione? Sta scegliendo un percorso particolare? Utilizza alcune funzionalità?
 1. Poni domande sulle metriche e sulle dimensioni necessarie per comprendere le prestazioni del funnel in ogni passaggio del funnel e nel complesso.
 1. Sopra ogni passaggio del funnel, aggiungi le metriche e le dimensioni misurate su quel passaggio, comprese le metriche calcolate.
-1. All’inizio di ogni funnel, scrivi i rapporti che vanno nel dashboard che il product manager può utilizzare per monitorare le prestazioni. Questi rapporti includono [rapporto di fallout](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mese corrente](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tassi di conversione con tendenze](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line)e qualsiasi cosa più specifica per quel funnel.
+1. All’inizio di ogni funnel, scrivi i rapporti che vanno nel dashboard che il product manager può utilizzare per monitorare le prestazioni. Questi rapporti includono un [rapporto di fallout](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mese corrente](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tassi di conversione con tendenze](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) e qualsiasi altro elemento specifico per tale funnel.
 1. Aggiungi le nuove metriche e dimensioni scoperte al documento SDR e invialo alle parti interessate per una seconda revisione.
 
 ### Dashboard di anteprima
 
 1. Utilizzando la mappa funnel come guida, crea dei dashboard fittizi.
-1. Dovrebbe essere presente una visualizzazione complessiva, ad esempio [Dashboard di riepilogo esecutivo](driving-success-with-executive-summary-dashboards.md), e dashboard per ciascuno dei funnel.
+1. Dovrebbe essere disponibile una visualizzazione complessiva, ad esempio una [dashboard di riepilogo esecutivo](driving-success-with-executive-summary-dashboards.md) e dashboard per ciascuno dei funnel.
 1. Saranno inoltre disponibili informazioni più specifiche per il sito o l’app, ad esempio prestazioni del prodotto o del contenuto.
 1. Distribuiscili alle parti interessate e ricevi feedback sulla progettazione.
 1. Effettua gli aggiornamenti richiesti e, se sono necessarie nuove metriche o dimensioni, aggiungili al tuo SDR.
@@ -91,7 +91,7 @@ _Scopri come raccogliere i requisiti, creare una cultura dei dati, avviare una r
 
 Raccogliere i requisiti è ovvio, ma esistono diversi modi efficaci per farlo. Ho usato interviste individuali, questionari e revisioni di rapporti esistenti. Queste strategie funzionano, ma non così come i metodi che ho appena descritto. tuttavia, non credo che la differenza tra i metodi per la raccolta dei requisiti sia significativa. Il metodo che ho descritto vi porta al 95% della strada, e questi altri metodi vi portano al 90% della strada.
 
-Quindi, qual è la _perché_?
+Qual è il _motivo_?
 
 ### Genera impostazioni cultura dati
 
@@ -103,19 +103,19 @@ Con questo processo:
 
 ### Riflettere profondamente sui dati
 
-Per molte persone della tua azienda, i dati sono qualcosa che consumano. Loro la usano. Lo analizzano. Loro non ci pensano profondamente. Alcune persone hanno ereditato i rapporti e i processi dai loro predecessori, ma non li hanno modificati per il bene della continuità. Forse queste persone non avevano mai avuto bisogno di pensare al _perché_ dei dati.
+Per molte persone della tua azienda, i dati sono qualcosa che consumano. Loro la usano. Lo analizzano. Loro non ci pensano profondamente. Alcune persone hanno ereditato i rapporti e i processi dai loro predecessori, ma non li hanno modificati per il bene della continuità. Forse queste persone non hanno mai avuto bisogno di pensare al _perché_ dei dati.
 
-Questo processo offre loro l&#39;opportunità di _comprendere_ dati. Domande come, Cos’è il successo? Come sapresti se avessi successo? Come sapresti cosa cambiare se non hai avuto successo? A queste domande è necessario rispondere all&#39;inizio della creazione di tutti i siti, le applicazioni e i prodotti, ma troppo spesso non è così. Ponendo queste domande, contribuisci ad approfondire la comprensione di una persona non solo dei dati, ma anche del suo prodotto.
+Questo processo offre loro l&#39;opportunità di _comprendere_ i dati. Domande come, Cos’è il successo? Come sapresti se avessi successo? Come sapresti cosa cambiare se non hai avuto successo? A queste domande è necessario rispondere all&#39;inizio della creazione di tutti i siti, le applicazioni e i prodotti, ma troppo spesso non è così. Ponendo queste domande, contribuisci ad approfondire la comprensione di una persona non solo dei dati, ma anche del suo prodotto.
 
 ### Creare un senso di proprietà sui dati
 
 Un senso di proprietà non è qualcosa che una persona acquisisce facilmente. Non è stato trovato in quella riunione di 30 minuti a cui hanno partecipato tre mesi fa. Non è stato creato da questo un fastidioso questionario a cui hanno risposto troppo rapidamente a causa di altri problemi di lavoro pressanti come le demo e le date di rilascio sprint.
 
-La proprietà è il prodotto del pensiero profondo di qualcuno e del suo lavoro con te e i colleghi. È ciò che hanno esaminato più volte, fornito un feedback continuo, e ciò che hanno approvato dopo che il feedback è stato incorporato. È loro! Il fatto che sia utile è dovuto a loro. È _loro_ ed è quel processo che li ha resi loro.
+La proprietà è il prodotto del pensiero profondo di qualcuno e del suo lavoro con te e i colleghi. È ciò che hanno esaminato più volte, fornito un feedback continuo, e ciò che hanno approvato dopo che il feedback è stato incorporato. È loro! Il fatto che sia utile è dovuto a loro. Sono _i loro_ dati ed è questo processo che li ha resi loro.
 
 ### Semplificare i dati
 
-Hai anche mostrato loro come utilizzeranno il processo e come apparirà attraverso il [dashboard di anteprima](#the-preview-dashboards). Qualsiasi nuova soluzione è _duro_. C&#39;è così tanto da imparare, e data l&#39;incredibile personalizzabilità di [!DNL Adobe Analytics], la curva di apprendimento può essere ripida. Hai rimosso l&#39;80% di questo però. Anche prima che sia stata scritta la prima riga di codice, le parti interessate sanno come saranno le loro dashboard. Sapranno come leggerli e ottenere significato da loro. Sapranno come si presenta il successo, perché vi hanno detto quali metriche e dimensioni definiscono il successo. E avete detto loro come questo successo verrà visualizzato loro. La distribuzione delle dashboard effettive è un aggiornamento, non una nuova e spaventosa attività di apprendimento.
+Hai anche mostrato loro come useranno il processo e come si presenterà nelle [dashboard di anteprima](#the-preview-dashboards). Qualsiasi nuova soluzione è _hard_. C&#39;è molto da imparare e, data l&#39;incredibile possibilità di personalizzazione di [!DNL Adobe Analytics], la curva di apprendimento può essere ripida. Hai rimosso l&#39;80% di questo però. Anche prima che sia stata scritta la prima riga di codice, le parti interessate sanno come saranno le loro dashboard. Sapranno come leggerli e ottenere significato da loro. Sapranno come si presenta il successo, perché vi hanno detto quali metriche e dimensioni definiscono il successo. E avete detto loro come questo successo verrà visualizzato loro. La distribuzione delle dashboard effettive è un aggiornamento, non una nuova e spaventosa attività di apprendimento.
 
 Questo non è necessariamente il modo più rapido per mettere insieme un documento SDR. Si tratta di un sacco di lavoro e richiede un sacco di coordinamento di programmi, soprattutto perché è fondamentale che ci sono alcuni dirigenti nel mix. Alla fine, tuttavia, una soluzione di analisi aziendale rappresenta un enorme investimento di tempo e denaro e vuoi essere certo che l’adozione e la soddisfazione siano elevate. Questo metodo ha fatto molta strada per realizzarlo.
 
@@ -127,4 +127,4 @@ Questo documento è stato scritto da:
 
 Gitai Ben-Ammi, Business Architecture Associate Manager di Accenture
 
-[!DNL Adobe Analytics] Campione
+[!DNL Adobe Analytics] campione

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![Amy Chiu](/help/marketo-tutorial-implementing-new-instance/assets/amy-chiu.png){width="150"}
 
-**Amy Chiu**, Responsabile marketing per l’adozione e il mantenimento, Adobe
+**Amy Chiu**, Responsabile Marketing Adozione E Mantenimento, Adobe
 
 ## Naomi Liu {#naomi-liu}
 
@@ -26,31 +26,35 @@ ht-degree: 0%
 
 ![Natalie Kremer](/help/marketo-tutorial-implementing-new-instance/assets/natalie-kremer.png){width="150"}
 
-**Natalie Kremer**, Senior Manager, Servizi di consulenza, Etumos Adobe Marketo Engage Champion (2019-2020)
+**Natalie Kremer**, Senior Manager, Servizi di consulenza, Etumos
+Campione Adobe Marketo Engage (2019-2020)
 
 ## Christina Zuniga {#christina-zuniga}
 
 ![Christina Zuniga](/help/marketo-tutorial-implementing-new-instance/assets/christina-zuniga.png){width="150"}
 
-**Christina Zuniga**, Marketing Operations Manager, Employ Adobe Marketo Engage Champion (2017, 2018, 2020, 2021)
+**Christina Zuniga**, Marketing Operations Manager, Impiega
+Campione Adobe Marketo Engage (2017, 2018, 2020, 2021)
 
 ## Katja Keesom {#katja-keesom}
 
 ![Katja Keesom](/help/marketo-tutorial-implementing-new-instance/assets/katja-keesom.png){width="150"}
 
-**Katja Keesom**, Principal B2B Marketing Automation Consultant, Chapman Bright Adobe Marketo Engage Champion (2023)
+**Katja Keesom**, Principal B2B Marketing Automation Consultant, Chapman Bright
+Adobe Marketo Engage Champion (2023)
 
 ## Julz James {#julz-james}
 
 ![Julz James](/help/marketo-tutorial-implementing-new-instance/assets/julz-james.png){width="150"}
 
-**Julz James**, Sr Marketing Operations Manager, 6sense Adobe Marketo Engage Champion (2015)
+**Julz James**, Sr Marketing Operations Manager, 6sense
+Campione Adobe Marketo Engage (2015)
 
 ## Peter Livadas {#peter-livadas}
 
 ![Peter Livadas](/help/marketo-tutorial-implementing-new-instance/assets/peter_livadas.png){width="150"}
 
-**Peter Livadas**, consulente tecnico Marketo Engage di Adobe
+**Peter Livadas**, Marketo Engage Consulente Tecnico Senior presso Adobe
 
 ## Sara Barriuso {#sara-barriuso}
 

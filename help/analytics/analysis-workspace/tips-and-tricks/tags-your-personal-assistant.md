@@ -9,17 +9,17 @@ duration: 36000
 last-substantial-update: 2024-02-22T00:00:00Z
 jira: KT-14963
 thumbnail: KT-14963.jpeg
-source-git-commit: 9be76d73344188d93b826d9195c10e4ee8cc3957
+exl-id: 563941cc-30a2-45d2-8634-0bde3b539ffd
+source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
 
-
 # Tag: il tuo assistente personale
 
-_Scopri come #TAGS semplificare l’analisi digitale, svolgendo il ruolo di assistente personale per trovare in modo efficiente ciò di cui hai bisogno. Jeff Bloomer, Adobe Analytics Champion, condivide con esperti approfondimenti su come massimizzare il potenziale dello strumento a beneficio dell’utente._
+_Scopri come #TAGS semplificare l&#39;analisi digitale, fungendo da assistente personale per trovare in modo efficiente ciò di cui hai bisogno. Jeff Bloomer, Adobe Analytics Champion, condivide con esperti approfondimenti sull&#39;ottimizzazione del potenziale dello strumento a tuo vantaggio._
 
 Tutti si ricordano di aver giocato un buon gioco di tagging o anche di nascondersi e cercarsi, quando eravamo bambini, giusto?
 
@@ -34,17 +34,17 @@ Quando ci rivolgiamo al nostro lavoro quotidiano, la ricerca delle cose sembra d
 Ora che ho la vostra attenzione, permettetemi di iniziare ponendo una domanda:
 
 
-![Quanti di voi](assets/how-many-of-you.jpg)
+![Quanti](assets/how-many-of-you.jpg)
 
-Quanti di voi hanno fatto questo?  Hai iniziato a cercare un **dimensione**, **intervallo date**, **segmento**, o **metrica calcolata** e viene inondato da questo enorme elenco (vedi **Figura 1**) di tutto ciò che NON si desidera.  ***Analysis Workspace*** pensa che stia cercando di essere di aiuto, ma in tutta la realtà, è riuscito solo a non essere di aiuto affatto.
+Quanti di voi hanno fatto questo?  Hai iniziato a cercare una **dimensione**, un **intervallo di date**, un **segmento** o una **metrica calcolata**. Questo elenco gigante ti riempirà (vedi **Figura 1**) di tutto ciò che NON desideri.  ***Analysis Workspace*** ritiene che stia cercando di essere utile, ma in realtà è riuscito solo a non essere affatto utile.
 
-![figura 1 ricerca per anno](assets/tags-example-year.jpg)
+![figura 1 cerca l&#39;anno](assets/tags-example-year.jpg)
 
-*Figura 1 - Ricerca di &quot;anno&quot;*
+*Figura 1 - Cerca &quot;anno&quot;*
 
-Meglio ancora, sei andato e creato un po&#39; *nuovo* **intervalli di date** e **segmenti** e poiché sono &quot;così nuovi&quot;, potresti pensare che almeno questi elementi dovrebbero essere rapidi e facili da trovare la prossima volta che entri in ***Area di lavoro Adobe***. Ho ragione?
+Inoltre, hai creato alcuni *nuovi* **intervalli di date** e **segmenti** e, poiché sono &quot;così nuovi&quot;, potresti pensare che almeno questi elementi dovrebbero essere rapidi e facili da trovare la prossima volta che entri in ***Adobe Workspace***. Ho ragione?
 
-Beh, mi dispiace farle scoppiare la bolla, ma provi solo ad andarmene. ***Adobe Analytics*** dopo che hai appena creato tutti i tuoi nuovi &quot;piccoli amici&quot;, e quando torni, la maggior parte di loro semplicemente scappano.  Se sei fortunato, *forse* uno di loro è rimasto indietro ad aspettarti, ma gli altri sono già da tempo andati a giocare a nascondino.
+Beh, odio far scoppiare la bolla, ma prova a lasciare ***Adobe Analytics*** dopo aver appena creato tutti i tuoi nuovi &quot;amici&quot; e quando torni, la maggior parte di loro è semplicemente scappata.  Se sei fortunato, *forse* uno di loro è rimasto indietro ad aspettarti, ma il resto è già lontano e giocare a nascondino.
 
 ## Riscrittura del registro regole
 
@@ -54,53 +54,53 @@ E se potessimo creare il nostro assistente personale per cambiare queste regole 
 
 Sul serio, stiamo parlando di TAGS!  Esatto!!  È il nostro amico l&#39;hashtag, precedentemente noto come &quot;numero&quot; e &quot;cancelletto&quot;, proprio come l&#39;abbiamo visto al telefono.  Quelli di noi musicisti la chiamano persino &quot;tagliente&quot;.
 
-Per quelli di voi che *davvero* ha bisogno di un promemoria, si presenta così: **N.**
+Per chi di voi ha *bisogno di un promemoria*, è simile al seguente: **#**
 
-Comunque, la ragione per cui stiamo parlando **#tags** è perché vengono incastrati in quel &quot;secchio opzionale&quot; di &quot;noiosa e noiosa, roba maledetta&quot; che tutti tendono a ignorare (come Descrizioni), perché siamo tutti così in fretta di creare cose più importanti come, oh non so -
+In ogni caso, il motivo per cui stiamo parlando di **#tags** è che vengono incastrati in quel &quot;secchio opzionale&quot; di &quot;roba noiosa e noiosa, maliziosa&quot; che tutti tendono a ignorare (come Descrizioni), perché siamo tutti così in fretta di creare cose più importanti come, oh non so -
 
-- Rapporti di Workspace
+- Rapporti Workspace
 - Segmenti
-- Metriche calcolate 
+- Metriche calcolate
 - Intervalli di date
 
 Ammettetelo, gente!  Diteci il nome, abbiamo visto e sentito tutte le scuse per cui vengono saltate:
 
-&quot;Oh, ehi, ma è facile.  Posso sempre tornare più tardi e aggiornare quelle cose in un paio di pause pranzo, o forse anche mentre sono seduto a una conferenza e *fai in modo che tutto sia a posto*&quot;, disse chiunque non lo avesse MAI fatto.
+&quot;Oh, ehi, ma è facile.  Posso sempre tornare più tardi e aggiornare quelle cose in un paio di pause pranzo, o forse anche mentre sono seduto a una conferenza e *ottenere tutto catturato*,&quot; ha detto tutti che MAI HA FATTO.
 
 ## Contenuto della casella degli strumenti
 
-**Adobe** Abbiamo anche fatto a NOI IL POPOLO il servizio di creare un insieme selezionato di #TAGS pronti all&#39;uso, perché, beh... hanno dovuto farci partire da qualche parte.  Vi fornirò alcune avvertenze aggiuntive in appena un po&#39;, ma ciò che sto dimostrando prima vi darà il più grande colpo per il vostro dollaro!
+**L&#39;Adobe** ha persino reso a WE THE PEOPLE il servizio di creare un insieme selezionato di #TAGS pronti all&#39;uso, perché, beh... hanno dovuto farci partire da qualche parte.  Vi fornirò alcune avvertenze aggiuntive in appena un po&#39;, ma ciò che sto dimostrando prima vi darà il più grande colpo per il vostro dollaro!
 
-Prima di crearne una, è necessario sapere come cercare i file esistenti **tag**:
+Prima di creare un tag personalizzato, è necessario sapere come cercare i **tag** esistenti:
 
 ![Tag Gif](assets/tags-gif.gif)
 
 Che tu sia in un progetto nuovo o esistente, tutto ciò che ti serve è andare alla barra di ricerca del componente, digitare un #hashtag, insieme a uno di questi termini principali (solo guardare il video), e premere INVIO; oppure, è sufficiente iniziare lo scorrimento fino a trovare un termine riconoscibile.
 
-PRIMA ATTENZIONE: bisogna tenere presente che, se si mantengono le convenzioni di denominazione corrette quando si inizia a creare il proprio *proprio* tag, quasi ogni *in maiuscolo* tag visualizzato *dovrebbe* e farò attenzione con quella parola &quot;dovrebbe&quot;, **Adobe**, elemento con tag predefinito.  Ciò significa che assicurati che tutti i tag creati siano in **minuscolo**.
+ATTENZIONE: se all&#39;inizio della creazione di *propri* tag rimani fedele alle convenzioni di denominazione corrette, ogni *tag con maiuscole* visualizzato *dovrebbe* sarà usato con cautela la parola &quot;dovrebbe&quot;, che è un **Adobe**, elemento con tag predefinito.  Ciò significa che assicurati che tutti i tag creati siano in **minuscolo**.
 
 ## Creazione di un assistente personale
 
 Ora, torniamo a quello che ho detto prima riguardo a un &quot;assistente personale&quot;.  E se vi dicessi, che potreste iniziare a selezionare alcuni dei vostri componenti preferiti esistenti e renderli gli UNICI che vedete?
 
-![Tag 3 schermi](assets/3-screens-tags.jpg)
+![3 tag schermate](assets/3-screens-tags.jpg)
 
 
 1. Se si inizia a selezionare più componenti (CTRL+CLIC SINISTRO), alcune icone vengono visualizzate in alto.  Una di queste sarà l’icona TAG.
 1. Fai clic su di esso, quindi viene visualizzata la finestra di dialogo TAG, in cui puoi visualizzare eventuali tag esistenti associati a tali componenti.
-1. È da questa schermata che puoi assegnare qualsiasi **aggiuntivo/nuovo** a questo punto, potrebbe essere utile specificare i tag desiderati.  (Esempio: **test\_v1**)
-1. Per aggiungere un NUOVO tag a un componente, fai clic su **INVIO** sulla tastiera prima di fare clic sul pulsante SALVA.
+1. È da questa schermata che puoi assegnare i **tag aggiuntivi/nuovi** che desideri a questo punto.  (Esempio: **test\_v1**)
+1. Per aggiungere un nuovo tag a un componente, premi **INVIO** prima di fare clic sul pulsante SALVA.
 1. Quindi, dopo aver assegnato il nuovo TAG, puoi cercarlo inserendo l’hashtag(#) e il nuovo TAG.
 
 Perdonate il gioco di parole, ma &quot;#tag, ci siete!&quot;  Hai appena risparmiato molto meno alla ricerca di un futuro!  Ora puoi vedere dove entreranno in gioco la tua dovuta diligenza e il tuo duro lavoro.
 
 ## Mettere al lavoro l&#39;assistente personale
 
-Supponiamo di lavorare nel **Settore dei viaggi** e stiamo preparando un rapporto per il loro **orario di lavoro principale**.  Se iniziassimo a fare una ricerca solo sul termine &quot;VIAGGIO&quot;, potremmo ottenere molti più risultati di quanto avremmo bisogno.  Infatti, se abbiamo appena tirato su un **Workspace** contenendo anche metà dei risultati di cui avevamo bisogno, i componenti non sarebbero ancora disponibili.
+Supponiamo di lavorare nel **settore viaggi** e di dover preparare un rapporto per il relativo **orario di lavoro principale**.  Se iniziassimo a fare una ricerca solo sul termine &quot;VIAGGIO&quot;, potremmo ottenere molti più risultati di quanto avremmo bisogno.  Infatti, se abbiamo appena estratto un **Workspace** contenente anche la metà dei risultati necessari, i componenti non sarebbero ancora disponibili.
 
-![Tag ritorti](assets/tags-example-travel.jpg)
+![Tag danneggiati](assets/tags-example-travel.jpg)
 
-Tuttavia, se durante il nostro lavoro quotidiano abbiamo regolarmente taggato i nostri **segmenti**, **metriche**, e altre informazioni pertinenti **componenti** man mano che procediamo, e forse crearne solo alcuni nuovi nel momento in cui creiamo il nostro nuovo **workspace**, abbiamo dimostrato seriamente come possiamo riscrivere il libro delle regole a nostro favore!
+Tuttavia, se per tutto il giorno lavoriamo regolarmente assegnando tag ai nostri **segmenti**, **metriche** e ad altri **componenti** rilevanti, e magari crearne solo alcuni nuovi al momento della creazione della nostra nuova **area di lavoro**, abbiamo seriamente dimostrato come possiamo riscrivere il libro delle regole a nostro favore!
 
 In questo caso, ho creato una semplice #tag per tutti questi elementi denominata: #core.
 
@@ -110,14 +110,14 @@ Continuando a fare questa parte delle tue abitudini di lavoro e migliorare le tu
 
 Vuoi altri esempi nel mondo reale? Considera questi:
 
-1. Ad esempio, che ne dici di trovare facilmente il tuo **segmenti** e il tuo **intervalli di date** per **tutti i trimestri** in **2023**?
+1. Ad esempio, che ne dici di trovare facilmente i tuoi **segmenti** e i tuoi **intervalli di date** per **tutti i trimestri** in **2023**?
 
    ![Mondo reale 1](assets/real-world-1.png)
 
-   *Un suggerimento in più*: quel quadratino a destra ti permette persino di cambiare l’ordine ordinato in *alfabetico*!
+   *Suggerimento aggiuntivo*: quel quadratino a destra ti consentirà persino di cambiare l&#39;ordine ordinato in *alfabetico*!
 
 
-1. Naturalmente, tutti utilizzano **codici di tracciamento delle campagne** in una certa misura.  Se desideri avere una visione chiara di *tuo* giocattoli, provare ad aggiungere **#tag** per visualizzare solo gli elementi principali necessari per visualizzare e filtrare tutti gli altri disturbi:
+1. Naturalmente, tutti utilizzano **codici di tracciamento campagna** in una certa misura.  Se vuoi avere una visione chiara solo dei *tuoi* giocattoli, puoi aggiungere **#tag** s ai soli elementi principali necessari per visualizzare e filtrare tutti gli altri rumori:
 
 ![Mondo reale 2](assets/real-world-2.png)
 
@@ -137,10 +137,3 @@ Questo documento è stato scritto da:
 **Jeff Bloomer**, Manager, Digital Analytics presso Kroger Personal Finance
 
 Adobe Analytics Champion
-
-
-
-
-
-
-

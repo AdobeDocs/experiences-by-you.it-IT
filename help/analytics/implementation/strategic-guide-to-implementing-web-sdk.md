@@ -10,13 +10,13 @@ duration: 72000
 last-substantial-update: 2024-05-14T00:00:00Z
 jira: KT-15488
 thumbnail: KT-15488.jpeg
-source-git-commit: 04367fcc60fae501422c8e9b1c70838c404d598b
+exl-id: b0719779-f260-45b7-bdd6-1a3145bcb251
+source-git-commit: 4340bd82fd13397762c5b1ebd17d5d03d8180c3e
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
-
 
 # Guida strategica all’implementazione di Web SDK
 
@@ -26,7 +26,7 @@ Nell’attuale panorama digitale, l’ottimizzazione delle prestazioni web e l�
 
 Nonostante questi vantaggi, l’idea di implementare Web SDK può essere scoraggiante, se non del tutto schiacciante. Ecco perché ho creato questa guida strategica per aiutarti a iniziare questo percorso per implementare Web SDK.
 
-Scarica il file [guida strategica all’implementazione di Web SDK](https://www.adobe.com/content/dam/www/us/en/digital-experience/in-product/images/Final%20WebSDK%20Playbook.pdf){target="_blank"}.
+Scarica la [guida strategica all&#39;implementazione di Web SDK](https://www.adobe.com/content/dam/www/us/en/digital-experience/in-product/images/Final%20WebSDK%20Playbook.pdf){target="_blank"}.
 
 
 ## Autore
@@ -35,7 +35,6 @@ Questo documento è stato scritto da:
 
 ![meghan-head-shot](assets/meghan-head-shot.png)
 
-**Meghan Powers**
+**Poteri Meghan**
 
 Senior Manager di governance dei dati, strategia e analisi presso CarMax e Adobe Analytics Champion
-

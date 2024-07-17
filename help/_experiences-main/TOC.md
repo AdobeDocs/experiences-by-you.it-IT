@@ -1,11 +1,11 @@
 ---
 user-guide-title: Esperienze per te
-user-guide-description: Adobe di contenuti generati dal cliente
+user-guide-description: Contenuto generato dal cliente Adobe
 breadcrumb-title: Esperienze per te
 source-git-commit: 6048af1513ad27766ff0da6593a6442d3521ab67
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
    + Analysis Workspace {#analysis-workspace}
       + Utilizzo dei pannelli {#using-panels}
          + [Informazioni sul pannello di attribuzione e sugli intervalli di look-back](../analytics/analysis-workspace/using-panels/understanding-adobe-analytics-attribution-panel-and-lookback-windows.md)
-      + Visualizzare {#visualizations}
+      + Visualizzazioni {#visualizations}
          + [Sblocco di approfondimenti con istogrammi](../analytics/analysis-workspace/visualizations/unlocking-insights-with-histograms.md)
          + [Più di parole - Utilizzo di visualizzazioni e descrizioni di testo](../analytics/analysis-workspace/visualizations/more-than-words-using-text-visualizations-and-descriptions.md)
          + [Utilizzare l’analisi per coorte per comprendere il comportamento del cliente](../analytics/analysis-workspace/visualizations/use-cohort-analysis-to-understand-customer-behavior.md)
@@ -35,26 +35,26 @@ ht-degree: 5%
       + Metriche {#metrics}
          + [Addio Excel, salve le metriche calcolate](../analytics/analysis-workspace/metrics/goodbye-excel-hello-calculated-metrics.md)
          + [Portare l’analisi dei dati a un livello successivo con le metriche calcolate](../analytics/analysis-workspace/metrics/take-your-data-analysis-to-the-next-level-with-calculated-metrics.md)
-      + Curare e condividere i progetti {#curate-and-share-projects}
+      + Cura e condividi progetti {#curate-and-share-projects}
          + [Sblocco della condivisione di sola visualizzazione](../analytics/analysis-workspace/curate-and-share-projects/unlocking-the-power-of-view-only-sharing.md)
          + [Sbloccare le informazioni analitiche; sfruttare la potenza delle annotazioni](../analytics/analysis-workspace/curate-and-share-projects/harnessing-the-power-of-annotations.md)
       + Suggerimenti {#tips-and-tricks}
          + [Suggerimenti e trucchi per flussi di lavoro più efficienti](../analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
          + [Tag: il tuo assistente personale](../analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
    + Amministrazione {#administration}
-      + Competenze chiave dell’amministratore {#key-admin-skills}
+      + Competenze chiave dell&#39;amministratore {#key-admin-skills}
          + [Creazione di una community autonoma](../analytics/administration/key-admin-skills/empowered-community.md)
          + [Semplificare e dedicare meno tempo alla formazione degli utenti](../analytics/administration/key-admin-skills/simplify-training-users.md)
          + [Guadagnarsi un posto al tavolo](../analytics/administration/key-admin-skills/gaining-a-seat-at-the-table.md)
          + [Narrazione efficace attraverso i dati](../analytics/administration/key-admin-skills/telling-impactful-stories-with-data.md)
-         + [Traduzione [!DNL Adobe Analytics] linguaggio tecnico in modo non tecnico](../analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md)
+         + [Traduzione [!DNL Adobe Analytics] del linguaggio tecnico in modo non tecnico](../analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md)
          + [Funzionamento cross-functional](../analytics/administration/key-admin-skills/working-cross-functionally.md)
       + Suggerimenti e best practice per gli amministratori {#admin-tips}
          + [Scarica il playbook di implementazione](../analytics/administration/admin-tips/download-the-adobe-analytics-implementation-playbook.md)
          + [Creare convenzioni di denominazione standard](../analytics/administration/admin-tips/create-standardized-naming-conventions.md)
          + [Creare modelli di codice standard](../analytics/administration/admin-tips/create-standardized-code-templates.md)
          + [Creare video e formazione di base](../analytics/administration/admin-tips/create-basic-videos-and-training.md)
-         + [Creare un [!DNL Adobe Analytics] sito](../analytics/administration/admin-tips/create-an-internal-adobe-analytics-site.md)
+         + [Crea un  [!DNL Adobe Analytics]  sito interno](../analytics/administration/admin-tips/create-an-internal-adobe-analytics-site.md)
          + [Utilizzare una suite di rapporti globale](../analytics/administration/admin-tips/use-a-global-report-suite.md)
          + [Creare un progetto di notizie e annunci](../analytics/administration/admin-tips/create-a-news-and-announcements-project.md)
          + [Favorire il successo con le dashboard di riepilogo esecutive](../analytics/administration/admin-tips/driving-success-with-executive-summary-dashboards.md)
@@ -69,8 +69,8 @@ ht-degree: 5%
    + [!DNL Campaign Standard] {#campaign-standard}
       + [Risoluzione dei problemi per gli addetti al marketing](/help/campaign/acs/troubleshooting-for-marketers.md)
    + Strategia e leadership di pensiero{#strategy}
-      + [Dieci best practice per [!DNL Adobe Campaign] successo per gli esperti di marketing](/help/campaign/10-best-practices-for-marketers.md)
-+ Experience Manager di te {#experience-manager}
+      + [Dieci best practice per  [!DNL Adobe Campaign]  il successo per gli esperti di marketing](/help/campaign/10-best-practices-for-marketers.md)
++ Experience Manager di {#experience-manager}
    + [Panoramica](/help/experience-manager/overview.md)
    + AEM Sites {#sites}
       + [Valutazione della maturità di AEM Sites](/help/experience-manager/sites/expert-resources/maturity-assessment.md)
@@ -78,21 +78,21 @@ ht-degree: 5%
          + [Suggerimenti e trucchi per i campioni di AEM: prima sessione](/help/experience-manager/sites/expert-resources/champion-tips-1.md)
          + [Suggerimenti e trucchi per i campioni di AEM: sessione 2](/help/experience-manager/sites/expert-resources/champion-tips-2.md)
    + AEM as a Cloud Service {#cloud-service}
-      + [[!DNL Cloud Manager] Playbook di onboarding](/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md)
-      + [[!DNL Cloud Manager] Tipi di ambiente](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
+      + [Playbook di onboarding di [!DNL Cloud Manager]](/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md)
+      + [[!DNL Cloud Manager] tipi di ambiente](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
       + [[!DNL Cloud Manager] UI](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
       + Best practice {#cloud-manager-best-practices}
          + [Utilizzo dei registri in Cloud Manager](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-using-logs.md)
-         + [Pianificazione della migrazione all’AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration.md)
-         + [Strategie e suggerimenti per la post-migrazione](/help/experience-manager/cloud-service/expert-resources/aem-champions/post-migration.md)
+         + [Pianificazione di una migrazione ad AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration.md)
+         + [Strategie e suggerimenti per la migrazione a Post](/help/experience-manager/cloud-service/expert-resources/aem-champions/post-migration.md)
          + [Utilizzo di Best Practice Analyzer](/help/experience-manager/cloud-service/expert-resources/aem-champions/best-practice-analyzer.md)
-         + [Affrontare le sfide della migrazione a AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration-challenges.md)
+         + [Risolvere i problemi durante la migrazione ad AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration-challenges.md)
 + [!DNL Marketo Engage] da te {#marketo-engage}
    + [Panoramica](/help/marketo/overview.md)
    + Nozioni di base {#fundamentals}
       + [Navigare nell’interfaccia utente](/help/marketo/fundamentals/ui-navigation.md)
       + [Suggerimenti per implementare una nuova istanza](https://experienceleague.adobe.com/en/docs/experiences-by-you/implementing-new-instance/overview)
-      + [Controllo di un’istanza ereditata: tutorial](https://experienceleague.adobe.com/docs/experiences-by-you/auditing-an-inherited-instance/overview.html)
+      + [Controllo di un&#39;istanza ereditata - Tutorial](https://experienceleague.adobe.com/docs/experiences-by-you/auditing-an-inherited-instance/overview.html)
    + Programmi e campagne {#programs-and-campaigns}
       + [Programmi e-mail](/help/marketo/programs/email-programs.md)
       + [Programmi di coinvolgimento](/help/marketo/programs/engagement-programs.md)

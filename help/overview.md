@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Esperienze per utente: risorse per utente, per gli utenti.
 
-La cosa più potente riguardo [!DNL Adobe] soluzioni di esperienza digitale (DX)? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. _Esperienze personalizzate_ presenta contenuti creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con il loro [!DNL Adobe] Soluzioni DX. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
+L&#39;elemento più potente delle soluzioni DX (Digital Experience) di [!DNL Adobe]? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. _Experience by You_ presenta contenuti creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni DX [!DNL Adobe]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -58,7 +58,7 @@ La cosa più potente riguardo [!DNL Adobe] soluzioni di esperienza digitale (DX)
   </td>
   <td>
     <a href="/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md">
-      <img alt="Playbook per l’onboarding di as a Cloud Service AEM" src="https://video.tv.adobe.com/v/3419299?format=jpeg" />
+      <img alt="Playbook di onboarding di AEM as a Cloud Service" src="https://video.tv.adobe.com/v/3419299?format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md">

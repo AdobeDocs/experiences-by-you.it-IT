@@ -9,7 +9,8 @@ duration: 0
 last-substantial-update: 2024-05-04T00:00:00Z
 jira: KT-14810
 thumbnail: KT-14810.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: 73976144-f02b-4423-9b4b-410330117ba9
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 2%
@@ -32,16 +33,16 @@ Tramite il punteggio delle persone nel database di Marketo Engage, puoi misurare
 
 Il punteggio comportamentale dà un valore numerico alle azioni tracciabili intraprese da un potenziale cliente che indicano interesse per i tuoi prodotti e servizi e intenzione di acquistare. Ad esempio, la visita del sito web mostra interesse e la visita della pagina di determinazione dei prezzi può mostrare intento. Al contrario, visitare la pagina carriere potrebbe indicare che la persona non sta per acquistare.
 
-**Passaggio 1** - Crea un elenco delle attività potenziali che sono importanti per il tuo processo di vendita o che sono importanti per la tua organizzazione. Può essere utile collaborare con il team di vendita per determinare quali attività indicano che un lead ha l’intenzione di acquistare, aiutandoti ad allineare i criteri con le vendite e a stabilire le priorità in base alle osservazioni di offerte chiuse. Di seguito sono riportate alcune domande che è possibile porre al team di vendita:
+**Passaggio 1** - Crea un elenco delle attività potenziali rilevanti per il processo di vendita o importanti per la tua organizzazione. Può essere utile collaborare con il team di vendita per determinare quali attività indicano che un lead ha l’intenzione di acquistare, aiutandoti ad allineare i criteri con le vendite e a stabilire le priorità in base alle osservazioni di offerte chiuse. Di seguito sono riportate alcune domande che è possibile porre al team di vendita:
 
 * Quali attività indicano un lead buono o cattivo per te?
 * Quale tipo di contenuto utilizzato da un lead ha un’intenzione di acquisto più forte?
 
-**Passaggio 2** : elenca le azioni che indicano che un potenziale cliente non è interessato al tuo prodotto. Assicurati di elencare le attività tracciabili attraverso il Marketo Engage.
+**Passaggio 2** - Elenca le azioni che indicano che un potenziale cliente non è interessato al tuo prodotto. Assicurati di elencare le attività tracciabili attraverso il Marketo Engage.
 
-**Esempio 1a - Attività che indicano l’intenzione di acquistare**
+**Esempio 1a - Attività che indicano l&#39;intenzione di acquistare**
 
-| **Attività che indicano l’intenzione di acquistare** | **Attività che indicano l’ASSENZA dell’intenzione di acquistare** |
+| **Attività che indicano l&#39;intenzione di acquistare** | **Attività che indicano l&#39;intenzione di NON acquistare** |
 | --- | --- |
 | Pagina dei prezzi delle visite | Nessuna interazione negli ultimi 90 giorni |
 | Partecipa all’evento annuale per il cliente | Pagina Visita carriere |
@@ -61,12 +62,12 @@ Il punteggio comportamentale dà un valore numerico alle azioni tracciabili intr
 | --- | --- |
 | Soglia per trasferimento vendite | 50 |
 
-**Passaggio 4** - Assegna un punteggio a ciascuna attività elencata nell’esempio 1a - Attività che indicano l’intenzione di acquistare.
+**Passaggio 4** - Assegna un punteggio a ciascuna attività elencata nell&#39;esempio 1a - Attività che indicano l&#39;intenzione di acquistare.
 
 * Utilizza un punteggio di comportamento positivo per le attività che indicano un interesse per aumentare il punteggio di lead complessivo di un potenziale cliente e un punteggio negativo per indicare un disinteresse.
 * Utilizzando come parametro di riferimento la soglia dell’esempio 1b - Soglia per l’handoff delle vendite, determina i punteggi di comportamento relativi all’importanza delle loro azioni. Ad esempio, i potenziali clienti che richiedono una demo devono passare direttamente al reparto vendite. L’assegnazione di tale azione a un valore punto uguale alla soglia di handoff del potenziale cliente ha più senso. Nel frattempo, scaricare un white paper non è un indicatore altrettanto forte di acquisto di interesse e quindi dovrebbe valere meno punti.
 
-**Esempio 1c - Punteggio delle attività che indicano l’intenzione di acquistare:**
+**Esempio 1c - Punteggio delle attività che indicano l&#39;intenzione di acquistare:**
 
 | Soglia per trasferimento vendite = 50 punti |     |
 | --- | --- |
@@ -76,7 +77,7 @@ Il punteggio comportamentale dà un valore numerico alle azioni tracciabili intr
 | Scarica un white paper | +5 |
 | Visitateci ad una fiera | +15 |
 
-**Passaggio 5** - Ricorda, il punteggio è un processo iterativo! Esamina e regola continuamente punteggi e soglie mentre raccogli più dati da analizzare.
+**Passaggio 5** - Ricorda che il punteggio è un processo iterativo. Esamina e regola continuamente punteggi e soglie mentre raccogli più dati da analizzare.
 
 ## Esercizio 2 - Identificazione della giusta corrispondenza con i punteggi demografici
 
@@ -93,16 +94,16 @@ Dopo aver definito le attività che indicano l’intento di acquisto, è necessa
       * Con quale reparto sono solitamente coinvolti?
       * Quali sono i titoli professionali delle persone coinvolte nelle demo dei prodotti e chi sono le persone che devono firmare l&#39;acquisto?
 
-**Esempio 2a - Caratteristiche ideali per i potenziali clienti**
+**Esempio 2a - Caratteristiche ideali del prospect**
 
-| **Categoria** | **Caratteristiche ideali per i clienti potenziali** |
+| **Categoria** | **Caratteristiche ideali** |
 | --- | --- |
 | Settore | Aerospaziale, Produzione |
 | Dimensione società | 100 - 999, 1.000 - 9.999 |
 | Qualifica | Director, Vice President, C-Level |
 | Reparto | ORE |
 
-**Passaggio 2** - Assegna un punteggio a ciascuna caratteristica in base alla sua rilevanza nel tuo profilo potenziale ideale. Utilizza punteggi positivi per le caratteristiche desiderate e punteggi negativi per le caratteristiche che rendono il lead meno adatto al tuo prodotto.
+**Passaggio 2** - Assegna un punteggio a ciascuna caratteristica in base alla sua rilevanza nel profilo potenziale ideale. Utilizza punteggi positivi per le caratteristiche desiderate e punteggi negativi per le caratteristiche che rendono il lead meno adatto al tuo prodotto.
 
 **Esempio 2b - Assegnazione di punteggi a caratteristiche prospect ideali e indesiderate**
 
@@ -122,7 +123,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426914/?learn=on)
 
-**Passaggio 1** - Prendere le attività e le caratteristiche degli esercizi 1 e 2 e determinare per ogni articolo se variano in base alla posizione o alla linea di prodotti.
+**Passaggio 1** - Considera le attività e le caratteristiche degli esercizi 1 e 2 e determina se variano in base alla posizione o alla linea di prodotti.
 
 **Esempio 3a - Segnali nei mercati globali e locali:**
 
@@ -131,7 +132,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
 | Attività | <ul><li>Modulo &quot;Richiedi una demo&quot; compilato</li><li>Nessuna interazione negli ultimi 90 giorni (circa 3 mesi)</li></ul> | <ul><li>Visitateci all&#39;evento</li><li>Scarica un white paper</li></ul> |
 | Caratteristiche | <ul><li>Reparto</li><li>Qualifica</li></ul> | <ul><li>Settore</li><li>Dimensione società</li></ul> |
 
-**Passaggio 2** - Definire la matrice di punteggio per i mercati locali:
+**Passaggio 2** - Definisci la matrice di punteggio per i mercati locali:
 
 * Imposta una matrice diversa per gli elementi demografici e comportamentali.
 * Determina gli argomenti di priorità su cui chiedere il contributo del team locale.
@@ -145,15 +146,15 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
 | **Matrice demografica** | **Priorità 1** | **Priorità 2** | **Priorità 3** |
 | --- | --- | --- | --- |
 | Valori alti | 20 punti | 10 punti | 7 punti |
-| Valori medi | 10 punti | 7 punti | 3 punti |
+| Valori Medium | 10 punti | 7 punti | 3 punti |
 | Valori bassi | 5 punti | 3 punti | 1 punto |
 
-**Passaggio 3** - Raccogliere i contributi dei team di vendita locali o regionali per sviluppare una visione olistica. Nell’esempio 3c non sono inclusi punteggi individuali. Questo consente al team vendite di concentrarsi sul valore relativo dei diversi argomenti durante il processo di revisione. Tuttavia, è necessario che il modello completo sia documentato come materiale di base per gli altri amministratori di Marketo Engage.
+**Passaggio 3** - Raccogli input dai team di vendita locali o regionali per sviluppare una visione olistica. Nell’esempio 3c non sono inclusi punteggi individuali. Questo consente al team vendite di concentrarsi sul valore relativo dei diversi argomenti durante il processo di revisione. Tuttavia, è necessario che il modello completo sia documentato come materiale di base per gli altri amministratori di Marketo Engage.
 
 * Blocca ciò che non può essere regolato per la coerenza globale (qui nella colonna &quot;Implementa argomento&quot;).
 * Contrassegna (qui nelle colonne &quot;Priorità&quot; e &quot;Punteggio&quot;) cosa può essere regolato per le influenze locali.
 
-**Esempio 3c - Validità relativa degli argomenti di punteggio:**
+**Esempio 3c - Valore relativo degli argomenti di punteggio:**
 
 <table>
  <tr>
@@ -172,11 +173,11 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
     <td rowspan="6">Settore</td>
     <td rowspan="6"><b>2</b></td>
     <td>Tecnologia</td>
-    <td><b>Alta</b></td>
+    <td><b>Alto</b></td>
   </tr>
   <tr>
     <td>Moda</td>
-    <td><b>Alta</b></td>
+    <td><b>Alto</b></td>
   </tr>
   <tr>
     <td>Vendita al dettaglio</td>
@@ -188,11 +189,11 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
   </tr>
   <tr>
     <td>Assistenza sanitaria</td>
-    <td><b>Bassa</b></td>
+    <td><b>Basso</b></td>
   </tr>
   <tr>
     <td>...</td>
-    <td><b>Bassa</b></td>
+    <td><b>Basso</b></td>
   </tr>
 <tr>
     <td rowspan="3">2</td>
@@ -201,7 +202,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
     <td rowspan="3">Dimensione società (dipendenti)</td>
     <td rowspan="3"><b>3</td>
     <td>&gt;1000 dipendenti</td>
-    <td><b>Alta</td>
+    <td><b>Alto</td>
   </tr>
   <tr>
     <td>250-999 dipendenti</td>
@@ -209,7 +210,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
   </tr>
   <tr>
     <td>1-249 dipendenti</td>
-    <td><b>Bassa</td>
+    <td><b>Basso</td>
   </tr>  
 <tr>
     <td rowspan="3">3</td>
@@ -218,7 +219,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
     <td rowspan="3">Visite pagina sul sito web</td>
     <td rowspan="3"><b>2</b></td>
     <td>&gt;Pagine delle informazioni sui prodotti</td>
-    <td><b>Bassa</b></td>
+    <td><b>Basso</b></td>
   </tr>
   <tr>
     <td>Pagine di determinazione prezzi</td>
@@ -226,14 +227,14 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
   </tr>
   <tr>
     <td>Pagina di richiesta demo</td>
-    <td><b>Alta</b></td>
+    <td><b>Alto</b></td>
   </tr>
 </table>
 
 ## Quali sono le prossime novità?
 
-* Scarica il file [foglio di esercizio punteggio persona](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target="_blank} per sviluppare il modello di punteggio offline.
-* Crea il punteggio della persona nel Marketo Engage. Seleziona questa [esercitazione](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target="_blank} e [demo](https://experienceleague.adobe.com/en/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target="_blank} per iniziare. È possibile importare un programma di punteggio lead/persona [modello](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target="_blank} dalla libreria di riferimento di Marketo Engage per accelerare la creazione del programma.
+* Scarica il [foglio di esercizio del punteggio persona](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target="_blank} per sviluppare il modello di punteggio offline.
+* Crea il punteggio della persona nel Marketo Engage. Controlla questa [esercitazione](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target="_blank} e [demo](https://experienceleague.adobe.com/en/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target="_blank} per iniziare. Puoi importare un programma di punteggio lead/persona [modello](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target="_blank} dalla libreria dei riferimenti ai Marketi Engage per accelerare la compilazione del programma.
 * Creare due versioni del programma di assegnazione del punteggio:
    * Un programma centrale che esegue tutti i punteggi che non possono essere aggiornati localmente.
    * Una copia locale con gli elementi di punteggio configurabili.
@@ -243,8 +244,8 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
    * Determina quali attività demografiche e comportamentali devono ottenere un punteggio solo una volta (ovvero l’industria) e quali devono ottenere un punteggio ogni volta che un potenziale cliente si qualifica (ad esempio, ha partecipato a un webinar). In questo modo i potenziali contatti attivati dalla modifica del valore dei dati sono rilevanti per le vendite.
    * Assicurati che le scelte siano reciprocamente esclusive.
    * Effettua gli aggiornamenti in entrambi i passaggi del flusso in modo che il Punteggio persona venga aggiornato in modo identico al Punteggio demografico. In questo modo, il punteggio della persona rimane in linea con la combinazione di punteggio di comportamento e punteggio demografico.
-* Dopo aver completato la creazione del programma, verifica la campagna avanzata. Ad esempio, vai al modulo demo, compilalo con un’e-mail di test e controlla il punteggio del test in [database di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started-with-marketo/quick-wins/simple-scoring#step-view-the-person-info){target="_blank}.
-* Dopo aver creato il modello, puoi impostare un avviso per passare alle vendite una volta che il punteggio della persona ha raggiunto la soglia di handoff vendite. Ulteriori informazioni sulla configurazione di un avviso con questo [esercitazione](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/send-alert){target="_blank}.
+* Dopo aver completato la creazione del programma, verifica la campagna avanzata. Ad esempio, vai al tuo modulo demo, compilalo con un&#39;e-mail di test e controlla il punteggio della persona di test nel [database di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started-with-marketo/quick-wins/simple-scoring#step-view-the-person-info){target="_blank}.
+* Dopo aver creato il modello, puoi impostare un avviso per passare alle vendite una volta che il punteggio della persona ha raggiunto la soglia di handoff vendite. Ulteriori informazioni sulla configurazione di un avviso con questa [esercitazione](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/send-alert){target="_blank}.
 
 ### Autori
 

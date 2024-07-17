@@ -1,6 +1,6 @@
 ---
-title: Come controllare un [!DNL Marketo Engage] istanza
-description: Ereditarietà di un [!DNL Marketo Engage] istanza è consigliabile dedicare del tempo alla comprensione di ciò che si trova nell’istanza e alla creazione di un piano di azione per aggiornare la configurazione. Questa esercitazione tratta le sezioni più importanti di [!DNL Marketo Engage], tra cui Admin, Marketing Activities, Design Studio e Database, e forniscono suggerimenti per il controllo e l’ottimizzazione durante il processo.
+title: Come controllare un'istanza  [!DNL Marketo Engage]  ereditata
+description: Ereditando un'istanza  [!DNL Marketo Engage]  ti consigliamo di dedicare del tempo a comprendere cosa c'è nell'istanza e a creare un piano d'azione per aggiornare la configurazione. Questo tutorial illustra le sezioni più importanti di  [!DNL Marketo Engage], inclusi Admin, Marketing Activities, Design Studio e Database, e fornisce suggerimenti per il controllo e l'ottimizzazione durante il processo.
 feature-set: Marketo Engage
 feature: Audit Trail, Administration, Design Studio, Marketing, Database
 role: Admin
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 ---
 
-# Come controllare un [!DNL Marketo Engage] istanza
+# Come controllare un&#39;istanza [!DNL Marketo Engage] ereditata
 
-Ereditarietà di un [!DNL Marketo Engage] L’istanza di può essere un momento difficile, sia che tu sia un amministratore esperto o un amministratore più recente può essere difficile sapere dove iniziare a eseguire la pulizia. Per iniziare, ti consigliamo di comprendere cosa è stato ereditato oggi nell’istanza e di creare un piano d’azione per aggiornare la configurazione.
+Ereditare un&#39;istanza [!DNL Marketo Engage] può essere un momento stressante, che tu sia un amministratore esperto o un amministratore più recente può essere difficile sapere dove iniziare a eseguire la pulizia. Per iniziare, ti consigliamo di comprendere cosa è stato ereditato oggi nell’istanza e di creare un piano d’azione per aggiornare la configurazione.
 
-In questo tutorial, ti guideremo attraverso le sezioni più importanti in [!DNL Marketo Engage], tra cui Admin, Marketing Activities, Design Studio e Database, e forniscono suggerimenti per il controllo e l’ottimizzazione durante il processo.
+Questa esercitazione illustra le sezioni più importanti di [!DNL Marketo Engage], inclusi Admin, Marketing Activities, Design Studio e Database, e fornisce suggerimenti per il controllo e l&#39;ottimizzazione durante il processo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3422473/?learn=on)

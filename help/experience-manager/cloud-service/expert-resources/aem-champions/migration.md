@@ -1,6 +1,6 @@
 ---
-title: Campione AEM - Pianificazione della migrazione all'AEM as a Cloud Service
-description: Ottieni consulenza esperta sulla preparazione e la pianificazione della migrazione all’AEM as a Cloud Service dal campione dell’AEM, Wilson Faure.
+title: Campione AEM - Pianificazione della migrazione ad AEM as a Cloud Service
+description: Ottieni consigli da un esperto sulla preparazione e la pianificazione della migrazione ad AEM as a Cloud Service dal campione AEM Wilson Faure.
 version: Cloud Service
 topic: Migration
 role: Admin, Developer
@@ -18,8 +18,8 @@ ht-degree: 12%
 
 ---
 
-# Best practice e suggerimenti per i campioni di AEM - Pianificazione e preparazione della migrazione a AEM as a Cloud Service
+# Best practice e suggerimenti per i campioni di AEM: pianificazione e preparazione di una migrazione ad AEM as a Cloud Service
 
-Esplora i consigli degli esperti e le best practice del tuo collega Champion di AEM, Wilson Faure. In questo video, esplora le complessità di pianificazione e preparazione per la migrazione a AEM as a Cloud Service. Scopri le best practice inestimabili per le tappe fondamentali del percorso di migrazione, inclusa la definizione di benchmark delle prestazioni e il superamento di ostacoli quali la compatibilità del codice cliente e la gestione delle API esterne/interne.
+Esplora i consigli degli esperti e le best practice del tuo collega Champion di AEM, Wilson Faure. In questo video esplora le complessità di pianificazione e preparazione per la migrazione ad AEM as a Cloud Service. Scopri le best practice inestimabili per le tappe fondamentali del percorso di migrazione, inclusa la definizione di benchmark delle prestazioni e il superamento di ostacoli quali la compatibilità del codice cliente e la gestione delle API esterne/interne.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427587/?learn=on)

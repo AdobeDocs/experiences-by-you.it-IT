@@ -9,13 +9,13 @@ duration: 0
 last-substantial-update: 2024-05-08T00:00:00Z
 jira: KT-14815
 thumbnail: KT-14815.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: b3dd05e1-c522-4631-a6b4-c0c6309f25d3
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
 
 ---
-
 
 # Guida introduttiva alla governance e documentazione delle istanze
 
@@ -23,7 +23,7 @@ Una buona documentazione può essere importante quanto l’implementazione effet
 
 Ma non finisce qui. Il tuo team potrebbe richiedere documenti di abilitazione supplementari o materiali di formazione per migliorare la loro competenza con il Marketo Engage. Queste risorse possono includere esercizi interattivi, quiz per l’accesso o linee guida sulle azioni consentite all’interno del Marketo Engage, a vantaggio di tutti gli utenti del Marketo Engage all’interno dell’organizzazione. Sia che si tratti della creazione di una guida completa alla governance o della documentazione iniziale degli aspetti chiave della configurazione, le decisioni di registrazione prese durante l’onboarding sono fondamentali per garantire il successo del Marketo Engage al tuo team attuale e alle future generazioni di nuovi assunti.
 
-Comprendendo l’importanza della documentazione e della governance, questo tutorial approfondisce le best practice derivanti da colleghi esperti [Guida introduttiva alla governance del Marketo Engage e documentazione di formazione](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target="_blank} e [Come documentate la vostra istanza?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target="_blank} per aiutarti a implementare un processo e a mantenere la documentazione rilevante per gli utenti interni.
+Comprendendo l&#39;importanza della documentazione e della governance, questo tutorial approfondisce le best practice derivate da colleghi esperti [Guida introduttiva alla documentazione sulla governance e la formazione del Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target="_blank} e [Come documentare l&#39;istanza?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target="_blank} per aiutarti a implementare un processo e a mantenere la documentazione rilevante per gli utenti interni.
 
 ## Perché è essenziale documentare modifiche e decisioni durante l’implementazione dell’istanza
 
@@ -68,12 +68,12 @@ Guida il piano di governance e documentazione iniziando con lo schema di esempio
    * Ciclo di vita della persona
    * Gestione dati
 1. Generazione In Un&#39;Istanza Di Marketo Engage
-   * [Centro di eccellenza (COE)](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target="_blank}
+   * [Centro di eccellenza](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target="_blank}
    * Struttura delle cartelle
    * Convenzioni di denominazione
    * Organizzazione del programma
    * Modelli di programma*
-   * Risorse Design Studio (modelli e-mail, modelli di pagina di destinazione, snippet, moduli)
+   * Design Studio Assets (modelli e-mail, modelli di pagina di destinazione, snippet, moduli)
    * Processi standard
    * Elenchi di controllo
    * Segmentazioni
@@ -103,7 +103,7 @@ Un altro modo critico di governance delle istanze consiste nel creare un Changel
 
 ## Quali sono le prossime novità?
 
-* Scarica il file [documentazione di esempio e Changelog](/help/marketo-tutorial-implementing-new-instance/assets/template-adobe-marketo-engage-instance-documentation.xlsx) e adattarli in base alle esigenze della tua organizzazione.
+* Scarica la [documentazione di esempio e Changelog](/help/marketo-tutorial-implementing-new-instance/assets/template-adobe-marketo-engage-instance-documentation.xlsx) e adattali in base alle esigenze della tua organizzazione.
 * Memorizza la documentazione in una piattaforma accessibile dove la tua organizzazione preferisce fare riferimento e aggiornare regolarmente. Alcuni campioni di Marketo Engage, ad esempio, utilizzano Confluenza (di Atlassian) o Foglio di calcolo Excel.
 * Assicurati che ogni regola creata per la governance disponga di un proprietario per applicarla e adattare la documentazione, mantenendola aggiornata nel tempo.
 

@@ -13,8 +13,8 @@ feature: Programs
 exl-id: 27c41bdf-b808-4268-9299-9c9944c2ea8d
 source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 21%
+source-wordcount: '86'
+ht-degree: 24%
 
 ---
 
@@ -31,8 +31,8 @@ Per ulteriori informazioni, consulta le relative guide del prodotto:
 * [Documentazione sui programmi e-mail](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/email-programs/creating-an-email-program/understanding-email-programs.html?lang=en)
 
 Per ulteriori informazioni su questa funzione, guarda altri video:
-* [E-mail pianificata attraverso](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/scheduled-email-watch.html?lang=en)
-* [I test AB attraversano](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/ab-testing-watch.html?lang=en)
+* [E-mail pianificata](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/scheduled-email-watch.html?lang=en)
+* [Test AB completati](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/ab-testing-watch.html?lang=en)
 
 Scopri dai tuoi colleghi come utilizzare i programmi e-mail:
-* [Post sul blog di un cliente esperto: programmi e-mail](https://nation.marketo.com/t5/product-blogs/marketo-success-series-email-programs/ba-p/304968)
+* [Post su un blog di un cliente esperto: programmi e-mail](https://nation.marketo.com/t5/product-blogs/marketo-success-series-email-programs/ba-p/304968)

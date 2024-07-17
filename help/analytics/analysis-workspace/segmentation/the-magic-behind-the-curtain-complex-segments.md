@@ -13,17 +13,17 @@ exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
 source-git-commit: 69fa16c1bf38604e4dabc553baee71598be83db3
 workflow-type: tm+mt
 source-wordcount: '4102'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # La magia dietro il sipario: segmenti complessi: escludi, contenitori e attribuzione
 
-_Scopri le complessità della segmentazione complessa dei dati, esplorando le esclusioni, i contenitori e i modelli di attribuzione. Come il gioco di prestigio di un mago, la padronanza di queste tecniche consente agli analisti di eseguire la magia dei dati, trasformando le informazioni con precisione e finezza._
+_Scopri le complessità della segmentazione dati complessa, esplorando le esclusioni, i contenitori e i modelli di attribuzione. Come il gioco di prestigio di un mago, la padronanza di queste tecniche consente agli analisti di eseguire la magia dei dati, trasformando le informazioni con precisione e finezza._
 
 Le tende sono aperte, il palco è impostato... questo potrebbe non essere un atto magico di Las Vegas, ma possiamo eseguire alcuni trucchi piuttosto sorprendenti durante la costruzione dei nostri segmenti.
 
-![Mani_mago](assets/magician-hands.jpeg)
+![Mani_Mago](assets/magician-hands.jpeg)
 
 All’interno di questo modulo verranno trattati:
 
@@ -33,60 +33,60 @@ All’interno di questo modulo verranno trattati:
 
 ## Includi/Escludi
 
-Per impostazione predefinita, tutti i contenitori iniziano con **include** tipo, ovvero restituiscono i dati che corrispondono ai criteri. Tuttavia, puoi anche modificare il segmento o i contenitori all’interno dei segmenti in modo che siano **escludi** , che consente di rifiutare determinati criteri.
+Per impostazione predefinita, tutti i contenitori iniziano come tipo **include**, il che significa in pratica che restituiscono i dati che corrispondono ai criteri. Tuttavia, puoi anche modificare il segmento o i contenitori all&#39;interno dei segmenti in modo che siano di tipo **exclude**, consentendo di rifiutare determinati criteri.
 
 Anche se un mago può trovare la tua carta nel mazzo, è sorprendente che possa far sì che il resto del mazzo non esista. Allo stesso modo, nei segmenti di esclusione, vogliamo che i dati indesiderati scompaiano semplicemente dal nostro set di dati.
 
-![blankcard](assets/blankcards.png)
+![schede vuote](assets/blankcards.png)
 
-Potreste stare lì seduti a pensare, &quot;Ok, ma ho già le opzioni &#39;Does not Equal&#39; e &#39;Does not Contain&#39;, quindi non dovrebbe coprirmi?&quot; Sfortunatamente, la risposta è no... e non si tratta solo di essere in grado di escludere gruppi di logica, su un singolo elemento. Anche quando si tratta di un singolo componente, spesso è necessario utilizzare *esclude* per raggiungere l’obiettivo.
+Potreste stare lì seduti a pensare, &quot;Ok, ma ho già le opzioni &#39;Does not Equal&#39; e &#39;Does not Contain&#39;, quindi non dovrebbe coprirmi?&quot; Sfortunatamente, la risposta è no... e non si tratta solo di essere in grado di escludere gruppi di logica, su un singolo elemento. Anche quando si tratta di un singolo componente, spesso è necessario utilizzare *escludi* per raggiungere l&#39;obiettivo.
 
-- **Non contiene / Non è uguale a** - È proprio come suona, corrispondenza su elementi che non contengono una stringa specifica
-- **Escludi: il valore contiene/è uguale a** - Questo consentirà *escludi* elementi che corrispondono alla stringa
+- **Does not contain / Does not equal** - È proprio come sembra, corrispondenza su elementi che non contengono una stringa specifica
+- **Escludi: il valore contiene / è uguale a** - *esclude* elementi che corrispondono alla stringa
 
-A prima vista, entrambi suonano allo stesso modo... **hit** livelli segmenti/contenitori, saresti corretto, in quanto eseguiranno la stessa azione. Tuttavia, quando si utilizza **visita** o **visitatore** ambito otterrai risultati molto diversi.
+A prima vista, entrambi suonano allo stesso modo... e sui segmenti/contenitori di livello **hit**, potresti essere corretto, in quanto eseguiranno la stessa azione. Tuttavia, quando utilizzi l&#39;ambito **visita** o **visitatore** otterrai risultati molto diversi.
 
 **Figura 1: non contiene / non è uguale a - Ambito hit**
 
 ![Figura1-DnceVsExclude-Hit](assets/figure1-dnce-vs-exclude-hit.png)
 
-*Tieni presente che ogni hit restituisce un valore true o false e che tali valori sono invertiti tra &quot;does not&quot; e &quot;exclude&quot;.*
+*Si noti che ogni hit restituisce un valore true o false e che tali valori sono invertiti tra does not e exclude.*
 
 - Se &quot;Value&quot; non contiene &quot;Example&quot; (yes), restituisce true e include tale hit; analogamente, se &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), restituisce false e non include tale hit. In pratica, restituisce qualsiasi dato che restituisce un risultato vero.
-- Se &quot;Value&quot; contiene &quot;Example&quot; (no), restituisce false e non esclude tale hit; analogamente, se &quot;Example&quot; contiene &quot;Example&quot; (yes), restituisce true ed esclude tale hit. In pratica, restituisci dati che non **non** ottenere un risultato vero o restituire dati falsi in base ai criteri.
-- Lo puoi vedere alla **Hit** livello, entrambi i set di logica restituiranno lo stesso set di dati.
+- Se &quot;Value&quot; contiene &quot;Example&quot; (no), restituisce false e non esclude tale hit; analogamente, se &quot;Example&quot; contiene &quot;Example&quot; (yes), restituisce true ed esclude tale hit. In pratica, restituire dati che **non** hanno un risultato vero o restituire dati falsi secondo i criteri.
+- È possibile notare che al livello **Hit** entrambi i set di logica restituiranno lo stesso set di dati.
 
-**Figura 2: non contiene / non è uguale a - Ambito della visita**
+**Figura 2: non contiene / non è uguale a - Ambito visita**
 
 ![Figura2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
 
-*Come sopra, ogni hit all&#39;interno del **visita**verrà valutato con lo stesso valore true/false. Tuttavia, il set di dati restituito è quello dell’intera visita.*
+*Come sopra, ogni hit all&#39;interno della **visita**verrà valutato con lo stesso true / false. Tuttavia, il set di dati restituito è quello dell&#39;intera visita.*
 
 - In ogni hit, &quot;Value&quot; non contiene &quot;Example&quot; (yes), quindi restituisce true; allo stesso modo, &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), quindi restituisce false.
-   - Se **qualsiasi** hit nei ritorni di visita **true**, quindi **visita intera** viene restituito.*
-   - Se la visita era costituita interamente da hit contenenti &quot;Esempio&quot;, nessun hit sarebbe diventato vero, e quindi quella visita sarebbe **non essere restituito** nel set di dati.
+   - Se l&#39;hit **any** nella visita restituisce **true**, viene restituita la **visita intera**.*
+   - Se la visita è costituita interamente da hit contenenti &quot;Esempio&quot;, nessun hit restituirà true, pertanto la visita **non verrà restituita** nel set di dati.
 - Anche in questo caso, a ogni hit &quot;Esempio&quot; contiene &quot;Esempio&quot; (sì), quindi restituisce true
-   - Se **qualsiasi hit** restituisce **true**, l’intera visita sarà **escluso**
-   - Se **tutti gli hit** nel ritorno della visita **false**, quindi la visita verrà restituita nel set di dati
+   - Se **qualsiasi hit** restituisce **true**, l&#39;intera visita sarà **esclusa**
+   - Se **tutti gli hit** della visita restituiscono **false**, la visita verrà restituita nel set di dati
 - Ora potete vedere dove questa logica comincia a divergere. Nell’esempio precedente vi sono tre visite distinte:
-   - Quando si utilizza &quot;Does Not Contain / Equal&quot; **due dei tre** le visite verranno restituite.
-   - Quando si utilizza &quot;Escludi contiene/è uguale a&quot; **solo uno** di tali visite sarà restituita
+   - Quando si utilizza &quot;Does Not Contain / Equal&quot; **verranno restituite due delle tre** visite.
+   - Quando si utilizza &quot;Exclude Contains/Equals&quot; **verrà restituita solo una** di queste visite
 
-**Figura 3: non contiene / non è uguale a - Ambito della visita**
+**Figura 3: non contiene / non è uguale a - Ambito visita**
 
 ![Figura3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
 
-*Come sopra, ogni hit effettuato da **visitatore**verrà valutato con la stessa logica true/false. Ma ora stiamo esaminando tutti gli hit che questo visitatore ha fatto, per tutte le visite (all’interno dell’intervallo di date selezionato).*
+*Come sopra, ogni hit effettuato dal **visitatore**verrà valutato con la stessa logica true/false. Ma ora stiamo esaminando tutti gli hit che questo visitatore ha fatto, per tutte le visite (all&#39;interno dell&#39;intervallo di date selezionato).*
 
 - In ogni hit, &quot;Value&quot; non contiene &quot;Example&quot; (yes), quindi restituisce true; allo stesso modo, &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), quindi restituisce false.
-   - Se **qualsiasi** hit effettuato dal visitatore restituisce **true**, quindi **visita intera** viene restituito.
-   - Se il visitatore non ha mai fatto un hit contenente &quot;Esempio&quot;, nessun hit restituirà true, e quindi il visitatore **non essere restituito** nel set di dati.
+   - Se **qualsiasi** hit effettuato dal visitatore restituisce **true**, viene restituita la **visita intera**.
+   - Se il visitatore non ha mai fatto alcun hit contenente &quot;Esempio&quot;, nessun hit restituirà true, e quindi quel visitatore **non verrà restituito** nel tuo set di dati.
 - Anche in questo caso, a ogni hit &quot;Esempio&quot; contiene &quot;Esempio&quot; (sì), quindi restituisce true.
-   - Se **qualsiasi hit** restituisce **true**, l’intero visitatore (e successivamente tutte le sue visite) sarà **esclusi.**
-   - Se **tutti gli hit** nel ritorno della visita **false**, quindi quel visitatore verrà restituito nel tuo set di dati, restituendo in tal modo con successo i visitatori che non avevano fatto &quot;X&quot;.
+   - Se **un hit** restituisce **true**, l&#39;intero visitatore (e successivamente tutte le sue visite) sarà **escluso.**
+   - Se **tutti gli hit** della visita restituiscono **false**, il visitatore verrà restituito nel tuo set di dati, restituendo in tal modo i visitatori che non hanno eseguito &quot;X&quot;.
 - Si tratta di un’estensione della logica di visita, in cui sono presenti ulteriori considerazioni. Nell’esempio precedente ci sono due visitatori distinti, con 3 visite ciascuno:
-   - Quando si utilizza &quot;Does Not Contain / Equal&quot; **entrambi** i visitatori verranno restituiti, come tutti **tre** delle loro visite (per un totale di 2 visitatori e 6 visite nei rapporti)
-   - Quando si utilizza &quot;Escludi contiene/è uguale a&quot; **solo uno** di questi visitatori verranno restituiti e verranno incluse solo le tre visite associate a quel visitatore (che rappresentano 1 visitatore e 3 visite totali nei rapporti)
+   - Quando si utilizza &quot;Does Not Contain / Equal&quot; **verranno restituiti entrambi** visitatori e tutte le **tre** visite (che corrispondono a 2 visitatori e 6 visite totali nei report) verranno restituite
+   - Quando si utilizza &quot;Escludi contiene/è uguale a&quot; **verrà restituito solo uno** di questi visitatori e verranno incluse solo le tre visite associate a quel visitatore (considerando 1 visitatore e 3 visite totali nei rapporti)
 
 >[!TIP]
 >
@@ -94,9 +94,9 @@ A prima vista, entrambi suonano allo stesso modo... **hit** livelli segmenti/con
 
 ### Esempio di segmento 1: escludere le visite che effettuano un acquisto
 
-In questo esempio, voglio eseguire il targeting degli utenti che sono venuti su un sito e *non* fare un acquisto durante la loro visita (in pratica, voglio escludere le visite che hanno eseguito una transazione; quindi, sarò lasciato con le visite che non hanno completato una transazione)
+In questo esempio, desidero eseguire il targeting degli utenti che hanno visitato un sito e che *non* hanno effettuato un acquisto durante la loro visita (in pratica, voglio escludere le visite che hanno eseguito una transazione; pertanto, rimarrò con le visite che non hanno completato una transazione)
 
-![Segment1A-VisitLevelExclude](assets/segment-example-1/segment1a-visit-level-exclude.png)
+![Segmento1A-VisitLevelExclude](assets/segment-example-1/segment1a-visit-level-exclude.png)
 
 Per un confronto, vediamo un segmento creato utilizzando &quot;Non esiste&quot;:
 
@@ -108,7 +108,7 @@ Per illustrare ulteriormente questo aspetto, confrontiamo i due segmenti uno acc
 
 ![Segment1C-ComparisonTable](assets/segment-example-1/sement1c-comparison-table.png)
 
-Primo, lo si può vedere nonostante *visita* dell’ambito del segmento, possiamo associare il segmento ad altre metriche (come visualizzazioni di pagina o visitatori univoci). Il primo set di colonne è desegmentato, per mostrare subito che l’unico segmento (inesistente) restituisce quasi il 100% dei dati; solo il segmento di esclusione esegue le operazioni che ci servono.
+Innanzitutto, nonostante l&#39;ambito del livello *visita* del segmento, è possibile associare il segmento ad altre metriche (come visualizzazioni di pagina o visitatori univoci). Il primo set di colonne è desegmentato, per mostrare subito che l’unico segmento (inesistente) restituisce quasi il 100% dei dati; solo il segmento di esclusione esegue le operazioni che ci servono.
 
 La colonna più evidente sono gli ordini, che dovrebbero essere immediatamente ovvi: il contenitore &quot;Non esiste&quot; è errato, poiché la maggior parte degli ordini viene ancora restituita.
 
@@ -120,7 +120,7 @@ Questo segmento sarà molto simile all’esempio precedente, quasi identico, ma 
 
 ![Segment2A-VisitorLevelExclude](assets/segment-example-2/segment2a-visitor-level-exclude.png)
 
-Ora, se confrontiamo il segmento con ambito visitatore con il segmento con ambito visita riportato qui sopra, vedrai che sono esclusi molti più dati e molte altre visite, dal momento che *visitatori che hanno effettuato acquisti* ha avuto anche visite in cui non sono stati effettuati acquisti e quindi anche tali visite sono escluse in quanto fanno parte del ciclo di vita del visitatore.
+Ora, se confrontiamo il segmento con ambito visitatore con il segmento con ambito visita riportato qui sopra, vedrai che molti più dati e molte altre visite sono escluse, dal momento che *visitatori che hanno effettuato acquisti* hanno avuto anche visite in cui non sono stati effettuati acquisti, e quindi anche queste visite sono escluse in quanto fanno parte del ciclo di vita del visitatore.
 
 >[!IMPORTANT]
 >
@@ -131,10 +131,10 @@ Ora, se confrontiamo il segmento con ambito visitatore con il segmento con ambit
 
 >[!IMPORTANT]
 >
->Anche se le differenze tra visita e visitatore possono essere *sottile* (in particolare in questi dati di esempio), sono logiche univoche che devono essere prese in considerazione. I dati possono essere notevolmente diversi a seconda del sito e dei comportamenti degli utenti.
+>Anche se le differenze tra visita e visitatore possono essere *impercettibili* (in particolare in questi dati di esempio), si tratta di una logica univoca che deve essere considerata. I dati possono essere notevolmente diversi a seconda del sito e dei comportamenti degli utenti.
 
 
-È importante sapere esattamente quali dati, o cosa *storia*, stai cercando di capire con il tuo report. Assicurati che le tabelle e le visualizzazioni siano chiaramente visibili al pubblico ***cosa*** viene mostrato e l’utilizzo del modello di segmento appropriato è fondamentale per effettuare un’analisi appropriata. Le decisioni informate possono essere prese correttamente solo se tutti capiscono cosa stanno guardando.
+È importante sapere esattamente quali dati, o quale *storia*, stai cercando di raccontare con il tuo report. Assicurati che le tabelle e le visualizzazioni comunichino chiaramente al pubblico ***cosa*** viene visualizzato e che l&#39;utilizzo del modello di segmento appropriato sia fondamentale per effettuare un&#39;analisi appropriata. Le decisioni informate possono essere prese correttamente solo se tutti capiscono cosa stanno guardando.
 
 ## Utilizzo dei contenitori
 
@@ -142,37 +142,37 @@ I contenitori consentono di creare una &quot;sublogica&quot; all’interno della
 
 Il modo migliore per pensare ai contenitori è immaginare che ogni contenitore sia una scatola, e che possiamo impilare scatole (di logica) all&#39;interno di un&#39;altra scatola, all&#39;interno di un&#39;altra... ma a differenza delle scatole fisiche in cui ogni scatola deve essere più piccola della scatola esterna, possiamo mettere qualcosa di più grande all&#39;interno se questo ci porta a recuperare i dati corretti. Pensatela come un cappello da mago, dove l&#39;impossibile può stare dentro e noi siamo i maghi dei dati...
 
-![Rabbit_in_hat](assets/rabbit-in-hat.jpeg)
+![Cappello_Coniglio](assets/rabbit-in-hat.jpeg)
 
 ### Ambito dei contenitori
 
-Cominciamo con una rapida suddivisione di *contenitore* ambito. Mi piace *segmento s* far fronte, hai le tue basi **hit**, **visita** e **visitatore** opzioni di ambito, ma a volte vedrai anche qualcosa chiamato **gruppo logico** al posto di visitatore (questo si verifica solo all’interno di segmenti sequenziali e saranno trattati nel prossimo articolo).
+Eseguiamo innanzitutto un raggruppamento rapido dell&#39;ambito *container*. Come per il *segmento s* ambito, hai le tue opzioni di ambito di base **hit**, **visita** e **visitatore**, ma a volte visualizzerai anche qualcosa denominato **gruppo logico** al posto di visitatore (questo si verifica solo all&#39;interno di segmenti sequenziali e saranno trattati nel prossimo articolo).
 
-L’aggiunta di contenitori all’interno del segmento (o all’interno di altri contenitori) può essere ottenuta tramite l’accesso a **opzioni*** menu (quando nidifichi più elementi, fai attenzione ad aggiungere al blocco corretto, anche se fortunatamente puoi trascinare i contenitori all’interno dell’interfaccia se lo aggiungi alla posizione sbagliata)
+Per aggiungere contenitori nel segmento (o in altri contenitori) puoi accedere al menu **options*** (quando nidifichi più elementi, fai attenzione ad aggiungere al blocco corretto; tuttavia, puoi trascinare e rilasciare i contenitori all&#39;interno dell&#39;interfaccia se lo aggiungi alla posizione sbagliata)
 
-**Figura 1: Aggiunta di un contenitore**
+**Figura 1: aggiunta di un contenitore**
 
-![Figura1-Aggiunta di un contenitore](assets/figure1-adding-container.png)
+![Figura1-AddingContainer](assets/figure1-adding-container.png)
 
-L’ambito di un contenitore è indipendente dall’elemento padre, come ho già detto, questi *non* devono corrispondere, e a seconda di ciò che si desidera restituire, potrebbe essere necessario disegnare il piano per visualizzare completamente ciò di cui hai bisogno, almeno fino a quando non si ottiene comodo visualizzarlo nella tua testa.
+L&#39;ambito di un contenitore è indipendente dal genitore, come ho detto sopra, questi *non* devono corrispondere, e a seconda di ciò che si desidera restituire, potrebbe essere necessario disegnare il piano per visualizzare completamente ciò di cui si ha bisogno, almeno fino a quando non si ottiene comodo visualizzarlo nella testa.
 
-**Figura 2: Ambito del segmento e ambito del contenitore**
+**Figura 2: ambito del segmento rispetto all&#39;ambito del contenitore**
 
 ![Figura2-SegmentScopeVsContainerScope](assets/figure2-segment-scope-vs-container-scope.png)
 
 >[!NOTE]
 >
->L’Adobe ha una logica per comprendere i segmenti validi e non validi, non fornirebbe opzioni che potrebbero *mai* funziona... quindi, se trovi l’opzione per utilizzare un contenitore con ambito visitatore all’interno di un segmento con ambito hit, significa che si tratta di un’opzione valida.
+>L&#39;Adobe ha una logica per comprendere i segmenti validi e non validi, non fornirebbe opzioni che potrebbero *mai* funzionare... quindi se vedi l&#39;opzione per utilizzare un contenitore con ambito visitatore all&#39;interno di un segmento con ambito hit, significa che è un&#39;opzione valida.
 
-Proprio come per i segmenti di base, quando inizi a creare un segmento complesso con contenitori nidificati, devi avere un’idea chiara su ***cosa*** il tipo di dati che desideri ricevere. ***Come*** hai intenzione di utilizzare quei dati? ***Quale*** le metriche prevedono l’associazione con il segmento?
+Proprio come per i segmenti di base, quando si inizia a creare un segmento complesso con contenitori nidificati, è necessario avere una chiara idea del ***tipo*** di dati che si desidera restituire. ***Come*** intendi utilizzare questi dati? ***Quali*** metriche intendi associare al segmento?
 
 Queste domande aiuteranno a determinare quale sarà l’ambito del segmento nel suo insieme, questo è il punto di partenza per qualsiasi segmento.
 
-Solo perché pensi di associare un segmento alla metrica dei visitatori univoci non significa che il segmento stesso debba essere a livello di visitatore... lungi dall’essere tale. Un segmento a livello di visitatore restituisce tutti i dati di un visitatore... questo significa tutte le sue visite, tutte le sue visualizzazioni di pagina, ecc... una volta che un visitatore corrisponde ai criteri del segmento, il tuo segmento potrebbe iniziare a restituire i dati dal *passato* per questo visitatore (purché sia compreso nell’intervallo di date dell’area di lavoro).
+Solo perché pensi di associare un segmento alla metrica dei visitatori univoci non significa che il segmento stesso debba essere a livello di visitatore... lungi dall’essere tale. Un segmento a livello di visitatore restituirà tutti i dati di un visitatore... questo significa tutte le sue visite, tutte le sue visualizzazioni di pagina ecc... una volta che un visitatore corrisponde ai criteri del segmento, il tuo segmento potrebbe iniziare a restituire i dati del *passato* per questo visitatore (purché sia all&#39;interno dell&#39;intervallo di date della tua area di lavoro).
 
 >[!IMPORTANT]
 >
->Anche quando pianifichi l’associazione di un segmento con la metrica Visitatori univoci, questo *non significa* il segmento deve essere automaticamente con ambito visitatore... Questo equivoco *potrebbe* creare risultati gonfiati e non corretti.
+>Anche quando si pianifica di associare un segmento alla metrica Visitatori univoci, *non significa* che il segmento debba essere automaticamente impostato come ambito visitatore... Questo equivoco *potrebbe* creare risultati gonfiati e non corretti.
 
 Ho parlato molto dei concetti su come selezionare l’ambito appropriato, ma non ho fornito esempi o specifiche che ti aiuteranno davvero... quindi approfondiamo questo argomento con alcuni esempi di casi d’uso reali. Dicono che un mago non rivela mai i suoi segreti, ma non è proprio vero. All&#39;interno del mondo magico le tecniche e le lavorazioni &quot;dietro le quinte&quot; sono spesso condivise con i coetanei, consentendo loro di costruire e migliorare l&#39;illusione, e questo è ciò che intendo fare... per aprire la porta alle possibilità che vi attendono.
 
@@ -184,7 +184,7 @@ Questo tipo di scenario è utile per verificare se alcuni acquirenti visualizzan
 
 Nel mio esempio vedrò le pagine di &quot;Offerte consigliate&quot; e &quot;Prodotti consigliati&quot;. Attualmente, la logica sarà semplice e non verrà inserita nella segmentazione sequenziale (almeno non ancora, ma in un articolo futuro verrà trattata una logica più complessa come questa).
 
-Un&#39;altra domanda è **perché** ci stiamo tirando indietro con degli hit? Tecnicamente potrei richiamare da Visite o Visitatori qui, ma posso anche guardare a queste pagine specifiche per **visualizzazioni di pagina (per il set di pagine specifico) per visita** o **visualizzazioni di pagina (per il set specifico) per visitatore** Questo ambito mi offre la flessibilità di eseguire questa matematica specifica. Poiché questi hit possono essere facilmente abbinati a visite o visitatori univoci per determinare il numero di visite o visitatori che visualizzano queste pagine, opterò per il segmento più flessibile che posso utilizzare per tutti gli scenari.
+Un&#39;altra domanda è **perché** stiamo richiamando tramite hit? Tecnicamente posso richiamare qui tramite Visite o Visitatori, ma posso anche esaminare queste pagine specifiche per **visualizzazioni di pagina (per il set di pagine specifico) per visita** o **visualizzazioni di pagina (per il set specifico) per visitatore**, questo ambito mi offre la flessibilità di eseguire questa matematica specifica. Poiché questi hit possono essere facilmente abbinati a visite o visitatori univoci per determinare il numero di visite o visitatori che visualizzano queste pagine, opterò per il segmento più flessibile che posso utilizzare per tutti gli scenari.
 
 Innanzitutto, per un confronto, ecco un segmento semplice basato su HIT per le pagine specifiche.
 
@@ -212,7 +212,7 @@ In primo luogo, invece di mostrare un raggruppamento giornaliero, sto mostrando 
 
 <table style="border: 0;">
     <tr>
-        <td width="352" style="border: 0;">Ora sto mostrando il risultato del segmento semplice, che considera solo <strong>hit</strong> nelle due pagine specificate. Noterai che tutte le altre pagine del raggruppamento restituiscono 0, come previsto.</td>
+        <td width="352" style="border: 0;">Ora mostro il risultato del segmento semplice, osservando solo <strong>hit</strong> nelle due pagine specificate. Noterai che tutte le altre pagine del raggruppamento restituiscono 0, come previsto.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail2.png" width="352"
         </td>
     </tr>
@@ -243,7 +243,7 @@ Utilizzando alcune delle pagine che stavamo consultando in precedenza, ora ci pr
 
 Questo segmento combina tutti e tre gli ambiti. Il livello superiore del segmento è visitatore, in modo che tutti gli hit di tutte le visite vengano restituiti per il visitatore corrispondente. All’interno di, abbiamo aggiunto un contenitore ambito visita per garantire che il visitatore abbia avuto almeno una visita corrispondente ai criteri specifici per effettuare un ordine E aver visitato pagine specifiche. È stato aggiunto un contenitore ambito hit per le pagine stesse, in modo da poter utilizzare la logica OR per cercare la pagina delle offerte in primo piano O la pagina dei prodotti consigliati.
 
-Il vantaggio per questo segmento con ambito visitatore è che questo restituirà **TUTTI** visite da parte dei visitatori che corrispondono a questo criterio, quindi questo segmento sarà utile se voglio vedere i comportamenti delle visite precedenti che hanno portato a questa combinazione e le azioni di questi visitatori dopo uno scenario del genere.
+Il vantaggio per questo segmento con ambito visitatore è che questo restituirà **TUTTE** le visite dei visitatori che corrispondono a questo criterio, quindi questo segmento sarà buono se voglio vedere i comportamenti nelle visite precedenti che precedono questa combinazione e le azioni di questi visitatori dopo uno scenario del genere.
 
 ![Segment4B-ComparisonTable](assets/segment-example-4/segment4b-comparison-table.png)
 
@@ -260,30 +260,30 @@ Supponiamo di avere due eVar, una delle quali è impostata per la scadenza (eVar
 **Visita 1**
 
 - Pagina A
-   - **EVAR 1** non è impostato
-   - **EVAR 2** non è impostato
+   - **eVar1** non è impostato
+   - **eVar2** non è impostato
 - Fai clic sul banner promozionale con ?icid=promo-banner nell’URL
 - Pagina B
-   - **EVAR 1** e **EVAR 2** sono impostati su &quot;promo-banner&quot;
-   - **Istanza di eVar1** è attivato
-   - **Istanza di eVar2** è attivato
+   - **eVar1** e **eVar2** sono impostati su &quot;promo-banner&quot;
+   - **Istanza di eVar1** attivata
+   - **Istanza di eVar2** attivata
 - Pagina C
-   - Entrambi **EVAR 1** e **EVAR 2** mantieni il valore &quot;promo-banner&quot;
+   - Sia **eVar1** che **eVar2** mantengono il valore &quot;promo-banner&quot;
    - Nessuna delle metriche di istanza per le eVar viene attivata, in quanto entrambe le eVar utilizzano valori persistenti
 
 **Visita 2**
 
 - Pagina D
-   - **EVAR 1** non è impostato su alcun valore e no **Istanza di eVar1** è attivato
-   - **EVAR 2** mantiene il valore &quot;promo-banner&quot; a causa della scadenza di 30 giorni
-   - **Istanza di eVar2** non viene attivato, perché il valore è persistente e non è effettivamente impostato
+   - **eVar1** non è impostato su alcun valore e non viene attivata alcuna **istanza di eVar1**
+   - **eVar2** mantiene il valore &quot;promo-banner&quot; a causa della scadenza di 30 giorni
+   - **L&#39;istanza di eVar2** non è attivata perché il valore è persistente e non impostato
 - Fai clic sulla promozione Side Rail con ?icid=promo-side-rail in the URL
 - Pagina E
-   - **EVAR 1** e **EVAR 2** sono impostati su &quot;promo-side-rail&quot;
-   - **Istanza di eVar1** è attivato
-   - **Istanza di eVar2** è attivato
+   - **eVar1** e **eVar2** sono impostati su &quot;promo-side-rail&quot;
+   - **Istanza di eVar1** attivata
+   - **Istanza di eVar2** attivata
 - Pagina F
-   - Entrambi **EVAR 1** e **EVAR 2** mantieni il valore &quot;promo-side-rail&quot;
+   - Sia **eVar1** che **eVar2** mantengono il valore &quot;promo-side-rail&quot;
    - Nessuna delle metriche di istanza per le eVar viene attivata, in quanto entrambe le eVar utilizzano valori persistenti
 
 Attualmente, il risultato atteso di queste due visite è il seguente:
@@ -317,9 +317,9 @@ Ora vediamo dove puoi impostare l’attribuzione nel segmento.
 
 **Figura 4: modello di attribuzione**
 
-![Figura4-Modello di attribuzione](assets/figure4-attribution-model.png)
+![Figura4-ModelloAttribuzione](assets/figure4-attribution-model.png)
 
-*L’icona a forma di ingranaggio nella dimensione è il punto in cui puoi impostare l’attribuzione. Ogni opzione include informazioni disponibili quando si passa il puntatore del mouse su &quot;?&quot; icona. Fondamentalmente:*
+*L&#39;icona a forma di ingranaggio nella dimensione è il punto in cui puoi impostare l&#39;attribuzione. Ogni opzione include informazioni disponibili quando si passa il puntatore del mouse su &quot;?&quot; icona. Fondamentalmente:*
 
 - Il comportamento predefinito restituisce tutte le istanze dell’eVar in cui è impostato il valore (in modo specifico o tramite l’attribuzione set)
 - L’istanza restituirà solo la dimensione in cui il valore è impostato esplicitamente (ovvero sugli hit in cui viene attivata l’istanza di eVar)
@@ -327,7 +327,7 @@ Ora vediamo dove puoi impostare l’attribuzione nel segmento.
 
 ### Esempio di segmento 5: canale di marketing &quot;Paid Search&quot; (Ricerca a pagamento) rispetto alle istanze dirette di ricerca a pagamento
 
-Come tutti sappiamo, i canali di marketing hanno un modello di attribuzione lungo (30 giorni per impostazione predefinita, ma che potrebbe essere personalizzato in base alle tue esigenze) e una volta impostato, il canale di marketing non verrà sovrascritto da successive visite &quot;dirette&quot; al sito, in modo che i driver specifici ottengano l’attribuzione di conversione. Tuttavia, a volte è necessario vedere in modo specifico ***voci*** nel tuo sito da uno specifico canale di marketing; e per voci, intendo che devi vedere quando il canale di marketing è impostato in modo specifico in base alle tue regole di elaborazione di marketing.
+Come tutti sappiamo, i canali di marketing hanno un modello di attribuzione lungo (30 giorni per impostazione predefinita, ma che potrebbe essere personalizzato in base alle tue esigenze) e una volta impostato, il canale di marketing non verrà sovrascritto da successive visite &quot;dirette&quot; al sito, in modo che i driver specifici ottengano l’attribuzione di conversione. Tuttavia, a volte è necessario visualizzare in modo specifico le ***voci*** nel sito da un canale di marketing specifico; e per voci, intendo che devi vedere quando il canale di marketing è impostato in modo specifico in base alle regole di elaborazione marketing.
 
 Iniziamo con il cambiare le cose guardando i confronti, poi approfondiamo i segmenti.
 
@@ -348,41 +348,41 @@ Iniziamo con il cambiare le cose guardando i confronti, poi approfondiamo i segm
 </table>
 
 
-![Segment5A-PaidSearchHit](assets/segment-example-5/segment5a-paid-search-hit.png)
+![Segmento5A-PaidSearchHit](assets/segment-example-5/segment5a-paid-search-hit.png)
 
 <table style="border: 0;">
     <tr>
-        <td width="352" style="border: 0;">Ora, i due gruppi di dati successivi sembrano identici, e infatti, questi restituiranno gli stessi dati in due modi diversi. Ma ora sto specificamente guardando il <i>istanze</i> dove si trovava il canale di marketing <strong>set</strong> a "Paid Search" (Ricerca a pagamento).</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail3.png" width="352">
+        <td width="352" style="border: 0;">Ora, i due gruppi di dati successivi sembrano identici, e infatti, questi restituiranno gli stessi dati in due modi diversi. Ma ora sto cercando in modo specifico le <i>istanze</i> in cui il canale di marketing era <strong>impostato</strong> su "Ricerca a pagamento".</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail3.png" width="352">
         </td>
     </tr>
 </table>
 
 Ciò può essere fatto in due modi:
 
-In primo luogo, si utilizza l’attribuzione della dimensione &quot;standard&quot; e questa viene associata alla metrica specifica &quot;Istanza canale di marketing&quot; (come *esiste* (logica):
+Innanzitutto, viene utilizzata l&#39;attribuzione della dimensione &quot;standard&quot; e viene associata alla metrica specifica &quot;Istanza canale di marketing&quot; (come logica *exists*):
 
 ![Segment5A-PaidSearchHitANDInstanceExists](assets/segment-example-5/segment5a-paid-search-hit-and-instance-exists.png)
 
 In secondo luogo, per un segmento più semplice, puoi modificare l’attribuzione in &quot;Istanza&quot;. Tieni presente che il nome della dimensione cambierà da &quot;Canale di marketing&quot; a &quot;Canale di marketing (istanza)&quot;.
 
-![Segment5A-PaidSearchHitInstance](assets/segment-example-5/segment5a-paid-search-hit-instance.png)
+![Segmento5A-PaidSearchHitInstance](assets/segment-example-5/segment5a-paid-search-hit-instance.png)
 
 ## Tutti gli elementi insieme
 
 Come ogni buon mago, possiamo iniziare con ogni singolo trucco, costruendo il pubblico mentre andiamo, portandolo al &quot;prestigio&quot; finale. Qui è dove brilliamo davvero, prendendo tutti i piccoli trucchi, e li arrotoliamo in un gran finale. Prendere le parti apparentemente sconnesse del trucco, e mostrare che in realtà, lavorano tutti insieme per formare un tutto coeso.
 
-![Fire_Bunny](assets/fire-bunny.jpeg)
+![Coniglio_Fuoco](assets/fire-bunny.jpeg)
 
 
 ### Esempio di segmento 6: visitatori che hanno effettuato un ordine durante una visita con un’istanza social a pagamento ed esclusi i visitatori iscritti a una newsletter
 
-![Segment6A-VisitorsPurchasingFromPaidSocialWithNoNewsletter](assets/segment-example-6/segment6a-visitors-purchasing-from-paid-social-with-no-newsletter.png)
+![Segmento6A-VisitorsPurchasingFromPaidSocialWithNoNewsletter](assets/segment-example-6/segment6a-visitors-purchasing-from-paid-social-with-no-newsletter.png)
 
 Questo mi consentirà di identificare i visitatori che hanno effettuato attivamente un acquisto durante una visita da una campagna social media ma che non si sono iscritti alle nostre newsletter. Questo consentirà al nostro team di marketing di vedere il potenziale gruppo di utenti che tenteranno di convertire newsletter ed e-mail di marketing.
 
 ## Finale
 
-![Theater_Stage](assets/theater-stage.jpeg)
+![Stage](assets/theater-stage.jpeg)
 
 Ci sono così tanti modi per combinare la logica e ottenere in scenari molto dettagliati, che posso solo grattare la superficie delle possibilità.
 
@@ -394,7 +394,7 @@ Questo documento è stato scritto da:
 
 ![Jen Headshot](assets/jen-headshot.png)
 
-Jennifer Dugan, Optimization Manager Analytics presso Torstar
+Jennifer Dungan, Optimization Manager Analytics di Torstar
 
 Adobe Analytics Champion
 

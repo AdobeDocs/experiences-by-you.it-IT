@@ -9,13 +9,13 @@ duration: 0
 last: substantial-update- 2024-05-01
 jira: KT-14808
 thumbnail: KT-14808.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: 65119abd-6f13-4acc-9e99-09843369ad28
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 5%
 
 ---
-
 
 # Pianificazione di una nuova implementazione del Marketo Engage
 
@@ -38,8 +38,8 @@ In questa esercitazione, approfondiremo le attività cardine specifiche, il coin
 
 ### Fase 3 - Creazione della libreria del programma e configurazione della campagna
 
-- Sviluppo di modelli e-mail e pagine di destinazione. A partire da [importazione di programmi di avvio](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) dal [Libreria importazione programmi](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
-- Impostazione delle regole di segmentazione e personalizzazione
+- Sviluppo di modelli e-mail e pagine di destinazione. A partire da [importazione di programmi iniziali](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) dalla [libreria di importazione programmi](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
+- Impostazione delle regole di segmentazione e Personalization
 - Creazione di campagne iniziali per la generazione e lo sviluppo di lead
 
 ### Fase 4 - Formazione e adozione da parte degli utenti
@@ -134,7 +134,7 @@ Ascolta Kyle McCormick, Campione di Marketo Engage (2019), sulle sue esperienze 
 
 Crea un nuovo piano di progetto di implementazione e una nuova tempistica. Di seguito è riportato un timeline di progetto di esempio, incluse le sezioni per attività cardine, attività, team responsabili, scadenze e dipendenze. Utilizzalo per semplificare il percorso di implementazione del Marketo Engage e garantire un rollout di successo in tutta l’organizzazione.
 
-Puoi anche scaricare l’esempio per modificare e tenere traccia di attività cardine specifiche [QUI](/help/marketo-tutorial-implementing-new-instance/assets/adobe-marketo-engage-implementation-milestones-project-management-template.xlsx).
+Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività milestone specifiche [QUI](/help/marketo-tutorial-implementing-new-instance/assets/adobe-marketo-engage-implementation-milestones-project-management-template.xlsx).
 
 <table>
  <thead>
@@ -165,7 +165,7 @@ Puoi anche scaricare l’esempio per modificare e tenere traccia di attività ca
         <td>Team di sviluppo web</td>
     </tr>
     <tr>
-        <td><em>ESEMPIO -</em> Configura Domain Keys Identified Mail (DKIM) e 2 CNAME separati per i collegamenti di recapito e tracciamento delle e-mail.</td>
+        <td><em>ESEMPIO -</em> Configura DKIM (Domain Keys Identified Mail) e 2 CNAME separati per i collegamenti di recapito e tracciamento delle e-mail.</td>
         <td bgcolor="c6f0cf">Completo</td>
         <td>9/15/24</td>
         <td>9/18/24</td>
@@ -180,7 +180,7 @@ Puoi anche scaricare l’esempio per modificare e tenere traccia di attività ca
         <td>Informazioni dai team di marketing su chi deve accedere al Marketo Engage.</td>
     </tr>
     <tr>
-        <td><em>ESEMPIO -</em> Creazione di un ulteriore amministratore di Marketo Engage del prodotto in Adobe Admin Console</td>
+        <td><em>ESEMPIO -</em> Creazione di un amministratore di prodotto di Marketo Engage aggiuntivo in Adobe Admin Console</td>
         <td bgcolor="c6f0cf">Completo</td>
         <td>8/27/24</td>
         <td>9/15/24</td>
@@ -194,7 +194,7 @@ Puoi anche scaricare l’esempio per modificare e tenere traccia di attività ca
         <td>Informazioni dal team dell’operazione di marketing per confermare i contatti principali per il supporto. Supporto da parte dell’amministratore di sistema per assegnare gli utenti dell’amministratore del supporto.</td>
     </tr>
     <tr>
-        <td><em>ESEMPIO -</em> Definire la struttura delle cartelle e le convenzioni di denominazione</td>
+        <td><em>ESEMPIO -</em> Definizione della struttura delle cartelle e delle convenzioni di denominazione</td>
         <td bgcolor="c6f0cf">Completo</td>
         <td>9/7/24</td>
         <td>9/12/24</td>
@@ -202,14 +202,14 @@ Puoi anche scaricare l’esempio per modificare e tenere traccia di attività ca
     </tr>
     <tr>
         <td rowspan="2">Integrazione CRM (se applicabile)</td>
-        <td><em>ESEMPIO -</em> Determinare la mappatura dei campi prima della sincronizzazione</td>
+        <td><em>ESEMPIO -</em> Determinare la mappatura del campo prima della sincronizzazione</td>
         <td bgcolor="ffeb9c">In corso</td>
         <td>10/22/24</td>
         <td>N/D</td>
         <td>Supporto da parte dell’amministratore del sistema di gestione delle relazioni con i clienti per comprendere i campi disponibili.</td>
     </tr>
     <tr>
-        <td><em>ESEMPIO -</em> Condurre un controllo dei dati</td>
+        <td><em>ESEMPIO -</em> Esecuzione di un controllo dei dati</td>
         <td bgcolor="ffeb9c">In corso</td>
         <td>10/26/24</td>
         <td>N/D</td>
@@ -224,21 +224,21 @@ Puoi anche scaricare l’esempio per modificare e tenere traccia di attività ca
         <td>Supporto da parte dei team Sales Ops e CRM per determinare una strategia di gestione dei dati.</td>
     </tr>
     <tr>
-        <td><em>ESEMPIO -</em> Creare un centro iscrizioni e-mail</td>
+        <td><em>ESEMPIO -</em> Creare un centro sottoscrizioni e-mail</td>
         <td bgcolor="ffc7cf">Non avviato</td>
         <td>11/19/24</td>
         <td>N/D</td>
         <td>Input dei team di marketing sui tipi di contenuto e sulla segmentazione per le mailing list.</td>
     <tr>
         <td rowspan="2">Creazione del primo programma di marketing</td>
-        <td><em>ESEMPIO -</em> Configurare il programma e-mail di base</td>
+        <td><em>ESEMPIO -</em> Configura il programma di posta elettronica di base</td>
         <td bgcolor="ffeb9c">In corso</td>
         <td>11/12/24</td>
         <td>N/D</td>
         <td>Risorse creative da team digitale per e-mail e pagine di destinazione.</td>
     </tr>
     <tr>    
-        <td><em>ESEMPIO -</em> Crea programma per newsletter trimestrale</td>
+        <td><em>ESEMPIO -</em> Crea un programma per la newsletter trimestrale</td>
         <td bgcolor="ffc7cf">Non avviato</td>
         <td>11/30/24</td>
         <td>N/D</td>
@@ -262,13 +262,13 @@ Puoi anche scaricare l’esempio per modificare e tenere traccia di attività ca
     </tr>
     <tr>
         <td rowspan="2">Formazione utente e documentazione</td>
-        <td><em>ESEMPIO -</em> Creare una guida alla governance per gli utenti interni</td>
+        <td><em>ESEMPIO -</em> Crea una guida alla governance per gli utenti interni</td>
         <td bgcolor="ffc7cf">Non avviato</td>
         <td>12/2/24</td>
         <td>N/D</td>
         <td>Crea un team di governance di Marketo Engage per creare la documentazione di governance di supporto o il budget per stipulare un contratto con il progetto di governance.</td>
     <tr>
-        <td><em>ESEMPIO -</em> Formazione degli utenti 4 e accesso standard agli utenti Marketo</td>
+        <td><em>ESEMPIO -</em> Formazione degli utenti 4 e accesso utente standard di Marketo</td>
         <td bgcolor="ffc7cf">Non avviato</td>
         <td>12/13/24</td>
         <td>N/D</td>
@@ -282,7 +282,7 @@ Puoi anche scaricare l’esempio per modificare e tenere traccia di attività ca
         <td>Il team Operazioni di marketing deve eseguire il QA, la pianificazione e l’invio.</td>
     </tr>
     <tr>
-        <td><em>ESEMPIO -</em> Recupera il primo rapporto sulle prestazioni dell’e-mail.</td>
+        <td><em>ESEMPIO -</em> Recupera il primo report sulle prestazioni delle e-mail.</td>
         <td bgcolor="ffc7cf">Non avviato</td>
         <td>12/16/24</td>
         <td>N/D</td>
@@ -294,7 +294,7 @@ Puoi anche scaricare l’esempio per modificare e tenere traccia di attività ca
 >[!NOTE]
 >Gli esempi forniti non si basano su una tempistica di implementazione effettiva. Non fare affidamento su questi elementi come tempistica standard per l’onboarding con il Marketo Engage, in quanto ogni implementazione è univoca e prevede attività cardine e requisiti diversi in base alle esigenze della tua organizzazione.
 
-Per assistenza pratica nell’implementazione e personalizzazione del Marketo Engage per la tua istanza, contatta il Team dell’account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
+Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per l&#39;istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
 
 ### Autore
 

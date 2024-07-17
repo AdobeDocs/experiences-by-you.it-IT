@@ -11,7 +11,7 @@ thumbnail: KT-13476.jpeg
 exl-id: 369c526d-8664-4771-81b6-24c9f50bc37e
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Possiamo immaginarlo come un negozio di alimentari. Se qualcuno ritira un prodot
 
 Suggerisco di utilizzare le pagine visitate o altri segnali espliciti di intento di acquisto ed evitare altri segnali meno diretti per identificare l’intento di acquisto. Ad esempio, non utilizzerei il numero di sessioni o il numero di pagine in una sessione o simile. Questi segnali indiretti indicano Considerazione, non Intento di acquisto. Ricorda che lo scopo di questo segmento è di dedurre l’intento del visitatore per la visita, non la sua propensione.
 
-### Utilizzo di [!DNL Analytics] Area di lavoro per identificare i segnali di intento di acquisto
+### Utilizzo di [!DNL Analytics] Workspace per identificare i segnali di intento di acquisto
 
 Il rapporto Fallout è molto utile per identificare un buon segnale che indica l’intento di acquisto. Cercate un luogo che indichi in modo logico l&#39;intento. Puoi confermare che il passaggio indica l’intento quando visualizzi un abbandono rilevante che avanza in quel passaggio, spesso seguito da un abbandono più piccolo per il passaggio immediatamente successivo.
 
@@ -78,7 +78,7 @@ Ricorda dal nostro primo post che i nostri segmenti di Intento di Visita devono 
 
 Assicurati che il segmento Intento di acquisto escluda il segmento Uno e Fine. Dovresti escludere solo il segmento One (Uno) e Done (Fine), in quanto i segnali utilizzati per l’intento di acquisto sono molto specifici.
 
-Tieni presente che l’esclusione del segmento One and Done potrebbe escludere gli utenti che accedono nuovamente al sito in una pagina di pagamento. Non si tratta di un errore. La definizione stessa di One and Done è una visualizzazione di pagina, il che significa che anche se un visitatore entra o si aggiorna in una pagina di pagamento, la sua visita non è andata avanti, quindi non c’è alcuna espressione di intento di acquisto.
+Tieni presente che l’esclusione del segmento One and Done potrebbe escludere gli utenti che accedono nuovamente al sito in una pagina di pagamento. Questo va bene. La definizione stessa di One and Done è una visualizzazione di pagina, il che significa che anche se un visitatore entra o si aggiorna in una pagina di pagamento, la sua visita non è andata avanti, quindi non c’è alcuna espressione di intento di acquisto.
 
 ### Segmento della finalità di acquisto nel Generatore di segmenti
 
@@ -92,7 +92,7 @@ Aggiungi un contenitore Escludi al segmento unito dalla condizione &quot;And&quo
 
 Come best practice, accertati di etichettare i contenitori. Sarai lieto di averlo fatto, soprattutto quando le nostre definizioni dei segmenti diventano più complesse.
 
-Ora che abbiamo creato il segmento Intento di acquisto, possiamo utilizzare l’area di lavoro Qualità dati intento di visita per vedere che il segmento Intento di acquisto si esclude a vicenda con il segmento Uno e Fine.
+Ora che abbiamo creato il segmento Intento di acquisto, possiamo utilizzare il Workspace di qualità dei dati dell’intento di visita per vedere che il segmento Intento di acquisto si esclude a vicenda con il segmento Uno e Fine.
 
 ![Immagine 5](assets/Image-5.png)
 
@@ -106,9 +106,9 @@ Come per il segmento Intento di acquisto, stiamo cercando indicazioni di intento
 
 Devo notare che &quot;Mantenimento&quot; è un po&#39; un nome imbarazzante per questa intenzione di visita, poiché il visitatore non è sul nostro sito, &quot;quindi posso essere mantenuto come cliente.&quot; Il mantenimento è la nostra intenzione per quella visita. Ricordati di essere empatico con i nostri clienti e di mantenere un focus sul cliente-primo!
 
-### Utilizzo di [!DNL Analytics] Area di lavoro per identificare i segnali di intento di conservazione
+### Utilizzo di [!DNL Analytics] Workspace per identificare i segnali di intento di conservazione
 
-Di nuovo, [!DNL Analytics] Workspace consente di identificare l’intento di conservazione. Puoi utilizzare le dimensioni pagine, sezione sito o segmento personalizzato per categorizzare le pagine. Cerca le pagine con tassi di conversione di acquisto bassi. Nel nostro caso, scopriamo che le pagine Check-in online e Shore Excursion (Shorex) hanno tassi di conversione relativamente più bassi rispetto ad altre pagine che sono più logicamente associate con lo shopping e l’acquisto.
+Anche in questo caso, [!DNL Analytics] Workspace ci aiuta a identificare l&#39;intento di conservazione. Puoi utilizzare le dimensioni pagine, sezione sito o segmento personalizzato per categorizzare le pagine. Cerca le pagine con tassi di conversione di acquisto bassi. Nel nostro caso, scopriamo che le pagine Check-in online e Shore Excursion (Shorex) hanno tassi di conversione relativamente più bassi rispetto ad altre pagine che sono più logicamente associate con lo shopping e l’acquisto.
 
 ![Immagine 6](assets/Image-6.png)
 
@@ -132,7 +132,7 @@ Quindi aggiungi contenitori di esclusione per le tue Meraviglie di un hit e visi
 
 ![Immagine 7](assets/Image-7.png)
 
-Ancora una volta, osserva l’area di lavoro per la qualità dei dati per l’intento di visita per assicurarti che i segmenti si escludano a vicenda. I nostri segmenti di Intento di visita stanno prendendo forma correttamente!
+Ancora una volta, osserva il Workspace Visit Intent Data Quality per assicurarti che i segmenti si escludano a vicenda. I nostri segmenti di Intento di visita stanno prendendo forma correttamente!
 
 ![Immagine 8](assets/Image-8.png)
 
@@ -142,8 +142,8 @@ A questo punto, abbiamo configurato tre dei cinque segmenti Intento di visita. V
 
 Questo documento è stato scritto da:
 
-![Aaron Fossum](assets/aaron-headshot.png)
+![Fossum di Aaron](assets/aaron-headshot.png)
 
 **Aaron Fossum**, Director, digitale [!DNL Analytics]
 
-[!DNL Adobe Analytics] Campione
+[!DNL Adobe Analytics] campione

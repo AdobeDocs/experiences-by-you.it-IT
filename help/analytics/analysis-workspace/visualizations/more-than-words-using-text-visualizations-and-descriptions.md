@@ -12,14 +12,14 @@ thumbnail: KT-13267.jpeg
 exl-id: ddcffb53-bcfb-4fc4-858a-ae191285fe66
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 1%
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
 
 # Più di parole - Utilizzo di visualizzazioni di testo e descrizioni in Analysis Workspace
 
-Come un [!DNL Adobe Analytics] Utente Analysis Workspace, è naturale che il tuo focus venga spesso indirizzato ai tuoi dati e alle visualizzazioni di dati - chiunque può digitare un riepilogo, giusto? Tuttavia, trascurare le funzioni di Analysis Workspace come la visualizzazione Testo o le descrizioni della visualizzazione potrebbe significare perdere un’opportunità preziosa per combinare le tue informazioni con testo, immagini, gif e collegamenti di valore. Fornendo riferimenti e più contesto per informare gli utenti sul significato dei dati, può renderli più efficaci e di maggiore impatto.
+In qualità di utente di [!DNL Adobe Analytics] Analysis Workspace, è naturale che il tuo focus venga spesso indirizzato ai tuoi dati e alle visualizzazioni dei dati - chiunque può digitare un riepilogo, giusto? Tuttavia, trascurare le funzioni di Analysis Workspace come la visualizzazione Testo o le descrizioni della visualizzazione potrebbe significare perdere un’opportunità preziosa per combinare le tue informazioni con testo, immagini, gif e collegamenti di valore. Fornendo riferimenti e più contesto per informare gli utenti sul significato dei dati, può renderli più efficaci e di maggiore impatto.
 
 Innanzitutto, assicurati di sapere dove puoi trovare queste funzioni:
 
@@ -36,7 +36,7 @@ Anche se questa guida illustra un esempio che utilizza uno di questi due metodi,
 
 ![testo 03](assets/t03.png)
 
-Introduzione. Un elemento di contesto molto utile da aggiungere a qualsiasi progetto Analysis Workspace è un collegamento ipertestuale, che può includere il collegamento all’URL della pagina descritto nel rapporto, collegamenti ad altri progetti Analysis Workspace, pagine di contesto di rapporti esterni o qualsiasi altra cosa che possa essere utile da tenere a portata di mano durante la visualizzazione del rapporto. Per accedere a questa funzione, seleziona una parte del testo e fai clic sull’icona &quot;collegamento&quot;:
+Cominciamo. Un elemento di contesto molto utile da aggiungere a qualsiasi progetto Analysis Workspace è un collegamento ipertestuale, che può includere il collegamento all’URL della pagina descritto nel rapporto, collegamenti ad altri progetti Analysis Workspace, pagine di contesto di rapporti esterni o qualsiasi altra cosa che possa essere utile da tenere a portata di mano durante la visualizzazione del rapporto. Per accedere a questa funzione, seleziona una parte del testo e fai clic sull’icona &quot;collegamento&quot;:
 
 ![testo 04](assets/t04.png)
 
@@ -48,13 +48,13 @@ Ora, se preferisci inserire il contenuto direttamente nel rapporto, puoi utilizz
 
 ![testo 06](assets/t06.png)
 
-Puoi aggiungere al rapporto un’immagine accessibile su qualsiasi URL pubblico, purché l’URL sia in *https* e viene formattato come .png, .jpeg, .jpg o .gif. Anche se questo può sembrare restrittivo, qualsiasi strumento online utilizzato per condividere immagini o GIF come imgur o GIPHY può fornire un metodo rapido per caricare file accessibili tramite Workspace utilizzando un collegamento di condivisione.
+È possibile aggiungere al report un&#39;immagine accessibile su qualsiasi URL pubblico, purché l&#39;URL sia in formato *https* e sia formattato come file con estensione png, jpeg, jpg o gif. Sebbene ciò possa sembrare restrittivo, qualsiasi strumento online utilizzato per condividere immagini o GIF come imgur o GIPHY può fornire un metodo rapido per caricare file accessibili tramite Workspace utilizzando un collegamento di condivisione.
 
 Il risultato? Puoi mostrare la pagina web a cui fanno riferimento direttamente i tuoi dati nel progetto:
 
 ![testo 07](assets/t07.png)
 
-Puoi anche utilizzare i GIF nei progetti per includere immagini in movimento come una procedura dettagliata del sito, un percorso ideale attraverso il sito o un’attività nell’app oppure semplicemente mostrare al team come ***sconvolgente*** i rapporti sono diventati:
+Puoi anche utilizzare i GIF nei tuoi progetti per includere immagini in movimento come una procedura dettagliata del sito, un percorso ideale attraverso il tuo sito o un&#39;attività nell&#39;app oppure semplicemente mostrare al tuo team come ***i tuoi report sono diventati sconvolgenti***:
 
 ![testo 08](assets/t08.png)
 
@@ -64,6 +64,6 @@ Questo documento è stato scritto da:
 
 ![Dan Cummings](assets/text09.png)
 
-**Dan Cummings**, Sr. Product Engineering [!DNL Analytics] Manager presso McDonald&#39;s Corporation
+**Dan Cummings**, Sr. Direttore tecnico [!DNL Analytics] presso McDonald&#39;s Corporation
 
-[!DNL Adobe Analytics] Campione
+[!DNL Adobe Analytics] campione

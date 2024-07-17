@@ -8,14 +8,14 @@ solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 22%
+source-wordcount: '196'
+ht-degree: 19%
 
 ---
 
-# [!DNL Analytics] per te: risorse per utenti, per gli utenti.
+# [!DNL Analytics] da te: risorse per utenti, per utenti.
 
-La cosa più potente riguardo [!DNL Adobe Experience Cloud] soluzioni? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include contenuti creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con il loro [!DNL Adobe Experience Cloud] soluzioni. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
+La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include contenuti creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni [!DNL Adobe Experience Cloud]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -36,20 +36,20 @@ La cosa più potente riguardo [!DNL Adobe Experience Cloud] soluzioni? Tu. Gli u
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-    <strong>[!DNL Adobe Analytics] Suggerimenti</strong>
+    <strong>[!DNL Adobe Analytics] suggerimenti</strong>
     </a>
     </div>
     <p>
-    <em>Suggerimenti che puoi utilizzare in Analysis Workspace per rendere più efficienti i flussi di lavoro.</em>
+    <em>Suggerimenti utilizzabili in Analysis Workspace per rendere più efficienti i flussi di lavoro.</em>
     <p>
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Traduzione [!DNL Adobe Analytics] linguaggio tecnico in modo non tecnico" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
+      <img alt="Traduzione del linguaggio tecnico [!DNL Adobe Analytics] in modo non tecnico" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md">
-    <strong>Traduzione [!DNL Adobe Analytics] linguaggio tecnico in modo non tecnico</strong>
+    <strong>Traduzione di [!DNL Adobe Analytics] linguaggio tecnico in modo non tecnico</strong>
     </a>
     </div>
     <p>
@@ -58,15 +58,15 @@ La cosa più potente riguardo [!DNL Adobe Experience Cloud] soluzioni? Tu. Gli u
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Standardizzare le convenzioni di denominazione" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
+      <img alt="Creare convenzioni di denominazione standard" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-    <strong>Standardizzare le convenzioni di denominazione</strong>
+    <strong>Creare convenzioni di denominazione standard</strong>
     </a>
     </div>
     <p>
-    <em>Suggerimenti semplici per creare convenzioni e standard di denominazione.</em>
+    <em>Suggerimenti semplici per creare convenzioni di denominazione e standard.</em>
     <p>
   </td>
 </tr>
@@ -79,4 +79,4 @@ La cosa più potente riguardo [!DNL Adobe Experience Cloud] soluzioni? Tu. Gli u
 * [Community Adobe Analytics di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Documentazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it)
 * [Esercitazioni di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html?lang=it)
+* [Informazioni sul prodotto Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)

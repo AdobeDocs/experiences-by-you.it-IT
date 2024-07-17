@@ -1,5 +1,5 @@
 ---
-title: Utilizzare l’analisi di coorte per comprendere il comportamento cliente
+title: Utilizzare l’analisi per coorte per comprendere il comportamento del cliente
 description: Per migliorare la customer experience e i ricavi, le aziende devono comprendere il comportamento dei clienti. L’analisi per coorte può aiutare a comprendere il coinvolgimento e la fidelizzazione, conducendo ad azioni come il miglioramento della creazione di account e la creazione di campagne per mesi di grandi volumi di dati.
 feature-set: Analytics
 feature: Cohort Analysis
@@ -12,12 +12,12 @@ thumbnail: KT-13213.jpeg
 exl-id: 79392eea-a8b6-4ae2-98ef-6ebbd11d88a0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 7%
+source-wordcount: '1142'
+ht-degree: 0%
 
 ---
 
-# Utilizzare l’analisi di coorte per comprendere il comportamento cliente
+# Utilizzare l’analisi per coorte per comprendere il comportamento del cliente
 
 Per migliorare la customer experience e i ricavi, le aziende devono comprendere il comportamento dei clienti. L’analisi per coorte può aiutare a comprendere il coinvolgimento e la fidelizzazione, conducendo ad azioni come il miglioramento della creazione di account e la creazione di campagne per mesi di grandi volumi di dati.
 
@@ -35,7 +35,7 @@ Prestazioni digitali correnti
 1. Le visite per la prima volta si convertono a un tasso leggermente superiore rispetto alle visite di ritorno per entrambi, 11,6% vs. 11,4%.
 1. Rispetto al 2021, i tassi di conversione sono diminuiti in entrambi i segmenti.
 
-![Tabella Visite](assets/cohort1.png)
+![Tabella visite](assets/cohort1.png)
 
 ## Parte 2: Analisi per coorte - Visite Disposizioni commestibili Prod globale
 
@@ -53,11 +53,12 @@ L’analisi per coorte è uno strumento utile per comprendere il modo in cui le 
 Impostare la tabella coorte
 
 1. Imposta l’intervallo di date da gennaio a dicembre 2022
-1. **Criteri di inclusione:** Visite
-1. **Criteri di ritorno:** Visite
+1. **Criteri di inclusione:** visite
+1. **Criteri di ritorno:** visite
 1. **Granularità:** Mese
-1. **Impostazioni:** Calcolo continuo \*\*Consente di calcolare il livello di mantenimento in base alla colonna precedente, non alla colonna inclusa. Ciò significa che un utente è incluso in ciascuno dei mesi\*\*
-1. **Segmenti:** puoi selezionare segmenti specifici per sviluppare ulteriormente questa analisi
+1. **Impostazioni:** Calcolo continuo
+\*\*Consente di calcolare la fidelizzazione in base alla colonna precedente, non alla colonna inclusa. Ciò significa che un utente è incluso in ciascuno dei mesi\*\*
+1. **Segmenti:** puoi selezionare segmenti specifici per eseguire ulteriormente l&#39;analisi
    1. Pagine di destinazione specifiche
    1. Device Type
    1. Canali di marketing
@@ -80,7 +81,7 @@ Impostare la tabella coorte
 
 ![Tabella di conservazione 2021](assets/cohort3.png)
 
-**Elementi azione:**
+**Azioni:**
 
 Crea un segmento basato sui circa 1.000 visitatori e scopri di più su di essi:
 
@@ -112,10 +113,11 @@ Quale sarebbe l’impatto se potessimo ottenere l’accesso di più utenti? È u
 ### Impostazione della tabella coorte
 
 1. **Imposta intervallo date:** da gennaio a dicembre 2022
-1. **Criteri di inclusione:** Visite + Evento di successo accesso
-1. **Criteri di ritorno:** Visite
+1. **Criteri di inclusione:** visite + evento di accesso riuscito
+1. **Criteri di ritorno:** visite
 1. **Granularità:** Mese
-1. **Impostazioni:** Calcolo continuo \*\*Consente di calcolare il livello di mantenimento in base alla colonna precedente, non alla colonna inclusa. Ciò significa che un utente è incluso in ciascuno dei mesi\*\*
+1. **Impostazioni:** Calcolo continuo
+\*\*Consente di calcolare la fidelizzazione in base alla colonna precedente, non alla colonna inclusa. Ciò significa che un utente è incluso in ciascuno dei mesi\*\*
 
 ### Interpretazione dei risultati
 
@@ -125,7 +127,7 @@ Quale sarebbe l’impatto se potessimo ottenere l’accesso di più utenti? È u
 1) I mesi con il maggior volume includono febbraio e maggio e dicembre
 1) Ci sono circa 2.500 visitatori che ritornano ogni mese \*\*più del doppio\*\*
 
-**Elementi azione:**
+**Azioni:**
 
 Esaminare l&#39;esperienza utente del sito per consentire agli utenti di creare un account durante l&#39;estrazione
 
@@ -133,11 +135,11 @@ Esaminare l&#39;esperienza utente del sito per consentire agli utenti di creare 
 
 ## Parte 4: Coorte con Dimension personalizzato
 
-Coorte con Dimension personalizzato: consente di creare coorti in base alla dimensione selezionata, anziché in base al tempo (impostazione predefinita). Molti clienti vogliono poter analizzare le coorti in base a fattori diversi dal tempo. Con la nuova funzione per coorti con dimensione personalizzata hai la flessibilità di creare le coorti in base alle dimensioni che rispondono alle tue esigenze. Utilizzare dimensioni quali canale di marketing, campagna, prodotto, pagina, regione o qualsiasi altra dimensione in [!DNL Adobe Analytics] per mostrare in che modo la fidelizzazione cambia in base a valori diversi di queste dimensioni. Le selezioni del menu 
+Coorte con Dimension personalizzato: consente di creare coorti in base alla dimensione selezionata, anziché in base al tempo (impostazione predefinita). Molti clienti desiderano analizzare le coorti in base a fattori diversi dal tempo e la nuova funzione per coorti con Dimension personalizzati offre la flessibilità di creare le coorti in base alle dimensioni scelte. Utilizzare dimensioni quali canale di marketing, campagna, prodotto, pagina, regione o qualsiasi altra dimensione in [!DNL Adobe Analytics] per mostrare come la fidelizzazione cambia in base a valori diversi di tali dimensioni. Le selezioni del menu 
 
 La definizione del segmento di coorte con Dimension personalizzato applica l’elemento dimensionale solo come parte del periodo di inclusione e non come parte della definizione di ritorno.
 
-Dopo aver scelto l’opzione Custom Dimension Cohort (Coorte con dimensione personalizzata), puoi trascinare nella zona di rilascio la dimensione che ti interessa. Ciò ti consente di confrontare elementi dimensionali simili nello stesso periodo di tempo. Ad esempio, puoi confrontare le prestazioni delle città una accanto all’altra
+Dopo aver scelto l’opzione Custom Dimension Cohort (Coorte con  personalizzato), puoi trascinare nella zona di rilascio la dimensione che ti interessa. Ciò ti consente di confrontare elementi dimensionali simili nello stesso periodo di tempo. Ad esempio, puoi confrontare le prestazioni delle città una accanto all’altra
 
 lato, prodotti, campagne, ecc. Ti restituirà i primi 14 elementi dimensionali. Tuttavia, puoi utilizzare un filtro (per accedervi, passa il cursore del mouse sulla destra della dimensione su cui è stato trascinato il cursore) per visualizzare solo gli elementi dimensionali desiderati. Non è possibile utilizzare una coorte di Dimension personalizzata con la funzione Tabella di latenza.
 
@@ -145,13 +147,13 @@ lato, prodotti, campagne, ecc. Ti restituirà i primi 14 elementi dimensionali. 
 
 La tabella Coorti per Dimension personalizzata evidenzia i prodotti che generano tassi di fidelizzazione più elevati rispetto alla media.  Questa tabella ti aiuta a identificare i tuoi prodotti migliori per promuovere campagne di marketing interne ed esterne con prodotti con il massimo livello di attenzione.
 
-**In febbraio:** 3 prodotti si distinguono con tassi di fidelizzazione più elevati
+**A febbraio:** 3 prodotti si distinguono con tassi di fidelizzazione più elevati
 
 1) Prodotto 1
 1) Prodotto 2
 1) Prodotto 3
 
-**In marzo:**
+**In mar:**
 
 1) Prodotto 1
 1) Prodotto 2
@@ -171,4 +173,4 @@ Questo documento è stato scritto da:
 
 **Jennifer Yacenda**, Director senior al Marriott
 
-[!DNL Adobe Analytics] Campione
+[!DNL Adobe Analytics] campione
