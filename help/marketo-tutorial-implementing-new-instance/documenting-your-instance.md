@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva alla governance e documentazione delle istanze
+title: Introduzione alla governance delle istanze e alla documentazione
 description: Scopri le strategie essenziali e le best practice per iniziare a utilizzare la governance e la documentazione del Marketo Engage. Scopri come creare una documentazione scalabile, semplificare la formazione degli utenti e garantire la creazione di una struttura nell’istanza di Marketo Engage.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-08T00:00:00Z
 jira: KT-14815
 thumbnail: KT-14815.jpeg
 exl-id: b3dd05e1-c522-4631-a6b4-c0c6309f25d3
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Un altro modo critico di governance delle istanze consiste nel creare un Changel
 1. Motivo della modifica
 1. Chi ha apportato la modifica
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 * Scarica la [documentazione di esempio e Changelog](/help/marketo-tutorial-implementing-new-instance/assets/template-adobe-marketo-engage-instance-documentation.xlsx) e adattali in base alle esigenze della tua organizzazione.
 * Memorizza la documentazione in una piattaforma accessibile dove la tua organizzazione preferisce fare riferimento e aggiornare regolarmente. Alcuni campioni di Marketo Engage, ad esempio, utilizzano Confluenza (di Atlassian) o Foglio di calcolo Excel.

@@ -1,5 +1,5 @@
 ---
-title: Creare un diagramma visivo del flusso di dati per comprendere lo stack tecnologico del marketing
+title: Creare un diagramma di flusso dei dati per comprendere lo stack tecnologico del marketing
 description: Scopri come creare un diagramma di "Lead e origini dati" per comprendere l’universo dei dati, per controllare e riordinare l’istanza in modo efficiente.
 feature-set: Marketo Engage
 feature: Administration
@@ -11,14 +11,14 @@ jira: KT-13877
 thumbnail: KT-13877.jpeg
 hide: false
 exl-id: 088bdcf1-4e49-44a7-ac78-a03742ff680b
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 2%
 
 ---
 
-# Creare un diagramma visivo del flusso di dati per comprendere lo stack tecnologico del marketing
+# Creare un diagramma di flusso dei dati per comprendere lo stack tecnologico del marketing
 
 In qualità di amministratore che assume il controllo di un&#39;istanza [!DNL Marketo Engage] che è attiva da anni, è come una missione impossibile controllare e riordinare l&#39;istanza in modo efficiente. Quando [!DNL Adobe] [!DNL Marketo Champion] (2019), Kelly Jo Horton, è entrata in un&#39;istanza consolidata, ha affrontato questa sfida [creando un diagramma di &quot;Lead and data sources&quot;](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} per acquisire familiarità con l&#39;universo dei dati. In questo tutorial imparerai a creare un diagramma di flusso dei dati personalizzato basandoti sugli esempi condivisi da Kelly Jo Horton. Impariamo a conoscere il tuo ecosistema MarTech!
 
@@ -51,7 +51,7 @@ Creare una versione tecnica che mostri dettagli come il nome utente API per ogni
 ![Versione tecnica](/help/marketo-tutorial-inherited-instance/_assets/data-flow-diagram/Lead-Data-Source-Diagram-KellyJo-Horton.png){align="center"}
 
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 **Introduzione agli esempi:**
 Scarica uno dei diagrammi di esempio del flusso di dati per mappare lo stato corrente dello stack tecnologico di marketing, della persona e del flusso di dati oppure crea un diagramma per l’universo di dati da zero durante l’audit dell’istanza:

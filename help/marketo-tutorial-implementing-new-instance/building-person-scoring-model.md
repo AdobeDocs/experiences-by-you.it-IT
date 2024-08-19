@@ -1,6 +1,6 @@
 ---
-title: Creazione di modelli di punteggio persona per i programmi di Marketo Engage
-description: Adobe Marketo Engage consente di creare modelli di punteggio dalla base. Prima di passare direttamente al Marketo Engage per creare i programmi di punteggio, devi impostare i campi di punteggio essenziali, ad esempio Punteggio demografico, Punteggio comportamentale e Punteggio persona totale. Scopri di più sulle strategie utilizzate dai campioni di Marketo Engage per sviluppare modelli di punteggio di cui la tua azienda ha bisogno.
+title: Creare modelli di punteggio persona per i programmi di Marketo Engage
+description: Scopri come creare modelli di punteggio dalla base.
 role: Admin
 level: Beginner
 doc-type: Article
@@ -10,9 +10,9 @@ last-substantial-update: 2024-05-04T00:00:00Z
 jira: KT-14810
 thumbnail: KT-14810.jpeg
 exl-id: 73976144-f02b-4423-9b4b-410330117ba9
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2055'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Potresti avere molti lead nel tuo database, ma come fai a sapere quali sono pron
 
 Tramite il punteggio delle persone nel database di Marketo Engage, puoi misurare la qualifica dei lead generati e impostare i criteri per quando sono pronti per le vendite. Questo consente al team vendite di concentrarsi sui lead che hanno più probabilità di chiudere, mentre il team marketing continua a nutrire le altre persone nel database tramite i loro programmi di marketing.
 
-## Esercizio 1 - Determinazione degli interessi dei buyer con punteggi comportamentali
+## Esercizio 1 - Determinazione dell&#39;interesse dell&#39;acquirente con punteggi comportamentali
 
 Il punteggio comportamentale dà un valore numerico alle azioni tracciabili intraprese da un potenziale cliente che indicano interesse per i tuoi prodotti e servizi e intenzione di acquistare. Ad esempio, la visita del sito web mostra interesse e la visita della pagina di determinazione dei prezzi può mostrare intento. Al contrario, visitare la pagina carriere potrebbe indicare che la persona non sta per acquistare.
 
@@ -79,7 +79,7 @@ Il punteggio comportamentale dà un valore numerico alle azioni tracciabili intr
 
 **Passaggio 5** - Ricorda che il punteggio è un processo iterativo. Esamina e regola continuamente punteggi e soglie mentre raccogli più dati da analizzare.
 
-## Esercizio 2 - Identificazione della giusta corrispondenza con i punteggi demografici
+## Esercizio 2 - Identificare la giusta combinazione con i punteggi demografici
 
 Dopo aver definito le attività che indicano l’intento di acquisto, è necessario completare il modello di punteggio con i profili potenziali ideali. Per identificare se un potenziale cliente è adatto a ulteriori conversazioni di vendita, è importante assegnare punteggi demografici oltre ai punteggi comportamentali in modo che il modello possa aiutare a determinare i lead migliori in termini di adattamento e intento.
 
@@ -231,7 +231,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
   </tr>
 </table>
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 * Scarica il [foglio di esercizio del punteggio persona](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target="_blank} per sviluppare il modello di punteggio offline.
 * Crea il punteggio della persona nel Marketo Engage. Controlla questa [esercitazione](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target="_blank} e [demo](https://experienceleague.adobe.com/en/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target="_blank} per iniziare. Puoi importare un programma di punteggio lead/persona [modello](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target="_blank} dalla libreria dei riferimenti ai Marketi Engage per accelerare la compilazione del programma.

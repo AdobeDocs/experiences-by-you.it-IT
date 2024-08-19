@@ -1,6 +1,6 @@
 ---
 title: Sviluppare una guida alla governance delle istanze con la relativa documentazione
-description: Scopri come stabilire una solida procedura per la creazione e la gestione della documentazione e del registro modifiche per l'istanza  [!DNL Marketo Engage] . In questo modo non solo si risparmia tempo per la condivisione delle conoscenze del team, ma si migliora anche lo stato e l’efficienza dell’istanza.
+description: Scopri come stabilire una solida procedura per la creazione e la gestione della documentazione e del registro modifiche per l'istanza  [!DNL Marketo Engage] .
 feature-set: Marketo Engage
 feature: Administration
 role: Admin
@@ -11,9 +11,9 @@ jira: KT-14103
 thumbnail: KT-14103.jpeg
 hide: false
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Quando entri in un&#39;istanza legacy di [!DNL Marketo Engage], spesso si verifi
 
 Questo tutorial dettagliato, creato da Nick Hajdin, [!DNL [!DNL Adobe] Marketo Champion] (2018), ti guiderà attraverso questo processo per delineare la configurazione della tua istanza, documentare i tuoi programmi operativi principali e gestire [!DNL changelog] per applicare criteri di governance rigidi.
 
-## Perché sviluppare una guida alla governance delle istanze e una documentazione per l’istanza ereditata?
+## Sviluppare una guida alla governance delle istanze per l’istanza ereditata
 
-La documentazione dettagliata e un [!DNL changelog] sono fondamentali per una gestione efficiente e per il trasferimento delle conoscenze all&#39;interno dell&#39;istanza [!DNL Marketo Engage]. Tenere traccia delle modifiche e delle decisioni apportate durante la configurazione dell’istanza può aiutarti a:
+La documentazione dettagliata e un [!UICONTROL Changelog] sono fondamentali per una gestione e un trasferimento delle conoscenze efficienti all&#39;interno dell&#39;istanza [!DNL Marketo Engage]. Tenere traccia delle modifiche e delle decisioni apportate durante la configurazione dell’istanza può aiutarti a:
 
 1. Formare gli utenti interni più facilmente e in modo scalabile.
 2. Generare in modo più efficiente in [!DNL Marketo Engage] a lungo termine.
@@ -78,21 +78,21 @@ Inizia identificando i principali programmi operativi con un impatto a livello d
 
 Per ciascun programma operativo individuato, documentarne lo stato attuale. Ciò include dettagli sullo scopo del programma, sulla configurazione, sulle campagne intelligenti associate e sull’integrazione con altri strumenti (se applicabile).
 
-### Passaggio 4: Applica manutenzione di [!DNL Changelog]
+### Passaggio 4: Applica la manutenzione di [!UICONTROL Changelog]
 
-Il passaggio successivo consiste nel definire criteri di governance rigidi per l&#39;istanza [!DNL Marketo Engage] che richiede la manutenzione di &quot;[!DNL Changelog]&quot;. Questo criterio garantisce che tutti gli aggiornamenti apportati ai programmi operativi nell’istanza siano documentati in modo esauriente.
+Il passaggio successivo consiste nel definire criteri di governance rigidi per l&#39;istanza [!DNL Marketo Engage] che richiede la manutenzione di &quot;[!UICONTROL Changelog]&quot;. Questo criterio garantisce che tutti gli aggiornamenti apportati ai programmi operativi nell’istanza siano documentati in modo esauriente.
 
-Informa il tuo team sull’importanza di questi documenti e su come accedervi e aggiornarli correttamente. Potrebbe essere utile assegnare responsabilità per la gestione del changelog, in modo che alcuni membri o amministratori del team dell’operazione di marketing designati registrino le modifiche in modo coerente e forniscano conclusioni.
+Informa il tuo team sull’importanza di questi documenti e su come accedervi e aggiornarli correttamente. Potrebbe essere utile assegnare le responsabilità per la gestione del registro delle modifiche, in modo che alcuni membri del team o amministratori designati per l’operazione di marketing registrino le modifiche in modo coerente e forniscano le autorizzazioni necessarie.
 
-### Passaggio 5: Centralizzazione della documentazione
+### Passaggio 5: centralizzare la documentazione
 
 Stabilire una posizione centrale o un repository per l&#39;archiviazione di tutta la documentazione relativa all&#39;istanza [!DNL Marketo Engage]. Potrebbe trattarsi di un&#39;unità condivisa, di una cartella dedicata o di un sistema basato su cloud.
 
-### Passaggio 6: rivedere e aggiornare regolarmente
+### Passaggio 6: rivedere e aggiornare
 
 Pianifica revisioni regolari della documentazione per assicurarti che rimanga accurata e aggiornata. Può essere facilmente sottovalutato durante i periodi di grande affluenza. Imposta proattivamente i promemoria sul calendario per garantire che il team esegua regolarmente aggiornamenti per riflettere eventuali modifiche o ottimizzazioni nei programmi operativi.
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 Per iniziare, scarica questo [modello semplice](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
 

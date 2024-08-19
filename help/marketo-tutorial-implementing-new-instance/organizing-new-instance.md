@@ -1,5 +1,5 @@
 ---
-title: Organizzazione di una nuova istanza e definizione di convenzioni di denominazione
+title: Organizzare una nuova istanza e stabilire convenzioni di denominazione
 description: Scopri come impostare una buona organizzazione all’interno dell’istanza di Marketo Engage, consentendo ai futuri esperti di marketing della tua organizzazione di spostarsi facilmente all’interno dei programmi, modificare le risorse e richiamare rapporti.
 role: Admin
 level: Beginner
@@ -10,14 +10,14 @@ last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-14813
 thumbnail: KT-14813.jpeg
 exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 2%
 
 ---
 
-# Organizzazione di una nuova istanza e definizione di convenzioni di denominazione
+# Organizzare una nuova istanza e stabilire convenzioni di denominazione
 
 In qualità di amministratore che implementa una nuova istanza di Marketo Engage, stai gettando le basi per consentire ai futuri addetti al marketing all’interno dell’organizzazione di navigare facilmente attraverso l’istanza. Acquisire familiarità con la struttura ad albero delle cartelle e le convenzioni di denominazione manterrà l’istanza ordinata e configurata per il successo a lungo termine. Questo tutorial include esempi consigliati da Natalie Kremer, Adobe and Marketo Engage Champion(2019-2020), per aiutarti a [organizzare le cartelle e denominare le risorse in modo coerente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
 
@@ -176,7 +176,7 @@ Tenendo presenti questi suggerimenti, verranno applicati alle seguenti risorse e
 >
 >Per la denominazione dei file negli esempi precedenti, non utilizzare spazi ed evita l&#39;uso dei caratteri di sottolineatura &quot;\_&quot;
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 * Scaricare il foglio di lavoro: [Organizzazione di Marketo Engage e convenzioni di denominazione](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} per supportare la creazione della struttura di cartelle e delle convenzioni di denominazione.
 * Una volta determinati i componenti necessari nella convenzione di denominazione standard, è consigliabile creare formule in un Google Sheet o Microsoft Excel. Per un utilizzo futuro, è sufficiente inserire i valori nel foglio di calcolo per generare i nomi dei programmi.

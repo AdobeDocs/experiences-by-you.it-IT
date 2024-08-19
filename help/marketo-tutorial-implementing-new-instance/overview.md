@@ -1,6 +1,6 @@
 ---
-title: Suggerimenti per l'implementazione di una nuova istanza  [!DNL Marketo Engage]  - Panoramica del tutorial
-description: Scopri come implementare una nuova istanza  [!DNL Marketo Engage]  per trarre il massimo dalla sua potenza. Questa serie di suggerimenti "Implementazione di un nuovo Marketo Engage" fornisce best practice comprovate dall'Adobe [!DNL Marketo Engage] Champions. Gli argomenti trattati includono la gestione delle parti interessate, la gestione dei progetti di implementazione, la formazione interna, la creazione di un modello di punteggio per lead/persone, la configurazione della sincronizzazione CRM iniziale e altro ancora.
+title: Suggerimenti per implementare una nuova istanza
+description: Scopri come implementare una nuova istanza  [!DNL Marketo Engage]  per trarre il massimo dalla sua potenza.
 solution: Marketo Engage
 role: Admin
 level: Beginner
@@ -10,18 +10,18 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
-# Suggerimenti per l&#39;implementazione di una nuova istanza [!DNL Marketo Engage] - Panoramica del tutorial
+# Suggerimenti per l&#39;implementazione di una nuova istanza di [!DNL Marketo Engage]
 
 Adobe [!DNL Marketo Engage]. L’impostazione di una nuova istanza è il primo passo per aggiornare la tua strategia di marketing digitale con l’automazione del marketing. La chiave per una corretta implementazione di [!DNL Marketo Engage] è la documentazione.
 
-Questa serie di &quot;Suggerimenti e trucchi per l’implementazione di una nuova istanza&quot; proviene dai campioni di Adobe [!DNL Marketo Engage] che hanno già vinto l’implementazione in passato. Il tutorial fornisce indicazioni dettagliate ai nuovi amministratori per gestire il progetto di implementazione in modo interfunzionale e configurare le impostazioni tecniche in modo indipendente. Gli argomenti selettivi accompagnano inoltre elenchi di controllo e modelli scaricabili che possono essere personalizzati in base alle proprie esigenze senza partire da zero. Immergiamoci nella saggezza dei vostri coetanei!
+Questa serie di _suggerimenti e trucchi per nuove istanze_ proviene dai campioni di Adobe [!DNL Marketo Engage] che hanno già vinto l&#39;implementazione in passato. Il tutorial fornisce indicazioni dettagliate ai nuovi amministratori per gestire il progetto di implementazione in modo interfunzionale e configurare le impostazioni tecniche in modo indipendente. Gli argomenti selettivi accompagnano inoltre elenchi di controllo e modelli scaricabili che possono essere personalizzati in base alle proprie esigenze senza partire da zero. Immergiamoci nella saggezza dei vostri coetanei!
 
 ## Argomenti e informazioni
 

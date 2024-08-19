@@ -1,5 +1,5 @@
 ---
-title: Pianificazione di una nuova implementazione del Marketo Engage
+title: Pianifica una nuova implementazione del Marketo Engage
 description: Scopri di più sulla pianificazione essenziale e sulla collaborazione cross-functional dei team per implementare correttamente una nuova istanza del Marketo Engage. Questo tutorial fornisce esempi di milestone, team engagement e allocazioni di risorse per un’implementazione perfetta del Marketo Engage.
 role: Admin
 level: Beginner
@@ -10,14 +10,14 @@ last: substantial-update- 2024-05-01
 jira: KT-14808
 thumbnail: KT-14808.jpeg
 exl-id: 65119abd-6f13-4acc-9e99-09843369ad28
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 5%
 
 ---
 
-# Pianificazione di una nuova implementazione del Marketo Engage
+# Pianifica una nuova implementazione del Marketo Engage
 
 L’implementazione di una nuova istanza di Marketo Engage prevede una pianificazione meticolosa, la collaborazione tra i team e l’ottimizzazione continua. Anche se non esiste una ricetta perfetta per implementare una nuova istanza, la maggior parte degli amministratori di Marketo Engage che l’hanno sperimentata concorda sul fatto che la pianificazione futura renderà il processo molto più semplice.
 
@@ -130,7 +130,7 @@ Ascolta Kyle McCormick, Campione di Marketo Engage (2019), sulle sue esperienze 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428771/?quality=12&learn=on)
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 Crea un nuovo piano di progetto di implementazione e una nuova tempistica. Di seguito è riportato un timeline di progetto di esempio, incluse le sezioni per attività cardine, attività, team responsabili, scadenze e dipendenze. Utilizzalo per semplificare il percorso di implementazione del Marketo Engage e garantire un rollout di successo in tutta l’organizzazione.
 

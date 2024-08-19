@@ -1,5 +1,5 @@
 ---
-title: Sviluppo di roadshow interni di onboarding e formazione
+title: Sviluppo di un Roadshow di onboarding e formazione interno
 description: Scopri come stabilire una solida procedura per la creazione e la gestione della documentazione e del registro modifiche per l'istanza  [!DNL Marketo Engage] . In questo modo non solo si risparmia tempo per la condivisione delle conoscenze del team, ma si migliora anche lo stato e l’efficienza dell’istanza.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-14809
 thumbnail: KT-14809.jpeg
 exl-id: bd5d102b-0810-43e1-baac-fbef43817d50
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Ecco un esempio di corsi di formazione suggeriti da Naomi Liu per personalizzare
 | Reporting e analisi | <ul><li>Procedura dettagliata sul reporting</li><li>E-mail, pagina di destinazione e prestazioni del programma</li><li>Creazione di rapporti personalizzati</li><li>E-mail e informazioni sulle prestazioni</li></ul> | Formazione continua, video registrati per sessioni importanti, recensioni regolari | 2 ore |
 | IA per la gestione dei contenuti | <ul><li>Funzionalità di IA per la revisione dei contenuti</li><li>Rivedi le risorse idonee per IA per la gestione dei contenuti (ad esempio pagina di destinazione, e-mail e finestra di dialogo)</li><li>Processo di mappatura (quando/dove) da utilizzare</li></ul> | Sessione live, procedura dettagliata per la revisione e il funzionamento | 1 ora |
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 * Scarica il [esempio di corso di formazione](assets/adobe-marketo-engage-internal-training-roadshows.xlsx){_target=&quot;blank&quot;} foglio di calcolo per sviluppare i moduli di formazione interni.
 * Compila i team adatti all’argomento della sessione.

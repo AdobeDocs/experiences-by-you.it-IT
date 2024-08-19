@@ -1,5 +1,5 @@
 ---
-title: Progettazione di marketing conversazionale omni-channel con Dynamic Chat
+title: Progettare il marketing conversazionale omni-channel con il Dynamic Chat
 description: Inizia rapidamente a progettare il marketing conversazionale con Adobe Dynamic Chat, il canale di coinvolgimento conversazionale nativo in Adobe Marketo Engage. Questa esercitazione offre ricette utilizzabili per implementare casi d’uso quali prenotazione di riunioni di vendita, coinvolgimento con contenuti del sito web e promozione di eventi/webinar.
 role: Admin
 level: Beginner
@@ -9,7 +9,7 @@ duration: 0
 last-substantial-update: 2024-05-23T00:00:00Z
 jira: KT-14814
 exl-id: 160dfb25-9f54-4dce-a08a-4a8d3c4c5368
-source-git-commit: 80553c5127afda315e97183e0d3b160871352183
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Quando Sara Barriuso ha implementato Dynamic Chat, è stata attirata dalla sua i
 3. Potenziali clienti: fornisci esperienze personalizzate ampliando gli sforzi delle campagne di marketing.
 
 
-## Casi d’uso chiave per iniziare a creare le finestre di dialogo
+## Casi d’uso principali per iniziare a creare le finestre di dialogo
 
 Per implementare queste strategie, Sara ha creato dei Dialoghi di Dynamic Chat sui seguenti casi d’uso:
 
@@ -191,7 +191,7 @@ Estensione del coinvolgimento con i contenuti di Campaign - Configurazione:
 
 >[!ENDTABS]
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 * Mappa il tuo flusso conversazionale in [Streaming Designer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} o un diagramma di flusso offline.
 * Crea una finestra di dialogo catch-all predefinita nel Dynamic Chat.

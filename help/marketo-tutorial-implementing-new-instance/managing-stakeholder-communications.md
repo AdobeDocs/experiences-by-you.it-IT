@@ -1,5 +1,5 @@
 ---
-title: Gestione delle parti interessate per l’implementazione del Marketo Engage
+title: Gestire le parti interessate per implementare il Marketo Engage
 description: Scopri le strategie per gestire in modo efficace le parti interessate durante l’implementazione dell’istanza di Marketo Engage. Questa esercitazione fornisce suggerimenti utili per individuare le esigenze delle parti interessate, acquisire la leadership e comunicare in modo interfunzionale per cercare supporto nell’implementazione.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-13284
 thumbnail: KT-13284.jpeg
 exl-id: b5b8a5b6-83d4-48ae-ae83-32c9fbf64df8
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1712'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Avvia l’implementazione allineandosi con le priorità dei leader e degli stake
 
 Prendete le informazioni che avete descritto nell&#39;esercizio precedente e comunicate in modo specifico come il Marketo Engage guiderà il ritorno sull&#39;investimento (ROI) e sosterrà gli obiettivi strategici per le vostre parti interessate. Utilizza il seguente modello iniziale per creare messaggi convincenti che evidenziano la proposta di valore del Marketo Engage per la tua organizzazione.
 
-#### Modello - Portata iniziale
+#### Modello - Sensibilizzazione iniziale
 
 <table>
 <tr>
@@ -133,7 +133,7 @@ Migliore,
 </tr>
 </table>
 
-### Azione 4 - Promuovere La Comunicazione Continua
+### Azione 4 - Promuovere la comunicazione continua
 
 Mantiene canali di comunicazione regolari con le parti interessate durante tutto il processo di implementazione. Pianifica riunioni di archiviazione o invia aggiornamenti sull’avanzamento utilizzando i modelli e-mail forniti per tenerli informati e coinvolti. Questo ti consente anche di affrontare eventuali dubbi o domande tempestivamente per garantire l’accettazione continua da parte di tali team.
 
@@ -180,7 +180,7 @@ Migliore,
 
 Seguendo questi suggerimenti utili e facendo riferimento ai modelli, sarai in grado di implementare correttamente il Marketo Engage e ottenere un forte supporto dalle parti interessate durante l’intero processo di onboarding.
 
-## Quali sono le prossime novità?
+## Cosa succede dopo?
 
 Scarica e utilizza la [Guida e modello per le comunicazioni interne per l&#39;onboarding](/help/marketo-tutorial-implementing-new-instance/assets/marketo-engage-new-instance-onboarding-internal-communications-guide-template.xlsx){target="_blank} per creare aggiornamenti regolari e segnalare l&#39;avanzamento per le parti interessate. Includi metriche chiave, traguardi e prossimi obiettivi intermedi per mantenerli informati e coinvolti.
 
