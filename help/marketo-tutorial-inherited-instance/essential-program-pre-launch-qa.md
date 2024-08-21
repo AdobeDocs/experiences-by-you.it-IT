@@ -11,9 +11,9 @@ jira: KT-13888
 thumbnail: KT-13888.jpeg
 hide: false
 exl-id: c377fe5f-2d77-4fd0-9ac4-5ad65506f582
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: 286b85beb92a2563d9ec57696834a4ba2a205c73
 workflow-type: tm+mt
-source-wordcount: '4903'
+source-wordcount: '4898'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ Potrebbero esserci elementi mancanti o non applicabili in quanto il team esegue 
 
 ## Cosa succede dopo?
 
-Fai clic [qui](/help/marketo-tutorial-inherited-instance/_assets/downloads/[!DNL Adobe]_Marketo_Engage_Inherited_Instance_Program_Prelaunch_QA_Checklist.xlsx) per scaricare l&#39;elenco di controllo pre-avvio del programma modificabile da personalizzare. Ricorda che deve essere adattato al flusso di lavoro della tua organizzazione. Lo sviluppo di un processo di controllo qualità efficace ti mantiene responsabile e limita gli errori che i clienti devono affrontare.
+Fai clic [qui](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Program_Prelaunch_QA_Checklist.xlsx) per scaricare l&#39;elenco di controllo pre-avvio del programma modificabile da personalizzare. Ricorda che deve essere adattato al flusso di lavoro della tua organizzazione. Lo sviluppo di un processo di controllo qualità efficace ti mantiene responsabile e limita gli errori che i clienti devono affrontare.
 
 ### Autori
 
