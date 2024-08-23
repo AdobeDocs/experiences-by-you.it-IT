@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: 28036f785b1901088a9b5a04e88f43f031257161
+source-git-commit: b7e6c53ba2f2345e72f5028472d46596e6c41f58
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Adobe [!DNL Marketo Engage]. La configurazione di una nuova istanza è il primo passo per aggiornare la strategia di marketing digitale con l’automazione del marketing. La chiave per una corretta implementazione di [!DNL Marketo Engage] è la documentazione.
 
-Questa serie di &quot;Suggerimenti e trucchi per l’implementazione di una nuova istanza&quot; proviene dai campioni di Adobe [!DNL Marketo Engage] che hanno vinto l’implementazione in precedenza. Il tutorial fornisce indicazioni dettagliate ai nuovi amministratori per gestire il progetto di implementazione in modo interfunzionale e configurare le impostazioni tecniche in modo indipendente. Gli argomenti selettivi accompagnano inoltre elenchi di controllo e modelli scaricabili che possono essere personalizzati in base alle proprie esigenze senza partire da zero. Immergiamoci nella saggezza dei vostri coetanei!
+Questa serie di &quot;Suggerimenti e trucchi per l&#39;implementazione di una nuova istanza&quot; proviene dai campioni di Adobe [!DNL Marketo Engage] che hanno vinto l&#39;implementazione in precedenza. Il tutorial fornisce indicazioni dettagliate ai nuovi amministratori per gestire il progetto di implementazione in modo interfunzionale e configurare le impostazioni tecniche in modo indipendente. Gli argomenti selettivi accompagnano inoltre elenchi di controllo e modelli scaricabili che possono essere personalizzati in base alle proprie esigenze senza partire da zero. Immergiamoci nella saggezza dei vostri coetanei!
 
 ## Argomenti e informazioni
 
