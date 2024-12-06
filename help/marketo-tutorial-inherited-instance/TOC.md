@@ -1,14 +1,14 @@
 ---
-user-guide-title: 'Tutorial: suggerimenti per il controllo di un’istanza ereditata '
+user-guide-title: 'Tutorial: suggerimenti per il controllo di un’istanza ereditata'
 user-guide-description: Suggerimenti per il controllo di un'istanza  [!DNL Marketo Engage]  ereditata
-breadcrumb-title: 'Tutorial: suggerimenti per il controllo di un''istanza  [!DNL Marketo Engage]  ereditata '
+breadcrumb-title: 'Tutorial: suggerimenti per il controllo di un''istanza  [!DNL Marketo Engage]  ereditata'
 breadcrumb-url: /docs/experiences-by-you/experiences-by-you/marketo-tutorial-inherited-instance/overview.html
 index: false
 role: Admin
 level: Beginner
 solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: e5e1b9a1b14c24c62fb492c79b8717edf1ba286a
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 4%
@@ -25,4 +25,4 @@ ht-degree: 4%
 + [Mappa visivamente lo stack tecnologico di marketing](/help/marketo-tutorial-inherited-instance/create-a-visual-data-flow-diagram.md)
 + [Processo di controllo qualità pre-lancio del programma](/help/marketo-tutorial-inherited-instance/essential-program-pre-launch-qa.md)
 + [[!DNL Marketo Engage] esercitazioni](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=it)
-+ [Torna alle prospettive](https://experienceleague.adobe.com/en/perspectives?lang=en#f-el_product=Marketo%20Engage&amp;aq=((%40el_contenttype%20NOT%20%22Community%7CUser%22)%20AND%20(%40el_contenttype%3D%22perspective%22)))
++ [Torna alle prospettive](https://experienceleague.adobe.com/en/perspectives#f-el_product=Marketo%20Engage&amp;aq=((%40el_contenttype%20NOT%20%22Community%7CUser%22)%20AND%20(%40el_contenttype%3D%22perspective%22)))
