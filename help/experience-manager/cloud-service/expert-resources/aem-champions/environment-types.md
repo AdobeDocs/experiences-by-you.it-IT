@@ -1,7 +1,7 @@
 ---
-title: Suggerimenti e trucchi per i campioni AEM - [!DNL Cloud Manager] Tipi di ambiente
-description: Consulta questi suggerimenti sui tipi di ambiente di  [!DNL Cloud Manager] dal campione di AEM ed esperto, Rakesh Pasupuleti.
-version: Cloud Service
+title: Suggerimenti e trucchi per i campioni di AEM - [!DNL Cloud Manager] Tipi di ambiente
+description: Consulta questi suggerimenti sui tipi di ambiente di  [!DNL Cloud Manager] dal campione ed esperto di AEM, Rakesh Pasupuleti.
+version: Experience Manager as a Cloud Service
 feature-set: Marketo Engage, Experience Manager, Experience Manager Cloud Manager
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager Cloud Manager
 feature: Cloud Manager
@@ -12,14 +12,14 @@ doc-type: Value Video
 last-substantial-update: 2023-05-11T00:00:00Z
 jira: KT-13229
 exl-id: 682c97c0-d563-4cfa-be6b-0eb22c675d21
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: 2a628f89f602371c02db5204956d9397f306bdb8
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 3%
 
 ---
 
-# Suggerimenti e trucchi per i campioni AEM - [!DNL Cloud Manager] tipi di ambiente
+# Suggerimenti e trucchi per i campioni di AEM - [!DNL Cloud Manager] tipi di ambiente
 
 Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh è un campione Experience Manager di [!DNL Adobe] e spiega come comprendere i tipi di ambiente di [!DNL Cloud Manager].
 

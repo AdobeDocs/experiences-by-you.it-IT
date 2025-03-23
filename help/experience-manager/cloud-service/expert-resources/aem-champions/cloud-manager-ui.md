@@ -1,7 +1,7 @@
 ---
-title: Suggerimenti e trucchi per i campioni AEM - [!DNL Cloud Manager] UI
+title: Suggerimenti e trucchi per i campioni di AEM - [!DNL Cloud Manager] UI
 description: Consulta questi suggerimenti su come utilizzare l'interfaccia utente di  [!DNL Cloud Manager] dal campione ed esperto di AEM, Rakesh Pasupuleti.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager
 feature-set: Marketo Engage, Experience Manager
 feature: Cloud Manager
@@ -12,14 +12,14 @@ doc-type: Value Video
 last-substantial-update: 2023-05-11T00:00:00Z
 jira: KT-13230
 exl-id: c977d316-5e5d-43b9-ba10-a11433d33ca5
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: 2a628f89f602371c02db5204956d9397f306bdb8
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 2%
 
 ---
 
-# Suggerimenti e trucchi per i campioni AEM - Interfaccia utente [!DNL Cloud Manager]
+# Suggerimenti e trucchi per i campioni di AEM - Interfaccia utente [!DNL Cloud Manager]
 
 Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh è un campione Experience Manager di [!DNL Adobe] e spiega come navigare e comprendere l&#39;interfaccia utente di [!DNL Cloud Manager].
 

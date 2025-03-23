@@ -1,7 +1,7 @@
 ---
-title: Suggerimenti e trucchi per i campioni AEM - [!DNL Cloud Manager] Playbook di onboarding
-description: Dai un'occhiata a questi suggerimenti per  [!DNL Cloud Manager] l'onbarding e il playbook di onboarding del campione ed esperto dell'AEM, Rakesh Pasupuleti.
-version: Cloud Service
+title: Suggerimenti e trucchi per i campioni di AEM - [!DNL Cloud Manager] Playbook di onboarding
+description: 'Consulta questi suggerimenti per l''onbarding e il playbook di onboarding del campione ed esperto di AEM, Rakesh Pasupuleti. [!DNL Cloud Manager] '
+version: Experience Manager as a Cloud Service
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager
 feature-set: Marketo Engage, Experience Manager, Experience Manager Cloud Manager
 feature: Cloud Manager
@@ -12,7 +12,7 @@ doc-type: Value Video
 last-substantial-update: 2023-05-11T00:00:00Z
 jira: KT-13228
 exl-id: 3ee98846-35ff-4de1-af4b-b65376572dfe
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: 2a628f89f602371c02db5204956d9397f306bdb8
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Il playbook di onboarding ti aiuterà a gestire e sviluppare AEM as a Cloud Serv
 >
 >Scarica il playbook di onboarding [qui.](./assets/Cloud-Manager-for-AEM-as-a-Cloud-Service.xlsx)
 
-Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh è un campione Experience Manager di [!DNL Adobe] e condivide alcune idee su come utilizzare il playbook di onboarding.
+Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh è un campione di Experience Manager per [!DNL Adobe] e condivide alcune idee su come utilizzare il playbook di onboarding.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419299?quality=12&learn=on)
 
