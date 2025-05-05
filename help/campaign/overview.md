@@ -46,7 +46,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
-      <img alt="Risoluzione dei problemi per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+      <img alt="Risoluzione dei problemi per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=it" />
     </a>
     <div>
       <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
@@ -59,7 +59,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/campaign/10-best-practices-for-marketers.md">
-      <img alt="Dieci best practice per il successo Adobe Campaign per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+      <img alt="Dieci best practice per il successo Adobe Campaign per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=it" />
     </a>
     <div>
       <a href="/help/campaign/10-best-practices-for-marketers.md">

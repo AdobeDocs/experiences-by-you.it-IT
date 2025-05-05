@@ -39,7 +39,7 @@ Puoi creare una community autonoma all’interno della tua organizzazione. Ecco 
 
 * Comprendere l’implementazione:
 
-  Come best practice, gli utenti devono avere una conoscenza di base dei requisiti di business supportati dalla propria implementazione, che in genere vengono acquisiti tramite un [documento sui requisiti di business](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en) (BRD) e un [documento di riferimento sulla progettazione della soluzione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html?lang=en) (SDR). Questi requisiti devono includere ciò che è stato implementato e definire i requisiti aziendali, i rapporti, le eVar, gli eventi e così via, per categoria.
+  Come best practice, gli utenti devono avere una conoscenza di base dei requisiti di business supportati dalla propria implementazione, che in genere vengono acquisiti tramite un [documento sui requisiti di business](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=it) (BRD) e un [documento di riferimento sulla progettazione della soluzione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html?lang=it) (SDR). Questi requisiti devono includere ciò che è stato implementato e definire i requisiti aziendali, i rapporti, le eVar, gli eventi e così via, per categoria.
 
 * Utilizzare i modelli di rapporto:
 

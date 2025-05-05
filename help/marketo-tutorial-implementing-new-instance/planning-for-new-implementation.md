@@ -38,7 +38,7 @@ In questa esercitazione, approfondiremo le attività cardine specifiche, il coin
 
 ### Fase 3 - Creazione della libreria del programma e configurazione della campagna
 
-- Sviluppo di modelli e-mail e pagine di destinazione. A partire da [importazione di programmi iniziali](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) dalla [libreria di importazione programmi](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
+- Sviluppo di modelli e-mail e pagine di destinazione. A partire da [importazione di programmi iniziali](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) dalla [libreria di importazione programmi](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
 - Impostazione delle regole di segmentazione e Personalization
 - Creazione di campagne iniziali per la generazione e lo sviluppo di lead
 

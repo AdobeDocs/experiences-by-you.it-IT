@@ -27,7 +27,7 @@ Scopri come esplorare la sezione [!DNL Analytics] e Database per richiamare dive
 ## Risorse aggiuntive
 
 * **Documentazione del prodotto**
-Scopri i diversi rapporti che puoi richiamare - [Panoramica dei rapporti](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=en&amp;sdid=M7K4SLTS&amp;mv=email&amp;mv2=instreml)
+Scopri i diversi rapporti che puoi richiamare - [Panoramica dei rapporti](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=it&amp;sdid=M7K4SLTS&amp;mv=email&amp;mv2=instreml)
 
 * **Post di blog di clienti esperti**
 Impara dal campione Chelsea Kiko a creare vari rapporti - [Generazione di rapporti in vari [!DNL Marketo Engage] Spazi](https://nation.marketo.com/t5/product-blogs/how-marketo-champion-chelsea-kiko-reports-in-various-marketo/ba-p/242627)

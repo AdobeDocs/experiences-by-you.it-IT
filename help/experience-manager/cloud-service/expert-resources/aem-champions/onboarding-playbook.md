@@ -33,4 +33,4 @@ Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh 
 
 ## Risorse aggiuntive {#additional-resources}
 
-* [Percorso di onboarding AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/overview.html): guida dettagliata per un nuovo amministratore di sistema per eseguire inizialmente il provisioning delle risorse cloud e assegnare gli utenti ai ruoli in base alle responsabilità lavorative, in modo che ogni membro del team possa accedere alle nuove risorse AEM as a Cloud Service
+* [Percorso di onboarding AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/overview.html?lang=it): guida dettagliata per un nuovo amministratore di sistema per eseguire inizialmente il provisioning delle risorse cloud e assegnare gli utenti ai ruoli in base alle responsabilità lavorative, in modo che ogni membro del team possa accedere alle nuove risorse AEM as a Cloud Service

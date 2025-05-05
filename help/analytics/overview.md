@@ -58,7 +58,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Creare convenzioni di denominazione standard" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
+      <img alt="Creare convenzioni di denominazione standard" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg?lang=it" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">

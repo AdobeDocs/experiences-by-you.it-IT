@@ -59,7 +59,7 @@ Fai riferimento alla schermata per l’attività di riconciliazione come mostrat
 
 ![flusso di lavoro con dettagli di riconciliazione](/help/_assets/kt-13256/del-persn-error-wf-solution.png)
 
-Ulteriori informazioni sulla [riconciliazione](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=en).
+Ulteriori informazioni sulla [riconciliazione](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=it).
 
 ## Errore set di dati campo comune
 

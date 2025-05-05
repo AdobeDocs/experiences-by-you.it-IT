@@ -49,7 +49,7 @@ Lasciate che vi mostri i tre dashboard operativi che ho creato per la mia aziend
 
 Stanchi dell&#39;infinito circolo di risposte ripetute? Fermatevi! Risparmia tempo creando una dashboard di domande frequenti. Gli utenti possono consultarlo prima di chiedere, oppure puoi collegarlo rapidamente alle tue risposte.
 
-È sufficiente creare [visualizzazioni di testo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html) con domande formattate come titoli e risposte/spiegazioni come contenuto, il tutto compresso per mostrare solo la domanda. Raggruppali per rilevanza (ad esempio, pagine o prodotti) o utilizzare i pannelli. Semplificalo, dando priorità alle query comuni nella parte superiore.
+È sufficiente creare [visualizzazioni di testo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=it) con domande formattate come titoli e risposte/spiegazioni come contenuto, il tutto compresso per mostrare solo la domanda. Raggruppali per rilevanza (ad esempio, pagine o prodotti) o utilizzare i pannelli. Semplificalo, dando priorità alle query comuni nella parte superiore.
 
 Invece di scrivere e-mail lunghe o riscoprire spiegazioni precedenti, aggiorna la dashboard delle domande frequenti. Inizia ora ed espandi nel tempo. Utilizza i collegamenti ipertestuali per fare riferimento ad altre dashboard o a domande frequenti correlate all’interno dei rapporti. Fornisci contesto complesso quando necessario, collegando da altre dashboard a FAQ.
 

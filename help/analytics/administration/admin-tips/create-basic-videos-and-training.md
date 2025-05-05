@@ -35,7 +35,7 @@ ht-degree: 0%
 
 Potrai quindi indirizzare facilmente gli utenti a questi video, anziché scrivere lunghe e-mail o organizzare un’altra riunione. Per ulteriori suggerimenti e trucchi per la formazione degli utenti, consulta l&#39;articolo del [[!DNL Adobe] Champion Thomas Edward Buckley](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/key-admin-skills/simplify-training-users.html?lang=it){target="_blank"} su come semplificare la formazione degli utenti e ridurre il tempo da dedicarvi.
 
-Inoltre, esistono tantissimi (sì, tantissimi) [video tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it){target="_blank"} nell&#39;Experience League [!DNL Adobe] e [corsi gratuiti](https://experienceleague.adobe.com/?lang=en#dashboard/learning){target="_blank"}. Se hai bisogno di un video specifico per i dati e i KPI aziendali della tua azienda, puoi certamente registrare i tuoi video. Ma se un video di istruzioni generale è sufficiente, non c&#39;è motivo di reinventare la ruota.
+Inoltre, esistono tantissimi (sì, tantissimi) [video tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it){target="_blank"} nell&#39;Experience League [!DNL Adobe] e [corsi gratuiti](https://experienceleague.adobe.com/it?lang=en#dashboard/learning){target="_blank"}. Se hai bisogno di un video specifico per i dati e i KPI aziendali della tua azienda, puoi certamente registrare i tuoi video. Ma se un video di istruzioni generale è sufficiente, non c&#39;è motivo di reinventare la ruota.
 
 ## Autori
 
