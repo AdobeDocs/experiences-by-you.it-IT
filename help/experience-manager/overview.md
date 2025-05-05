@@ -58,7 +58,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
-      <img alt="Suggerimenti" src="https://video.tv.adobe.com/v/3409427?format=jpeg" />
+      <img alt="Suggerimenti" src="https://video.tv.adobe.com/v/3439845?format=jpeg&captions=ita" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">

@@ -22,4 +22,4 @@ ht-degree: 47%
 
 Scopri informazioni preziose e best practice condivise dal tuo collega esperto di AEM, Wilson Faure. In questo video, Faure illustra le problematiche comuni riscontrate durante la migrazione ad AEM as a Cloud Service, offrendo consigli e suggerimenti di esperti per facilitare una transizione fluida e corretta.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427673/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448619/?learn=on&captions=ita)

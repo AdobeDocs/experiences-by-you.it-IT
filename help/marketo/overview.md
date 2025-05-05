@@ -32,7 +32,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
 <tr>
   <td>
     <a href="/help/marketo/fundamentals/ui-navigation.md">
-      <img alt="Naviga nell&apos;interfaccia utente [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3419131?format=jpeg" />
+      <img alt="Naviga nell&apos;interfaccia utente [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3450434?format=jpeg&captions=ita" />
     </a>
     <div>
       <a href="/help/marketo/fundamentals/ui-navigation.md">
@@ -45,7 +45,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/marketo/reporting/reporting-and-analytics.md">
-      <img alt="Reporting e analisi" src="https://video.tv.adobe.com/v/3419295?format=jpeg" />
+      <img alt="Reporting e analisi" src="https://video.tv.adobe.com/v/3446428?format=jpeg&captions=ita" />
     </a>
     <div>
       <a href="/help/marketo/reporting/reporting-and-analytics.md">
@@ -58,7 +58,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Programmi e-mail" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
+      <img alt="Programmi e-mail" src="https://video.tv.adobe.com/v/3453375?format=jpeg&captions=ita" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">

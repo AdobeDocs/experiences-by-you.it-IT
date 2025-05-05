@@ -32,7 +32,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
+      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3422279?format=jpeg&captions=ita" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +45,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Traduzione del linguaggio tecnico [!DNL Adobe Analytics] in modo non tecnico" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
+      <img alt="Traduzione del linguaggio tecnico [!DNL Adobe Analytics] in modo non tecnico" src="https://video.tv.adobe.com/v/345329?format=jpeg&captions=ita" />
     </a>
     <div>
       <a href="/help/analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md">

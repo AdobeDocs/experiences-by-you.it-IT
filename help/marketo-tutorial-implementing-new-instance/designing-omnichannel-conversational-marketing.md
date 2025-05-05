@@ -49,7 +49,7 @@ Vediamo questi casi d’uso in azione, mentre Sara mostra il suo processo, dalla
 
 Questa finestra di dialogo fornisce cinque opzioni iniziali tra cui i visitatori del sito possono scegliere, creando un’esperienza autonoma che li aiuta a trovare le informazioni necessarie in base alla loro persona. Per iniziare, puoi esplorare la casella di posta &quot;Contattaci&quot; per identificare i temi comuni e suddividerli in categorie nelle opzioni di dialogo applicabili ai visitatori del tuo sito. Guarda la demo e segui i passaggi seguenti per creare la tua finestra di dialogo catch-all predefinita:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429194/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453738/?learn=on&captions=ita)
 
 >[!BEGINTABS]
 

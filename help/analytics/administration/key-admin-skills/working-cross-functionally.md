@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Funzionamento cross-functional
 
->[!VIDEO](https://video.tv.adobe.com/v/342071/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/345453/?quality=12&learn=on&captions=ita)
 
 Il percorso a [!DNL Adobe Analytics] inizia con una buona implementazione. Conosciamo tutti il detto &quot;garbage in, garbage out&quot; (letteralmente: &quot;spazzatura dentro, spazzatura fuori&quot;). Per eliminare un’implementazione &quot;spazzatura&quot;, gli amministratori devono monitorare ogni dettaglio dei dati inseriti nel sistema. Detto questo, la strategia di raccolta dei dati è influenzata da molte parti interessate all’interno dell’organizzazione con cui un amministratore dovrà lavorare giorno dopo giorno.
 

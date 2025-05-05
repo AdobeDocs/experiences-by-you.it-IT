@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Scopri come esplorare la sezione [!DNL Analytics] e Database per richiamare diversi rapporti predefiniti in [!DNL Marketo Engage].
 
->[!VIDEO](https://video.tv.adobe.com/v/3419295/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3446428/?learn=on&captions=ita){transcript=true}
 
 ## Risorse aggiuntive
 

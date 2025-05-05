@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Guadagnarsi un posto al tavolo
 
->[!VIDEO](https://video.tv.adobe.com/v/342070/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/345314/?quality=12&learn=on&captions=ita)
 
 &quot;Guadagnarsi un posto al tavolo.&quot; Questa frase popolare è stata un argomento caldo nel mondo degli affari per anni. Ma cosa significa? Ottenere un posto al tavolo significa essere inclusi nelle conversioni decisionali di alto livello. Non solo siete invitati, ma il vostro contributo è apprezzato e apprezzato. Ti mostrerò in che modo ottenere un posto al tavolo aiuterà la tua azienda e la tua carriera come utente di [!DNL Adobe Analytics], sia che il tuo ruolo ufficiale sia quello di amministratore, analista di dati o qualsiasi altra cosa che il tuo biglietto da visita dica.
 

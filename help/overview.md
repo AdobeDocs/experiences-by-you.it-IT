@@ -32,7 +32,7 @@ L&#39;elemento più potente delle soluzioni DX (Digital Experience) di [!DNL Ado
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
+      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3422279?format=jpeg&captions=ita" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +45,7 @@ L&#39;elemento più potente delle soluzioni DX (Digital Experience) di [!DNL Ado
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="[!DNL Marketo Engage] Programmi e-mail" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
+      <img alt="[!DNL Marketo Engage] Programmi e-mail" src="https://video.tv.adobe.com/v/3453375?format=jpeg&captions=ita" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">
