@@ -65,7 +65,7 @@ Puoi creare una community autonoma all’interno della tua organizzazione. Ecco 
 
 ## 3. Utilizzare gli strumenti per iniziare a creare la community
 
-* [Crea uno statuto di progetto](assets/[!DNL Adobe]-[!DNL Analytics]-Empowercommunity-Project-Charter-Template.pptx) (download del modello):
+* [Crea uno statuto di progetto] (assets/[!DNL Adobe]-[!DNL Analytics]-Empowercommunity-Project-Charter-Template.pptx) (download del modello):
 
   Uno statuto di progetto è spesso un ottimo modo per allineare la tua azienda all’opportunità di una community interna e autonoma. Rispondendo alle seguenti domande, avrai ciò di cui hai bisogno per redigere il tuo statuto:
 

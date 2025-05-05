@@ -60,6 +60,7 @@ In genere, la best practice prevede di sincronizzare solo i campi di gestione de
    * Seconda colonna: Nomi API Marketo Engage
    * Terza colonna: [Tipo di campo Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"} (ad esempio booleano, valuta, data e così via)
    * Nelle colonne successive, ripeti per i tipi di oggetto CRM (lead, contatto, account, opportunità) con una colonna aggiuntiva per il livello di accesso che desideri che il Marketo Engage abbia (ad esempio lettura, scrittura, modifica)
+
   <br>
 
   Ecco un esempio di come apparirebbe:
@@ -73,7 +74,7 @@ In genere, la best practice prevede di sincronizzare solo i campi di gestione de
    * [Veeva](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/veeva-crm-sync/sync-details/default-veeva-field-mapping){target="_blank"}
 
 * Conferma che ogni campo predefinito nel Marketo Engage corrisponda al campo nel CRM con cui desideri eseguire la sincronizzazione. Ad esempio, il campo &quot;Non iscritto&quot; nel Marketo Engage potrebbe essere il campo &quot;Rinuncia e-mail&quot; nel CRM.
-* Se necessario, regola il nome API CRM, i privilegi e il tipo di dati [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"}.
+* Se necessario, regola il nome API CRM, i privilegi e il tipo di dati [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"}.
 
 **Passaggio 4:** Aggiungi campi aggiuntivi al dizionario dati
 
