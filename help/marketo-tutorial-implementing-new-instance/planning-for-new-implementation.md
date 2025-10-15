@@ -294,7 +294,7 @@ Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività 
 >[!NOTE]
 >Gli esempi forniti non si basano su una tempistica di implementazione effettiva. Non fare affidamento su questi elementi come tempistica standard per l’onboarding con il Marketo Engage, in quanto ogni implementazione è univoca e prevede attività cardine e requisiti diversi in base alle esigenze della tua organizzazione.
 
-Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per l&#39;istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
+Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per l&#39;istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/it/customers/consulting-services/main.html){target="_blank"}.
 
 ### Autore
 

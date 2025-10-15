@@ -78,5 +78,5 @@ L&#39;elemento più potente delle soluzioni DX (Digital Experience) di [!DNL Ado
 * [Community Experienci League](https://experienceleaguecommunities.adobe.com/)
 * [Documentazione Experience Cloud](https://experienceleague.adobe.com/docs/?lang=it)
 * [Esercitazioni di Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=it)
-* [business.adobe.com](https://business.adobe.com)
+* [business.adobe.com](https://business.adobe.com/it)
 

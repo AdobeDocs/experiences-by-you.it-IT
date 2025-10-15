@@ -79,4 +79,4 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
 * [Nazione Marketo (community)](https://nation.marketo.com/)
 * [Documentazione di Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-engage.html?lang=it)
 * [Tutorials Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Marketo Engage](https://business.adobe.com/products/marketo/adobe-marketo.html)
+* [Informazioni sul prodotto Adobe Marketo Engage](https://business.adobe.com/it/products/marketo/adobe-marketo.html)

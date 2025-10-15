@@ -79,4 +79,4 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
 * [Community Adobe Analytics di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Documentazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it)
 * [Esercitazioni di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)
+* [Informazioni sul prodotto Adobe Analytics](https://business.adobe.com/it/products/analytics/adobe-analytics.html)

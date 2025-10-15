@@ -81,4 +81,4 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
 * Adobe Campaign v8 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it)
 * Adobe Campaign Classic v7 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it)
 * Adobe Campaign Standard - [Documentazione](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html)
+* [Informazioni sul prodotto Adobe Campaign](https://business.adobe.com/it/products/campaign/adobe-campaign.html)
