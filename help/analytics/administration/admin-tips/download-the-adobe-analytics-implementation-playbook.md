@@ -105,7 +105,7 @@ Si consiglia di mantenere questo documento il più semplice possibile e di non a
 >
 >Creare una dimensione nome sito/proprietà in [!DNL Adobe Analytics]. Se in [!DNL Adobe Analytics] è presente una dimensione dedicata (in genere un eVar) che identifica il nome del sito o dell&#39;app, sarà possibile eseguire segmentazioni, risolvere problemi, creare suite di rapporti virtuali e così via. I vantaggi sono infiniti, soprattutto quando si combinano più siti in una singola suite di rapporti globale. La chiave consiste nell’assicurarsi che i team di sviluppo impostino sempre questo valore nella dimensione delle proprietà, inclusi tutti i caricamenti di pagina (s.t calls/trackState) e tutti gli eventi personalizzati (s.tl calls/trackAction). Le regole di elaborazione possono essere uno strumento utile per impostare questi valori in modo corretto e coerente.
 
-[Guarda questo video di Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html){target="_blank"} per ulteriori informazioni sulla compilazione del playbook di implementazione.
+[Guarda questo video di Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=it){target="_blank"} per ulteriori informazioni sulla compilazione del playbook di implementazione.
 
 ## Autori
 
