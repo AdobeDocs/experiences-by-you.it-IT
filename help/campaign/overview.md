@@ -33,7 +33,7 @@ L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gl
 <tr>
   <td>
     <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
-      <img alt="5 best practice per flussi di lavoro per gli addetti al marketing" src="https://video.tv.adobe.com/v/3410837?format=jpeg" />
+      <img alt="5 best practice per flussi di lavoro per gli addetti al marketing" src="https://video.tv.adobe.com/v/3448147?captions=ita&format=jpeg" />
     </a>
     <div>
       <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">

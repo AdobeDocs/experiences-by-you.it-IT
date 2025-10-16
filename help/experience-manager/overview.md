@@ -58,7 +58,7 @@ L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gl
   </td>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
-      <img alt="Suggerimenti" src="https://video.tv.adobe.com/v/3409427?format=jpeg" />
+      <img alt="Suggerimenti" src="https://video.tv.adobe.com/v/3439845?captions=ita&format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
