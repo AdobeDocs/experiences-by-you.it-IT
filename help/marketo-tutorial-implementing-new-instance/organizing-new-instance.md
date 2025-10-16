@@ -1,6 +1,6 @@
 ---
 title: Organizzare una nuova istanza e stabilire convenzioni di denominazione
-description: Scopri come impostare una buona organizzazione all’interno dell’istanza di Marketo Engage, consentendo ai futuri esperti di marketing della tua organizzazione di spostarsi facilmente all’interno dei programmi, modificare le risorse e richiamare rapporti.
+description: Scopri come impostare una buona organizzazione all’interno dell’istanza Marketo Engage, consentendo ai futuri esperti di marketing della tua organizzazione di navigare facilmente tra i programmi, modificare le risorse e richiamare rapporti.
 role: Admin
 level: Beginner
 doc-type: Article
@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-14813
 thumbnail: KT-14813.jpeg
 exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 2%
@@ -19,19 +19,19 @@ ht-degree: 2%
 
 # Organizzare una nuova istanza e stabilire convenzioni di denominazione
 
-In qualità di amministratore che implementa una nuova istanza di Marketo Engage, stai gettando le basi per consentire ai futuri addetti al marketing all’interno dell’organizzazione di navigare facilmente attraverso l’istanza. Acquisire familiarità con la struttura ad albero delle cartelle e le convenzioni di denominazione manterrà l’istanza ordinata e configurata per il successo a lungo termine. Questo tutorial include esempi consigliati da Natalie Kremer, Adobe and Marketo Engage Champion(2019-2020), per aiutarti a [organizzare le cartelle e denominare le risorse in modo coerente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
+In qualità di amministratore che implementa una nuova istanza di Marketo Engage, stai gettando le basi per consentire ai futuri addetti al marketing all’interno dell’organizzazione di navigare facilmente attraverso l’istanza. Acquisire familiarità con la struttura ad albero delle cartelle e le convenzioni di denominazione manterrà l’istanza ordinata e configurata per il successo a lungo termine. Questo tutorial include alcuni esempi consigliati da Natalie Kremer, Adobe e Marketo Engage Champion(2019-2020), per aiutarti a [organizzare le cartelle e denominare le risorse in modo coerente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
 
 ## Perché è necessario strutturare le cartelle e applicare le convenzioni di denominazione?
 
-L’organizzazione continua a essere utile per consentire a te e ai tuoi colleghi di tenere traccia di campagne, programmi e risorse e di generare rapporti sulle prestazioni dei programmi. Per organizzare la struttura di navigazione nell&#39;istanza e generare in scala, si consiglia di utilizzare [cartelle](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenzioni di denominazione standard](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} e funzionalità quali [clonazione](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
+L’organizzazione continua a essere utile per consentire a te e ai tuoi colleghi di tenere traccia di campagne, programmi e risorse e di generare rapporti sulle prestazioni dei programmi. Per organizzare la struttura di navigazione nell&#39;istanza e generare in scala, si consiglia di utilizzare [cartelle](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenzioni di denominazione standard](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} e funzionalità quali [clonazione](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
 
 ## Organizzare un’istanza di Marketo Engage
 
->[!VIDEO](https://video.tv.adobe.com/v/3422764/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3421577/?quality=12&learn=on)
 
 ### Passaggio 1: configurazione di una struttura di cartelle per mettere in ordine i programmi
 
-Il primo passaggio per organizzare l&#39;istanza consiste nel [configurare una struttura di cartelle](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html?lang=it) in cui inserire il programma e le risorse in modo semplice e ordinato.
+Il primo passaggio per organizzare l&#39;istanza consiste nel [configurare una struttura di cartelle](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) in cui inserire il programma e le risorse in modo semplice e ordinato.
 
 Di seguito sono riportati alcuni suggerimenti rapidi per strutturare le cartelle nella struttura:
 
@@ -65,8 +65,10 @@ Di seguito sono riportati alcuni esempi di cartelle che illustrano come mettere 
 Ora applichiamo la struttura delle cartelle a livello di programma. Come best practice, l’archiviazione delle risorse locali in sottocartelle ti aiuterà a mantenere i programmi in ordine e a consentire agli utenti interni di modificare o creare rapporti sui programmi in modo efficiente. Le sottocartelle più comuni includono e-mail, pagine di destinazione, campagne avanzate, elenchi, rapporti e così via.
 
 **Nome cartella nei programmi**
+
 * Campagne - *Cartella per tutte le campagne che gestiscono le interazioni e il tracciamento dello stato.*
 * Assets locale - *Cartella per tutte le risorse specifiche di questo programma.*
+
    * E-mail
    * Pagine di destinazione
    * Campagne avanzate
@@ -114,7 +116,7 @@ Andando da un livello all’altro per denominare le risorse, è meglio non ripet
 
 * Numera le risorse in base alla loro sequenza nel processo del programma.
 * Utilizza &quot;-&quot; (trattino) per separare i componenti di denominazione invece di &quot;.&quot;(punto) o &quot;\_&quot;(trattino basso).
-   * Perché? Il Marketo Engage utilizza un punto per separare il nome del programma dal nome della campagna. L&#39;uso di &quot;\_&quot; ti impedirà di visualizzarlo quando la risorsa è collegata tramite un collegamento ipertestuale.
+   * Perché? Marketo Engage utilizza un punto per separare il nome del programma dal nome della campagna. L&#39;uso di &quot;\_&quot; ti impedirà di visualizzarlo quando la risorsa è collegata tramite un collegamento ipertestuale.
 * Utilizza gli acronimi standard nei nomi delle risorse per ridurre il riferimento e consentire comunque un facile riconoscimento.
 
 Tenendo presenti questi suggerimenti, verranno applicati alle seguenti risorse e verranno create formule per generare i nomi:
@@ -178,7 +180,7 @@ Tenendo presenti questi suggerimenti, verranno applicati alle seguenti risorse e
 
 ## Cosa succede dopo?
 
-* Scaricare il foglio di lavoro: [Organizzazione di Marketo Engage e convenzioni di denominazione](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} per supportare la creazione della struttura di cartelle e delle convenzioni di denominazione.
+* Scarica il foglio di lavoro: [Organizzazione Marketo Engage e convenzioni di denominazione](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} per supportare la creazione della struttura di cartelle e delle convenzioni di denominazione.
 * Una volta determinati i componenti necessari nella convenzione di denominazione standard, è consigliabile creare formule in un Google Sheet o Microsoft Excel. Per un utilizzo futuro, è sufficiente inserire i valori nel foglio di calcolo per generare i nomi dei programmi.
 * Dopo aver eseguito l’allineamento a una struttura di cartelle complessiva, è ora di pensare ai modelli necessari in base ai casi d’uso più frequenti e alle richieste più comuni ricevute dal team. Quindi inizia a creare il primo modello di programma. Continua a leggere per iniziare a usare [modelli di programma Adobe Marketo Engage](https://business.adobe.com/blog/how-to/get-started-with-marketo-engage-program-templates){target="_blank"}.
 

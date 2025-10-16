@@ -11,7 +11,7 @@ last-substantial-update: 2023-05-18T00:00:00Z
 jira: KT-13256
 thumbnail: KT-13256.jpeg
 exl-id: 1f27e284-73e3-4f28-988e-51163775eec8
-source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Di: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, Consulente Senior, Meijer
 
-In qualità di Senior Engineer ed esperto cliente per [!DNL Adobe] prodotti di Experience Cloud degli ultimi cinque anni, consento agli utenti aziendali di [Meijer](https://www.meijer.com/){target="_blank"}, una catena di supercentri americana fondata nel 1934, di eseguire complesse campagne di marketing e transazionali con ACS. Alcuni dei progetti su cui ho lavorato includono campagne personalizzate per memorizzare le offerte e dettagli degli ordini per la personalizzazione, integrate con l&#39;Audience Manager [!DNL Adobe], e approfondimenti sul cliente per l&#39;inserimento dei segmenti.
+In qualità di Senior Engineer ed esperto cliente per [!DNL Adobe] prodotti Experience Cloud negli ultimi cinque anni, consento agli utenti aziendali di [Meijer](https://www.meijer.com/){target="_blank"}, una catena di supercentri americana fondata nel 1934, di eseguire complesse campagne di marketing e transazionali con ACS. Alcuni dei progetti su cui ho lavorato includono campagne personalizzate per memorizzare le offerte e dettagli degli ordini per la personalizzazione, integrate con [!DNL Adobe] Audience Manager, e customer insight per l&#39;inserimento dei segmenti.
 
 Durante il mio periodo di utilizzo di ACS, ho riscontrato errori che possono richiedere molto tempo e che possono essere frustranti da risolvere. Conoscere gli errori più comuni può aiutare a risolvere i problemi più rapidamente e a migliorare la produttività. Di seguito sono riportati alcuni suggerimenti per la risoluzione dei problemi che consentono di risolvere in modo efficace errori simili quando si verificano.
 
@@ -59,16 +59,17 @@ Fai riferimento alla schermata per l’attività di riconciliazione come mostrat
 
 ![flusso di lavoro con dettagli di riconciliazione](/help/_assets/kt-13256/del-persn-error-wf-solution.png)
 
-Ulteriori informazioni sulla [riconciliazione](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=it).
+Ulteriori informazioni sulla [riconciliazione](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=en).
 
 ## Errore set di dati campo comune
 
 **Codice errore:**
-`The document types of inbound events (''and'') are incompatible (step 'Exclusion'). Unable to perform the operation. `
+
+`The document types of inbound events (''and'') are incompatible (step 'Exclusion'). Unable to perform the operation.`
 
 **Causa:**
-Questo problema si verifica durante l&#39;utilizzo dell&#39;**attività di esclusione** nei flussi di lavoro ACS, durante l&#39;esecuzione di un&#39;esclusione basata sull&#39;ID, quando il set principale e il set escluso non hanno gli stessi nomi di campo.
 
+Questo problema si verifica durante l&#39;utilizzo dell&#39;**attività di esclusione** nei flussi di lavoro ACS, durante l&#39;esecuzione di un&#39;esclusione basata sull&#39;ID, quando il set principale e il set escluso non hanno gli stessi nomi di campo.
 
 ![Errore set di dati campo comune](/help/_assets/kt-13256/dataset-error.png)
 
@@ -82,7 +83,7 @@ Esistono due modi per risolvere questo errore:
 
 2. Utilizzare il metodo di esclusione JOIN per selezionare il campo in base al quale si desidera escludere i record.
 
-![Errore set di dati campo comune - Soluzione &#x200B;](/help/_assets/kt-13256/dataset-error-solution.png)
+![Errore set di dati campo comune - Soluzione ](/help/_assets/kt-13256/dataset-error-solution.png)
 
 ## Errore nome campo ignorato
 
@@ -95,7 +96,7 @@ Esistono due modi per risolvere questo errore:
 
 ![Errore Nome Campo Eliminato](/help/_assets/kt-13256/field-name-dropped-error.png)
 
-Ciò si verifica quando si modifica manualmente il nome di un’espressione nell’attività. L&#39;immagine mostra che l&#39;espressione è stata modificata da `name ` a `i__name`.
+Ciò si verifica quando si modifica manualmente il nome di un’espressione nell’attività. L&#39;immagine mostra che l&#39;espressione è stata modificata da `name` a `i__name`.
 
 **Soluzione:**
 
@@ -115,7 +116,7 @@ Ciò si verifica quando si modifica manualmente il nome di un’espressione nell
 **Causa:**
 Si tratta di un errore comune nei flussi di lavoro complicati che coinvolgono l’arricchimento o altre attività. Probabilmente alcuni dei flussi di lavoro delle attività non vengono salvati correttamente durante più modifiche al flusso di lavoro.
 
-![Errore tabella temporanea ignorata &#x200B;](/help/_assets/kt-13256/temp-table-dropped-error.png)
+![Errore tabella temporanea ignorata ](/help/_assets/kt-13256/temp-table-dropped-error.png)
 
 **Soluzione:**
 Questo errore può verificarsi in diversi modi, pertanto non esiste una semplice correzione. Se si tratta di un flusso di lavoro semplice, è meglio riconfigurare l’attività. In un flusso di lavoro complesso, è meglio copiare le attività del flusso di lavoro in un nuovo flusso di lavoro, salvarle ed eseguirle nuovamente.

@@ -1,13 +1,13 @@
 ---
 title: Campaign per te
 description: Campaign by You dispone di contenuti generati dagli utenti e creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con la loro conoscenza di Adobe Campaign.
-role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
+role: User, Developer, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Campaign
 thumbnail: null
 exl-id: cb9a03bd-8ce1-4681-929f-68f6ff435f6c
-source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 26%
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 # [!DNL Campaign] da te: risorse per utenti, per utenti.
 
-La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include i contenuti creati dagli utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni di Experience Cloud [!DNL Adobe]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
+L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include i contenuti creati dagli utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni Experience Cloud [!DNL Adobe]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -33,7 +33,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
 <tr>
   <td>
     <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
-      <img alt="5 best practice per flussi di lavoro per gli addetti al marketing" src="https://video.tv.adobe.com/v/3448147?format=jpeg&captions=ita" />
+      <img alt="5 best practice per flussi di lavoro per gli addetti al marketing" src="https://video.tv.adobe.com/v/3410837?format=jpeg" />
     </a>
     <div>
       <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
@@ -46,7 +46,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
-      <img alt="Risoluzione dei problemi per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=it" />
+      <img alt="Risoluzione dei problemi per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
     </a>
     <div>
       <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
@@ -59,7 +59,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/campaign/10-best-practices-for-marketers.md">
-      <img alt="Dieci best practice per il successo Adobe Campaign per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=it" />
+      <img alt="Dieci best practice per il successo Adobe Campaign per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
     </a>
     <div>
       <a href="/help/campaign/10-best-practices-for-marketers.md">
@@ -78,7 +78,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
 ## Risorse aggiuntive
 
 * [Community Adobe Campaign di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* Adobe Campaign v8 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it)
-* Adobe Campaign Classic v7 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it)
-* Adobe Campaign Standard - [Documentazione](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=it) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Campaign](https://business.adobe.com/it/products/campaign/adobe-campaign.html)
+* Adobe Campaign v8 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it)
+* Adobe Campaign Classic v7 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it)
+* Adobe Campaign Standard - [Documentazione](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it)
+* [Informazioni sul prodotto Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html)

@@ -1,5 +1,5 @@
 ---
-title: Scarica il playbook di implementazione  [!DNL Adobe Analytics]
+title: 'Scarica il playbook di implementazione  [!DNL Adobe Analytics] '
 description: Un documento sui requisiti aziendali (BRD, Business Requirements Doc) è una risorsa molto importante per la cui realizzazione sarà importante coinvolgere le principali parti interessate, utenti aziendali e utenti tecnici. Consente di documentare tutti i KPI desiderati, i requisiti di reporting e tutti i punti dati che desideri visualizzare al termine dell’implementazione di AA.
 solution: Analytics
 feature-set: Analytics
@@ -11,7 +11,7 @@ doc-type: article
 thumbnail: 10530.jpg
 kt: 10530
 exl-id: 42679c86-e08f-4dda-8e47-f9880409bad6
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Prima di iniziare, [scarica il playbook](assets/aa-implementation-playbook.xlsx)
 
 **COSA:** Un documento sui requisiti aziendali (BRD, Business Requirements Doc) è una risorsa molto importante per la cui realizzazione sarà importante coinvolgere le principali parti interessate, utenti aziendali e utenti tecnici. Consente di documentare tutti i KPI desiderati, i requisiti di reporting e qualsiasi punto dati che si desidera visualizzare al termine dell&#39;implementazione di [!DNL Adobe Analytics] (AA).
 
-**PERCHÉ:** funge da punto di partenza per la documentazione successiva (SDR, specifiche tecniche, ecc.) ed è una fonte comune di verità per uno stato finale concordato di AA. Questo documento raccoglie le opinioni dei vari team all’interno dell’organizzazione e definisce la direzione da seguire per sviluppare o migliorare l’implementazione.
+**PERCHÉ:** Questo funge da punto di partenza per la documentazione successiva (SDR, specifiche tecniche, ecc.) ed è una fonte comune di verità per uno stato finale concordato di AA. Questo documento raccoglie le opinioni dei vari team all’interno dell’organizzazione e definisce la direzione da seguire per sviluppare o migliorare l’implementazione.
 
 **COME:** La documentazione dei requisiti aziendali è comunemente preparata dagli utenti aziendali finali di AA, ma è importante ottenere feedback dagli utenti tecnici, in quanto ci possono essere problemi tecnici da considerare e alcuni punti dati possono richiedere più lavoro di altri, e sarà necessario tenerne conto nella definizione delle priorità.
 
@@ -46,11 +46,12 @@ Infine, la colonna Stato di implementazione fungerà da controllo dello stato un
 
 **PERCHÉ:** Questo documento ha molti scopi, ma i più importanti sono i seguenti:
 
-* Per tutti i nuovi utenti dell’implementazione (nuovi assunti, responsabili business che desiderano comprendere meglio i rapporti disponibili, ecc.) questo documento offre una panoramica ottimale di tutte le variabili implementate e del loro scopo, in modo che gli utenti possano servirsene autonomamente in termini di apprendimento della configurazione di AA.
+* Per tutti i nuovi utenti dell’implementazione (nuovi assunti, responsabili business che desiderano comprendere meglio i rapporti disponibili, ecc.), questo documento fornisce la migliore visione di tutte le variabili implementate e del loro scopo, in modo che gli utenti possano servirsi da soli in termini di apprendimento della configurazione di AA.
 * Per l’utente tecnico o proprietario del prodotto AA, questo documento fungerà da promemoria della configurazione di altre variabili e delle variabili disponibili che possono essere utilizzate quando si aggiunge una nuova dimensione.
 
 **COME:** Per iniziare, elenca in un documento Excel tutte le [!DNL Adobe] variabili predefinite (page, product, geo, ecc.), nonché eVar, prop, eventi. Deve essere presente una scheda per sito/suite di rapporti.
 Per ciascuna di queste dimensioni, aggiungo le seguenti colonne:
+
 * **Nome:** Fornisci un nome semplice e breve che possa essere compreso dalla maggior parte degli utenti. Questo dovrebbe essere abbastanza intuitivo da consentire a un nuovo utente di sceglierlo e capire cosa intende acquisire la variabile.
 * **Descrizione:** Ulteriori dettagli sullo scopo della variabile e sui dati di cui tiene traccia. Lo tengo breve e semplice e lo faccio corrispondere alla descrizione utilizzata nell’interfaccia. Idealmente, non voglio che i miei utenti debbano mai consultare il documento sui tag. Quindi, quando una nuova dimensione viene impostata sul backend di amministrazione, aggiungo lì la stessa descrizione. In questo modo, l’utente può fare clic sull’icona delle informazioni direttamente in Workspace per capire a cosa serve una dimensione, non è necessario consultare un documento Excel.
 
@@ -90,6 +91,7 @@ In questo modo i dati sono sempre puliti e hai una chiara idea della tua spazzat
 
 **COME:** Identifica un proprietario del documento per la governance e un&#39;unica fonte di responsabilità per la gestione degli aggiornamenti.
 Elenca quanto segue nella scheda proprietà:
+
 * **Nome proprietà:** Può essere un dominio, un sottodominio, il nome di un&#39;app e così via. Anche all’interno dello stesso dominio, se alcune parti sono gestite separatamente (ad esempio, da un team diverso o con una tecnologia diversa), queste devono essere separate.
 * **Collegamento (URL)** alla proprietà, se disponibile
 * **Proprietario e contatti:** Elenca il proprietario principale o i contatti per la proprietà
@@ -103,7 +105,7 @@ Si consiglia di mantenere questo documento il più semplice possibile e di non a
 >
 >Creare una dimensione nome sito/proprietà in [!DNL Adobe Analytics]. Se in [!DNL Adobe Analytics] è presente una dimensione dedicata (in genere un eVar) che identifica il nome del sito o dell&#39;app, sarà possibile eseguire segmentazioni, risolvere problemi, creare suite di rapporti virtuali e così via. I vantaggi sono infiniti, soprattutto quando si combinano più siti in una singola suite di rapporti globale. La chiave consiste nell’assicurarsi che i team di sviluppo impostino sempre questo valore nella dimensione delle proprietà, inclusi tutti i caricamenti di pagina (s.t calls/trackState) e tutti gli eventi personalizzati (s.tl calls/trackAction). Le regole di elaborazione possono essere uno strumento utile per impostare questi valori in modo corretto e coerente.
 
-[Guarda questo video di Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=it){target="_blank"} per ulteriori informazioni sulla compilazione del playbook di implementazione.
+[Guarda questo video di Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html){target="_blank"} per ulteriori informazioni sulla compilazione del playbook di implementazione.
 
 ## Autori
 

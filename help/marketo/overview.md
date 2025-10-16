@@ -1,12 +1,12 @@
 ---
 title: Marketo per te
 description: Marketo by You include contenuti generati dagli utenti e creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza sulla propria conoscenza di Adobe Marketo.
-role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
+role: User, Developer, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Marketo Engage
 exl-id: 5145c189-cc92-4472-bf99-981b43c2c5ba
-source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 16%
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # Marketo by You: risorse per utenti, per gli utenti.
 
-La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include i contenuti creati dagli utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni di Experience Cloud [!DNL Adobe]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
+L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include i contenuti creati dagli utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni Experience Cloud [!DNL Adobe]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -32,7 +32,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
 <tr>
   <td>
     <a href="/help/marketo/fundamentals/ui-navigation.md">
-      <img alt="Naviga nell&apos;interfaccia utente [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3450434?format=jpeg&captions=ita" />
+      <img alt="Naviga nell&apos;interfaccia utente [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3419131?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/fundamentals/ui-navigation.md">
@@ -45,7 +45,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/marketo/reporting/reporting-and-analytics.md">
-      <img alt="Reporting e analisi" src="https://video.tv.adobe.com/v/3446428?format=jpeg&captions=ita" />
+      <img alt="Reporting e analisi" src="https://video.tv.adobe.com/v/3419295?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/reporting/reporting-and-analytics.md">
@@ -58,7 +58,7 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Programmi e-mail" src="https://video.tv.adobe.com/v/3453375?format=jpeg&captions=ita" />
+      <img alt="Programmi e-mail" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">
@@ -77,6 +77,6 @@ La cosa più potente di [!DNL Adobe] soluzioni Experienci Cloud? Tu. Gli utenti 
 ## Risorse aggiuntive
 
 * [Nazione Marketo (community)](https://nation.marketo.com/)
-* [Documentazione di Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-engage.html?lang=it)
-* [Tutorials Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Marketo Engage](https://business.adobe.com/it/products/marketo/adobe-marketo.html)
+* [Documentazione di Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-engage.html)
+* [Tutorial su Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)
+* [Informazioni sul prodotto Adobe Marketo Engage](https://business.adobe.com/products/marketo/adobe-marketo.html)

@@ -1,12 +1,12 @@
 ---
 title: Analytics per te
 description: Analytics by You include contenuti generati dagli utenti e creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza sulla propria conoscenza di Adobe Analytics.
-role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
+role: User, Developer, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
-source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 19%
@@ -32,7 +32,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3422279?format=jpeg&captions=ita" />
+      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +45,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Traduzione del linguaggio tecnico [!DNL Adobe Analytics] in modo non tecnico" src="https://video.tv.adobe.com/v/345329?format=jpeg&captions=ita" />
+      <img alt="Traduzione del linguaggio tecnico [!DNL Adobe Analytics] in modo non tecnico" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md">
@@ -58,7 +58,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Creare convenzioni di denominazione standard" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg?lang=it" />
+      <img alt="Creare convenzioni di denominazione standard" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
@@ -79,4 +79,4 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
 * [Community Adobe Analytics di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Documentazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it)
 * [Esercitazioni di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Analytics](https://business.adobe.com/it/products/analytics/adobe-analytics.html)
+* [Informazioni sul prodotto Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)
