@@ -77,7 +77,7 @@ L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gl
 
 ## Risorse aggiuntive
 
-* [Community Adobe Campaign di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Community Adobe Campaign di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
 * Adobe Campaign v8 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it)
 * Adobe Campaign Classic v7 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it)
 * Adobe Campaign Standard - [Documentazione](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it)

@@ -138,7 +138,7 @@ Un’altra potente funzione delle aree di lavoro è la possibilità di applicare
 
 >[!IMPORTANT]
 >
->Per ulteriori informazioni sull&#39;utilizzo dei menu a discesa e delle suddivisioni a forma libera, vedere <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680>
+>Per ulteriori informazioni sull&#39;utilizzo dei menu a discesa e delle suddivisioni a forma libera, vedere <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680?profile.language=it>
 
 ##### 2.1.2.2. Google [!DNL Analytics]: dashboard, report personalizzati e report salvati
 
