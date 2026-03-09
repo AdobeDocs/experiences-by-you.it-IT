@@ -1,15 +1,15 @@
 ---
 title: Esperienze per te
-description: Scopri dai colleghi clienti di Adobe come utilizzano le applicazioni e le funzioni di Experience Cloud.
-role: User, Developer, Admin, Data Architect
+description: Scopri dai colleghi clienti di Adobe come utilizzano le applicazioni e le funzionalità di Experience Cloud.
+role: User, Developer, Admin
 level: Beginner
 doc-type: overview
 solution: Experience Cloud
 exl-id: a3e976a1-8bf1-4c18-b5b5-831367a7e8a0
-source-git-commit: 24c2ee272ab1dcda53e5dfe918125e8542ecfe15
+source-git-commit: 81b3c04ef2daedb5ddb796c5cf74da6dca85dd21
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 9%
+source-wordcount: '185'
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ L&#39;elemento più potente delle soluzioni DX (Digital Experience) di [!DNL Ado
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3422279?format=jpeg&captions=ita" />
+      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +45,7 @@ L&#39;elemento più potente delle soluzioni DX (Digital Experience) di [!DNL Ado
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="[!DNL Marketo Engage] Programmi e-mail" src="https://video.tv.adobe.com/v/3453375?format=jpeg&captions=ita" />
+      <img alt="[!DNL Marketo Engage] Programmi e-mail" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">
@@ -75,8 +75,8 @@ L&#39;elemento più potente delle soluzioni DX (Digital Experience) di [!DNL Ado
 
 ## Risorse aggiuntive
 
-* [Community Experienci League](https://experienceleaguecommunities.adobe.com/?profile.language=it)
-* [Documentazione Experience Cloud](https://experienceleague.adobe.com/docs/?lang=it)
-* [Esercitazioni di Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=it)
-* [business.adobe.com](https://business.adobe.com/it)
+* [Experience League Communities](https://experienceleaguecommunities.adobe.com/)
+* [Documentazione di Experience Cloud](https://experienceleague.adobe.com/docs/?lang=it)
+* [Tutorial su Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=it)
+* [business.adobe.com](https://business.adobe.com)
 

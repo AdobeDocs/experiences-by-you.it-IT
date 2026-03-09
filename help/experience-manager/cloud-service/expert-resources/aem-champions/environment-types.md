@@ -6,16 +6,16 @@ feature-set: Marketo Engage, Experience Manager, Experience Manager Cloud Manage
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager Cloud Manager
 feature: Cloud Manager
 topic: Administration
-role: Admin, Architect
+role: Admin, Developer
 level: Beginner
 doc-type: Value Video
 last-substantial-update: 2023-05-11T00:00:00Z
 jira: KT-13229
 exl-id: 682c97c0-d563-4cfa-be6b-0eb22c675d21
-source-git-commit: 2a628f89f602371c02db5204956d9397f306bdb8
+source-git-commit: 81b3c04ef2daedb5ddb796c5cf74da6dca85dd21
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 3%
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -27,5 +27,5 @@ Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh 
 
 ## Risorse aggiuntive {#additional-resources}
 
-* [Gestione degli ambienti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments.html?lang=it) - Documentazione sulla gestione degli ambienti in AEM as a Cloud Service
+* [Gestione degli ambienti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments.html) - Documentazione sulla gestione degli ambienti in AEM as a Cloud Service
 * [Ambienti di sviluppo rapido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments.html?lang=it) - Documentazione sugli RDE in AEM as a Cloud Service

@@ -12,22 +12,22 @@ level: Experienced
 thumbnail: 340457.jpg
 kt: 9780
 exl-id: 0e45d8ba-a08d-4b5d-8a12-326e01c29505
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: efd84b4fa04ca4d7bd8f4b8b5ad69b6a24f5e8c6
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 0%
+source-wordcount: '1574'
+ht-degree: 2%
 
 ---
 
 # Creazione di una community autonoma
 
->[!VIDEO](https://video.tv.adobe.com/v/341114/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/340457/?quality=12&learn=on)
 
 Una community autonoma possiede alcune caratteristiche fondamentali. Innanzitutto, è supportato dai suoi amministratori [!DNL Adobe Analytics]. È a conoscenza di come i requisiti di business sono rappresentati all&#39;interno della loro implementazione. Infine, ma non per importanza, dispone dei mezzi necessari per utilizzare con sicurezza l’analisi per prendere decisioni basate su dati. Molte aziende traggono vantaggio dalla struttura fornita da un gruppo di utenti [!DNL Adobe Analytics] interno o da una community più formale.
 
-Puoi creare una community autonoma all’interno della tua organizzazione. Ecco come:
+Puoi creare una community autonoma all’interno della tua organizzazione. effettuando le seguenti operazioni:
 
-## 1. Creare un’infrastruttura solida, la base per la community autonoma
+## &#x200B;1. Creare un’infrastruttura solida, la base per una community autonoma
 
 * Creare un processo di onboarding degli utenti:
 
@@ -39,13 +39,13 @@ Puoi creare una community autonoma all’interno della tua organizzazione. Ecco 
 
 * Comprendere l’implementazione:
 
-  Come best practice, gli utenti devono avere una conoscenza di base dei requisiti di business supportati dalla propria implementazione, che in genere vengono acquisiti tramite un [documento sui requisiti di business](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=it) (BRD) e un [documento di riferimento sulla progettazione della soluzione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html?lang=it) (SDR). Questi requisiti devono includere ciò che è stato implementato e definire i requisiti aziendali, i rapporti, le eVar, gli eventi e così via, per categoria.
+  Come best practice, gli utenti devono avere una conoscenza di base dei requisiti di business supportati dalla propria implementazione, che in genere vengono acquisiti tramite un [documento sui requisiti di business](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en) (BRD) e un [documento di riferimento sulla progettazione della soluzione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html?lang=en) (SDR). Questi requisiti devono includere ciò che è stato implementato e definire i requisiti aziendali, i rapporti, le eVar, gli eventi e così via, per categoria.
 
 * Utilizzare i modelli di rapporto:
 
   I modelli di report e i progetti di [!DNL Adobe Analytics] sono risorse chiave per consentire agli utenti dello strumento di implementare, segnalare casi di utilizzo e best practice. Queste risorse devono affrontare le domande di business più comuni e spiegare come possono essere trattate al meglio all’interno dello strumento.
 
-## 2. Creare un piano per chi lo gestisce e chi deve essere coinvolto
+## &#x200B;2. Crea un piano per chi lo gestisce e chi deve essere coinvolto
 
 * Decidere chi gestirà la community:
 
@@ -63,15 +63,15 @@ Puoi creare una community autonoma all’interno della tua organizzazione. Ecco 
 
 * Ricorda: &quot;Cosa ci guadagnano?&quot; Mantenere la community concentrata sui casi d’uso e sulle priorità aziendali contribuisce a garantire il coinvolgimento e il successo.
 
-## 3. Utilizzare gli strumenti per iniziare a creare la community
+## &#x200B;3. Utilizzare gli strumenti per iniziare a creare la community
 
-* [Crea uno statuto di progetto] (assets/[!DNL Adobe]-[!DNL Analytics]-Empowercommunity-Project-Charter-Template.pptx) (download del modello):
+* [Crea uno statuto di progetto](assets/Adobe-Analytics-Empowered-Community-Project-Charter-Template.pptx) (download del modello):
 
   Uno statuto di progetto è spesso un ottimo modo per allineare la tua azienda all’opportunità di una community interna e autonoma. Rispondendo alle seguenti domande, avrai ciò di cui hai bisogno per redigere il tuo statuto:
 
    * Qual è la descrizione del problema che si sta tentando di risolvere? Qual è l’obiettivo della community, e cosa prevedete sia compreso o escluso?
    * &quot;Cosa ci guadagno?&quot; Quali sono i benefici o i costi potenziali, come misurare il successo e quali sono i rischi?
-   * Quali sono le tempistiche per la creazione di una community? Quale lavoro di configurazione è necessario per un’abilitazione, uno strumento, gruppi di utenti amministratori, ecc. prospettiva? In genere, è meglio sviluppare risorse di abilitazione della linea di base prima di avviare un’iniziativa più ampia.
+   * Quali sono le tempistiche per la creazione di una community? Quale lavoro di configurazione è necessario dal punto di vista di abilitazione, strumento, gruppi di utenti amministratori e così via? In genere, è meglio sviluppare risorse di abilitazione della linea di base prima di avviare un’iniziativa più ampia.
    * Quanto incidono i membri del gruppo sul successo della community e chi viene sostenuto nell’ambito dell’iniziativa?
    * Infine, chi è il tuo sponsor esecutivo? Non possiamo enfatizzare abbastanza il valore di un forte sponsor esecutivo, qualcuno che approvi il lavoro e il suo valore.
 
@@ -89,9 +89,9 @@ Puoi creare una community autonoma all’interno della tua organizzazione. Ecco 
    * Chi invierà la comunicazione?
    * Quando? È fondamentale considerare sia le comunicazioni prima del lancio della community, sia quelle che devono essere fornite su base continuativa dopo il lancio.
 
-* Utilizza il tuo veicolo per la community per andare &quot;live&quot;. A seconda dello stack tecnologico della tua azienda, scegli uno strumento o un veicolo per la community. Questo sarà personalizzato per la tua organizzazione, ma molti spesso trovano Microsoft Teams che funzionano bene.
+* Utilizza il tuo veicolo per la community per andare &quot;live&quot;. A seconda dello stack tecnologico della tua azienda, scegli uno strumento o un veicolo per la community. Sarà personalizzato per la tua organizzazione, ma spesso Microsoft Teams funziona correttamente.
 
-## 4. Mantenere la community, assicurandone il successo
+## &#x200B;4. Manutenzione della community per garantirne il successo
 
 * Riserva il tempo necessario: aggiungi le riunioni della community ai calendari per riservare con anticipo il tempo necessario; se possibile, delle riunioni ricorrenti ti aiuteranno a realizzare il piano dei contenuti. Per aiutarti a iniziare, ecco alcune idee da mettere in agenda:
 
@@ -115,4 +115,4 @@ Creare e gestire una community autonoma è molto impegnativo. È importante fare
 
 * Sviluppo professionale: una community autonoma sposta l’attenzione di molti team di analisti dall’essere reattivi e tattici ad essere prescrittivi e strategici. Ciò offre opportunità di sviluppo per il team di progetto amministrativo della community.
 
-Se disponi di un gruppo di utenti [!DNL Adobe Analytics] interno o di una community più tradizionale, o ti stai adoperando per crearne una, ci piacerebbe conoscere la tua esperienza nell&#39;[[!DNL Adobe] Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/bd-p/adobe-analytics-discussions?profile.language=it).
+Se disponi di un gruppo di utenti [!DNL Adobe Analytics] interno o di una community più tradizionale, o ti stai adoperando per crearne una, ci piacerebbe conoscere la tua esperienza con [[!DNL Adobe] Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/bd-p/adobe-analytics-discussions).
