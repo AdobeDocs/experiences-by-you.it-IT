@@ -9,9 +9,8 @@ doc-type: Feature Video
 last-substantial-update: 2023-10-16T00:00:00Z
 jira: KT-13762
 thumbnail: 3422473.jpeg
-hide: false
 exl-id: e691d38f-34c2-4e46-908e-c96f82eb1399
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -24,4 +23,4 @@ Ereditare un&#39;istanza [!DNL Marketo Engage] può essere un momento stressante
 
 Questa esercitazione illustra le sezioni più importanti di [!DNL Marketo Engage], inclusi Admin, Marketing Activities, Design Studio e Database, e fornisce suggerimenti per il controllo e l&#39;ottimizzazione durante il processo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453030/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3453030/?captions=ita&learn=on)

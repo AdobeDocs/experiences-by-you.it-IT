@@ -9,11 +9,10 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-16T00:00:00Z
 jira: KT-13875
 thumbnail: KT-13875.jpeg
-hide: false
 exl-id: 6a38f5dd-5d25-43d8-a1d3-e75ab396e555
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -46,7 +45,7 @@ Prima di iniziare, scaricare il modello di registro degli errori di sincronizzaz
 
 **Passaggio 7:** Nell&#39;ultima colonna incollare il testo effettivo dell&#39;errore.
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
 **Identificare i codici di errore:** Per comprendere i codici di errore, cercare le descrizioni nella documentazione per gli sviluppatori [Tabella dei codici di errore a livello di risposta](https://developers.marketo.com/rest-api/error-codes/#response_level_error_codes){target="_blank"} e trovare i passaggi successivi tipici per risolvere gli errori.
 

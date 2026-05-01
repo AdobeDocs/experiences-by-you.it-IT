@@ -9,11 +9,10 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-16T00:00:00Z
 jira: KT-13888
 thumbnail: KT-13888.jpeg
-hide: false
 exl-id: c377fe5f-2d77-4fd0-9ac4-5ad65506f582
-source-git-commit: a7a52347dbf9c3c12f3653c23e01bce611588580
+source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
 workflow-type: tm+mt
-source-wordcount: '4894'
+source-wordcount: '6045'
 ht-degree: 2%
 
 ---
@@ -38,7 +37,7 @@ Se si è più recenti di [!DNL Marketo Engage], è possibile che non si sappia c
 Rispondi alle seguenti domande per riflettere sul processo di controllo qualità:
 
 * **Chi è in grado di svolgere il ruolo di revisore e approvatore?**
-Se fai parte di un&#39;organizzazione più piccola, gli amministratori [!DNL Marketo Engage] possono svolgere ruoli ibridi di Marketing e Marketing Operations. Si consiglia di avere un [!DNL Marketo Engage] non generatore. Considerare gli utenti avanzati per controllare i programmi. Un nuovo paio di occhi nuovi aiuta a individuare i problemi.
+Se sei in un&#39;organizzazione più piccola, gli amministratori [!DNL Marketo Engage] possono svolgere ruoli ibridi di Marketing e Marketing Operations. Si consiglia di avere un [!DNL Marketo Engage] non generatore. Considerare gli utenti avanzati per controllare i programmi. Un nuovo paio di occhi nuovi aiuta a individuare i problemi.
 
 * **In che modo i generatori e i revisori collaborano e documentano le note e le modifiche?**
 Puoi mantenere gli elementi organizzati in un foglio di calcolo o all’interno di una piattaforma di gestione dei progetti. Fai riferimento all’elenco di controllo seguente e converti il modello nel formato più adatto alla tua organizzazione. Il team può semplicemente clonare il modello ogni volta che genera e rivede il programma per l’avvio.
@@ -184,8 +183,8 @@ Potrebbero esserci elementi mancanti o non applicabili in quanto il team esegue 
 | 18 | **Invii operativi** | <ul><li>Hai impostato l’e-mail su Operativo (ovvero non eseguirà le impostazioni per l’annullamento dell’abbonamento)?<li>In caso affermativo, ne ha una ragione valida?</li> | **Sì o No:**<br> Se rispondi con sì, dovresti avere un motivo valido per inviare un messaggio e-mail come messaggio operativo. In caso di dubbi, rivolgersi all&#39;amministratore [!DNL Marketo Engage]. | [Rendere operativa un&#39;e-mail](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/make-an-email-operational.html?lang=it){target="_blank"} |
 | 19 | **Test A/B e Champ/Challenger** | Stai eseguendo test di campioni/sfidanti sull’e-mail? | **Sì o no:**<br> Se non esegui alcun test, pensa di poter perdere un&#39;opportunità per saperne di più sul pubblico. | [Crea un test A/B](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/ab-testing-watch.html?lang=it)<br><br>[Aggiungi un campione/sfidante e-mail](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/email-tests-champion-challenger/add-an-email-champion-challenger.html?lang=it){target="_blank"} |
 | 20 | **Test client** | Hai eseguito l’e-mail tramite il software di test client?<li>Hai identificato problemi di visualizzazione con i principali client e-mail? <li>Hai corretto o registrato come correzione non urgente dei modelli? <li>Hai identificato problemi di velocità di carico e hai tentato di migliorare?<li>Hai identificato dei problemi nella riga dell’oggetto o della riga di anteprima? Sono risolti? | **Sì o non applicabile:**<br> Se non è possibile rispondere con un sì (a meno che non si disponga di software di test), è necessario eseguire questa operazione prima di inviare. | Esempi di software di test client includono Litmus o Email on Acid o [Marketo Email Deliverability Power Pack](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/deliverability/email-deliverability-power-pack-how-to-import-a-seed-list.html?lang=it)<br><br>[Tutorial sul tracciatore della casella in entrata](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/deliverability/inbox-tracker/inbox-tracker-tutorials.html?lang=it){target="_blank"} |
-| 21 | **Test spam** | Hai eseguito l’e-mail tramite il processo di spam?<li>Inserire nell&#39;elenco Bloccati Ci sono bandiere di segnalazione per la?<li>Hai identificato un flag di posizionamento casella in entrata/client e-mail? <li>Hai cercato le possibili cause e hai tentato di risolverle? | **Sì o non applicabile:**<br> Se non è possibile rispondere con un sì (a meno che non si disponga di software di test), è necessario eseguire questa operazione prima di inviare. | Utilizza la funzionalità di tracciamento della casella in entrata di [Marketo](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/deliverability/inbox-tracker/inbox-tracker-tutorials.html?lang=it){target="_blank"} per questo se ne hai incluso nel contratto o strumenti come Litmus o E-mail su Acid. |
-| 22 | **Ulteriori[!DNL Analytics]** | L’e-mail include codice di analisi aggiuntivo? | **Sì o non applicabile:**<br>       Se non riesci a rispondere con un sì (a meno che non disponi di software di analisi aggiuntivo), devi farlo prima dell’invio. |  |
+| 21 | **Test spam** | Hai eseguito l’e-mail tramite il processo di spam?<li>Ci sono bandiere di segnalazione per la?<li>Hai identificato un flag di posizionamento casella in entrata/client e-mail? <li>Hai cercato le possibili cause e hai tentato di risolverle? | **Sì o non applicabile:**<br> Se non è possibile rispondere con un sì (a meno che non si disponga di software di test), è necessario eseguire questa operazione prima di inviare. | Utilizza la funzionalità di tracciamento della casella in entrata di [Marketo](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/deliverability/inbox-tracker/inbox-tracker-tutorials.html?lang=it){target="_blank"} per questo se ne hai incluso nel contratto o strumenti come Litmus o E-mail su Acid. |
+| 22 | **Ulteriori[!DNL Analytics]** | L’e-mail include codice di analisi aggiuntivo? | **Sì o non applicabile:**<br> Se non è possibile rispondere con un sì (a meno che non si disponga di software di analisi aggiuntivo), è necessario farlo prima dell&#39;invio. |  |
 
 >[!TAB Controlli finali]
 
@@ -198,7 +197,7 @@ Potrebbero esserci elementi mancanti o non applicabili in quanto il team esegue 
 
 >[!ENDTABS]
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
 Fai clic [qui](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Program_Prelaunch_QA_Checklist.xlsx) per scaricare l&#39;elenco di controllo pre-avvio del programma modificabile da personalizzare. Ricorda che deve essere adattato al flusso di lavoro della tua organizzazione. Lo sviluppo di un processo di controllo qualità efficace ti mantiene responsabile e limita gli errori che i clienti devono affrontare.
 
@@ -206,7 +205,7 @@ Fai clic [qui](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe
 
 **Grace Brebner**
 [!DNL Adobe] Marketo Champion (2021)
-*Direttore strategia client, area APAC, Digital Pi, LLC - Società Merkle*
+*Direttore strategia client, area APAC, Digital Pi, LLC - Azienda Merkle*
 
 ![Grace Brebner](/help/marketo-tutorial-inherited-instance/_assets/authors/Customer_Author_Grace_Brebner.png){width=30%}
 
