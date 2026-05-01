@@ -9,18 +9,17 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-16T00:00:00Z
 jira: KT-13875
 thumbnail: KT-13875.jpeg
-hide: false
 exl-id: 6a38f5dd-5d25-43d8-a1d3-e75ab396e555
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # Registra gli errori di sincronizzazione CRM per la risoluzione dei problemi
 
-In qualità di amministratore [!DNL Marketo Engage], verificare se l&#39;istanza è sincronizzata con il CRM deve essere una parte chiave della [routine giornaliera](https://nation.marketo.com/t5/champion-program-blogs/my-marketo-morning-routine-tips-for-driving-marketing-operation/ba-p/247508){target="_blank"}. Mentre la [sezione Notifiche](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/notification-types.html?lang=it){target="_blank"} (trovala nell&#39;angolo in alto a destra dell&#39;interfaccia [!DNL Marketo Engage]) è il luogo in cui inizierai a trovare e analizzare i frequenti problemi di sincronizzazione, esiste un suggerimento pro che potrebbe aiutarti a gestire lo stato dell&#39;istanza in modo organizzato. [!DNL Adobe] Marketo Champion (2019-2022), Amy Goldfine consiglia agli utenti amministratori di mantenere un registro degli errori di sincronizzazione CRM per semplificare la risoluzione dei problemi.
+In qualità di amministratore [!DNL Marketo Engage], verificare se l&#39;istanza è sincronizzata con il CRM deve essere una parte chiave della [routine giornaliera](https://nation.marketo.com/t5/champion-program-blogs/my-marketo-morning-routine-tips-for-driving-marketing-operation/ba-p/247508){target="_blank"}. Mentre la [sezione Notifiche](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/notification-types.html){target="_blank"} (trovala nell&#39;angolo in alto a destra dell&#39;interfaccia [!DNL Marketo Engage]) è il luogo in cui inizierai a trovare e analizzare i frequenti problemi di sincronizzazione, esiste un suggerimento pro che potrebbe aiutarti a gestire lo stato dell&#39;istanza in modo organizzato. [!DNL Adobe] Marketo Champion (2019-2022), Amy Goldfine consiglia agli utenti amministratori di mantenere un registro degli errori di sincronizzazione CRM per semplificare la risoluzione dei problemi.
 
 ![Schermata della scheda Errori di sincronizzazione](/help/marketo-tutorial-inherited-instance/_assets/Marketo_Engage_Admin_Salesforce_Sync_Errors_Tab.png)
 
@@ -34,7 +33,7 @@ Prima di iniziare, scaricare il modello di registro degli errori di sincronizzaz
 
 **Passaggio 1:** Vai alla *[!UICONTROL sezione Amministratore]* in [!DNL Marketo Engage]. In *[!UICONTROL Integrazione]*, fare clic su *[!DNL Salesforce]*, *[!DNL Microsoft Dynamics]* o *[!DNL Veeva]*, a seconda di quale [!DNL CRM] si utilizza, quindi sulla scheda *[!UICONTROL Errori di sincronizzazione]*.
 
-**Passaggio 2:** Puoi scegliere di [esportare i record di errori come file [!DNL CSV] tramite il pannello [!UICONTROL Filtro]](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/salesforce-sync-errors.html?lang=it#filter-sync-errors){target="_blank"}. Se hai solo poche ore, è consigliabile copiare e incollare direttamente dalla scheda *[!UICONTROL Errori di sincronizzazione]*.
+**Passaggio 2:** Puoi scegliere di [esportare i record di errori come file [!DNL CSV] tramite il pannello [!UICONTROL Filtro]](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/salesforce-sync-errors.html#filter-sync-errors){target="_blank"}. Se hai solo poche ore, è consigliabile copiare e incollare direttamente dalla scheda *[!UICONTROL Errori di sincronizzazione]*.
 
 **Passaggio 3:** Prendere nota della data in cui si è verificato l&#39;errore.
 
@@ -46,7 +45,7 @@ Prima di iniziare, scaricare il modello di registro degli errori di sincronizzaz
 
 **Passaggio 7:** Nell&#39;ultima colonna incollare il testo effettivo dell&#39;errore.
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
 **Identificare i codici di errore:** Per comprendere i codici di errore, cercare le descrizioni nella documentazione per gli sviluppatori [Tabella dei codici di errore a livello di risposta](https://developers.marketo.com/rest-api/error-codes/#response_level_error_codes){target="_blank"} e trovare i passaggi successivi tipici per risolvere gli errori.
 

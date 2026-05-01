@@ -9,12 +9,11 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-16T00:00:00Z
 jira: KT-14103
 thumbnail: KT-14103.jpeg
-hide: false
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 0%
+source-wordcount: '936'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +29,7 @@ La documentazione dettagliata e un [!UICONTROL Changelog] sono fondamentali per 
 
 1. Formare gli utenti interni più facilmente e in modo scalabile.
 2. Generare in modo più efficiente in [!DNL Marketo Engage] a lungo termine.
-3. Mantenere lo stato di salute e l&#39;igiene dell&#39;istanza per evitare di trascorrere ore a cercare e-mail, [audit trail](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html?lang=it) e [registro attività](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html?lang=it) per ottenere il contesto.
+3. Mantenere lo stato di salute e l&#39;igiene dell&#39;istanza per evitare di trascorrere ore a cercare e-mail, [audit trail](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html) e [registro attività](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html) per ottenere il contesto.
 4. Risparmia tempo con il trasferimento delle conoscenze di [!DNL Marketo Engage] a un nuovo amministratore di [!DNL Marketo Engage] se il tuo team subisce un ricambio.
 
 ## Guida alla governance di [!DNL Marketo Engage] 101
@@ -56,7 +55,7 @@ Il formato varia da una piattaforma basata su cloud a un documento condiviso. Pu
 
 * Documentazione
    * Nome modello programma
-   * Channel
+   * Canale
    * Data di creazione
    * Creato da
    * Scopo del programma
@@ -92,7 +91,7 @@ Stabilire una posizione centrale o un repository per l&#39;archiviazione di tutt
 
 Pianifica revisioni regolari della documentazione per assicurarti che rimanga accurata e aggiornata. Può essere facilmente sottovalutato durante i periodi di grande affluenza. Imposta proattivamente i promemoria sul calendario per garantire che il team esegua regolarmente aggiornamenti per riflettere eventuali modifiche o ottimizzazioni nei programmi operativi.
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
 Per iniziare, scarica questo [modello semplice](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
 
@@ -101,7 +100,7 @@ Segui i passaggi precedenti per sviluppare la guida alla governance e la documen
 **Aggiorna la documentazione esistente:**
 È fondamentale mantenere aggiornata la documentazione. Se non è stata modificata negli ultimi 3 anni, conferma il tempo necessario per rivedere la documentazione durante l’audit dell’istanza.
 
-**Condividi e tieni traccia di:**
+**Condividi e forma:**
 Condividi la tua documentazione e [!DNL changelog] con i membri del gruppo pertinenti e istruiscili su come aggiornare questi record.
 
 **Revisione periodica:** prepianificare il tempo necessario per esaminarle e gestirle nel corso dell&#39;anno in modo da includere eventuali nuove modifiche, ottimizzazioni o adeguamenti nel momento in cui si verificano.
