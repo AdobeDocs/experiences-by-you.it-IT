@@ -28,5 +28,5 @@ ht-degree: 8%
 + [Organizzare una nuova istanza e stabilire convenzioni di denominazione](./organizing-new-instance.md)
 + [Progettare il marketing conversazionale omni-channel con Dynamic Chat](./designing-omnichannel-conversational-marketing.md)
 + [Introduzione alla governance e alla documentazione delle istanze](./documenting-your-instance.md)
-+ [Esercitazioni del [!DNL Marketo Engage]](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/overview)
++ [Esercitazioni del [!DNL Marketo Engage]](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/overview)
 + [Torna alle prospettive](https://experienceleague.adobe.com/it/perspectives)
