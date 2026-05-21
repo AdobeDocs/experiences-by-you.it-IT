@@ -6,13 +6,13 @@ index: true
 role: Admin
 level: Beginner
 solution: Marketo Engage
-product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615
+usetq: true
 auto-video-transcripts: true
-source-git-commit: cddb05edf1f607bc1e695dcf593364958f21320b
+source-git-commit: 972bec0709619acbf8d59d468e20f967a85f8069
 workflow-type: tm+mt
-source-wordcount: 80
-ht-degree: 8%
+source-wordcount: 97
+ht-degree: 7%
 
 ---
 
@@ -28,5 +28,5 @@ ht-degree: 8%
 + [Organizzare una nuova istanza e stabilire convenzioni di denominazione](./organizing-new-instance.md)
 + [Progettare il marketing conversazionale omni-channel con Dynamic Chat](./designing-omnichannel-conversational-marketing.md)
 + [Introduzione alla governance e alla documentazione delle istanze](./documenting-your-instance.md)
-+ [Esercitazioni del [!DNL Marketo Engage]](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/overview)
++ [Esercitazioni del [!DNL Marketo Engage]](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/overview)
 + [Torna alle prospettive](https://experienceleague.adobe.com/it/perspectives)
