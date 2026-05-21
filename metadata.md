@@ -13,10 +13,10 @@ mini-toc-levels: 2
 git-repo: https://github.com/adobedocs/experiences-by-you.it-IT
 index: true
 feature-set: Advertising, Analytics, Audience Manager, Campaign, Commerce, Customer Journey Analytics, Experience Cloud Services, Experience Manager, Experience Manager Assets, Experience Manager Cloud Manager, Experience Manager Forms, Experience Manager Guides, Experience Manager Screens, Experience Manager Sites, Experience Platform, Journey Optimizer, Journey Orchestration, Marketo Engage, Workfront
-source-git-commit: cddb05edf1f607bc1e695dcf593364958f21320b
+source-git-commit: 1818db9e2253ebfc085205761331bb53fe884e26
 workflow-type: tm+mt
 source-wordcount: 70
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 74%
 
 Il file metadata.md include metadati a livello di archivio che vengono trasmessi ai file TOC.md della guida utente presente nell’archivio stesso. Se desideri modificare il contenuto del file metadata.md per qualsiasi Guida utente, effettua questa operazione in qualsiasi file TOC.md.
 
-Per un elenco di valori validi per **soluzione**, **prodotto** e **tipo**, consulta [Metadati](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html).
+Per un elenco di valori validi per **soluzione**, **prodotto** e **tipo**, consulta [Metadati](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=it).
