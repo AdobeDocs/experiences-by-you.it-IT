@@ -13,7 +13,7 @@ kt: 10536
 exl-id: f133d049-9a24-4153-88c5-40ec480d1e4e
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Di seguito sono riportati i vantaggi/svantaggi di avere una singola suite di rap
 La migrazione da una strategia a più tag con una suite di rapporti univoca per ogni proprietà richiede più strategia e pianificazione. Alcune considerazioni da tenere a mente:
 
 * L’allineamento delle variabili (ad esempio, eVar1 nella proprietà A deve acquisire lo stesso punto dati di eVar1 nella proprietà B)
-* Consolidamento di eventuali regole di elaborazione, regole del canale di marketing, classificazioni (SAINT e Rule Builder)
+* Consolidamento di eventuali regole di elaborazione, regole del canale di marketing e classificazioni (SAINT e Rule Builder)
 * Migrazione di feed di dati e origini dati
 * Scelta di una data di interruzione e comunicazione con tutti gli utenti aziendali
 
