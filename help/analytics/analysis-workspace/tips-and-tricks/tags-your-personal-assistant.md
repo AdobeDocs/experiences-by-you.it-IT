@@ -12,7 +12,7 @@ thumbnail: KT-14963.jpeg
 exl-id: 563941cc-30a2-45d2-8634-0bde3b539ffd
 source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1404'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Quanti di voi hanno fatto questo?  Hai iniziato a cercare una **dimensione**, un
 
 *Figura 1 - Cerca &quot;anno&quot;*
 
-Inoltre, hai creato alcuni *nuovi* **intervalli di date** e **segmenti** e, poiché sono &quot;così nuovi&quot;, potresti pensare che almeno questi elementi dovrebbero essere rapidi e facili da trovare la prossima volta che entri in ***Adobe Workspace***. Ho ragione?
+Anzi, hai creato alcuni *nuovi* **intervalli di date** e **segmenti** e, poiché sono &quot;così nuovi&quot;, potresti pensare che almeno questi elementi dovrebbero essere rapidi e facili da trovare la prossima volta che entri in ***Adobe Workspace***. Ho ragione?
 
 Beh, odio far scoppiare la bolla, ma prova a lasciare ***Adobe Analytics*** dopo aver appena creato tutti i tuoi nuovi &quot;amici&quot; e quando torni, la maggior parte di loro è semplicemente scappata.  Se sei fortunato, *forse* uno di loro è rimasto indietro ad aspettarti, ma il resto è già lontano e giocare a nascondino.
 
@@ -69,7 +69,7 @@ Ammettetelo, gente!  Diteci il nome, abbiamo visto e sentito tutte le scuse per 
 
 ## Contenuto della casella degli strumenti
 
-**L&#39;Adobe** ha persino reso a WE THE PEOPLE il servizio di creare un insieme selezionato di #TAGS pronti all&#39;uso, perché, beh... hanno dovuto farci partire da qualche parte.  Vi fornirò alcune avvertenze aggiuntive in appena un po&#39;, ma ciò che sto dimostrando prima vi darà il più grande colpo per il vostro dollaro!
+**Adobe** ha persino reso a WE THE PEOPLE il servizio di creare un set selezionato di #TAGS pronti all&#39;uso, perché, beh... hanno dovuto farci partire da qualche parte.  Vi fornirò alcune avvertenze aggiuntive in appena un po&#39;, ma ciò che sto dimostrando prima vi darà il più grande colpo per il vostro dollaro!
 
 Prima di creare un tag personalizzato, è necessario sapere come cercare i **tag** esistenti:
 
@@ -77,7 +77,7 @@ Prima di creare un tag personalizzato, è necessario sapere come cercare i **tag
 
 Che tu sia in un progetto nuovo o esistente, tutto ciò che ti serve è andare alla barra di ricerca del componente, digitare un #hashtag, insieme a uno di questi termini principali (solo guardare il video), e premere INVIO; oppure, è sufficiente iniziare lo scorrimento fino a trovare un termine riconoscibile.
 
-ATTENZIONE: se all&#39;inizio della creazione di *propri* tag rimani fedele alle convenzioni di denominazione corrette, ogni *tag con maiuscole* visualizzato *dovrebbe* sarà usato con cautela la parola &quot;dovrebbe&quot;, che è un **Adobe**, elemento con tag predefinito.  Ciò significa che assicurati che tutti i tag creati siano in **minuscolo**.
+ATTENZIONE: se all&#39;inizio della creazione di *propri* tag rimani fedele alle convenzioni di denominazione corrette, ogni *tag con maiuscole* visualizzato *dovrebbe* sarà usato con cautela la parola &quot;dovrebbe&quot;, è un elemento con tag predefinito di **Adobe**.  Ciò significa che assicurati che tutti i tag creati siano in **minuscolo**.
 
 ## Creazione di un assistente personale
 

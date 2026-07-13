@@ -1,6 +1,6 @@
 ---
 title: Sblocco di insights con istogrammi; oltre le medie in [!DNL Analytics]
-description: Scopri l’impatto degli istogrammi nell’analisi per informazioni che vanno oltre le medie.
+description: Scopri l’impatto degli istogrammi in Analytics per approfondimenti che vanno al di là degli schemi.
 feature-set: Analytics
 feature: Visualizations
 role: User
@@ -12,8 +12,8 @@ thumbnail: KT-13833.jpeg
 exl-id: 46a9dab2-17f8-435e-949c-45d4a60343f0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 0%
+source-wordcount: '1105'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ Quindi, quanto è utile? Beh, vediamo che la maggior parte della gente compra so
 
 Se il sito o l’app si basa sul traffico ripetuto, vuoi sapere quanti visitatori ritornano e con quale frequenza. Uno degli istogrammi più semplici che puoi usare è scoprire quanti visitatori stanno ritornando più di una volta. Tenendo traccia dell&#39;istogramma nel tempo, potete vedere i vostri progressi, sperando che le barre a destra diventino più alte e quelle a sinistra più corte.
 
-Forse vuoi tenere la gente sul sito, a leggere articoli. Un istogramma che mostra quanti visitatori leggono numeri diversi di articoli fornisce informazioni sul livello di coinvolgimento. Perché è utile? Supponiamo che la maggior parte dei visitatori legga un articolo e se ne vada, ma alcuni visitatori altamente coinvolti leggono tre articoli e se ne vanno. È un&#39;ottima informazione! Ora sai che devi personalizzare la pagina sul primo e sul terzo articolo letti con l’obiettivo di far sì che i visitatori leggano un altro articolo.
+Forse vuoi tenere la gente sul sito, a leggere articoli. Un istogramma che mostra quanti visitatori leggono numeri diversi di articoli porta insight al livello di coinvolgimento. Perché è utile? Supponiamo che la maggior parte dei visitatori legga un articolo e se ne vada, ma alcuni visitatori altamente coinvolti leggono tre articoli e se ne vanno. È un&#39;ottima informazione! Ora sai che devi personalizzare la pagina sul primo e sul terzo articolo letti con l’obiettivo di far sì che i visitatori leggano un altro articolo.
 
 ## Comprensione del comportamento del cliente
 
@@ -65,11 +65,11 @@ Potreste chiedervi, quali sono le differenze rispetto al semplice fatto di avere
 
   ![Istogramma 3](assets/histogram-3.png)
 
-- Errori modulo: se hai una media di 3,6 messaggi di errore modulo per visitatore, questo è un indicatore di un problema. Potreste avere lo stesso problema di anomalia degli errori tecnici, ma c&#39;è anche da guadagnare vedendo un picco nell&#39;istogramma per un particolare numero di errori. Un picco enorme per un errore? Potrebbe trattarsi di un problema comune che interessa tutti i visitatori, oppure potrebbe trattarsi di un errore riscontrato da tutti i visitatori una volta. Un picco gigantesco con tre errori? Ah, ora è interessante. Se questo richiede un&#39;indagine che mostra che si tratta degli stessi tre errori, hai effettuato l&#39;azzeramento dei dati che ti forniscono una comprensione dei visitatori e ti aiuta a risolvere quello che probabilmente è un gruppo di problemi correlati.
+- Errori modulo: se hai una media di 3,6 messaggi di errore modulo per visitatore, questo è un indicatore di un problema. Potresti avere lo stesso problema anomalo degli errori tecnici, ma c’è anche insight da guadagnare vedendo un picco nell’istogramma per un particolare numero di errori. Un picco enorme per un errore? Potrebbe trattarsi di un problema comune che interessa tutti i visitatori, oppure potrebbe trattarsi di un errore riscontrato da tutti i visitatori una volta. Un picco gigantesco con tre errori? Ah, ora è interessante. Se questo richiede un&#39;indagine che mostra che si tratta degli stessi tre errori, hai effettuato l&#39;azzeramento dei dati che ti forniscono una comprensione dei visitatori e ti aiuta a risolvere quello che probabilmente è un gruppo di problemi correlati.
 
   ![Istogramma 4](assets/histogram-4.png)
 
-Come potete vedere, gli istogrammi non solo hanno i loro usi, ma approfondiscono anche l&#39;intuizione che si ottiene da una media. Si tratta di una visualizzazione predefinita in [!DNL Adobe Analytics] e facile da creare. Speriamo che questi casi d’uso siano utili per te o suscitino un po’ di ispirazione. Visualizzazione felice!
+Come potete vedere, gli istogrammi non solo hanno i loro usi, ma approfondiscono anche l&#39;insight che si ottiene da una media. Si tratta di una visualizzazione predefinita in [!DNL Adobe Analytics] e facile da creare. Speriamo che questi casi d’uso siano utili per te o suscitino un po’ di ispirazione. Visualizzazione felice!
 
 ## Autore
 

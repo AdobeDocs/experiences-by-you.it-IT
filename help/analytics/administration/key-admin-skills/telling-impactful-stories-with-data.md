@@ -12,8 +12,8 @@ kt: 10157
 exl-id: bbbe8514-95d2-4e18-aaa2-6c3bd94816a1
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ La narrazione attraverso i dati è il luogo in cui arte e scienza si riuniscono 
 
 ## Identificare l’opportunità o il problema
 
-Per iniziare, definisci la situazione attuale e stabilisci il problema o l’opportunità. Qui stai impostando la scena e fornendo abbastanza informazioni per catturare il pubblico, ma non rivelando completamente la soluzione. Questa introduzione è fondamentale (e può essere impegnativa), ma è l’intera motivazione della tua analisi!  Il valore della narrazione attraverso i dati consiste nel richiedere un&#39;azione che dia luogo a **cambiamento di comportamento**. Dati, approfondimenti e analisi sono altrimenti impotenti.
+Per iniziare, definisci la situazione attuale e stabilisci il problema o l’opportunità. Qui stai impostando la scena e fornendo abbastanza informazioni per catturare il pubblico, ma non rivelando completamente la soluzione. Questa introduzione è fondamentale (e può essere impegnativa), ma è l’intera motivazione della tua analisi!  Il valore della narrazione attraverso i dati consiste nel richiedere un&#39;azione che dia luogo a **cambiamento di comportamento**. Dati, Insight e analisi sono altrimenti impotenti.
 
 **[!DNL Adobe]Suggerimento Workspace:** Assegna un titolo alle visualizzazioni sotto forma di domanda per mostrare chiaramente il problema o la situazione corrente che viene evidenziata.
 
@@ -50,6 +50,6 @@ Questo documento è stato scritto da:
 
 ![Amy Ard](assets/amy-ard-headshot-small.png)
 
-Amy Ard, Director di [!DNL Analytics] a Levelwing
+Amy Ard, Direttore di [!DNL Analytics] a Levelwing
 
 [!DNL Adobe Analytics] campione

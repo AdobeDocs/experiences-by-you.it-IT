@@ -12,7 +12,7 @@ thumbnail: KT-13181.jpeg
 exl-id: 2a62e563-bad9-424f-94ca-2af68d4a83b5
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,12 @@ Ora che siamo tutti entusiasti del viaggio nel tempo, facciamo un respiro profon
 
 In **attribuzione**, considera semplicemente il modo in cui gli eventi/azioni possono essere causati da un singolo, da più singoli utenti o da uno qualsiasi dei diversi eventi nel tempo.
 
-In base a [[!DNL Adobe]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/overview.html?lang=it), *attribution* consente agli analisti di personalizzare il modo in cui *Dimension* elementi ricevono credito per *eventi di successo*.
+Secondo [[!DNL Adobe]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/overview.html?lang=it), *attribution* consente agli analisti di personalizzare il modo in cui *elementi Dimension* ricevono credito per *eventi di successo*.
 
 
 >[!WARNING]
 >
->Solo una breve nota per richiamare l&#39;attenzione sul fatto che **modelli di attribuzione** sono così frequentemente associati a **canali di marketing** che ho intenzionalmente *cancellato* ❷ CHANNEL nell&#39;immagine precedente per illustrare che è possibile eseguire l&#39;analisi **attribuzione** rispetto alla maggior parte degli altri ***dimensioni***.
+>Solo una breve nota per richiamare l&#39;attenzione sul fatto che **modelli di attribuzione** sono così frequentemente associati a **canali di marketing** che ho intenzionalmente *cancellato* ❷ CANALE nell&#39;immagine qui sopra per illustrare che è possibile eseguire l&#39;analisi **attribuzione** rispetto alla maggior parte degli altri ***dimensioni***.
 
 
 Di fatto, raramente un dato percorso di clienti è realmente lineare e anche meno spesso prevedibile.  Inoltre, ogni cliente procederà secondo il proprio ritmo; spesso, può tornare indietro, fermarsi, uscire o impegnarsi in altri comportamenti non lineari. Queste azioni organiche rendono difficile o praticamente impossibile conoscere l’impatto delle attività di marketing in tutto il percorso di clienti. Inoltre, ostacola gli sforzi volti a collegare più canali di dati tra loro.
@@ -58,13 +58,13 @@ Esatto.  Lasciate alle porte le vostre analogie &quot;domino&quot; e aprite le v
 
 ## **Modelli di attribuzione**
 
-Quando si utilizza il **pannello di attribuzione**, è possibile osservare diverse cose.  Ad esempio, i **modelli di attribuzione** ci dimostrano come le nostre *conversioni* (ovvero, ❶ **metriche di successo**) possono essere distribuite tra *hit* in qualsiasi gruppo.
+Quando si utilizza il **pannello di attribuzione**, è possibile osservare diverse cose.  Ad esempio, i **modelli di attribuzione** ci dimostrano come le nostre *conversioni* (ovvero ❶ **metriche di successo**) possono essere distribuite tra *hit* in qualsiasi gruppo.
 
 In poche parole, se **10 persone** premete un **BIG RED BUTTON** per varcare una porta, i nostri **modelli di attribuzione** ci diranno a quali di queste **10 persone** vogliamo assegnare il &quot;credito&quot; - o meglio ancora, a quale *molto* &quot;credito&quot; vogliamo assegnare - per aver premuto detto pulsante.
 
 ![Pulsante](assets/button.png)
 
-Tenendo presente questo aspetto, ecco alcuni esempi di come i **modelli di attribuzione** ❸ potrebbero influenzare queste **10 persone**:
+Tenendo presente questo aspetto, ecco alcuni esempi di come i ❸ **modelli di attribuzione** potrebbero influire su queste **10 persone**:
 
 - **Primo contatto**: questo modello funziona esattamente come sembra concedendo **100% di credito** alla *prima* persona che ha attraversato la porta.  È più probabile che gli addetti al marketing utilizzino questo approccio per tattiche come ***social media*** o ***display***; tuttavia, è anche un&#39;ottima tattica da utilizzare spesso per garantire l&#39;efficacia dei consigli sui prodotti nel sito.
 - **Ultimo contatto**: questa tattica funziona esattamente come se suonasse, ma attribuisce invece **un credito del 100%** all&#39;ULTIMA persona che ha attraversato la porta.  Questo modello viene in genere utilizzato per analizzare elementi come ***ricerca naturale (organica)*** e altre *campagne a breve termine* del ciclo di marketing.
@@ -120,7 +120,7 @@ Ricorda che dopo aver selezionato **modelli di attribuzione** e **intervalli di 
 Ora che hai i concetti inattivi, immagina di eseguire una campagna di marketing e di provare a determinare quale canale è il *più efficace* per stimolare le conversioni. Con l&#39;aiuto del **pannello di attribuzione**, non solo puoi visualizzare l&#39;**ultimo contatto**, ma anche il **primo contatto**, **stesso contatto** e qualsiasi altro **modello** scelto per determinare quali **canali** sono i *più efficaci* per le *conversioni*. Queste informazioni possono quindi essere utilizzate per *ottimizzare* le campagne e migliorare le prestazioni complessive semplicemente ripristinando l&#39;orologio con l&#39;**intervallo di lookback** scelto.
 
 Ora che hai visto cosa può fare, non farti ingannare o intimidire dalle caratteristiche apparentemente complesse del pannello attribuzione.  **Affrontalo**.  *Abbraccia*.  **Comprendi**.
-MA SOPRATTUTTO - *Utilizzalo a tuo vantaggio.* Il **pannello di attribuzione** e l&#39;**intervallo di lookback** sono le chiavi per una comprensione più approfondita dei tuoi clienti e del loro percorso con il tuo marchio.
+MA SOPRATTUTTO - *Usalo a tuo vantaggio.* Il **pannello di attribuzione** e l&#39;**intervallo di lookback** sono le chiavi per una comprensione più approfondita dei tuoi clienti e del loro percorso con il tuo marchio.
 
 Ora possiamo viaggiare &quot;[indietro nel tempo](https://youtu.be/gVryJmZNFdU)&quot; con sicurezza e utilizzare la potenza della nostra affidabile macchina del tempo (alias ***[!DNL Adobe Analytics]***) per prendere decisioni basate sui dati.
 
