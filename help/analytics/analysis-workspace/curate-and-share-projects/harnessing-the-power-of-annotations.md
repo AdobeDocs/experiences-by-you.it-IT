@@ -1,5 +1,5 @@
 ---
-title: Sbloccare le informazioni analitiche; sfruttare la potenza delle annotazioni
+title: Sblocco di insight analitici; sfruttare la potenza delle annotazioni
 description: Scopri il ruolo cruciale delle annotazioni in Adobe Analysis Workspace e ottieni suggerimenti pratici per ottimizzarne l’utilizzo. Migliora la comprensione e la collaborazione dei dati con nuove vette, estraendo informazioni analitiche più approfondite.
 feature: Annotations
 role: User
@@ -12,12 +12,12 @@ thumbnail: KT-15331.jpeg
 exl-id: a7e06ac7-cc06-47e5-a4d7-834a5a7f8351
 source-git-commit: 41e1153f92ceed71831cb89c9619c375f2304194
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '716'
 ht-degree: 3%
 
 ---
 
-# Sbloccare le informazioni analitiche; sfruttare la potenza delle annotazioni
+# Sblocco di insight analitici; sfruttare la potenza delle annotazioni
 
 Il componente dati Annotazioni è una delle funzionalità più semplici, ma a lungo termine è una delle più rapide offerte da Adobe Analysis Workspace. A differenza di qualsiasi altra funzionalità all’interno di Workspace, funge da memoria storica narrativa per te e i tuoi colleghi utenti di Workspace.
 
@@ -44,7 +44,7 @@ La creazione e la modifica delle annotazioni è intuitiva e quasi auto-esplicati
 ![2ndimage](assets/2ndimage.png){width="70%"}![3rdimage](assets/3rdimage.png){width="30%"}
 
 
-Per tutti i dettagli sul funzionamento di Annotations, assicurati di visualizzare l&#39;esercitazione video [su Experience League](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/annotations-in-analysis-workspace).
+Per tutti i dettagli sul funzionamento di Annotations, assicurati di visualizzare l&#39;esercitazione video [su Experience League](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/annotations-in-analysis-workspace).
 
 ## Suggerimenti per iniziare
 
@@ -71,11 +71,11 @@ Infine, ecco alcuni suggerimenti utili per iniziare a utilizzare le annotazioni 
 ![8thimage](assets/8thimage.png)
 
 
-- **Autorizzazioni -** Se non hai la possibilità di creare annotazioni, rivolgiti al tuo amministratore che può consentire la creazione di annotazioni nell&#39;Admin Console.
+- **Autorizzazioni -** Se non hai la possibilità di creare annotazioni, rivolgiti al tuo amministratore che può consentire la &quot;Creazione di annotazioni&quot; in Admin Console.
 
 ![9thimage](assets/9thimage.png)
 
-Per la documentazione dettagliata, visita [Panoramica delle annotazioni](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/components/annotations/overview) e degli articoli circostanti.
+Per la documentazione dettagliata, visita [Panoramica delle annotazioni](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/annotations/overview) e degli articoli circostanti.
 
 ## Autore
 
@@ -83,4 +83,4 @@ Questo documento è stato scritto da:
 
 ![thomas-headshot](assets/thomas-headshot.png)
 
-Thomas Edward Buckley, Manager Data Warehouse e Business Intelligence di Miles &amp; More (Lufthansa Group)
+Thomas Edward Buckley, Manager Data Warehouse &amp; Business Intelligence presso Miles &amp; More (Lufthansa Group)

@@ -12,7 +12,7 @@ thumbnail: KT-15200.jpeg
 exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
 source-git-commit: 69fa16c1bf38604e4dabc553baee71598be83db3
 workflow-type: tm+mt
-source-wordcount: '4102'
+source-wordcount: '4166'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ A prima vista, entrambi suonano allo stesso modo... e sui segmenti/contenitori d
 
 ![Figura2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
 
-*Come sopra, ogni hit all&#39;interno della **visita**&#x200B;verrà valutato con lo stesso true / false. Tuttavia, il set di dati restituito è quello dell&#39;intera visita.*
+*Come sopra, ogni hit all&#39;interno della **visita**verrà valutato con lo stesso true / false. Tuttavia, il set di dati restituito è quello dell&#39;intera visita.*
 
 - In ogni hit, &quot;Value&quot; non contiene &quot;Example&quot; (yes), quindi restituisce true; allo stesso modo, &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), quindi restituisce false.
    - Se l&#39;hit **any** nella visita restituisce **true**, viene restituita la **visita intera**.*
@@ -76,7 +76,7 @@ A prima vista, entrambi suonano allo stesso modo... e sui segmenti/contenitori d
 
 ![Figura3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
 
-*Come sopra, ogni hit effettuato dal **visitatore**&#x200B;verrà valutato con la stessa logica true/false. Ma ora stiamo esaminando tutti gli hit che questo visitatore ha fatto, per tutte le visite (all&#39;interno dell&#39;intervallo di date selezionato).*
+*Come sopra, ogni hit effettuato dal **visitatore**verrà valutato con la stessa logica true/false. Ma ora stiamo esaminando tutti gli hit che questo visitatore ha fatto, per tutte le visite (all&#39;interno dell&#39;intervallo di date selezionato).*
 
 - In ogni hit, &quot;Value&quot; non contiene &quot;Example&quot; (yes), quindi restituisce true; allo stesso modo, &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), quindi restituisce false.
    - Se **qualsiasi** hit effettuato dal visitatore restituisce **true**, viene restituita la **visita intera**.
@@ -162,7 +162,7 @@ L&#39;ambito di un contenitore è indipendente dal genitore, come ho detto sopra
 
 >[!NOTE]
 >
->L&#39;Adobe ha una logica per comprendere i segmenti validi e non validi, non fornirebbe opzioni che potrebbero *mai* funzionare... quindi se vedi l&#39;opzione per utilizzare un contenitore con ambito visitatore all&#39;interno di un segmento con ambito hit, significa che è un&#39;opzione valida.
+>Adobe ha una logica per comprendere i segmenti validi e non validi, non fornirebbe opzioni che potrebbero *mai* funzionare... quindi se vedi l&#39;opzione per utilizzare un contenitore con ambito visitatore all&#39;interno di un segmento con ambito hit, significa che è un&#39;opzione valida.
 
 Proprio come per i segmenti di base, quando si inizia a creare un segmento complesso con contenitori nidificati, è necessario avere una chiara idea del ***tipo*** di dati che si desidera restituire. ***Come*** intendi utilizzare questi dati? ***Quali*** metriche intendi associare al segmento?
 
@@ -251,11 +251,11 @@ Qui sto confrontando gli hit su offerte in primo piano/contenuti consigliati, ag
 
 ## Modello di attribuzione
 
-La modellazione dell’attribuzione all’interno di una definizione di segmento si riferisce principalmente a dimensioni che non hanno una scadenza hit, pertanto le proprietà (che sono sempre a livello di hit) non sono un buon candidato. Le eVar, i canali di marketing, ecc. tuttavia, sono realmente ciò per cui queste impostazioni sono progettati.
+La modellazione dell’attribuzione all’interno di una definizione di segmento si riferisce principalmente a dimensioni che non hanno una scadenza hit, pertanto le proprietà (che sono sempre a livello di hit) non sono un buon candidato. Le eVar, i canali di marketing e così via sono in realtà le finalità di queste impostazioni.
 
 Prima di esaminare il segmento, è necessario rivedere rapidamente il funzionamento della modellazione di attribuzione in un semplice esempio.
 
-Supponiamo di avere due eVar, una delle quali è impostata per la scadenza (eVar1) e una per la scadenza di 30 giorni (eVar2). Per semplicità, stiamo per tenere traccia di una campagna interna (icid).
+Supponiamo di avere due eVar, una delle quali è impostata per la scadenza della visita (eVar1) e una per la scadenza di 30 giorni (eVar2). Per semplicità, stiamo per tenere traccia di una campagna interna (icid).
 
 **Visita 1**
 
@@ -301,14 +301,14 @@ Attualmente, il risultato atteso di queste due visite è il seguente:
 
 <table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visite</b></th><th colspan="1" valign="top"><b>Istanza di eVar1</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">EVAR 1</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">EVAR1</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">banner promozionale</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 <tr><td colspan="1" valign="top">promo-side-rail</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 </table>
 
 <table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visite</b></th><th colspan="1" valign="top"><b>Istanza di eVar2</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">EVAR 2</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">EVAR2</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">banner promozionale</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td></tr>
 <tr><td colspan="1" valign="top">promo-side-rail</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 </table>
@@ -335,7 +335,7 @@ Iniziamo con il cambiare le cose guardando i confronti, poi approfondiamo i segm
 
 <table style="border: 0;">
     <tr>
-        <td width="352" style="border: 0;">Le prime 4 colonne non sono segmentate e devono essere di facile comprensione. Tieni presente che *"Voci"* è fondamentalmente un valore calcolato in base al punto in cui i visitatori iniziano la sessione. L’ho aggiunto qui per mostrare che questo non restituisce le informazioni che stiamo cercando, poiché gli utenti possono accedere al sito tramite più canali di marketing (attraverso l’osservazione dei social media, l’esecuzione di ricerche, il clic sulle e-mail di marketing, ecc.). tutto all’interno della stessa visita/sessione).</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail1.png" width="352">
+        <td width="352" style="border: 0;">Le prime 4 colonne non sono segmentate e devono essere di facile comprensione. Tieni presente che *"Voci"* è fondamentalmente un valore calcolato in base al punto in cui i visitatori iniziano la sessione. L’ho aggiunto qui per mostrare che questo non restituisce le informazioni che stiamo cercando, poiché gli utenti possono entrare nel sito tramite più canali di marketing (attraverso l’osservazione dei social media, l’esecuzione di ricerche, il clic sulle e-mail di marketing, ecc., il tutto all’interno della stessa visita/sessione).</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail1.png" width="352">
         </td>
     </tr>
 </table>

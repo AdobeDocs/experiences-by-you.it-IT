@@ -12,14 +12,14 @@ kt: 10128
 exl-id: b26f8b1e-e57d-4684-86c2-7a13f67521e6
 source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
 
 # Traduzione del linguaggio tecnico [!DNL Adobe Analytics] in modo non tecnico
 
->[!VIDEO](https://video.tv.adobe.com/v/345329/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/342066/?quality=12&learn=on)
 
 ## Parlare lingue diverse
 
@@ -35,8 +35,7 @@ Per esempio, ecco il mio modo preferito di spiegare le eVar e i metodi di alloca
 
 >[!TIP]
 >
->**Assegnare nomi chiari ai componenti (dimensioni, segmenti e metriche) con relative descrizioni**
->La condivisione del dizionario dati di eVar e prop è sempre un buon passaggio nella democratizzazione dei dati della tua organizzazione, ma non aspettarti che un utente occasionale memorizzi tutte le variabili personalizzate e il loro utilizzo previsto per indice/numero. In [!DNL Adobe] Workspace, assicurati invece che i nomi dei componenti siano descrittivi con tag e descrizioni significativi. Questo aiuterà i tuoi utenti a trovare rapidamente la metrica corretta tra le centinaia di eVar e infinite metriche/segmenti.
+>**Assegnare nomi chiari ai componenti (dimensioni, segmenti e metriche) con relative descrizioniLa condivisione del dizionario dati di eVar e prop è sempre un buon passaggio nella democratizzazione dei dati della tua organizzazione, ma non aspettarti che un utente occasionale memorizzi tutte le variabili personalizzate e il loro utilizzo previsto per indice/numero. In [!DNL Adobe] Workspace, assicurati invece che i nomi dei componenti siano descrittivi con tag e descrizioni significativi. Questo aiuterà i tuoi utenti a trovare rapidamente la metrica corretta tra le centinaia di eVar e infinite metriche/segmenti.
 
 ## Suggerimento #2: trova una lingua comune
 
@@ -46,8 +45,7 @@ In [!DNL The Home Depot], un commerciante o il manager di un negozio potrebbe no
 
 >[!TIP]
 >
->**Assicurarsi che l&#39;implementazione rifletta il linguaggio comune**
->Quasi tutto ciò che si trova nell&#39;interfaccia utente di [!DNL Adobe Analytics] è personalizzabile. Se la tua organizzazione definisce i carrelli acquisti come sacche della spesa, puoi rinominare l’evento carrello in borsa della spesa.
+>**Assicurarsi che l&#39;implementazione rifletta il linguaggio comuneQuasi tutto ciò che si trova nell&#39;interfaccia utente di [!DNL Adobe Analytics] è personalizzabile. Se la tua organizzazione definisce i carrelli acquisti come sacche della spesa, puoi rinominare l’evento carrello in borsa della spesa.
 >
 >Prendi in considerazione la creazione di un vocabolario controllato per la tua organizzazione se trovi diversi sinonimi in circolazione o se ci sono termini che solitamente sconcertano i tuoi utenti. Prendi l’iniziativa di promuovere la standardizzazione della terminologia preferita. Inoltre, nelle sessioni di onboarding e formazione, controlla i termini che generano più spesso confusione per aiutare gli utenti a comprendere.
 
@@ -59,8 +57,7 @@ In [!DNL The Home Depot], abbiamo organizzato una sfida [!DNL Adobe Analytics] i
 
 >[!TIP]
 >
->**Creare modelli e indicazioni con annotazioni per specifici modelli di workspace**
->Sfrutta i rapporti aziendali (modelli) e le visualizzazioni di testo in Analysis Workspace per creare guide contestuali che aiuteranno i tuoi esperti a rimanere sulla strada giusta.
+>**Creare modelli e indicazioni con annotazioni per specifici modelli di area di lavoroSfrutta i rapporti aziendali (modelli) e le visualizzazioni di testo in Analysis Workspace per creare guide contestuali che aiuteranno i tuoi esperti a rimanere sulla strada giusta.
 >
 >La flessibilità di Analysis Workspace consente di creare modelli per analisi più rapide e abilitare funzioni self-service e di abilitazione autonoma. Combinando funzionalità quali modelli curati, annotazioni e collegamenti Workspace interni ed esterni, è possibile creare guide efficaci, accessibili e facili da divulgare agli utenti non tecnici nel contesto di [!DNL Adobe Analytics].
 
@@ -68,6 +65,6 @@ In [!DNL The Home Depot], abbiamo organizzato una sfida [!DNL Adobe Analytics] i
 
 Offri agli interessati numerose opportunità di ricevere assistenza durante la creazione di [!DNL Adobe Analytics] dashboard. Puoi ospitare sessioni aperte negli orari di lavoro, in cui le parti interessate possono rispondere a domande ed essere messe in contatto con un esperto. Oppure crea un canale di assistenza che consenta alle parti interessate di porre domande in un ambiente di apprendimento sicuro.
 
-Alle [!DNL The Home Depot], i nostri utenti apprezzano molto le sessioni aperte negli orari di lavoro e il canale di assistenza per lo Slack. Fin dall&#39;introduzione di questi canali aperti, abbiamo riscontrato una maggiore precisione nella creazione dei rapporti e l&#39;adozione di [!DNL Adobe Analytics] è aumentata vertiginosamente. In passato, siamo entrati nel primo 5% dei migliori punteggi di adozione di [!DNL Adobe Analytics], tra tutti i retailer in tutto il mondo!
+Alle [!DNL The Home Depot], i nostri utenti apprezzano molto le sessioni aperte negli orari di lavoro e il canale di assistenza Slack. Fin dall&#39;introduzione di questi canali aperti, abbiamo riscontrato una maggiore precisione nella creazione dei rapporti e l&#39;adozione di [!DNL Adobe Analytics] è aumentata vertiginosamente. In passato, siamo entrati nel primo 5% dei migliori punteggi di adozione di [!DNL Adobe Analytics], tra tutti i retailer in tutto il mondo!
 
 Non è semplice aiutare gli utenti a comprendere il mondo tecnico di [!DNL Adobe Analytics]. Spero che questi suggerimenti ed esempi aiutino le parti interessate a immergersi in profondità, a creare tabelle a forma libera e a innamorarsi del mondo di prop ed eVar.
