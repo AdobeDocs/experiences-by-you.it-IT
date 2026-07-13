@@ -60,7 +60,7 @@ A prima vista, entrambi suonano allo stesso modo... e sui segmenti/contenitori d
 
 ![Figura2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
 
-*Come sopra, ogni hit all&#39;interno della **visita**verrà valutato con lo stesso true / false. Tuttavia, il set di dati restituito è quello dell&#39;intera visita.*
+*Come sopra, ogni hit all&#39;interno della **visita**&#x200B;verrà valutato con lo stesso true / false. Tuttavia, il set di dati restituito è quello dell&#39;intera visita.*
 
 - In ogni hit, &quot;Value&quot; non contiene &quot;Example&quot; (yes), quindi restituisce true; allo stesso modo, &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), quindi restituisce false.
    - Se l&#39;hit **any** nella visita restituisce **true**, viene restituita la **visita intera**.*
@@ -76,7 +76,7 @@ A prima vista, entrambi suonano allo stesso modo... e sui segmenti/contenitori d
 
 ![Figura3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
 
-*Come sopra, ogni hit effettuato dal **visitatore**verrà valutato con la stessa logica true/false. Ma ora stiamo esaminando tutti gli hit che questo visitatore ha fatto, per tutte le visite (all&#39;interno dell&#39;intervallo di date selezionato).*
+*Come sopra, ogni hit effettuato dal **visitatore**&#x200B;verrà valutato con la stessa logica true/false. Ma ora stiamo esaminando tutti gli hit che questo visitatore ha fatto, per tutte le visite (all&#39;interno dell&#39;intervallo di date selezionato).*
 
 - In ogni hit, &quot;Value&quot; non contiene &quot;Example&quot; (yes), quindi restituisce true; allo stesso modo, &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), quindi restituisce false.
    - Se **qualsiasi** hit effettuato dal visitatore restituisce **true**, viene restituita la **visita intera**.
