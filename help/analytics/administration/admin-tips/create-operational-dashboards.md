@@ -14,7 +14,7 @@ thumbnail: KT-13829.jpeg
 exl-id: 8df9e88f-e564-4a8e-b624-026c873d3f19
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Come molti amministratori, eseguo un hub di informazioni interno (Confluence o s
 
 Ho notato che gli utenti spesso ignoravano i miei riferimenti al sito di Confluence, con motivi come &quot;La mia VPN è spenta&quot;, o &quot;Non posso leggerla ora&quot;, ecc. In sostanza, &quot;Leggerò quel documento più tardi&quot; significa che non verrà mai letto, e la stessa domanda verrà posta di nuovo la prossima settimana.
 
-***L&#39;hit di realizzazione:**&#x200B;la versatilità di Workspace potrebbe cambiare le carte in tavola. Gli utenti preferiscono risposte rapide e dirette all&#39;interno di Workspace, pertanto è opportuno evitare ulteriori passaggi.*
+***L&#39;hit di realizzazione:**la versatilità di Workspace potrebbe cambiare le carte in tavola. Gli utenti preferiscono risposte rapide e dirette all&#39;interno di Workspace, pertanto è opportuno evitare ulteriori passaggi.*
 
 Sono andato avanti e ho creato dashboard operativi per condividere a livello aziendale. Finora, hanno tenuto gli utenti informati, centralizzato le informazioni e ridotto la frustrazione. Si è trattato di un processo semplice ed evolutivo che migliora l&#39;efficienza nel tempo.
 
-Le persone sono state in grado di ottenere un sacco di buone informazioni senza di me, capire le aree del sito, vedere quanto è bello [!DNL Adobe Analytics] e (importante per me ??) farmi meno domande e prendere meno tempo.
+Le persone sono state in grado di ottenere un sacco di buone informazioni senza di me, capire le aree del sito, vedere quanto è bello [!DNL Adobe Analytics] e (importante per me 😊) farmi meno domande e prendere meno tempo.
 
-**È consigliabile creare dashboard per tutte le proprietà o le aree principali del sito.** Devono fornire una panoramica della proprietà/del sito/dell&#39;app/del flusso e disporre di informazioni di base e di informazioni rapide. Devono essere condivise con l’intera azienda, consentendo a tutti gli utenti di comprendere la proprietà senza alcuna presa di mano. Per me, queste dashboard di solito rispondono all&#39;80% delle domande che ricevo e mi fanno risparmiare tempo prezioso.
+**Ti consiglio vivamente di creare dashboard per tutte le proprietà o le aree principali del tuo sito.** Devono fornire una panoramica della proprietà/del sito/dell’app/del flusso e disporre di informazioni di base e informazioni rapide. Devono essere condivise con l’intera azienda, consentendo a tutti gli utenti di comprendere la proprietà senza alcuna presa di mano. Per me, queste dashboard di solito rispondono all&#39;80% delle domande che ricevo e mi fanno risparmiare tempo prezioso.
 
 Niente di tutto questo ti impedisce di mantenere il tuo sito Confluence, che rimane molto utile da avere. Faccio anche riferimento a esso nella parte superiore di ogni dashboard operativo. Ma adoro le scelte rapide, sia per me che per i miei utenti.
 
@@ -49,7 +49,7 @@ Lasciate che vi mostri i tre dashboard operativi che ho creato per la mia aziend
 
 Stanchi dell&#39;infinito circolo di risposte ripetute? Fermatevi! Risparmia tempo creando una dashboard di domande frequenti. Gli utenti possono consultarlo prima di chiedere, oppure puoi collegarlo rapidamente alle tue risposte.
 
-È sufficiente creare [visualizzazioni di testo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=it) con domande formattate come titoli e risposte/spiegazioni come contenuto, il tutto compresso per mostrare solo la domanda. Raggruppali per rilevanza (ad esempio, pagine o prodotti) o utilizzare i pannelli. Semplificalo, dando priorità alle query comuni nella parte superiore.
+È sufficiente creare [visualizzazioni di testo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html) con domande formattate come titoli e risposte/spiegazioni come contenuto, il tutto compresso per mostrare solo la domanda. Raggruppali per rilevanza (ad esempio, pagine o prodotti) o utilizzare i pannelli. Semplificalo, dando priorità alle query comuni nella parte superiore.
 
 Invece di scrivere e-mail lunghe o riscoprire spiegazioni precedenti, aggiorna la dashboard delle domande frequenti. Inizia ora ed espandi nel tempo. Utilizza i collegamenti ipertestuali per fare riferimento ad altre dashboard o a domande frequenti correlate all’interno dei rapporti. Fornisci contesto complesso quando necessario, collegando da altre dashboard a FAQ.
 

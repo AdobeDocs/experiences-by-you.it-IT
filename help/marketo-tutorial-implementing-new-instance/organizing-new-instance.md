@@ -12,7 +12,7 @@ thumbnail: KT-14813.jpeg
 exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
 source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1291'
 ht-degree: 2%
 
 ---
@@ -23,15 +23,15 @@ In qualità di amministratore che implementa una nuova istanza di Marketo Engage
 
 ## Perché è necessario strutturare le cartelle e applicare le convenzioni di denominazione?
 
-L’organizzazione continua a essere utile per consentire a te e ai tuoi colleghi di tenere traccia di campagne, programmi e risorse e di generare rapporti sulle prestazioni dei programmi. Per organizzare la struttura di navigazione nell&#39;istanza e generare in scala, si consiglia di utilizzare [cartelle](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenzioni di denominazione standard](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} e funzionalità quali [clonazione](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
+L’organizzazione continua a essere utile per consentire a te e ai tuoi colleghi di tenere traccia di campagne, programmi e risorse e di generare rapporti sulle prestazioni dei programmi. Per organizzare la struttura di navigazione nell&#39;istanza e generare in scala, si consiglia di utilizzare [cartelle](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenzioni di denominazione standard](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} e funzionalità quali [clonazione](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
 
 ## Organizzare un’istanza di Marketo Engage
 
->[!VIDEO](https://video.tv.adobe.com/v/3422764/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421577/?quality=12&learn=on)
 
 ### Passaggio 1: configurazione di una struttura di cartelle per mettere in ordine i programmi
 
-Il primo passaggio per organizzare l&#39;istanza consiste nel [configurare una struttura di cartelle](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html?lang=it) in cui inserire il programma e le risorse in modo semplice e ordinato.
+Il primo passaggio per organizzare l&#39;istanza consiste nel [configurare una struttura di cartelle](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) in cui inserire il programma e le risorse in modo semplice e ordinato.
 
 Di seguito sono riportati alcuni suggerimenti rapidi per strutturare le cartelle nella struttura:
 
@@ -172,13 +172,13 @@ Tenendo presenti questi suggerimenti, verranno applicati alle seguenti risorse e
 | --- |
 | XYZ-Gadget-DS.pdf |
 | Acme-Company-CS.pdf |
-| How-XYZ-Gadgets-make-life-easier-WP.pdf |
+| How-XYZ-Gadgets-make-life-easy-WP.pdf |
 
 >[!CAUTION]
 >
 >Per la denominazione dei file negli esempi precedenti, non utilizzare spazi ed evita l&#39;uso dei caratteri di sottolineatura &quot;\_&quot;
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
 * Scarica il foglio di lavoro: [Organizzazione Marketo Engage e convenzioni di denominazione](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} per supportare la creazione della struttura di cartelle e delle convenzioni di denominazione.
 * Una volta determinati i componenti necessari nella convenzione di denominazione standard, è consigliabile creare formule in un Google Sheet o Microsoft Excel. Per un utilizzo futuro, è sufficiente inserire i valori nel foglio di calcolo per generare i nomi dei programmi.
