@@ -27,7 +27,7 @@ L’organizzazione continua a essere utile per consentire a te e ai tuoi collegh
 
 ## Organizzare un’istanza di Marketo Engage
 
->[!VIDEO](https://video.tv.adobe.com/v/3421577/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422764/?captions=ita&quality=12&learn=on)
 
 ### Passaggio 1: configurazione di una struttura di cartelle per mettere in ordine i programmi
 
