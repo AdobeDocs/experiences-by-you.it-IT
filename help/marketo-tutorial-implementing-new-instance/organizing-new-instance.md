@@ -12,7 +12,7 @@ thumbnail: KT-14813.jpeg
 exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
 source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1291'
 ht-degree: 2%
 
 ---
@@ -172,13 +172,13 @@ Tenendo presenti questi suggerimenti, verranno applicati alle seguenti risorse e
 | --- |
 | XYZ-Gadget-DS.pdf |
 | Acme-Company-CS.pdf |
-| How-XYZ-Gadgets-make-life-easier-WP.pdf |
+| How-XYZ-Gadgets-make-life-easy-WP.pdf |
 
 >[!CAUTION]
 >
 >Per la denominazione dei file negli esempi precedenti, non utilizzare spazi ed evita l&#39;uso dei caratteri di sottolineatura &quot;\_&quot;
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
 * Scarica il foglio di lavoro: [Organizzazione Marketo Engage e convenzioni di denominazione](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} per supportare la creazione della struttura di cartelle e delle convenzioni di denominazione.
 * Una volta determinati i componenti necessari nella convenzione di denominazione standard, è consigliabile creare formule in un Google Sheet o Microsoft Excel. Per un utilizzo futuro, è sufficiente inserire i valori nel foglio di calcolo per generare i nomi dei programmi.

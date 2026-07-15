@@ -1,5 +1,5 @@
 ---
-title: Progettare il marketing conversazionale omni-channel con il Dynamic Chat
+title: Progettare il marketing conversazionale omni-channel con Dynamic Chat
 description: Inizia rapidamente a progettare il marketing conversazionale con Adobe Dynamic Chat, il canale di coinvolgimento conversazionale nativo in Adobe Marketo Engage. Questa esercitazione offre ricette utilizzabili per implementare casi d’uso quali prenotazione di riunioni di vendita, coinvolgimento con contenuti del sito web e promozione di eventi/webinar.
 role: Admin
 level: Beginner
@@ -11,22 +11,22 @@ jira: KT-14814
 exl-id: 160dfb25-9f54-4dce-a08a-4a8d3c4c5368
 source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
 
 # Progettazione di marketing conversazionale omni-channel con Dynamic Chat
 
-Per gli addetti al marketing, il tuo sito web è essenziale per generare lead, aumentare le conversioni e accelerare i cicli di vendita. Coinvolgere i visitatori in tempo reale sul tuo sito Web consente al team di vendita di qualificare gli acquirenti in modo più efficiente. Ad Adobe Dynamic Chat, il canale di chat nativo all’interno del tuo abbonamento a Adobe Marketo Engage, ti consente di automatizzare le conversazioni per estendere le funzionalità del Marketo Engage.
+Per gli addetti al marketing, il tuo sito web è essenziale per generare lead, aumentare le conversioni e accelerare i cicli di vendita. Coinvolgere i visitatori in tempo reale sul tuo sito Web consente al team di vendita di qualificare gli acquirenti in modo più efficiente. Adobe Dynamic Chat, il canale di chat nativo del tuo abbonamento a Adobe Marketo Engage, ti consente di automatizzare le conversazioni per estendere le funzionalità di Marketo Engage.
 
-Questo tutorial illustra il processo di pensiero e i casi d’uso principali condivisi da Sara Barriuso, Marketing Operations Manager di Cornerstone OnDemand, durante il corso &quot;Scopri dai tuoi colleghi&quot;. Ha spiegato come la sua organizzazione utilizzava il Dynamic Chat per massimizzare le capacità del Marketo Engage.
+Questo tutorial illustra il processo di pensiero e i casi d’uso principali condivisi da Sara Barriuso, Marketing Operations Manager di Cornerstone OnDemand, durante il corso &quot;Scopri dai tuoi colleghi&quot;. Ha spiegato come la sua organizzazione ha utilizzato Dynamic Chat per massimizzare le capacità di Marketo Engage.
 
 ## Integrazione del coinvolgimento conversazionale nella strategia di generazione della domanda
 
 I visitatori navigano nel tuo sito web per un motivo. Potrebbero cercare contenuti sui tuoi prodotti o servizi o cercare informazioni di contatto per parlare con i tuoi rappresentanti commerciali. Potrebbero essere i tuoi clienti alla ricerca di informazioni di prodotto aggiuntive. La chat consente ai visitatori del sito web di self-service e autoqualificarsi se sono pronti a parlare con il team di vendita.
 
-Quando Sara Barriuso ha implementato Dynamic Chat, è stata attirata dalla sua integrazione perfetta con Marketo Engage e dai [trigger di attività pregenerati](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} che attivano i programmi di Marketo Engage e viceversa. Ha sviluppato le sue strategie di coinvolgimento conversazionale pensando a tre segmenti di pubblico:
+Quando Sara Barriuso ha implementato Dynamic Chat, è stata attirata dalla sua integrazione perfetta con Marketo Engage e dai [trigger di attività predefiniti](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} che attivano i programmi Marketo Engage e viceversa. Ha sviluppato le sue strategie di coinvolgimento conversazionale pensando a tre segmenti di pubblico:
 
 1. Potenziali sconosciuti: offri in modo proattivo chiamate demo per generare nuovi lead.
 2. Clienti lead noti: prolunga il tempo dedicato dai visitatori alla navigazione dei contenuti e offri chiamate dimostrative per generare opportunità di upselling e cross-selling.
@@ -35,11 +35,11 @@ Quando Sara Barriuso ha implementato Dynamic Chat, è stata attirata dalla sua i
 
 ## Casi d’uso principali per iniziare a creare le finestre di dialogo
 
-Per implementare queste strategie, Sara ha creato dei Dialoghi di Dynamic Chat sui seguenti casi d’uso:
+Per implementare queste strategie, Sara ha creato le sue finestre di dialogo Dynamic Chat intorno ai seguenti casi d’uso:
 
 1. Finestra di dialogo integrata predefinita: fornisci un’opzione iniziale a tutti i visitatori, guidandoli per svolgere le loro attività in modo più efficiente.
 
-2. Promozione della registrazione di eventi e webinar: spingi i visitatori del sito a registrarsi per eventi e webinar per incanalarli più rapidamente nella fase di acquisto.
+2. Promozione della registrazione di eventi e webinar: spingi i visitatori del sito a registrarsi per eventi e webinar per funnel più rapidamente nella fase di acquisto.
 
 3. Estensione del coinvolgimento con i contenuti della campagna: offri contesto aggiuntivo o risolvi potenziali domande quando i visitatori navigano nel contenuto del sito web.
 
@@ -49,7 +49,7 @@ Vediamo questi casi d’uso in azione, mentre Sara mostra il suo processo, dalla
 
 Questa finestra di dialogo fornisce cinque opzioni iniziali tra cui i visitatori del sito possono scegliere, creando un’esperienza autonoma che li aiuta a trovare le informazioni necessarie in base alla loro persona. Per iniziare, puoi esplorare la casella di posta &quot;Contattaci&quot; per identificare i temi comuni e suddividerli in categorie nelle opzioni di dialogo applicabili ai visitatori del tuo sito. Guarda la demo e segui i passaggi seguenti per creare la tua finestra di dialogo catch-all predefinita:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453738/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3453738/?captions=ita&learn=on)
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ Questa finestra di dialogo fornisce cinque opzioni iniziali tra cui i visitatori
 
 1. In &quot;Pubblico&quot;, aggiungi un URL di pagina web in &quot;Target&quot; per indicare dove verrà visualizzata la finestra di dialogo.
 2. In &quot;Impostazioni&quot;, aggiungi il nome, la descrizione, la priorità e la lingua della campagna.
-3. Fai clic su &quot;Publish&quot;
+3. Fai clic su Pubblica
 
 >[!TAB Marketo Engage]
 
@@ -98,7 +98,7 @@ Puoi migliorare ulteriormente la finestra di dialogo predefinita onnicomprensiva
 4. Crea un collegamento di test e condividilo.
 5. In &quot;Pubblico&quot;, aggiungi un URL di pagina web in cui la finestra di dialogo visualizzerà e aggiornerà la destinazione al settore desiderato.
 6. In &quot;Impostazioni&quot;, aggiungi il nome della campagna, la priorità della descrizione e la lingua.
-7. Fare clic su &quot;Publish&quot;.
+7. Fai clic su &quot;Pubblica&quot;.
 
 >[!TAB Marketo Engage]
 
@@ -126,7 +126,7 @@ Eventi e webinar sono tattiche di marketing popolari per le aziende B2B per gene
 1. Clona il modello.
 2. Copiare e incollare testo nel messaggio di dialogo per un nuovo evento
 3. Aggiorna i parametri UTM utilizzati nel collegamento dell’evento (ad esempio utm_medium=website&amp;utm_source=adobe).
-4. Crea un collegamento di test, fai clic su &quot;Publish&quot; e condividilo con il richiedente.
+4. Crea un collegamento di test, fai clic su &quot;Pubblica&quot; e condividilo con il richiedente.
 5. Esamina tra pari e applica il feedback.
 
 
@@ -138,7 +138,7 @@ Eventi e webinar sono tattiche di marketing popolari per le aziende B2B per gene
 
 #### Fase 2
 
-1. Aggiungi il nome della campagna alla campagna Smart di tracciamento all’interno del Marketo Engage e testala.
+1. Aggiungi il nome della campagna alla campagna Smart di tracciamento in Marketo Engage e testala.
 
 >[!ENDTABS]
 
@@ -160,18 +160,18 @@ Eventi e webinar sono tattiche di marketing popolari per le aziende B2B per gene
 2. In Stream Designer, dopo che l’utente ha risposto &quot;Sì&quot;, aggiungi una scheda di domande &quot;In precedenza hai condiviso il tuo indirizzo e-mail con noi. Conservare per i dettagli dell&#39;evento?&quot;
 3. Se rispondono &quot;Sì&quot; - aggiungi una scheda di messaggio &quot;Riceverai un’e-mail di conferma con i dettagli dell’evento/webinar&quot;.
 4. Se rispondono &quot;No&quot; - aggiungi una scheda di messaggio &quot;Compila il modulo nella pagina di registrazione&quot;.
-5. Crea un collegamento di test, fai clic su &quot;Publish&quot; e condividilo con il richiedente.
+5. Crea un collegamento di test, fai clic su &quot;Pubblica&quot; e condividilo con il richiedente.
 6. Nella scheda Pubblico, aggiungi [e-mail non è vuoto].
 
 >[!TAB Marketo Engage]
 
-1. Aggiungi questa nuova finestra di dialogo alla campagna intelligente di tracciamento nel Marketo Engage e testala.
+1. Aggiungi questa nuova finestra di dialogo alla campagna intelligente di tracciamento in Marketo Engage e testala.
 
 >[!ENDTABS]
 
 ### Caso d’uso 3: estensione del coinvolgimento con i contenuti della campagna
 
-Immaginate che una finestra accattivante catturi il vostro sguardo e vi attragga in un negozio. Se un addetto alla reception ti aiuta a selezionare prodotti o a rispondere alle tue domande, potresti sentirti più a tuo agio nell’effettuare un acquisto. Per replicare questa esperienza online, puoi far apparire la finestra di dialogo del Dynamic Chat sulle pagine web in cui i visitatori vengono indirizzati dalle campagne di marketing. Man mano che gli utenti interagiscono con il contenuto web, il Dynamic Chat mostra immediatamente conversazioni rilevanti, suggerendo contenuti aggiuntivi o affrontando potenziali domande. Ciò si ottiene sfruttando i trigger di automazione per attivare campagne di Dynamic Chat in base al coinvolgimento degli utenti all’interno dei programmi di Marketo Engage. Ora, vediamo come dare vita a questo caso d’uso.
+Immaginate che una finestra accattivante catturi il vostro sguardo e vi attragga in un negozio. Se un addetto alla reception ti aiuta a selezionare prodotti o a rispondere alle tue domande, potresti sentirti più a tuo agio nell’effettuare un acquisto. Per replicare questa esperienza online, puoi far apparire la tua finestra di dialogo Dynamic Chat sulle pagine web in cui i visitatori vengono indirizzati dalle campagne di marketing. Quando gli utenti si interagiscono con i contenuti web, Dynamic Chat mostra immediatamente conversazioni rilevanti, suggerendo contenuti aggiuntivi o affrontando potenziali domande. Ciò si ottiene sfruttando i trigger di automazione per attivare campagne Dynamic Chat in base al coinvolgimento degli utenti all’interno dei programmi Marketo Engage. Ora, vediamo come dare vita a questo caso d’uso.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429199/?learn=on)
 
@@ -191,11 +191,11 @@ Estensione del coinvolgimento con i contenuti di Campaign - Configurazione:
 
 >[!ENDTABS]
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
 * Mappa il tuo flusso conversazionale in [Streaming Designer](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} o un diagramma di flusso offline.
-* Crea una finestra di dialogo catch-all predefinita nel Dynamic Chat.
-* Attiva il coinvolgimento post-campagna delle conversazioni utilizzando i trigger di automazione nel Marketo Engage.
+* Crea una finestra di dialogo catch-all predefinita in Dynamic Chat.
+* Attiva il coinvolgimento post-campagna delle conversazioni utilizzando i trigger di automazione in Marketo Engage.
 
 
 ## Autori

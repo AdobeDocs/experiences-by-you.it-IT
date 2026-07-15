@@ -1,6 +1,6 @@
 ---
-title: Pianifica una nuova implementazione del Marketo Engage
-description: Scopri di più sulla pianificazione essenziale e sulla collaborazione cross-functional dei team per implementare correttamente una nuova istanza del Marketo Engage. Questo tutorial fornisce esempi di milestone, team engagement e allocazioni di risorse per un’implementazione perfetta del Marketo Engage.
+title: Pianifica una nuova implementazione di Marketo Engage
+description: Ulteriori informazioni sulla pianificazione essenziale e sulla collaborazione tra team cross-functional per la corretta implementazione di una nuova istanza di Marketo Engage. Questo tutorial fornisce esempi di milestone, team engagement e allocazioni di risorse per un’implementazione perfetta di Marketo Engage.
 role: Admin
 level: Beginner
 doc-type: Article
@@ -12,18 +12,18 @@ thumbnail: KT-14808.jpeg
 exl-id: 65119abd-6f13-4acc-9e99-09843369ad28
 source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 5%
+source-wordcount: '1194'
+ht-degree: 9%
 
 ---
 
-# Pianifica una nuova implementazione del Marketo Engage
+# Pianifica una nuova implementazione di Marketo Engage
 
-L’implementazione di una nuova istanza di Marketo Engage prevede una pianificazione meticolosa, la collaborazione tra i team e l’ottimizzazione continua. Anche se non esiste una ricetta perfetta per implementare una nuova istanza, la maggior parte degli amministratori di Marketo Engage che l’hanno sperimentata concorda sul fatto che la pianificazione futura renderà il processo molto più semplice.
+L’implementazione di una nuova istanza di Marketo Engage richiede una pianificazione meticolosa, la collaborazione tra i team e l’ottimizzazione continua. Anche se non esiste una ricetta perfetta per implementare una nuova istanza, la maggior parte degli amministratori di Marketo Engage che l’hanno sperimentata concorda sul fatto che la pianificazione futura renderà il processo molto più semplice.
 
-In questa esercitazione, approfondiremo le attività cardine specifiche, il coinvolgimento del team e le allocazioni di risorse cruciali per un rollout di Marketo Engage di successo.
+In questa esercitazione, approfondiremo le attività cardine specifiche, il coinvolgimento dei team e le allocazioni di risorse fondamentali per un rollout di Marketo Engage di successo.
 
-## Tappe fondamentali durante l&#39;implementazione del nuovo Marketo Engage
+## Tappe fondamentali durante la nuova implementazione di Marketo Engage
 
 ### Fase 1: individuazione e pianificazione
 
@@ -32,7 +32,7 @@ In questa esercitazione, approfondiremo le attività cardine specifiche, il coin
 
 ### Fase 2: configurazione e configurazione tecnica
 
-- Configurazione delle impostazioni di amministrazione, inclusi CNAME e codice Munchkin.
+- Configurazione delle impostazioni di amministrazione, inclusi i CNAME e il codice Munchkin.
 - Configurazione dei processi di gestione dei lead
 - Verifica dei flussi di lavoro di automazione e sincronizzazione dei dati
 
@@ -56,7 +56,7 @@ In questa esercitazione, approfondiremo le attività cardine specifiche, il coin
 
 ## Coinvolgimento delle parti interessate e risorse necessarie
 
-L’implementazione di una nuova istanza richiede un’attenta pianificazione ed esecuzione per massimizzare i vantaggi. Coinvolgere le parti interessate all’inizio consentirà di adattare l’implementazione alle esigenze generali della tua organizzazione. Di seguito è riportato un esempio delle principali parti interessate e dei loro potenziali ruoli nel progetto, per aiutarti a trovare i partner interni giusti per implementare il Marketo Engage.
+L’implementazione di una nuova istanza richiede un’attenta pianificazione ed esecuzione per massimizzare i vantaggi. Coinvolgere le parti interessate all’inizio consentirà di adattare l’implementazione alle esigenze generali della tua organizzazione. Di seguito è riportato un esempio delle principali parti interessate e dei loro potenziali ruoli nel progetto, per aiutarti a trovare i partner interni giusti per implementare Marketo Engage.
 
 <table>
  <thead>
@@ -124,15 +124,15 @@ L’implementazione di una nuova istanza richiede un’attenta pianificazione ed
     </tr>
 </table>
 
-## Prospettiva tra pari - Implementazione del Marketo Engage
+## Prospettiva peer - Implementazione Marketo Engage
 
-Ascolta Kyle McCormick, Campione di Marketo Engage (2019), sulle sue esperienze di onboarding e implementazione presso Palotos Networks. Scoprirai le sfide che ha dovuto affrontare e i suoi consigli su come gestire in modo efficace e corretto il processo di onboarding.
+Ascolta Kyle McCormick, Marketo Engage Champion (2019), sulle sue esperienze di onboarding e implementazione presso Palotos Networks. Scoprirai le sfide che ha dovuto affrontare e i suoi consigli su come gestire in modo efficace e corretto il processo di onboarding.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428771/?quality=12&learn=on)
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
-Crea un nuovo piano di progetto di implementazione e una nuova tempistica. Di seguito è riportato un timeline di progetto di esempio, incluse le sezioni per attività cardine, attività, team responsabili, scadenze e dipendenze. Utilizzalo per semplificare il percorso di implementazione del Marketo Engage e garantire un rollout di successo in tutta l’organizzazione.
+Crea un nuovo piano di progetto di implementazione e una nuova tempistica. Di seguito è riportato un timeline di progetto di esempio, incluse le sezioni per attività cardine, attività, team responsabili, scadenze e dipendenze. Utilizzalo per semplificare il percorso di implementazione di Marketo Engage e garantire un rollout di successo in tutta l’organizzazione.
 
 Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività milestone specifiche [QUI](/help/marketo-tutorial-implementing-new-instance/assets/adobe-marketo-engage-implementation-milestones-project-management-template.xlsx).
 
@@ -159,46 +159,46 @@ Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività 
     <tr>
         <td rowspan="2">Configurazione tecnica</td>
         <td><em>ESEMPIO -</em> Installare MunchkinID sul sito Web dell'azienda</td>
-        <td bgcolor="c6f0cf">Completo</td>
+        <td bgcolor="c6f0cf">Completa</td>
         <td>9/5/24</td>
         <td>9/12/24</td>
         <td>Team di sviluppo web</td>
     </tr>
     <tr>
-        <td><em>ESEMPIO -</em> Configura DKIM (Domain Keys Identified Mail) e 2 CNAME separati per i collegamenti di recapito e tracciamento delle e-mail.</td>
-        <td bgcolor="c6f0cf">Completo</td>
+        <td><em>ESEMPIO -</em> Configura Domain Keys Identified Mail (DKIM) e 2 CNAME separati per i collegamenti di recapito messaggi e di tracciamento delle e-mail.</td>
+        <td bgcolor="c6f0cf">Completa</td>
         <td>9/15/24</td>
         <td>9/18/24</td>
         <td>Supporto e configurazione da parte del team IT</td>
     </tr>
     <tr>
         <td rowspan="4">Installazione di Adobe Admin Console e amministratore</td>
-        <td><em>ESEMPIO -</em> Creazione di utenti e ruoli del Marketo Engage</td>
-        <td bgcolor="c6f0cf">Completo</td>
+        <td><em>ESEMPIO -</em> Creare utenti e ruoli di Marketo Engage</td>
+        <td bgcolor="c6f0cf">Completa</td>
         <td>8/27/24</td>
         <td>9/15/24</td>
-        <td>Informazioni dai team di marketing su chi deve accedere al Marketo Engage.</td>
+        <td>Informazioni dai team di marketing su chi deve accedere a Marketo Engage.</td>
     </tr>
     <tr>
-        <td><em>ESEMPIO -</em> Creazione di un amministratore di prodotto di Marketo Engage aggiuntivo in Adobe Admin Console</td>
-        <td bgcolor="c6f0cf">Completo</td>
+        <td><em>ESEMPIO -</em> Creazione di un amministratore di prodotto Marketo Engage aggiuntivo in Adobe Admin Console</td>
+        <td bgcolor="c6f0cf">Completa</td>
         <td>8/27/24</td>
         <td>9/15/24</td>
-        <td>Informazioni dal team dell’operazione di marketing su chi deve poter accedere come amministratore al Marketo Engage.</td>
+        <td>Informazioni dal team delle operazioni di marketing su chi ha bisogno dell’accesso come amministratore a Marketo Engage.</td>
     </tr>
     <tr>
         <td><em>ESEMPIO -</em> Configurare gli amministratori del supporto</td>
-        <td bgcolor="c6f0cf">Completo</td>
+        <td bgcolor="c6f0cf">Completa</td>
         <td>8/27/24</td>
         <td>9/15/24</td>
         <td>Informazioni dal team dell’operazione di marketing per confermare i contatti principali per il supporto. Supporto da parte dell’amministratore di sistema per assegnare gli utenti dell’amministratore del supporto.</td>
     </tr>
     <tr>
         <td><em>ESEMPIO -</em> Definizione della struttura delle cartelle e delle convenzioni di denominazione</td>
-        <td bgcolor="c6f0cf">Completo</td>
+        <td bgcolor="c6f0cf">Completa</td>
         <td>9/7/24</td>
         <td>9/12/24</td>
-        <td>Input di ogni team tramite il Marketo Engage sui tipi di programmi e sulle esigenze dell’organizzazione.</td>
+        <td>Input di ogni team che utilizza Marketo Engage sui tipi di programmi e sulle esigenze dell’organizzazione.</td>
     </tr>
     <tr>
         <td rowspan="2">Integrazione CRM (se applicabile)</td>
@@ -235,7 +235,7 @@ Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività 
         <td bgcolor="ffeb9c">In corso</td>
         <td>11/12/24</td>
         <td>N/D</td>
-        <td>Risorse creative da team digitale per e-mail e pagine di destinazione.</td>
+        <td>Risorse Creative del team digitale per e-mail e pagine di destinazione.</td>
     </tr>
     <tr>    
         <td><em>ESEMPIO -</em> Crea un programma per la newsletter trimestrale</td>
@@ -257,7 +257,7 @@ Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività 
         <td bgcolor="ffc7cf">Non avviato</td>
         <td>12/7/24</td>
         <td>   </td>
-        <td>Supporto da parte dei team Web e Paid Media per l’autenticazione del Marketo Engage per l’accesso a Google Ads.</td>
+        <td>Supporto dai team Web e Paid Media per l’autenticazione di Marketo Engage per l’accesso a Google Ads.</td>
         <td>
     </tr>
     <tr>
@@ -266,13 +266,13 @@ Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività 
         <td bgcolor="ffc7cf">Non avviato</td>
         <td>12/2/24</td>
         <td>N/D</td>
-        <td>Crea un team di governance di Marketo Engage per creare la documentazione di governance di supporto o il budget per stipulare un contratto con il progetto di governance.</td>
+        <td>Crea un team di governance Marketo Engage per creare la documentazione di governance di supporto o il budget per stipulare un contratto per il progetto di governance.</td>
     <tr>
         <td><em>ESEMPIO -</em> Formazione degli utenti 4 e accesso utente standard di Marketo</td>
         <td bgcolor="ffc7cf">Non avviato</td>
         <td>12/13/24</td>
         <td>N/D</td>
-        <td>Supporto da parte del VP del Marketing per rendere i corsi di formazione obbligatori per l’accesso al Marketo Engage.</td>
+        <td>Supporto da parte del VP del marketing per rendere i corsi di formazione obbligatori per l’accesso a Marketo Engage.</td>
     <tr>
         <td rowspan="2">Pubblicazione</td>
         <td><em>ESEMPIO -</em> Invia prima newsletter</td>
@@ -292,9 +292,9 @@ Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività 
 </table>
 
 >[!NOTE]
->Gli esempi forniti non si basano su una tempistica di implementazione effettiva. Non fare affidamento su questi elementi come tempistica standard per l’onboarding con il Marketo Engage, in quanto ogni implementazione è univoca e prevede attività cardine e requisiti diversi in base alle esigenze della tua organizzazione.
+>Gli esempi forniti non si basano su una tempistica di implementazione effettiva. Non fare affidamento su questi elementi come tempistica standard per l’onboarding con Marketo Engage, in quanto ogni implementazione è univoca e prevede attività cardine e requisiti diversi in base alle esigenze della tua organizzazione.
 
-Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per l&#39;istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/it/customers/consulting-services/main.html){target="_blank"}.
+Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per la tua istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/it/customers/consulting-services/main.html){target="_blank"}.
 
 ### Autore
 

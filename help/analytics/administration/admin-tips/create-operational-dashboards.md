@@ -14,7 +14,7 @@ thumbnail: KT-13829.jpeg
 exl-id: 8df9e88f-e564-4a8e-b624-026c873d3f19
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Ho notato che gli utenti spesso ignoravano i miei riferimenti al sito di Conflue
 
 Sono andato avanti e ho creato dashboard operativi per condividere a livello aziendale. Finora, hanno tenuto gli utenti informati, centralizzato le informazioni e ridotto la frustrazione. Si è trattato di un processo semplice ed evolutivo che migliora l&#39;efficienza nel tempo.
 
-Le persone sono state in grado di ottenere un sacco di buone informazioni senza di me, capire le aree del sito, vedere quanto è bello [!DNL Adobe Analytics] e (importante per me ??) farmi meno domande e prendere meno tempo.
+Le persone sono state in grado di ottenere un sacco di buone informazioni senza di me, capire le aree del sito, vedere quanto è bello [!DNL Adobe Analytics] e (importante per me 😊) farmi meno domande e prendere meno tempo.
 
-**È consigliabile creare dashboard per tutte le proprietà o le aree principali del sito.** Devono fornire una panoramica della proprietà/del sito/dell&#39;app/del flusso e disporre di informazioni di base e di informazioni rapide. Devono essere condivise con l’intera azienda, consentendo a tutti gli utenti di comprendere la proprietà senza alcuna presa di mano. Per me, queste dashboard di solito rispondono all&#39;80% delle domande che ricevo e mi fanno risparmiare tempo prezioso.
+**Ti consiglio vivamente di creare dashboard per tutte le proprietà o le aree principali del tuo sito.** Devono fornire una panoramica della proprietà/del sito/dell’app/del flusso e disporre di informazioni di base e informazioni rapide. Devono essere condivise con l’intera azienda, consentendo a tutti gli utenti di comprendere la proprietà senza alcuna presa di mano. Per me, queste dashboard di solito rispondono all&#39;80% delle domande che ricevo e mi fanno risparmiare tempo prezioso.
 
 Niente di tutto questo ti impedisce di mantenere il tuo sito Confluence, che rimane molto utile da avere. Faccio anche riferimento a esso nella parte superiore di ogni dashboard operativo. Ma adoro le scelte rapide, sia per me che per i miei utenti.
 
