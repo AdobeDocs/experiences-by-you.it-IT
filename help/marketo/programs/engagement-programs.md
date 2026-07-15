@@ -28,7 +28,7 @@ Segui questo tutorial dettagliato per creare il tuo primo programma di coinvolgi
 
 Per ulteriori informazioni, consulta le relative guide del prodotto:
 
-* [Documentazione sui programmi di coinvolgimento](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/drip-nurturing/creating-an-engagement-program/understanding-engagement-programs.html?lang=en)
+* [Documentazione sui programmi di coinvolgimento](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/drip-nurturing/creating-an-engagement-program/understanding-engagement-programs.html?lang=it)
 
 Scopri dai tuoi colleghi come utilizzare i programmi di coinvolgimento:
 
