@@ -12,7 +12,7 @@ thumbnail: KT-13266.jpeg
 exl-id: 301ee179-b154-4cf2-b27e-77f38a8945a0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Come funzionalità avanzata di [!DNL Adobe Analytics], le metriche calcolate con
 
 Per iniziare a usare le metriche calcolate, vediamo un semplice esempio. Immagina di voler capire se gli utenti self-service online hanno un valore medio di ordine (AOV) più alto rispetto agli utenti assistiti da chiamate. Per creare una metrica calcolata che risponda a questa domanda, effettua le seguenti operazioni:
 
-Per aprire il Generatore di metriche calcolate, utilizzare la navigazione superiore per fare clic su → **Componenti** → **Metriche calcolate** → **+ Aggiungi.** Oppure puoi fare clic sul segno **+** sopra a **Metriche** nel pannello Componenti.
+Per aprire il Generatore di metriche calcolate, utilizzare la navigazione superiore per fare clic su → **Componenti** → **Metriche calcolate** → **+ Aggiungi.** In alternativa, puoi fare clic sul segno **+** sopra a **Metriche** nel pannello Componenti.
 
 
 ![Calcolo 01](assets/calc01.png) ![Calcolo 02](assets/calc03.png) ![Calcolo 03](assets/calc02.png)
@@ -38,9 +38,9 @@ Per aprire il Generatore di metriche calcolate, utilizzare la navigazione superi
 
 Una volta aperto il Generatore di metriche calcolate, aggiungi e/o fai quanto segue:
 
-**A.** Nome per la metrica calcolata. Questo nome viene visualizzato nell&#39;elenco dei componenti delle metriche, quindi rendilo chiaro per te e per gli altri, ad esempio *Call Center AOV*.
+**A.** Un nome per la metrica calcolata. Questo nome viene visualizzato nell&#39;elenco dei componenti delle metriche, quindi rendilo chiaro per te e per gli altri, ad esempio *Call Center AOV*.
 
-**B.** Descrizione della metrica calcolata. Questa descrizione viene visualizzata quando gli utenti fanno clic su &#39;**i**&#39; accanto alla metrica nell&#39;elenco dei componenti, quindi assicurati che sia informativa. Ad esempio, per il call center AOV, è possibile aggiungere *Calcola AOV per gli ordini assistiti dal call center*.
+**B.** Una descrizione della metrica calcolata. Questa descrizione viene visualizzata quando gli utenti fanno clic su &#39;**i**&#39; accanto alla metrica nell&#39;elenco dei componenti, quindi assicurati che sia informativa. Ad esempio, per il call center AOV, è possibile aggiungere *Calcola AOV per gli ordini assistiti dal call center*.
 
 **C.** Il formato della metrica: Scegli decimale, ora, percentuale o valuta e aggiungi cifre decimali e polarità. In questo caso, sceglieremo *Valuta per il formato, 0 per il numero di decimali e* ⬆ *Buona (verde) per la polarità.*
 
@@ -64,7 +64,7 @@ Nel nostro esempio, notiamo un incremento significativo quando i clienti utilizz
 
 ## Utilizzo dei segmenti nelle metriche calcolate
 
-Vediamo ora come utilizzare i segmenti nelle metriche calcolate per acquisire maggiori informazioni sul comportamento, le preferenze e le motivazioni del cliente. Con i segmenti e le metriche calcolate, possiamo imparare abbastanza sui clienti per migliorarne l’esperienza, aumentare i ricavi e migliorare la soddisfazione e la fedeltà dei clienti.
+Vediamo ora come utilizzare i segmenti nelle metriche calcolate per acquisire più insight sul comportamento, le preferenze e le motivazioni dei clienti. Con i segmenti e le metriche calcolate, possiamo imparare abbastanza sui clienti per migliorarne l’esperienza, aumentare i ricavi e migliorare la soddisfazione e la fedeltà dei clienti.
 
 Sappiamo già dagli esempi di AOV di cui sopra che gli acquisti assistiti dal call center hanno in genere un AOV più alto. Tuttavia, altre metriche ci dicono che la maggior parte degli utenti non utilizza il call center per gli acquisti.
 
@@ -104,7 +104,7 @@ Tuttavia, queste metriche non sono disponibili in tutte le aree di [!DNL Adobe A
 
 - Abbandono in Analysis Workspace
 - Analisi per coorte in Analysis Workspace
-- Data Warehouse 
+- Data Warehouse
 - Rapporti in tempo reale
 - Rapporti sui dati correnti
 - [!DNL Analytics] per Target
@@ -115,9 +115,9 @@ Tuttavia, queste metriche non sono disponibili in tutte le aree di [!DNL Adobe A
 Ora che sai quanto possono essere preziose le metriche calcolate, vediamo alcune best practice per crearle.
 
 1. **Verifica la sintassi della formula.** Assicurarsi che la sintassi della formula sia corretta e che segua la sintassi [!DNL Adobe Analytics] per ottenere informazioni significative.
-1. **Verificare l&#39;ordine delle operazioni.** Assicurarsi di utilizzare i contenitori con attenzione e di disporre le operazioni nell&#39;ordine matematico corretto.
+1. **Verifica l&#39;ordine delle operazioni.** Assicurati di utilizzare i contenitori con attenzione e di mettere le cose nell&#39;ordine matematico corretto delle operazioni.
 1. **Non conteggiare due volte i dati**. Puoi evitare il doppio conteggio dei dati assicurandoti che la formula utilizzata nella metrica calcolata non conti più volte gli stessi dati. Ciò si ottiene spesso combinando le condizioni *Includi* e *Escludi* nella metrica calcolata o tramite l&#39;utilizzo di segmenti.
-1. **Verifica la granularità temporale.** Assicurarsi che la metrica calcolata abbia la stessa granularità temporale delle metriche di origine utilizzate nella formula.
+1. **Verifica granularità tempo.** Assicurati che la metrica calcolata abbia la stessa granularità temporale delle metriche sorgente utilizzate nella formula.
 1. **Utilizza dati accurati:** Otterrai risultati importanti solo se nel calcolo utilizzi dati accurati e affidabili.
 
 ## Best practice per i segmenti personalizzati
@@ -130,9 +130,9 @@ Quando crei segmenti in [!DNL Adobe Analytics], tieni presenti le best practice 
    1. Quando viene utilizzato un contenitore di inclusione, *include* *tutto il contenuto della visita* se un hit corrisponde alla condizione all&#39;interno della visita.
    1. Quando viene utilizzato un contenitore di esclusione, *esclude tutto il contenuto della visita* se un hit corrisponde alla condizione all&#39;interno della visita.
 1. **Nidificare correttamente i contenitori**. Determina i dati inclusi utilizzando il contenitore più esterno, quindi applica le regole nidificate ai dati rimanenti. Quando vengono applicate le regole nidificate, il flusso di segmenti agisce come un funnel e le regole successive non si applicano agli hit esclusi dalla prima regola.
-1. **Assicurarsi che i dati siano aggiornati.** Per ottenere risultati accurati, assicurati di utilizzare dati accurati e aggiornati nella definizione del segmento.
-1. **Verifica il segmento.** Eseguire sempre il test del segmento per verificare che funzioni come previsto prima di rilasciarlo ad altri.
-1. **Considerare le prestazioni.** I segmenti possono rallentare l&#39;elaborazione del rapporto, quindi considera tale impatto durante la creazione.
+1. **Verifica che i dati siano aggiornati.** Per ottenere risultati accurati, assicurati di utilizzare dati accurati e aggiornati nella definizione del segmento.
+1. **Verifica il segmento.** Esegui sempre il test del segmento per assicurarti che funzioni come previsto prima di rilasciarlo ad altri.
+1. **Considerare le prestazioni.** I segmenti possono rallentare l’elaborazione dei rapporti, pertanto considera tale impatto al momento di crearli.
 
 ## Conclusioni principali
 
