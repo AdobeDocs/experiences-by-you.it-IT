@@ -23,7 +23,7 @@ Una buona documentazione può essere importante quanto l’implementazione effet
 
 Ma non finisce qui. Il tuo team potrebbe richiedere documenti di abilitazione supplementari o materiali di formazione per migliorare le proprie competenze con Marketo Engage. Queste risorse possono includere esercizi interattivi, quiz per l’accesso o linee guida sulle azioni consentite all’interno di Marketo Engage, a vantaggio di tutti gli utenti Marketo Engage all’interno della tua organizzazione. Sia che si tratti della creazione di una guida completa alla governance o della documentazione iniziale degli aspetti chiave della configurazione, le decisioni di registrazione prese durante l’onboarding sono fondamentali per garantire il successo del team attuale e delle future generazioni di nuovi assunti.
 
-Comprendendo l&#39;importanza della documentazione e della governance, questo tutorial approfondisce le best practice derivate da colleghi esperti [Guida introduttiva alla documentazione sulla governance e la formazione di Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target=&quot;_blank} e [Come documentare l&#39;istanza?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target=&quot;_blank} per aiutarti a implementare un processo e a mantenere la documentazione rilevante per gli utenti interni.
+Comprendendo l&#39;importanza della documentazione e della governance, questo tutorial approfondisce le best practice derivate da colleghi esperti [Guida introduttiva alla documentazione sulla governance e la formazione di Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target=_blank} e [Come documentare l&#39;istanza?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target=_blank} per aiutarti a implementare un processo e a mantenere la documentazione rilevante per gli utenti interni.
 
 ## Perché è essenziale documentare modifiche e decisioni durante l’implementazione dell’istanza
 
@@ -68,7 +68,7 @@ Guida il piano di governance e documentazione iniziando con lo schema di esempio
    * Ciclo di vita della persona
    * Gestione dati
 1. Generazione Nell’Istanza Di Marketo Engage
-   * [Centro di eccellenza](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target=&quot;_blank}
+   * [Centro di eccellenza](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target=_blank}
    * Struttura delle cartelle
    * Convenzioni di denominazione
    * Organizzazione del programma
