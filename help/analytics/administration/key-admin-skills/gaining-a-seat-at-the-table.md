@@ -12,14 +12,14 @@ kt: 10132
 exl-id: fa3190e3-836e-4391-9de6-0b733d55825f
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
 
 # Guadagnarsi un posto al tavolo
 
->[!VIDEO](https://video.tv.adobe.com/v/345314/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/345314/?captions=ita&quality=12&learn=on)
 
 &quot;Guadagnarsi un posto al tavolo.&quot; Questa frase popolare è stata un argomento caldo nel mondo degli affari per anni. Ma cosa significa? Ottenere un posto al tavolo significa essere inclusi nelle conversioni decisionali di alto livello. Non solo siete invitati, ma il vostro contributo è apprezzato e apprezzato. Ti mostrerò in che modo ottenere un posto al tavolo aiuterà la tua azienda e la tua carriera come utente di [!DNL Adobe Analytics], sia che il tuo ruolo ufficiale sia quello di amministratore, analista di dati o qualsiasi altra cosa che il tuo biglietto da visita dica.
 
@@ -29,8 +29,8 @@ Per prima cosa, togliamo qualcosa di mezzo. Il ruolo dei professionisti dei dati
 
 Ecco tre ragioni per cui devi essere lì.
 
-1. **Fornisci una prospettiva unica.** Le decisioni migliori vengono prese quando si includono diversi gruppi di partecipanti. Ogni persona deve portare una nuova prospettiva. In qualità di esperto in materia di analisi digitale, è improbabile che qualcun altro possieda la tua esperienza unica. La leadership farebbe fatica a trovare qualcuno in grado di fornire lo stesso valore incrementale che hai tu.
-1. **È possibile evitare errori di interpretazione dei dati.** Il lavoro svolto è complesso e sfaccettato. È impossibile comunicare tali sfaccettature attraverso definizioni di metriche e dati. Qualcuno al tavolo deve avere una profonda comprensione dei dati; altrimenti, è quasi certamente male interpretato. Di solito, l’impatto di tale interpretazione errata è minore, ma potrebbe non essere sempre così. Devi prendere posto a quel tavolo per evitare decisioni sbagliate basate su un’interpretazione errata dei dati.
+1. **Fornisci una prospettiva univoca.** Le decisioni migliori vengono prese quando si includono persone da diversi ambienti. Ogni persona deve portare una nuova prospettiva. In qualità di esperto in materia di analisi digitale, è improbabile che qualcun altro possieda la tua esperienza unica. La leadership farebbe fatica a trovare qualcuno in grado di fornire lo stesso valore incrementale che hai tu.
+1. **Puoi evitare che i dati vengano interpretati in modo errato.** Il lavoro che fai è complesso e sfaccettato. È impossibile comunicare tali sfaccettature attraverso definizioni di metriche e dati. Qualcuno al tavolo deve avere una profonda comprensione dei dati; altrimenti, è quasi certamente male interpretato. Di solito, l’impatto di tale interpretazione errata è minore, ma potrebbe non essere sempre così. Devi prendere posto a quel tavolo per evitare decisioni sbagliate basate su un’interpretazione errata dei dati.
 1. **È possibile migliorare la comunicazione.** Quando un dirigente ha una domanda a cui puoi rispondere, è molto più semplice se te la può sottoporre direttamente. Le domande spesso perdono contesto e urgenza quando vengono reindirizzate attraverso manager di medio livello. La disconnessione rende anche difficile chiedere chiarimenti. Questo problema è risolto se sei già presente alla riunione. La comunicazione diretta migliorerà la velocità e il valore dell’analisi.
 
 ## Come ottenere un posto al tavolo
@@ -52,7 +52,7 @@ Mostra a questa persona che capisci cosa è importante per loro e che puoi aiuta
 
 **Passaggio 3: Essere eccellenti -** Ora che hai identificato le parti interessate a cui rivolgerti e hai stabilito come puoi essere utile, devi fare un lavoro eccellente. Ognuno ha la propria idea di eccellenza. Potrebbe essere molto diverso per voi che per me. La chiave qui è andare oltre quello che si farebbe normalmente per qualsiasi altra persona o qualsiasi altra richiesta. Ecco un paio di suggerimenti che mi hanno aiutato a produrre un lavoro eccellente.
 
-* **Suggerimento 1: concentrarsi sulla progettazione.** Un consiglio semplice e troppo spesso ignorato è quello di concentrarsi sulla progettazione. Presenta il tuo lavoro con molta attenzione e segui le best practice per la progettazione di informazioni. In questo modo il messaggio sarà di facile comprensione. Quando si realizza un lavoro complesso senza un messaggio chiaro, il pubblico si sente stupido. A nessuno piace sentirsi stupido. E non vogliono lavorare con qualcuno che li faccia sentire stupidi.
+* **Suggerimento 1: concentrarsi sulla progettazione.** Un consiglio semplice, ma che troppo spesso viene ignorato, è quello di concentrarsi sul design. Presenta il tuo lavoro con molta attenzione e segui le best practice per la progettazione di informazioni. In questo modo il messaggio sarà di facile comprensione. Quando si realizza un lavoro complesso senza un messaggio chiaro, il pubblico si sente stupido. A nessuno piace sentirsi stupido. E non vogliono lavorare con qualcuno che li faccia sentire stupidi.
 * **Suggerimento 2: fai l&#39;impossibile.** Hai mai ricevuto una richiesta che sembrava impossibile? Di solito, queste provengono da persone che non capiscono come funzionano i dati. È facile reagire con divertimento (&quot;Ah, è chiaro che non hanno idea di cosa stanno parlando&quot;) o persino con rabbia (&quot;Non posso credere che mi chieda proprio questo! È impossibile!&quot;). Ho avuto entrambe queste reazioni più volte di quanto non possa contare. Ma quando faccio un passo indietro e affronto il problema con mente aperta, quasi sempre sono stupito di quello che riesco a trovare. Se si rimane con un problema abbastanza a lungo, qualcosa di buono di solito viene fuori. Questo perché quando qualcosa sembra impossibile, devi pensare fuori dagli schemi per trovare una soluzione. E pensare fuori dagli schemi spesso porta a un lavoro eccellente.
 
 Spero che questo articolo ti abbia aiutato a capire che devi sedere al tavolo. Probabilmente ci vorrà del tempo e uno sforzo mirato. Ma se insisti e segui questi passaggi, ti ritroverai con più autonomia e maggiore influenza nella tua organizzazione. In ultima analisi, questo porterà a più successo nel tuo ruolo e a una carriera più soddisfacente.
