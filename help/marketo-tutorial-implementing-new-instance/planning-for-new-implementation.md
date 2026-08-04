@@ -38,7 +38,7 @@ In questa esercitazione, approfondiremo le attività cardine specifiche, il coin
 
 ### Fase 3 - Creazione della libreria del programma e configurazione della campagna
 
-- Sviluppo di modelli e-mail e pagine di destinazione. A partire da [importazione di programmi iniziali](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) dalla [libreria di importazione programmi](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
+- Sviluppo di modelli e-mail e pagine di destinazione. A partire da [importazione di programmi iniziali](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) dalla [libreria di importazione programmi](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
 - Impostazione delle regole di segmentazione e Personalization
 - Creazione di campagne iniziali per la generazione e lo sviluppo di lead
 
@@ -294,7 +294,7 @@ Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività 
 >[!NOTE]
 >Gli esempi forniti non si basano su una tempistica di implementazione effettiva. Non fare affidamento su questi elementi come tempistica standard per l’onboarding con Marketo Engage, in quanto ogni implementazione è univoca e prevede attività cardine e requisiti diversi in base alle esigenze della tua organizzazione.
 
-Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per la tua istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
+Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per la tua istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/it/customers/consulting-services/main.html){target="_blank"}.
 
 ### Autore
 
