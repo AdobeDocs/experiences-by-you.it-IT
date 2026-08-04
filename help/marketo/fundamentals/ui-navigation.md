@@ -1,5 +1,5 @@
 ---
-title: Naviga nell'interfaccia utente  [!DNL Marketo Engage]
+title: 'Naviga nell''interfaccia utente  [!DNL Marketo Engage] '
 description: Scopri come navigare nell’interfaccia utente e acquisire familiarità con la piattaforma  [!DNL Marketo Engage] .
 role: User
 level: Beginner
@@ -13,8 +13,8 @@ feature: Modern UX
 exl-id: b1bb3d32-bbf3-48e5-999b-102ddd501124
 source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 27%
+source-wordcount: '90'
+ht-degree: 20%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 27%
 
 Scopri come navigare nell’interfaccia utente e familiarizza con le modalità di utilizzo della piattaforma [!DNL Marketo Engage].
 
->[!VIDEO](https://video.tv.adobe.com/v/3450434/?learn=on&captions=ita){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3419131/?learn=on){transcript=true}
 
 ## Risorse aggiuntive
 
-* [[!DNL Marketo Engage] glossario](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/marketo-glossary.html?lang=it)
+* [[!DNL Marketo Engage] glossario](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/marketo-glossary.html?lang=en)
 Definizioni per molti dei termini che si possono incontrare quando si utilizza Marketo.
-* [Glossario icone](https://experienceleague.adobe.com/docs/marketo/using/product-docs/marketo-engage-modern-ux/icon-glossary.html?lang=it)
+* [Glossario icone](https://experienceleague.adobe.com/docs/marketo/using/product-docs/marketo-engage-modern-ux/icon-glossary.html?lang=en)
 Glossario delle icone per l&#39;interfaccia [!DNL Marketo Engage].
