@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Suggerimenti e trucchi per i campioni di AEM: modelli modificabili
 
->[!VIDEO](https://video.tv.adobe.com/v/3409424?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439845?captions=ita&quality=12&learn=on)

@@ -128,7 +128,7 @@ L’implementazione di una nuova istanza richiede un’attenta pianificazione ed
 
 Ascolta Kyle McCormick, Marketo Engage Champion (2019), sulle sue esperienze di onboarding e implementazione presso Palotos Networks. Scoprirai le sfide che ha dovuto affrontare e i suoi consigli su come gestire in modo efficace e corretto il processo di onboarding.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428771/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447938/?captions=ita&quality=12&learn=on)
 
 ## Cosa succede ora?
 
