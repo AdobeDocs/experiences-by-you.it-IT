@@ -8,14 +8,14 @@ solution: Marketo Engage
 exl-id: 5145c189-cc92-4472-bf99-981b43c2c5ba
 source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '265'
 ht-degree: 16%
 
 ---
 
 # Marketo by You: risorse per utenti, per gli utenti.
 
-L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include i contenuti creati dagli utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni Experience Cloud [!DNL Adobe]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
+L&#39;elemento più potente delle soluzioni di [!DNL Adobe] Experience Cloud? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include i contenuti creati dagli utenti di tutti i giorni che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni di [!DNL Adobe] Experience Cloud. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -76,7 +76,7 @@ L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gl
 
 ## Risorse aggiuntive
 
-* [Nazione Marketo (community)](https://nation.marketo.com/)
+* [Marketo Nation (community)](https://nation.marketo.com/)
 * [Documentazione di Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-engage.html?lang=it)
 * [Tutorial su Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Marketo Engage](https://business.adobe.com/it/products/marketo/adobe-marketo.html)
+* [Informazioni sui prodotti Adobe Marketo Engage](https://business.adobe.com/it/products/marketo/adobe-marketo.html)

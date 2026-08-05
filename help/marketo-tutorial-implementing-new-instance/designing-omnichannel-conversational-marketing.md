@@ -49,7 +49,7 @@ Vediamo questi casi d’uso in azione, mentre Sara mostra il suo processo, dalla
 
 Questa finestra di dialogo fornisce cinque opzioni iniziali tra cui i visitatori del sito possono scegliere, creando un’esperienza autonoma che li aiuta a trovare le informazioni necessarie in base alla loro persona. Per iniziare, puoi esplorare la casella di posta &quot;Contattaci&quot; per identificare i temi comuni e suddividerli in categorie nelle opzioni di dialogo applicabili ai visitatori del tuo sito. Guarda la demo e segui i passaggi seguenti per creare la tua finestra di dialogo catch-all predefinita:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453738/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446483/?captions=ita&learn=on)
 
 >[!BEGINTABS]
 
@@ -86,7 +86,7 @@ Questa finestra di dialogo fornisce cinque opzioni iniziali tra cui i visitatori
 
 Puoi migliorare ulteriormente la finestra di dialogo predefinita onnicomprensiva incorporando contenuti mirati al settore, rendendo le conversazioni ancora più utili per i visitatori. Ad esempio, suggerisci white paper o case study specifici per il settore da scaricare per i visitatori. Guarda la demo e segui i passaggi seguenti per creare una finestra di dialogo predefinita onnicomprensiva per il marketing basato su account:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429195/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441393/?captions=ita&learn=on)
 
 >[!BEGINTABS]
 
@@ -111,7 +111,7 @@ Puoi migliorare ulteriormente la finestra di dialogo predefinita onnicomprensiva
 
 Eventi e webinar sono tattiche di marketing popolari per le aziende B2B per generare domanda. Offrono esperienze coinvolgenti e informazioni dettagliate che attraggono potenziali clienti. La connessione dei visitatori del sito web ai prossimi eventi e webinar consente di qualificare i potenziali clienti in modo ancora più rapido. La creazione di questa finestra di dialogo è un processo semplice e a basso costo e può dimostrare rapidamente il suo successo, aiutandoti a ottenere il supporto delle parti interessate del marketing per aggiungere un coinvolgimento conversazionale al tuo piano di automazione omnicanale. Guarda la demo e segui i passaggi indicati di seguito per creare la tua finestra di dialogo per la promozione di un evento/webinar:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429196/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3445098/?captions=ita&learn=on)
 
 >[!BEGINTABS]
 
@@ -150,7 +150,7 @@ Eventi e webinar sono tattiche di marketing popolari per le aziende B2B per gene
 >[!NOTE]
 >Considera il potenziale rischio per la sicurezza che alcuni stati/paesi proteggono comportano e implementa questa personalizzazione con attenzione consultando il tuo team legale.
 
->[!VIDEO](https://video.tv.adobe.com/v/3429197/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3437097/?captions=ita&learn=on)
 
 >[!BEGINTABS]
 
@@ -173,11 +173,11 @@ Eventi e webinar sono tattiche di marketing popolari per le aziende B2B per gene
 
 Immaginate che una finestra accattivante catturi il vostro sguardo e vi attragga in un negozio. Se un addetto alla reception ti aiuta a selezionare prodotti o a rispondere alle tue domande, potresti sentirti più a tuo agio nell’effettuare un acquisto. Per replicare questa esperienza online, puoi far apparire la tua finestra di dialogo Dynamic Chat sulle pagine web in cui i visitatori vengono indirizzati dalle campagne di marketing. Quando gli utenti si interagiscono con i contenuti web, Dynamic Chat mostra immediatamente conversazioni rilevanti, suggerendo contenuti aggiuntivi o affrontando potenziali domande. Ciò si ottiene sfruttando i trigger di automazione per attivare campagne Dynamic Chat in base al coinvolgimento degli utenti all’interno dei programmi Marketo Engage. Ora, vediamo come dare vita a questo caso d’uso.
 
->[!VIDEO](https://video.tv.adobe.com/v/3429199/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3437587/?captions=ita&learn=on)
 
 Estensione del coinvolgimento con i contenuti di Campaign - Configurazione:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429200/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439503/?captions=ita&learn=on)
 
 >[!BEGINTABS]
 

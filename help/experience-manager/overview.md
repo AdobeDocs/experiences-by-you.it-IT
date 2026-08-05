@@ -8,14 +8,14 @@ solution: Experience Manager
 exl-id: f6aa9dbd-fb4f-40fa-b607-174755a1ca9f
 source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 20%
+source-wordcount: '274'
+ht-degree: 27%
 
 ---
 
 # Experience Manager by You: risorse per utenti, per gli utenti.
 
-L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include i contenuti creati dagli utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni Experience Cloud [!DNL Adobe]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
+L&#39;elemento più potente delle soluzioni di [!DNL Adobe] Experience Cloud? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include i contenuti creati dagli utenti di tutti i giorni che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni di [!DNL Adobe] Experience Cloud. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -32,7 +32,7 @@ L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gl
 <tr>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-1.md">
-      <img alt="Suggerimenti - Modelli modificabili" src="https://video.tv.adobe.com/v/3409424?format=jpeg" />
+      <img alt="Suggerimenti - Modelli modificabili" src="https://video.tv.adobe.com/v/3439845?captions=ita&format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-1.md">
@@ -58,7 +58,7 @@ L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gl
   </td>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
-      <img alt="Suggerimenti" src="https://video.tv.adobe.com/v/3439845?captions=ita&format=jpeg" />
+      <img alt="Suggerimenti" src="https://video.tv.adobe.com/v/3439479?captions=ita&format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
@@ -76,7 +76,7 @@ L&#39;aspetto più potente delle soluzioni Experience Cloud [!DNL Adobe]? Tu. Gl
 
 ## Risorse aggiuntive
 
-* [Comunità Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=it)
+* [Experience Manager Communities](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=it)
 * [Documentazione di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=it)
 * [Tutorial su Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html?lang=it)
 * [Informazioni sul prodotto Experience Manager](https://business.adobe.com/it/products/experience-manager/adobe-experience-manager.html)
