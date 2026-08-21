@@ -121,7 +121,7 @@ Con i modelli comportamentali e demografici di base che hai completato, puoi por
 
 Preferisci un video per questo esercizio? Partecipa come la campionessa Marketo Engage Katja Keesom dimostra di creare flessibilità locale nel modello di punteggio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426914/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457447/?captions=ita&learn=on)
 
 **Passaggio 1** - Considera le attività e le caratteristiche degli esercizi 1 e 2 e determina se variano in base alla posizione o alla linea di prodotti.
 
