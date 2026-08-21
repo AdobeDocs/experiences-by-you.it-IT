@@ -1,5 +1,5 @@
 ---
-title: Creare modelli di punteggio persona per i programmi di Marketo Engage
+title: Creare modelli di punteggio persona per i programmi Marketo Engage
 description: Scopri come creare modelli di punteggio dalla base.
 role: Admin
 level: Beginner
@@ -12,7 +12,7 @@ thumbnail: KT-14810.jpeg
 exl-id: 73976144-f02b-4423-9b4b-410330117ba9
 source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2148'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Il punteggio di persona ti aiuta a identificare le persone più coinvolte nella tua azienda e sono il tuo profilo cliente ideale, in modo da poter condividere tali lead con il team di vendita e concludere le offerte. Insieme alle vendite, è possibile determinare quali lead si desidera consegnare a loro utilizzando un programma di punteggio lead/persona in Adobe Marketo Engage. Questo può essere determinato da un punteggio comportamentale minimo, da un punteggio demografico, o da entrambi.
 
-In questo tutorial, ti guideremo attraverso tre esercizi suggeriti dai campioni di Marketo Engage Christina Zuniga e Katja Keesom. Segui questa procedura per determinare quali attività e caratteristiche sono indicatori importanti che un potenziale cliente è interessato ad acquistare (punteggio comportamentale), è adatto a te (punteggio demografico) e ne tiene conto nei diversi mercati.
+In questo tutorial, ti guideremo attraverso tre esercizi suggeriti dalla Marketo Engage Champions Christina Zuniga e Katja Keesom. Segui questa procedura per determinare quali attività e caratteristiche sono indicatori importanti che un potenziale cliente è interessato ad acquistare (punteggio comportamentale), è adatto a te (punteggio demografico) e ne tiene conto nei diversi mercati.
 
 ## Perché sviluppare e utilizzare un modello di punteggio della persona?
 
@@ -38,7 +38,7 @@ Il punteggio comportamentale dà un valore numerico alle azioni tracciabili intr
 * Quali attività indicano un lead buono o cattivo per te?
 * Quale tipo di contenuto utilizzato da un lead ha un’intenzione di acquisto più forte?
 
-**Passaggio 2** - Elenca le azioni che indicano che un potenziale cliente non è interessato al tuo prodotto. Assicurati di elencare le attività tracciabili attraverso il Marketo Engage.
+**Passaggio 2** - Elenca le azioni che indicano che un potenziale cliente non è interessato al tuo prodotto. Assicurati di elencare le attività tracciabili tramite Marketo Engage.
 
 **Esempio 1a - Attività che indicano l&#39;intenzione di acquistare**
 
@@ -46,7 +46,7 @@ Il punteggio comportamentale dà un valore numerico alle azioni tracciabili intr
 | --- | --- |
 | Pagina dei prezzi delle visite | Nessuna interazione negli ultimi 90 giorni |
 | Partecipa all’evento annuale per il cliente | Pagina Visita carriere |
-| Registrati al webinar | Annullamenti iscrizioni |
+| Registrati al webinar | Annulla iscrizione |
 | Download del white paper |     |
 | Compila il modulo demo della richiesta |     |
 
@@ -85,14 +85,14 @@ Dopo aver definito le attività che indicano l’intento di acquisto, è necessa
 
 **Passaggio 1** - Crea un elenco di caratteristiche per i tuoi potenziali clienti ideali.
 
-* Valuta l’inserimento di attributi quali il settore, l’azienda, il reparto e il ruolo. Assicurati che queste caratteristiche corrispondano ai campi demografici disponibili nell’istanza del Marketo Engage.
+* Valuta l’inserimento di attributi quali il settore, l’azienda, il reparto e il ruolo. Assicurati che queste caratteristiche corrispondano ai campi demografici disponibili nella tua istanza di Marketo Engage.
 * Collabora con il tuo team di vendita per individuare i lead che rispondono maggiormente alle richieste di informazioni sulle vendite e che sono i contatti chiave durante le opportunità di vendita.
-   * Può essere utile analizzare le recenti opportunità realizzate e chiuse per vedere quali caratteristiche hanno i tuoi clienti migliori. Ad esempio,
-      * Sfogliare le opportunità perse chiuse per i modelli può portare a trovare i dati demografici che si desidera evitare.
-      * Identifica i decision-maker e i campioni interni che contribuiscono alle tue attività di vendita. Approfondisci i dati e porta i tuoi risultati a un workshop con alcuni membri del tuo team di vendita per convalidare o perfezionare le tue conclusioni.
-   * Puoi anche intervistare il tuo team di vendita per rispondere alle seguenti domande:
-      * Con quale reparto sono solitamente coinvolti?
-      * Quali sono i titoli professionali delle persone coinvolte nelle demo dei prodotti e chi sono le persone che devono firmare l&#39;acquisto?
+  * Può essere utile analizzare le recenti opportunità realizzate e chiuse per vedere quali caratteristiche hanno i tuoi clienti migliori. Ad esempio,
+    * Sfogliare le opportunità perse chiuse per i modelli può portare a trovare i dati demografici che si desidera evitare.
+    * Identifica i decision-maker e i campioni interni che contribuiscono alle tue attività di vendita. Approfondisci i dati e porta i tuoi risultati a un workshop con alcuni membri del tuo team di vendita per convalidare o perfezionare le tue conclusioni.
+  * Puoi anche intervistare il tuo team di vendita per rispondere alle seguenti domande:
+    * Con quale reparto sono solitamente coinvolti?
+    * Quali sono i titoli professionali delle persone coinvolte nelle demo dei prodotti e chi sono le persone che devono firmare l&#39;acquisto?
 
 **Esempio 2a - Caratteristiche ideali del prospect**
 
@@ -100,7 +100,7 @@ Dopo aver definito le attività che indicano l’intento di acquisto, è necessa
 | --- | --- |
 | Settore | Aerospaziale, Produzione |
 | Dimensione società | 100 - 999, 1.000 - 9.999 |
-| Qualifica | Director, Vice President, C-Level |
+| Qualifica | Direttore, Vicepresidente, livello C |
 | Reparto | ORE |
 
 **Passaggio 2** - Assegna un punteggio a ciascuna caratteristica in base alla sua rilevanza nel profilo potenziale ideale. Utilizza punteggi positivi per le caratteristiche desiderate e punteggi negativi per le caratteristiche che rendono il lead meno adatto al tuo prodotto.
@@ -119,9 +119,9 @@ Dopo aver definito le attività che indicano l’intento di acquisto, è necessa
 
 Con i modelli comportamentali e demografici di base che hai completato, puoi portarlo al livello successivo consentendo flessibilità locale. I valori aziendali possono variare in mercati diversi quando un’organizzazione opera a livello globale. Nell&#39;esercizio seguente verrà illustrato come applicare i punteggi per riflettere il valore aziendale reale delle attività o delle caratteristiche del lead in situazioni diverse.
 
-Preferisci un video per questo esercizio? Partecipa come la campionessa del Marketo Engage Katja Keesom dimostra di costruire flessibilità locale nel modello di punteggio.
+Preferisci un video per questo esercizio? Partecipa come la campionessa Marketo Engage Katja Keesom dimostra di creare flessibilità locale nel modello di punteggio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457447/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3457447/?captions=ita&learn=on)
 
 **Passaggio 1** - Considera le attività e le caratteristiche degli esercizi 1 e 2 e determina se variano in base alla posizione o alla linea di prodotti.
 
@@ -139,7 +139,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
 * Definisci il numero di valori utilizzati per la valutazione all&#39;interno degli argomenti.
 * Assegna singoli valori allineando il valore relativo ai punteggi globali.
 * Valuta la possibilità di definire scenari comuni quando i potenziali clienti interagiscono con il tuo marchio e di testare il tuo punteggio complessivo al riguardo.
-   * Ad esempio, un percorso di potenziali clienti comune potrebbe essere quello di consentire a un utente di accedere al sito Web in una pagina di contenuto, quindi di passare a una pagina di prodotto e scaricare una brochure. Dovresti indirizzare loro un invito al webinar, e loro rispondono registrandosi, ma non partecipando. Valuta se le tue vendite vogliono già parlare con questa persona o no e valuta se il tuo modello di punteggio ottiene questi potenziali al punteggio complessivo giusto per riflettere quel livello di interesse.
+  * Ad esempio, un percorso di potenziali clienti comune potrebbe essere quello di consentire a un utente di accedere al sito Web in una pagina di contenuto, quindi di passare a una pagina di prodotto e scaricare una brochure. Dovresti indirizzare loro un invito al webinar, e loro rispondono registrandosi, ma non partecipando. Valuta se le tue vendite vogliono già parlare con questa persona o no e valuta se il tuo modello di punteggio ottiene questi potenziali al punteggio complessivo giusto per riflettere quel livello di interesse.
 
 **Esempio 3b - Matrice di punteggio demografico:**
 
@@ -149,7 +149,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
 | Valori Medium | 10 punti | 7 punti | 3 punti |
 | Valori bassi | 5 punti | 3 punti | 1 punto |
 
-**Passaggio 3** - Raccogli input dai team di vendita locali o regionali per sviluppare una visione olistica. Nell’esempio 3c non sono inclusi punteggi individuali. Questo consente al team vendite di concentrarsi sul valore relativo dei diversi argomenti durante il processo di revisione. Tuttavia, è necessario che il modello completo sia documentato come materiale di base per gli altri amministratori di Marketo Engage.
+**Passaggio 3** - Raccogli input dai team di vendita locali o regionali per sviluppare una visione olistica. Nell’esempio 3c non sono inclusi punteggi individuali. Questo consente al team vendite di concentrarsi sul valore relativo dei diversi argomenti durante il processo di revisione. Tuttavia, è necessario che il modello completo sia documentato come materiale di base per altri amministratori Marketo Engage.
 
 * Blocca ciò che non può essere regolato per la coerenza globale (qui nella colonna &quot;Implementa argomento&quot;).
 * Contrassegna (qui nelle colonne &quot;Priorità&quot; e &quot;Punteggio&quot;) cosa può essere regolato per le influenze locali.
@@ -169,7 +169,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
  <tr>
     <td rowspan="6">1</td>
     <td rowspan="6"><b>OBBLIGATORIO</b></td>
-    <td rowspan="6">Demografico</td>
+    <td rowspan="6">Demografia</td>
     <td rowspan="6">Settore</td>
     <td rowspan="6"><b>2</b></td>
     <td>Tecnologia</td>
@@ -198,7 +198,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
 <tr>
     <td rowspan="3">2</td>
     <td rowspan="3"><b>Sì</td>
-    <td rowspan="3">Demografico</td>
+    <td rowspan="3">Demografia</td>
     <td rowspan="3">Dimensione società (dipendenti)</td>
     <td rowspan="3"><b>3</td>
     <td>&gt;1000 dipendenti</td>
@@ -215,7 +215,7 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
 <tr>
     <td rowspan="3">3</td>
     <td rowspan="3"><b>No</b></td>
-    <td rowspan="3">Comportamento</td>
+    <td rowspan="3">Comportamentale</td>
     <td rowspan="3">Visite pagina sul sito web</td>
     <td rowspan="3"><b>2</b></td>
     <td>&gt;Pagine delle informazioni sui prodotti</td>
@@ -231,21 +231,21 @@ Preferisci un video per questo esercizio? Partecipa come la campionessa del Mark
   </tr>
 </table>
 
-## Cosa succede dopo?
+## Cosa succede ora?
 
-* Scarica il [foglio di esercizio del punteggio persona](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target="_blank} per sviluppare il modello di punteggio offline.
-* Crea il punteggio della persona nel Marketo Engage. Controlla questa [esercitazione](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target="_blank} e [demo](https://experienceleague.adobe.com/it/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target="_blank} per iniziare. Puoi importare un programma di punteggio lead/persona [modello](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target="_blank} dalla libreria dei riferimenti ai Marketi Engage per accelerare la compilazione del programma.
+* Scarica il [foglio di esercizio per il punteggio delle persone](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target=_blank} per sviluppare il modello di punteggio offline.
+* Crea il tuo punteggio persona in Marketo Engage. Per iniziare, controlla questa [esercitazione](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target=_blank} e questa [demo](https://experienceleague.adobe.com/en/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target=_blank}. Puoi importare un programma di punteggio lead/persona [modello](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target=_blank} dalla libreria di riferimento di Marketo Engage per accelerare la compilazione del programma.
 * Creare due versioni del programma di assegnazione del punteggio:
-   * Un programma centrale che esegue tutti i punteggi che non possono essere aggiornati localmente.
-   * Una copia locale con gli elementi di punteggio configurabili.
+  * Un programma centrale che esegue tutti i punteggi che non possono essere aggiornati localmente.
+  * Una copia locale con gli elementi di punteggio configurabili.
 * Imposta i valori di punteggio come token all’interno del programma di punteggio. Ciò garantisce la coerenza anche quando si modificano i punteggi nel tempo.
-   * Un esempio comune di punteggi tokenizzati è l’utilizzo di un token per attività di valore elevato che soddisfano automaticamente la soglia, ad esempio la richiesta di una demo o la prenotazione di una riunione con il team di vendita. Anche se modifichi il punteggio minimo richiesto per raggiungere la soglia, puoi aggiornare facilmente tutte le attività di valore elevato contemporaneamente aggiornando un token.
+  * Un esempio comune di punteggi tokenizzati è l’utilizzo di un token per attività di valore elevato che soddisfano automaticamente la soglia, ad esempio la richiesta di una demo o la prenotazione di una riunione con il team di vendita. Anche se modifichi il punteggio minimo richiesto per raggiungere la soglia, puoi aggiornare facilmente tutte le attività di valore elevato contemporaneamente aggiornando un token.
 * Regola la tua Smart Campaign locale per ogni posizione:
-   * Determina quali attività demografiche e comportamentali devono ottenere un punteggio solo una volta (ovvero l’industria) e quali devono ottenere un punteggio ogni volta che un potenziale cliente si qualifica (ad esempio, ha partecipato a un webinar). In questo modo i potenziali contatti attivati dalla modifica del valore dei dati sono rilevanti per le vendite.
-   * Assicurati che le scelte siano reciprocamente esclusive.
-   * Effettua gli aggiornamenti in entrambi i passaggi del flusso in modo che il Punteggio persona venga aggiornato in modo identico al Punteggio demografico. In questo modo, il punteggio della persona rimane in linea con la combinazione di punteggio di comportamento e punteggio demografico.
-* Dopo aver completato la creazione del programma, verifica la campagna avanzata. Ad esempio, vai al tuo modulo demo, compilalo con un&#39;e-mail di test e controlla il punteggio della persona di test nel [database di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started-with-marketo/quick-wins/simple-scoring#step-view-the-person-info){target="_blank}.
-* Dopo aver creato il modello, puoi impostare un avviso per passare alle vendite una volta che il punteggio della persona ha raggiunto la soglia di handoff vendite. Ulteriori informazioni sulla configurazione di un avviso con questa [esercitazione](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/send-alert){target="_blank}.
+  * Determina quali attività demografiche e comportamentali devono ottenere un punteggio solo una volta (ovvero l’industria) e quali devono ottenere un punteggio ogni volta che un potenziale cliente si qualifica (ad esempio, ha partecipato a un webinar). In questo modo i potenziali contatti attivati dalla modifica del valore dei dati sono rilevanti per le vendite.
+  * Assicurati che le scelte siano reciprocamente esclusive.
+  * Effettua gli aggiornamenti in entrambi i passaggi del flusso in modo che il Punteggio persona venga aggiornato in modo identico al Punteggio demografico. In questo modo, il punteggio della persona rimane in linea con la combinazione di punteggio di comportamento e punteggio demografico.
+* Dopo aver completato la creazione del programma, verifica la campagna avanzata. Ad esempio, vai al tuo modulo demo, compilalo con un&#39;e-mail di test e controlla il punteggio della persona di test nel [database Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started-with-marketo/quick-wins/simple-scoring#step-view-the-person-info){target=_blank}.
+* Dopo aver creato il modello, puoi impostare un avviso per passare alle vendite una volta che il punteggio della persona ha raggiunto la soglia di handoff vendite. Scopri come impostare un avviso con questa [esercitazione](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/send-alert){target=_blank}.
 
 ### Autori
 
