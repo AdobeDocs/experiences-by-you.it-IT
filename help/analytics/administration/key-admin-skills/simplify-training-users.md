@@ -13,14 +13,14 @@ kt: 9779
 exl-id: 9ceef641-3509-4e5e-8c44-bc76502e389b
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
 # Suggerimenti su come semplificare la formazione degli utenti e dedicarvi meno tempo
 
->[!VIDEO](https://video.tv.adobe.com/v/341106/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/340458/?quality=12&learn=on)
 
 Assicurare che gli utenti aziendali all&#39;interno della tua organizzazione abbiano una buona formazione su [!DNL Adobe Analytics] è fondamentale per contribuire a creare una cultura del processo decisionale basato sui dati. Gli utenti in grado di trovare facilmente le informazioni in [!DNL Adobe Analytics] possono rispondere autonomamente a semplici domande di business, lasciando più tempo agli analisti per rispondere a domande di business complesse. La condivisione delle tue conoscenze contribuisce a promuovere la democrazia dei dati e consente agli utenti aziendali di essere più indipendenti nel prendere decisioni basate sulle prestazioni.
 
@@ -53,7 +53,7 @@ Naturalmente, una sola sessione di formazione di base standard non coprirà tutt
 * Registra anche queste sessioni e rendile disponibili una alla volta mentre crei il nuovo contenuto.
 * A volte, man mano che la tua implementazione cresce ed evolve, potrebbe essere necessario aggiornare le sessioni di formazione per mantenere aggiornati i contenuti.
 * A seconda di come sono strutturate l’implementazione e l’organizzazione, potrebbe essere importante creare sessioni di formazione mirate a un reparto o a un gruppo specifico: ovvero fornire formazione a un reparto IT sull’utilizzo dei browser e dei sistemi operativi, dimostrando gli avvisi sulla disponibilità del sito rispetto a fornire formazione a un reparto di marketing su referrer, canali di marketing e pagine di contenuti più visitate.
-* Non è necessario creare tutti i contenuti autonomamente. [!DNL Adobe] dispone di alcuni ottimi percorsi di apprendimento gratuiti e contenuti di formazione aggiuntivi, che puoi offrire ai tuoi utenti entro [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/docs/analytics.html?lang=it).
+* Non è necessario creare tutti i contenuti autonomamente. [!DNL Adobe] dispone di alcuni ottimi percorsi di apprendimento gratuiti e contenuti di formazione aggiuntivi, che puoi offrire ai tuoi utenti in [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/docs/analytics.html?lang=it).
 
 
 
