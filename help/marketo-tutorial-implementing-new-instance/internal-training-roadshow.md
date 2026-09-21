@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Quando si attiva una nuova istanza di [!DNL Marketo Engage], è ora di portare i team rilevanti al passo con i tempi per sfruttare [!DNL Marketo Engage] per i propri lavori.
 
-Queste best practice interne per l’onboarding e la formazione sono state fornite da Naomi Liu, una cliente di Adobe Marketo Engage, che condivide [l’onboarding interno](https://nation.marketo.com/t5/employee-blogs/peer-perspective-orchestrating-onboarding-across-global-teams/ba-p/244931){target=&quot;_blank} e [le best practice per la formazione](https://nation.marketo.com/t5/employee-blogs/peer-perspective-how-to-train-internal-users-on-marketo-engage/ba-p/245237){target=&quot;_blank} derivanti dalla sua esperienza nell’implementazione di una nuova istanza per l’elettronica per i team globali di Imaging. Segui le sue informazioni per creare un piano di formazione efficace per i tuoi team interni.
+Queste best practice interne per l’onboarding e la formazione sono state fornite da Naomi Liu, una cliente di Adobe Marketo Engage, che condivide [l’onboarding interno](https://nation.marketo.com/t5/employee-blogs/peer-perspective-orchestrating-onboarding-across-global-teams/ba-p/244931){target=_blank} e [le best practice per la formazione](https://nation.marketo.com/t5/employee-blogs/peer-perspective-how-to-train-internal-users-on-marketo-engage/ba-p/245237){target=_blank} derivanti dalla sua esperienza nell’implementazione di una nuova istanza per l’elettronica per i team globali di Imaging. Segui le sue informazioni per creare un piano di formazione efficace per i tuoi team interni.
 
 ## Perché sviluppare un piano di onboarding interno durante l’implementazione della nuova istanza?
 
