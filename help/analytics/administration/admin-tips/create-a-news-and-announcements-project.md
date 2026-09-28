@@ -13,11 +13,9 @@ kt: 10535
 exl-id: 59944fab-11f8-4af5-92ed-00dcd4205eda
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 # Creare un progetto di notizie e annunci
 
 **COSA:** Crea un progetto di notizie e annunci in Workspace, principalmente composto di testo e da condividere con tutta l&#39;azienda. Non è necessario impostarla come pagina di destinazione per gli utenti (anche se è possibile farlo), poiché ogni volta che viene aggiornata verrà spostata all’inizio dell’elenco.
