@@ -1,31 +1,29 @@
 ---
 title: Creazione di segmenti di Percorso di clienti
-description: Scopri come creare segmenti di percorso dei clienti basati sul comportamento in [!DNL Adobe Analytics] e migliorare l'esperienza dei clienti con [!DNL Adobe] Experience Cloud seguendo questa guida dettagliata.
+description: Segui questa guida dettagliata per scoprire come creare segmenti di percorso dei clienti basati sul comportamento in [!DNL Adobe Analytics] e migliorare l'esperienza dei tuoi clienti con [!DNL Adobe] Experience Cloud.
 feature-set: Analytics
 feature: Segmentation
 role: User
 level: Experienced
 doc-type: Article
-last-substantial-update: 2023-05-02T00:00:00Z
+last-substantial-update: 2023-05-02
 jira: KT-13180
 thumbnail: KT-13180.jpeg
 exl-id: 34f42d7e-e849-420e-9b3d-f3dcc1882b23
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1239'
 ht-degree: 0%
-
 ---
-
 # Creazione di segmenti di Percorso di clienti
 
-Scopri come creare segmenti di percorso dei clienti basati sul comportamento in [!DNL Adobe Analytics] e migliorare l&#39;esperienza dei clienti con [!DNL Adobe] Experience Cloud seguendo questa guida dettagliata.
+Segui questa guida dettagliata per scoprire come creare segmenti di percorso dei clienti basati sul comportamento in [!DNL Adobe Analytics] e migliorare l&#39;esperienza dei tuoi clienti con [!DNL Adobe] Experience Cloud.
 
-Creiamo segmenti di percorso di clienti migliori! In questa serie utilizzeremo [!DNL Adobe Analytics] per definire segmenti basati sul comportamento, stimare le dimensioni del pubblico e tenere traccia del movimento degli utenti. Entro la fine, potrai personalizzare i contenuti multimediali e migliorare l&#39;esperienza dei tuoi clienti con l&#39;Experience Cloud [!DNL Adobe]. Tieni presente che questi segmenti sono live e dovrebbero essere aggiornati man mano che apprendi di più sui tuoi clienti. Anche se la generazione rapporti può presentare alcune difficoltà, non preoccuparti, ti guiderò attraverso la documentazione! Iniziamo con la creazione del primo set di segmenti del Percorso di clienti, a partire dal segmento &quot;One Hit Wonders&quot; (Meraviglie in un unico hit).
+Creiamo segmenti di percorso di clienti migliori! In questa serie utilizzeremo [!DNL Adobe Analytics] per definire segmenti basati sul comportamento, stimare le dimensioni del pubblico e tenere traccia del movimento degli utenti. Entro la fine, potrai personalizzare i contenuti multimediali e migliorare l&#39;esperienza dei tuoi clienti con [!DNL Adobe] Experience Cloud. Tieni presente che questi segmenti sono live e dovrebbero essere aggiornati man mano che apprendi di più sui tuoi clienti. Anche se la generazione rapporti può presentare alcune difficoltà, non preoccuparti, ti guiderò attraverso la documentazione! Iniziamo con la creazione del primo set di segmenti del Percorso di clienti, a partire dal segmento &quot;One Hit Wonders&quot; (Meraviglie in un unico hit).
 
 Oggi creeremo dei segnaposto per il primo set di segmenti del Percorso di clienti, creeremo un Workspace [!DNL Adobe Analytics] per aiutarci a definire i nostri segmenti e il nostro primo segmento, &quot;One Hit Wonders&quot;.
 
-Al termine di questa serie, potrai creare segmenti di percorso clienti in [!DNL Adobe Analytics] in base a segnali comportamentali. Potrai stimare le dimensioni di ogni pubblico in ogni fase del percorso e capire a che velocità gli utenti si spostano tra queste fasi. Potrai esportare i tipi di pubblico del percorso di clienti nell&#39;Experience Cloud [!DNL Adobe] per abilitare la personalizzazione e il targeting multimediale.
+Al termine di questa serie, potrai creare segmenti di percorso clienti in [!DNL Adobe Analytics] in base a segnali comportamentali. Potrai stimare le dimensioni di ogni pubblico in ogni fase del percorso e capire a che velocità gli utenti si spostano tra queste fasi. Potrai esportare i tipi di pubblico del percorso di clienti in [!DNL Adobe] Experience Cloud per abilitare la personalizzazione e il targeting multimediale.
 
 Ogni azienda è diversa e questo significa che i segmenti del percorso di clienti avranno un aspetto diverso dal mio. Quindi, anziché prescrivere formule specifiche per i segmenti, suggerisci alcune cose da considerare e un processo complessivo per la loro creazione.
 
@@ -59,7 +57,7 @@ Come vedremo, la creazione di questi segmenti è un processo iterativo e interco
 
 Ho utilizzato un’area di lavoro semplice per assicurarmi di definire correttamente i segmenti di Intento di visita. Ricorda che ogni visita deve appartenere a un solo segmento di intento di visita. L’area di lavoro che ho configurato assicura che tutte le visite siano contabilizzate e che non ci siano sovrapposizioni tra i segmenti.
 
-Ho denominato questa area di lavoro &quot;QUALITÀ DEI DATI: Segmenti intento visita&quot; con i tag &quot;qualità dei dati&quot;, &quot;intento visita&quot; e &quot;percorso di clienti&quot;. Successivamente verrà creato un &quot;Dashboard intento di visita&quot; in modo che il prefisso &quot;DATA QUALITY&quot; indichi che questa area di lavoro è per la configurazione e la manutenzione dei segmenti. Si tratta di un dashboard amministrativo con informazioni aziendali scarse, ma importante per garantire la manutenzione dei segmenti. È consigliabile tornare regolarmente a questa dashboard, o impostare avvisi, per assicurarsi che i segmenti rimangano definiti correttamente.
+Ho denominato questa area di lavoro &quot;QUALITÀ DEI DATI: Segmenti intento visita&quot; con i tag &quot;qualità dei dati&quot;, &quot;intento visita&quot; e &quot;percorso di clienti&quot;. Successivamente verrà creato un &quot;Dashboard intento di visita&quot; in modo che il prefisso &quot;DATA QUALITY&quot; indichi che questa area di lavoro è per la configurazione e la manutenzione dei segmenti. Si tratta di un dashboard amministrativo che dispone di un numero piuttosto limitato di insight aziendali, ma che è importante per garantire la manutenzione dei segmenti. È consigliabile tornare regolarmente a questa dashboard, o impostare avvisi, per assicurarsi che i segmenti rimangano definiti correttamente.
 
 La visualizzazione più importante in questa area di lavoro è la visualizzazione a forma libera di sovrapposizione segmenti, in mezzo a sinistra. Utilizzando la metrica Visite, crea filtri di colonna per ciascuno dei segmenti di intento di visita più il segmento Tutte le visite nella colonna più a destra. Crea righe per ciascun segmento Intento visita a sinistra. Ora avrai una visualizzazione cross-tab. Quando i segmenti sono configurati correttamente, ci saranno solo dati in una colonna e una riga, all’intersezione di ogni segmento di intento di visita con se stesso.
 
@@ -105,6 +103,6 @@ Questo documento è stato scritto da:
 
 ![Fossum di Aaron](assets/aaron-headshot.png)
 
-**Aaron Fossum**, Director, digitale [!DNL Analytics]
+**Aaron Fossum**, Direttore, Digitale [!DNL Analytics]
 
 [!DNL Adobe Analytics] campione
