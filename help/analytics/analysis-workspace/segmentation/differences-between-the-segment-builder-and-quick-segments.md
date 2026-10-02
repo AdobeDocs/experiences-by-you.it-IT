@@ -8,13 +8,11 @@ level: Beginner
 doc-type: article
 kt: KT-13118
 exl-id: baeaa90e-8cce-4ddd-b099-fecd266e410c
-source-git-commit: 849ec510944d3299c3515fcecd5fc57d74c3fa26
+source-git-commit: 9589a00f530e3a2d2897c9e2bd4efc0baf0ff125
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
-
 ---
-
 # Differenze tra il Generatore di segmenti e i segmenti rapidi in Analysis Workspace
 
 I segmenti possono essere uno degli strumenti più potenti nel tuo toolkit di analisi dei dati. Scopri le differenze tra l’utilizzo del generatore di segmenti e dei segmenti rapidi in Analysis Workspace per migliorare l’efficienza.
@@ -68,4 +66,4 @@ Adobe Analytics Champion
 
 ## Scarica
 
-[![Download rapido segmenti](assets/quick-segments-download-small.jpg)] (assets/[!DNL Adobe]_[!DNL Analytics]_&#x200B;Segments_Vs_Segment_Builder_Reference_Guide.pdf)
+[![Download rapido segmenti](assets/quick-segments-download-small.jpg)] (assets/ Adobe_Analytics_Segments_Vs_Segment_Builder_Reference_Guide.pdf)
