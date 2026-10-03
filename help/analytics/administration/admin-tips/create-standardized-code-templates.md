@@ -1,6 +1,6 @@
 ---
 title: Creare modelli di codice standard
-description: Per un'implementazione che funga da linea di base (con i KPI considerati indispensabili per tutti i  [!DNL Adobe Analytics]  siti), ove possibile la tua organizzazione deve seguire un unico metodo di implementazione.
+description: Per un'implementazione che funga da base (con i KPI considerati indispensabili per tutti i [!DNL Adobe Analytics] siti), ove possibile la tua organizzazione deve seguire un unico metodo di implementazione.
 solution: Analytics
 feature-set: Analytics
 feature: Implementation Basics
@@ -13,11 +13,9 @@ kt: 10532
 exl-id: edd3df73-6d1a-4a26-a984-810cc7dd382f
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '358'
 ht-degree: 0%
-
 ---
-
 # Creare modelli di codice standard
 
 **COSA:** Per un&#39;implementazione che funga da &quot;linea di base&quot; (con i KPI considerati indispensabili per tutti i [!DNL Adobe Analytics] siti), ove possibile la tua organizzazione deve seguire un unico metodo di implementazione. Ad esempio, utilizza per tutti i siti la stessa struttura del livello dati, sfruttando lo stesso codice personalizzato o le stesse regole di gestione dei tag per acquisire elementi quali ricerche interne o informazioni sul profilo del visitatore.
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 | Variabile AA | Descrizione | Quando/Dove impostare | Come impostare |
 |--- |--- |--- |--- |
-| EVAR 8 | Parole chiave di ricerca interna | All’arrivo nella pagina dei risultati di ricerca interna | livello dati |
+| EVAR8 | Parole chiave di ricerca interna | All’arrivo nella pagina dei risultati di ricerca interna | livello dati |
 | event8 | Numero di ricerche interne | All’arrivo nella pagina dei risultati di ricerca interna | Regola di avvio |
 
 * Dettagli su come impostare. Qui puoi specificare tutti gli oggetti livello dati necessari e la loro sintassi, nonché eventuali regole TMS da configurare e i dettagli della configurazione della regola.

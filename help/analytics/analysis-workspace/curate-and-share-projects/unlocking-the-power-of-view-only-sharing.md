@@ -6,17 +6,15 @@ feature: Curate and Share
 role: User
 level: Experienced
 doc-type: Article
-last-substantial-update: 2023-05-02T00:00:00Z
+last-substantial-update: 2023-05-02
 jira: KT-13179
 thumbnail: KT-13179.jpeg
 exl-id: 99729c18-9f0d-4bbb-be99-01ddd0d2dcb0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # Sblocco della potenza della condivisione in sola lettura in Analysis Workspace
 
 Scopri come la condivisione di [!DNL Adobe] progetti Analysis Workspace come &quot;sola lettura&quot; può creare report dashboard pronti per l’utente con un’interfaccia utente pulita e opzioni di filtro predefinite, nonché come la &quot;scorecard mobile&quot; può semplificare la condivisione dei KPI di esperienza digitale con i dirigenti in movimento.
@@ -48,6 +46,6 @@ Questo documento è stato scritto da:
 
 ![Leo Lau](assets/leo_headshot.png)
 
-**Leo Lau**, Director, Lead Asia MarTech
+**Leo Lau**, Direttore, Lead Asia MarTech
 
 [!DNL Adobe Analytics] campione
