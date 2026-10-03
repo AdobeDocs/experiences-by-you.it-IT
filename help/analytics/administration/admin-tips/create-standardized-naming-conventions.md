@@ -13,11 +13,9 @@ kt: 10531
 exl-id: 79cec21e-2b52-4e7b-88ad-db137a8cef4e
 source-git-commit: c568ed0a06551d910b6f533698ec47c15adecf6c
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 0%
-
 ---
-
 # Creare convenzioni di denominazione standard
 
 **COSA:** Le convenzioni di denominazione standard si applicano sia al nome della variabile quando questa è abilitata nell&#39;interfaccia utente di amministrazione di [!DNL Adobe Analytics] (AA), sia ai valori trasmessi nella dimensione. Ad esempio, i nomi di pagina sarebbero &quot;page name (v1)&quot; come nome di variabile e i valori di nome della pagina trasmessi dovrebbero essere uniformi e seguire una struttura o gerarchia specifica come &quot;sitename|homepage&quot; o &quot;sitename|search|searchresults&quot;.
