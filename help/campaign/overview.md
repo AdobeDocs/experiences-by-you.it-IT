@@ -59,7 +59,7 @@ L&#39;elemento più potente delle soluzioni di [!DNL Adobe] Experience Cloud? Tu
   </td>
   <td>
     <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
-      <img alt="Risoluzione dei problemi per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+      <img alt="Risoluzione dei problemi per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=it" />
     </a>
     <div>
       <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
@@ -72,7 +72,7 @@ L&#39;elemento più potente delle soluzioni di [!DNL Adobe] Experience Cloud? Tu
   </td>
   <td>
     <a href="/help/campaign/10-best-practices-for-marketers.md">
-      <img alt="Dieci best practice per il successo Adobe Campaign per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+      <img alt="Dieci best practice per il successo Adobe Campaign per gli addetti al marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=it" />
     </a>
     <div>
       <a href="/help/campaign/10-best-practices-for-marketers.md">
@@ -90,8 +90,8 @@ L&#39;elemento più potente delle soluzioni di [!DNL Adobe] Experience Cloud? Tu
 
 ## Risorse aggiuntive
 
-* [Community Adobe Campaign di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Community Adobe Campaign di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
 * Adobe Campaign v8 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it)
 * Adobe Campaign Classic v7 - [Documentazione](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it)
 * Adobe Campaign Standard - [Documentazione](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=it) / [Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html)
+* [Informazioni sul prodotto Adobe Campaign](https://business.adobe.com/it/products/campaign/adobe-campaign.html)

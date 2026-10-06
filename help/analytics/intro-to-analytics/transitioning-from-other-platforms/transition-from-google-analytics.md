@@ -151,7 +151,7 @@ Un’altra potente funzione delle aree di lavoro è la possibilità di applicare
 
 >[!IMPORTANT]
 >
->Per ulteriori informazioni sull&#39;utilizzo dei menu a discesa e delle suddivisioni a forma libera, vedere <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680>
+>Per ulteriori informazioni sull&#39;utilizzo dei menu a discesa e delle suddivisioni a forma libera, vedere <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680?profile.language=it>
 
 ##### 2.1.2.2. Google [!DNL Analytics]: dashboard, report personalizzati e report salvati
 
@@ -281,7 +281,7 @@ Ti consigliamo comunque di utilizzare sia [!DNL Adobe Analytics] che Google [!DN
 
 Oltre a questa guida, sono disponibili molte risorse che possono contribuire a migliorare la tua strategia:
 
-* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/?lang=it#home) - Contiene tutorial, video, documentazione e forum della community
+* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/it?lang=it#home) - Contiene tutorial, video, documentazione e forum della community
 * [[!DNL Adobe] Gruppi di utenti](https://analytics-augs.adobe.com/) - Hub di eventi gestiti dalla community per consentire agli utenti di connettersi tra loro e migliorare le implementazioni.
 * [[!DNL Adobe Analytics] Canale YouTube gruppi utenti](https://www.youtube.com/channel/UCQOHnCs7KZgsuFHVzwboQuA) - Non puoi partecipare a una sessione del gruppo utenti [!DNL Adobe Analytics]? Guarda le sessioni precedenti da tutto il mondo e scopri come altri professionisti come te utilizzano questo strumento.
 * [Canale Slack di Measure Chat](https://www.measure.chat/) - Entra in contatto con [!DNL Adobe Analytics] utenti in tutto il mondo e condividi esperienze nel settore, fai domande ad altri professionisti come te e partecipa a gruppi di interesse incentrati sulla misurazione.
