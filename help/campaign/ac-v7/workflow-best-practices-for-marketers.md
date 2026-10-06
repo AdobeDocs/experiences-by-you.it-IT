@@ -31,4 +31,4 @@ ht-degree: 81%
 
 I flussi di lavoro, una potente funzionalità di [!DNL Adobe] [!DNL Campaign], consentono di gestire le campagne e raggiungere i clienti in modo più semplice. Scopri cinque best practice essenziali che gli addetti al marketing dovrebbero applicare ai flussi di lavoro, consigliate da Adam Wilson, Associate Director of Marketing presso LoyaltyOne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410837?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3448147?captions=ita&quality=12&learn=on){transcript=true}

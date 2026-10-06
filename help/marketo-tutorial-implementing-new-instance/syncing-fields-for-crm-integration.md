@@ -136,7 +136,7 @@ In genere, la best practice prevede di sincronizzare solo i campi di gestione de
 
 Scopri come Marketo Engage e Salesforce si combinano per mantenere sincronizzati i dati di vendita e marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424719/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3425610/?captions=ita&learn=on)
 
 +++**Collegamenti utilizzati nel video:**
 
@@ -162,7 +162,7 @@ Scopri come Marketo Engage e Salesforce si combinano per mantenere sincronizzati
 
 Scopri come funziona la sincronizzazione Microsoft Dynamics 365 e configura correttamente la configurazione per consentire ai due sistemi di parlare tra loro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424737/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430211/?captions=ita&learn=on)
 
 +++**Collegamenti utilizzati nel video:**
 
