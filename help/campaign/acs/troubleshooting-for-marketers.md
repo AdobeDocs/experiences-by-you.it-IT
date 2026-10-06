@@ -7,17 +7,28 @@ feature: Workflows
 role: User
 level: Beginner, Intermediate, Experienced
 doc-type: Article
-last-substantial-update: 2023-05-18T00:00:00Z
+last-substantial-update: 2023-05-18T00:00:00.000Z
 jira: KT-13256
 thumbnail: KT-13256.jpeg
 exl-id: 1f27e284-73e3-4f28-988e-51163775eec8
-source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
+product_v2:
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '740'
 ht-degree: 2%
-
 ---
-
 # Risoluzione dei problemi per gli addetti al marketing: 5 errori comuni di flusso di lavoro e consegna
 
 Di: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, Consulente Senior, Meijer
@@ -59,7 +70,7 @@ Fai riferimento alla schermata per l’attività di riconciliazione come mostrat
 
 ![flusso di lavoro con dettagli di riconciliazione](/help/_assets/kt-13256/del-persn-error-wf-solution.png)
 
-Ulteriori informazioni sulla [riconciliazione](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=it).
+Ulteriori informazioni sulla [riconciliazione](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=en).
 
 ## Errore set di dati campo comune
 
@@ -83,7 +94,7 @@ Esistono due modi per risolvere questo errore:
 
 2. Utilizzare il metodo di esclusione JOIN per selezionare il campo in base al quale si desidera escludere i record.
 
-![Errore set di dati campo comune - Soluzione &#x200B;](/help/_assets/kt-13256/dataset-error-solution.png)
+![Errore set di dati campo comune - Soluzione ](/help/_assets/kt-13256/dataset-error-solution.png)
 
 ## Errore nome campo ignorato
 
@@ -116,7 +127,7 @@ Ciò si verifica quando si modifica manualmente il nome di un’espressione nell
 **Causa:**
 Si tratta di un errore comune nei flussi di lavoro complicati che coinvolgono l’arricchimento o altre attività. Probabilmente alcuni dei flussi di lavoro delle attività non vengono salvati correttamente durante più modifiche al flusso di lavoro.
 
-![Errore tabella temporanea ignorata &#x200B;](/help/_assets/kt-13256/temp-table-dropped-error.png)
+![Errore tabella temporanea ignorata ](/help/_assets/kt-13256/temp-table-dropped-error.png)
 
 **Soluzione:**
 Questo errore può verificarsi in diversi modi, pertanto non esiste una semplice correzione. Se si tratta di un flusso di lavoro semplice, è meglio riconfigurare l’attività. In un flusso di lavoro complesso, è meglio copiare le attività del flusso di lavoro in un nuovo flusso di lavoro, salvarle ed eseguirle nuovamente.

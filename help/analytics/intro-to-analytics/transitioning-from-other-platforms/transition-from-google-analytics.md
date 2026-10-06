@@ -1,5 +1,5 @@
 ---
-title: Guida completa per la transizione a  [!DNL Adobe Analytics]  da Google [!DNL Analytics]
+title: Guida completa alla transizione a [!DNL Adobe Analytics] da Google [!DNL Analytics]
 description: Scopri la posizione delle funzionalità equivalenti e come utilizzarle in modo efficiente durante la transizione da Google [!DNL Analytics] a [!DNL Adobe Analytics]
 solution: Analytics
 feature: Third-party Integration
@@ -8,16 +8,29 @@ level: Beginner
 kt: 9830
 thumbnail: 34749.jpg
 exl-id: 646bdc8f-c95e-40be-b2f7-8e4ba5653d91
-source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+subfeature_v2:
+  - id: 518ed3bf-6fcd-5452-90d0-bba80603b0d5
+    internal-label: Third-party Integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '3323'
-ht-degree: 0%
-
+source-wordcount: '3364'
+ht-degree: 1%
 ---
-
 # Guida completa alla transizione a [!DNL Adobe Analytics] da Google [!DNL Analytics]{#comprehensive-guide-for-transitioning-to-adobe-analytics}
 
-## 1. Introduzione
+## &#x200B;1. Introduzione
 
 Una delle maggiori sfide nella transizione tra strumenti diversi consiste nell’imparare a trovare funzionalità equivalenti e a utilizzarle in modo efficiente. Questa discussione fa parte di una guida più ampia per facilitare la transizione degli utenti a [!DNL Adobe Analytics] (come nuovo utente o proveniente da Google [!DNL Analytics]). Confronto approfondito con GA; come strumento comparativo più probabile con cui la maggior parte degli utenti acquisisce familiarità; viene fornito per aiutare gli utenti a correlare le conoscenze esistenti al nuovo set di strumenti. Quando non esiste un sostituto della pratica, questo ti aiuta a iniziare e ridurre le frustrazioni che potresti incontrare durante questo periodo.
 
@@ -29,7 +42,7 @@ Dovremmo fare un rapido confronto terminologico:
 | Una metrica che rappresenta un gruppo di interazioni, nel sito web o nell’app, che si verificano nello stesso intervallo di tempo | Visita | Session |
 | Una metrica che definisce un dispositivo identificato (in base a più criteri, inclusi cookie e altri modelli di comportamento per unire le informazioni utente) | Visitatore univoco | Utente |
 
-## 2. Interfacce
+## &#x200B;2. Interfacce
 
 Quando le persone confrontano [!DNL Adobe Analytics] e Google [!DNL Analytics], osservano che l&#39;interfaccia di [!DNL Adobe] è inizialmente impegnativa. Questo è vero, ma è anche; credeteci o no; una forza, non una debolezza. [!DNL Adobe] offre un&#39;ampia gamma di strumenti e flessibilità nella visualizzazione dei dati, consentendo di creare in modo molto più libero ciò di cui hai bisogno.
 
@@ -41,13 +54,13 @@ Cominciamo guardando il reporting &quot;in-site&quot;.
 
 Sia [!DNL Adobe Analytics] che Google [!DNL Analytics] offrono un modo per personalizzare la prima visualizzazione che un utente visualizza al momento dell&#39;accesso.
 
-##### 2.1.1.1. Schermata iniziale di Workspace / Impostazione personalizzata ([!DNL Adobe Analytics])
+##### 2.1.1.1. Workspace / Schermata iniziale impostazione personalizzata ([!DNL Adobe Analytics])
 
 [!DNL Adobe Analytics] non presume di creare un rapporto predefinito che tutti gli utenti potranno visualizzare all&#39;accesso. La pagina Home predefinita porta l’utente alla schermata di destinazione di Workspace, che mostra a ogni utente tutti i rapporti dell’area di lavoro creati o condivisi. Inoltre, ogni utente può impostare uno qualsiasi di questi rapporti come schermata iniziale, se lo desidera.
 
 ![workspace-create-project](assets/ga-to-aa_1.png)
 
-Di seguito in questa guida saranno riportati ulteriori dettagli sull’area di lavoro. Cfr. sezione 2.1.2.1
+Di seguito in questa guida saranno riportati ulteriori dettagli sull’area di lavoro. Vedere la sezione 2.1.2.1
 
 >[!TIP]
 >
@@ -55,7 +68,7 @@ Di seguito in questa guida saranno riportati ulteriori dettagli sull’area di l
 
 
 
-##### 2.1.1.2. Informazioni approfondite sulla schermata iniziale (Google [!DNL Analytics])
+##### 2.1.1.2. Informazioni sulla schermata iniziale (Google [!DNL Analytics])
 
 * Nella schermata iniziale di Google [!DNL Analytics] sono disponibili alcune visualizzazioni predefinite. Questi includono:
 * Utenti, sessioni, frequenza di rimbalzo e durata della sessione negli ultimi sette giorni
@@ -71,13 +84,13 @@ Gli utenti di GA4 hanno più opzioni per personalizzare e aggiungere i propri ra
 
 ![google-analytics-interfaces](assets/ga-to-aa_2.png)
 
-Questa è probabilmente l&#39;unica cosa che ti manca di più in [!DNL Adobe Analytics]. Non esiste una schermata iniziale predefinita per te. Tuttavia, puoi facilmente impostare un Workspace personalizzato per replicare ciò di cui hai bisogno dall’elenco precedente e impostarlo come schermata di destinazione. Tratteremo ulteriormente questo argomento in seguito (oppure consulta la sezione 2.1.2.1 [!DNL Adobe] Workspace).
+Questa è probabilmente l&#39;unica cosa che ti manca di più in [!DNL Adobe Analytics]. Non esiste una schermata iniziale predefinita per te. Tuttavia, puoi facilmente impostare un Workspace personalizzato per replicare ciò di cui hai bisogno dall’elenco precedente e impostarlo come schermata di destinazione. Ulteriori informazioni su questo argomento sono disponibili in seguito (oppure vedere la sezione 2.1.2.1 [!DNL Adobe] Workspace).
 
 #### 2.1.2. Report Builder nel sito
 
 Oltre ai rapporti semplici forniti dagli strumenti di analisi, ogni strumento fornisce anche strumenti più potenti con cui creare rapporti personalizzati.
 
-##### 2.1.2.1. [!DNL Adobe Analytics] Workspace
+##### 2.1.2.1. [!DNL Adobe Analytics] Area di lavoro
 
 Questa è la potenza di [!DNL Adobe Analytics], dalla sua introduzione nel 2017 è diventata l&#39;area ideale per l&#39;analisi di [!DNL Analytics] e il motivo principale per cui la sezione Rapporti verrà presto ritirata.
 
@@ -91,22 +104,22 @@ Sono disponibili numerose visualizzazioni:
 
 * Tabella a forma libera
 * Tabella coorte
-* Abbandono
+* Fallout
 * Flusso
 * Grafici
-   * Superfici (sovrapposte e non sovrapposte)
-   * Linea
-   * A dispersione
-   * Barre (sovrapposte e non sovrapposte)
-   * Punto elenco
-   * Ciambella
-   * Istogramma
-   * Barre orizzontali (sovrapposte e non sovrapposte)
+  * Superfici (sovrapposte e non sovrapposte)
+  * LINE
+  * A dispersione
+  * Barre (sovrapposte e non sovrapposte)
+  * Punto elenco
+  * Anello
+  * Istogramma
+  * Barre orizzontali (sovrapposte e non sovrapposte)
 * Mappa
 * Blocchi di riepilogo
-   * Variazione di riepilogo
-   * Testo di riepilogo
-   * Testo (campo di testo libero per inserire informazioni aggiuntive per specificare il contesto)
+  * Variazione di riepilogo
+  * Testo di riepilogo
+  * Testo (campo di testo libero per inserire informazioni aggiuntive per specificare il contesto)
 * Venn
 
 A ogni pannello e visualizzazione è possibile assegnare un nome e una descrizione che fornisca contesto sulle informazioni visualizzate.
@@ -138,7 +151,7 @@ Un’altra potente funzione delle aree di lavoro è la possibilità di applicare
 
 >[!IMPORTANT]
 >
->Per ulteriori informazioni sull&#39;utilizzo dei menu a discesa e delle suddivisioni a forma libera, vedere <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680?profile.language=it>
+>Per ulteriori informazioni sull&#39;utilizzo dei menu a discesa e delle suddivisioni a forma libera, vedere <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680>
 
 ##### 2.1.2.2. Google [!DNL Analytics]: dashboard, report personalizzati e report salvati
 
@@ -152,11 +165,11 @@ Nei rapporti personalizzati, una delle principali sfide è la creazione di un fi
 
 Per confronti superficiali, è più che sufficiente. Sono simili alle dashboard legacy, ai report personalizzati e ai segnalibri di [!DNL Adobe]. Strumenti di base forniti per supportare le tue esigenze, che risiedono nella suite di rapporti.
 
-#### 2.1.3. Relazioni
+#### 2.1.3. Rapporti
 
 Sia Google che [!DNL Adobe] dispongono di alcuni rapporti navigabili costituiti da tabelle predefinite e semplici grafici della timeline basati su una dimensione.
 
-##### 2.1.3.1. Rapporti [!DNL Adobe Analytics]
+##### 2.1.3.1. [!DNL Adobe Analytics] Rapporti
 
 [!DNL Adobe Analytics] dispone anche di una sezione Rapporti, anche se questa verrà gradualmente eliminata a favore di Analysis Workspace. In effetti, è stata annunciata la fine del ciclo di vita di questa interfaccia, poiché Workspace è uno strumento più potente. La maggior parte di queste tabelle può essere creata e modificata con maggiore facilità. Le sezioni di [!DNL Adobe] sono molto più suddivise e questo può essere scoraggiante:
 
@@ -166,7 +179,7 @@ Poiché la maggior parte di queste sezioni è accessibile tramite le aree di lav
 
 Site Metrics (Metriche del sito) si riferisce alle metriche standard (visualizzazioni di pagina, visitatori univoci, visite ed eventi personalizzati che potresti aver configurato). È simile al rapporto Comportamento di Google Analytics, ma include anche alcuni elementi che si possono trovare in Pubblico (poiché [!DNL Adobe] non divide i tipi di metrica).
 
-Qui trovi i rapporti relativi ai &quot;bot&quot;. Il traffico generato dai bot è escluso da tutti i rapporti standard, tuttavia, sono presenti due rapporti che forniscono informazioni approfondite su ciò che accade in tempo reale e sui bot che raggiungono il tuo sito. Questa funzione è particolarmente utile se imposti regole bot personalizzate per escludere i bot di spammer noti che visitano frequentemente il tuo sito. Puoi ottenere alcune informazioni su ciò che quei bot stanno facendo senza che i tuoi rapporti principali siano inondati, ma quel traffico. I rapporti sui bot non sono attualmente disponibili in Workspace, ma le nuove funzionalità di reporting disponibili a breve consentiranno agli utenti di ottenere queste informazioni anche lì.
+Qui trovi i rapporti relativi ai &quot;bot&quot;. Il traffico generato dai bot è escluso da tutti i rapporti standard, tuttavia, sono presenti due rapporti che forniscono ad insight informazioni su ciò che accade in tempo reale e sui bot che raggiungono il tuo sito. Questa funzione è particolarmente utile se imposti regole bot personalizzate per escludere i bot di spammer noti che visitano frequentemente il tuo sito. Puoi ottenere un po’ di insight in quello che fanno quei bot senza che i rapporti principali siano inondati ma quel traffico. I rapporti sui bot non sono attualmente disponibili in Workspace, ma le nuove funzionalità di reporting disponibili a breve consentiranno agli utenti di ottenere queste informazioni anche lì.
 
 Site Content è un raggruppamento di [!DNL Adobe] dimensioni standard: nome pagina, sezioni del sito, gerarchie, server e altro ancora. Tutte queste dimensioni sono disponibili in Workspace.
 
@@ -186,7 +199,7 @@ Rapporti personalizzati è una sezione in cui un utente può personalizzare le c
 
 La sezione Segnalibri è simile ai Rapporti personalizzati, dove i rapporti utilizzati di frequente possono essere contrassegnati con segnalibri all’interno dell’interfaccia dei rapporti, per facilitarne l’individuazione.
 
-Dashboard era un prodotto legacy che consentiva alle persone di combinare reportlet di dati in un’unica visualizzazione. Tuttavia, la funzionalità di Workspace (sezione 2.1.2.1) è molto più semplice da utilizzare, in quanto esiste solo come punto di accesso ai rapporti precedenti che devono essere ricostruiti prima che questa funzione venga disattivata.
+Dashboard era un prodotto legacy che consentiva alle persone di combinare reportlet di dati in un’unica visualizzazione. Tuttavia, la funzionalità di Workspace (sezione 2.1.2.1) è molto più semplice da utilizzare, in quanto esiste solo come punto di accesso ai rapporti legacy che devono essere ricostruiti prima che questa funzione venga disattivata.
 
 Le destinazioni consentono alle persone di creare un rapporto basato su una destinazione entro un determinato arco temporale. I team monitorano le campagne per vedere se sono sulla buona strada per raggiungere i loro target di traffico.
 
@@ -204,21 +217,21 @@ In questo modo puoi ottenere informazioni semplici e veloci sui tuoi dati. Tutta
 
 Questi vanno bene per i dati analitici rapidi, ma se hai davvero bisogno di scavare a fondo, soffrono dei limiti.
 
-### 2.2. Accesso ai rapporti estesi
+### 2.2. Accesso al report esteso
 
 Oltre a &quot;Generazione rapporti in-site&quot;, la maggior parte degli strumenti offre funzionalità estese che consentono di portare l’analisi al di fuori degli strumenti e creare qualcosa di un po’ più personalizzato.
 
 #### 2.2.1. [!DNL Adobe Analytics] Report Builder (estensione Microsoft® Excel)
 
-Workspace è un ottimo strumento, ma a volte è necessario inserire i dati in un foglio di calcolo personalizzato, in modo da poter unire più origini di dati. Qui entra in gioco il Report Builder.
+Workspace è un ottimo strumento, ma a volte è necessario inserire i dati in un foglio di calcolo personalizzato, in modo da poter unire più origini di dati. Qui entra in gioco Report Builder.
 
-Report Builder è un plug-in per Microsoft® Excel che consente di creare connessioni ai dati di [!DNL Adobe Analytics] per estrarre dati tabulari modificabili in Excel. In genere, per utilizzarlo in modo efficiente, puoi inserire i dati in alcune schede di dati non elaborati, utilizzare poi i riferimenti alle celle excel per richiamare i dati da queste schede in un unico rapporto consolidato, quindi creare grafici e visualizzazioni.
+Report Builder è un plug-in per Microsoft® Excel che consente di creare connessioni ai dati di [!DNL Adobe Analytics] per estrarre dati tabulari che è possibile manipolare in Excel. In genere, per utilizzarlo in modo efficiente, puoi inserire i dati in alcune schede di dati non elaborati, utilizzare poi i riferimenti alle celle excel per richiamare i dati da queste schede in un unico rapporto consolidato, quindi creare grafici e visualizzazioni.
 
 >[!NOTE]
 >
->Il Report Builder dispone di un’autorizzazione speciale che deve essere applicata agli utenti per accedere a questo plug-in. Questo dovrebbe essere concesso agli utenti che hanno imparato a utilizzare correttamente lo strumento.
+>Report Builder dispone di un’autorizzazione speciale che deve essere applicata agli utenti per accedere a questo plug-in. Questo dovrebbe essere concesso agli utenti che hanno imparato a utilizzare correttamente lo strumento.
 
-#### 2.2.2. Connessione API [!DNL Adobe Analytics]
+#### 2.2.2. [!DNL Adobe Analytics] Connessione API
 
 Se hai bisogno di [!DNL Adobe Analytics] dati per essere digeriti da qualcosa di diverso da Excel e desideri che i dati elaborati, comprese le esclusioni di regole bot, utilizza l&#39;API di [!DNL Adobe] per estrarre i dati direttamente. Quindi, elaborare i dati utilizzando uno script o aggiungerli a un database per l&#39;utilizzo con un altro sistema.
 
@@ -239,11 +252,11 @@ Se hai letto fino a qui, saprai già che ho citato Data Studio come equivalente 
 Per le mie esigenze, quando devo estrarre i dati in modo esteso da Google [!DNL Analytics], il mio strumento personale di scelta è l&#39;estensione Foglio di calcolo Google. Anche se ho bisogno di fare più connessioni alle mie tabelle GA, posso fare riferimento alle celle dai dati non elaborati e creare i rapporti di cui ho bisogno. Poi li visualizzo utilizzando le funzionalità di grafica di Foglio di calcolo di Google.
 
 
-## 3. Esportazioni di dati grezzi
+## &#x200B;3. Esportazioni di dati non elaborati
 
 Quando si necessita di dati non elaborati, sia [!DNL Adobe] che Google offrono le funzionalità necessarie per richiamare le informazioni in questo modo.
 
-### 3.1. Feed dati di [!DNL Adobe]
+### 3.1. [!DNL Adobe] Feed dati
 
 Nella sezione 2.2.2, ho menzionato che l&#39;API [!DNL Adobe Analytics] ha estratto da &quot;dati elaborati&quot;. Il feed di dati non elaborati richiama i dati elaborati dalle &quot;Regole di elaborazione&quot; configurate nel pannello di amministrazione, ma questi dati non elaborati includono tutti i dati esclusi altrove.
 
@@ -254,13 +267,13 @@ I feed di dati non elaborati possono essere personalizzati per inviare tutte le 
 I feed possono essere inviati direttamente a FTP, SFTP o S3.
 
 
-### 3.2. Google Big Query
+### 3.2. Google BigQuery
 
 Sfortunatamente, questo è uno strumento Google sul quale non ho alcuna esperienza di utilizzo. In teoria, dovrebbe essere simile al feed di dati di [!DNL Adobe], consentendo al team tecnico di accedere ai dati non elaborati dall&#39;account Google [!DNL Analytics].
 
 Tuttavia, invece di fornire un dump completo dei dati non elaborati, consente ai tecnici di accedere ai dati tramite query SQL per estrarre dati non elaborati di destinazione o tutte le colonne di dati non elaborati.
 
-## 4. Conclusione
+## &#x200B;4. Conclusione
 
 Come qualsiasi sistema, è necessaria la pratica per acquisire dimestichezza con lo strumento. Questa guida ti aiuta a iniziare o fornisce suggerimenti per migliorare l&#39;utilizzo di [!DNL Adobe Analytics].
 
@@ -268,10 +281,10 @@ Ti consigliamo comunque di utilizzare sia [!DNL Adobe Analytics] che Google [!DN
 
 Oltre a questa guida, sono disponibili molte risorse che possono contribuire a migliorare la tua strategia:
 
-* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/it?lang=it#home) - Contiene tutorial, video, documentazione e forum della community
+* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/?lang=it#home) - Contiene tutorial, video, documentazione e forum della community
 * [[!DNL Adobe] Gruppi di utenti](https://analytics-augs.adobe.com/) - Hub di eventi gestiti dalla community per consentire agli utenti di connettersi tra loro e migliorare le implementazioni.
 * [[!DNL Adobe Analytics] Canale YouTube gruppi utenti](https://www.youtube.com/channel/UCQOHnCs7KZgsuFHVzwboQuA) - Non puoi partecipare a una sessione del gruppo utenti [!DNL Adobe Analytics]? Guarda le sessioni precedenti da tutto il mondo e scopri come altri professionisti come te utilizzano questo strumento.
-* [Canale di Slack di Measure Chat](https://www.measure.chat/) - Entra in contatto con [!DNL Adobe Analytics] utenti in tutto il mondo e condividi esperienze nel settore, fai domande ad altri professionisti come te e partecipa a gruppi di interesse incentrati sulla misurazione.
+* [Canale Slack di Measure Chat](https://www.measure.chat/) - Entra in contatto con [!DNL Adobe Analytics] utenti in tutto il mondo e condividi esperienze nel settore, fai domande ad altri professionisti come te e partecipa a gruppi di interesse incentrati sulla misurazione.
 * e altro ancora!
 
 ## Autore

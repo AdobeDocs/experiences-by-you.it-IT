@@ -7,17 +7,30 @@ role: User
 level: Experienced
 doc-type: Article
 duration: 72000
-last-substantial-update: 2024-04-25T00:00:00Z
+last-substantial-update: 2024-04-25T00:00:00.000Z
 jira: KT-15338
 thumbnail: KT-15338.jpeg
 exl-id: 99fcf68f-5698-4270-9055-ab224e6323a1
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1692'
 ht-degree: 0%
-
 ---
-
 # Creazione di una cultura dei dati e di un migliore riferimento di progettazione della soluzione
 
 _Rivoluziona la tua strategia di gestione dei dati e consenti al tuo team di creare un solido documento Solution Design Reference (SDR). Eliminare le lacune nelle misurazioni e promuovere una cultura collaborativa dei dati attraverso metodologie dettagliate._
@@ -48,7 +61,7 @@ Voglio illustrarvi un metodo che i miei colleghi ed io abbiamo sviluppato per cr
 
 ## Il come
 
-_Informazioni sulla conferenza di misurazione. Utilizza una mappa funnel per visualizzare ogni passaggio del piano. Crea dashboard fittizie da rivedere come gruppo. Creare un dizionario dati per gli utenti._
+_Informazioni sulla conferenza di misurazione. Utilizza una mappa di funnel per visualizzare ogni passaggio del piano. Crea dashboard fittizie da rivedere come gruppo. Creare un dizionario dati per gli utenti._
 
 ### La conferenza di misurazione
 
@@ -59,18 +72,18 @@ _Informazioni sulla conferenza di misurazione. Utilizza una mappa funnel per vis
 1. Per qualsiasi metrica e dimensione con voti bassi, chiedi alle parti interessate che ne hanno fatto richiesta di spiegare perché questi componenti verrebbero utilizzati. Se esiste un buon caso d’uso, mantieni questi componenti. Se esiste un modo migliore per ottenere tali dati, o se nessuno può spiegare in che modo questi dati possano essere utilizzati, o se esiste un altro buon motivo per rimuovere metriche e dimensioni, procedi in questo modo.
 1. Aggiungi queste metriche e dimensioni al tuo SDR per una revisione iniziale da parte delle parti interessate presenti.
 
-### La mappa funnel
+### Mappa di funnel
 
 1. Ottieni una visualizzazione di tutti i funnel, passo dopo passo con ogni stato incluso.
-1. Con i designer e i product manager, segui ogni passaggio e discuti su ciò che tutti considerano il successo in quel funnel. È il tasso di conversione? Sta scegliendo un percorso particolare? Utilizza alcune funzionalità?
-1. Poni domande sulle metriche e sulle dimensioni necessarie per comprendere le prestazioni del funnel in ogni passaggio del funnel e nel complesso.
-1. Sopra ogni passaggio del funnel, aggiungi le metriche e le dimensioni misurate su quel passaggio, comprese le metriche calcolate.
-1. All’inizio di ogni funnel, scrivi i rapporti che vanno nel dashboard che il product manager può utilizzare per monitorare le prestazioni. Questi rapporti includono un [rapporto di fallout](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mese corrente](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tassi di conversione con tendenze](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/line) e qualsiasi altro elemento specifico per tale funnel.
+1. Con i designer e i product manager, segui ogni passaggio e discuti su ciò che tutti considerano un successo in quel funnel. È il tasso di conversione? Sta scegliendo un percorso particolare? Utilizza alcune funzionalità?
+1. Poni domande sulle metriche e le dimensioni necessarie per comprendere le prestazioni di funnel in ogni passaggio di funnel e nel complesso.
+1. Sopra ogni passaggio di funnel, aggiungi le metriche e le dimensioni misurate su quel passaggio, incluse le metriche calcolate.
+1. All’inizio di ogni funnel, scrivi i rapporti che vanno nel dashboard che il responsabile del prodotto può utilizzare per monitorare le prestazioni. Questi rapporti includono un [rapporto di fallout](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mese corrente](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tassi di conversione con tendenze](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) e qualsiasi altro elemento specifico di tale funnel.
 1. Aggiungi le nuove metriche e dimensioni scoperte al documento SDR e invialo alle parti interessate per una seconda revisione.
 
 ### Dashboard di anteprima
 
-1. Utilizzando la mappa funnel come guida, crea dei dashboard fittizi.
+1. Utilizzando la mappa di funnel come guida, crea dei dashboard fittizi.
 1. Dovrebbe essere disponibile una visualizzazione complessiva, ad esempio una [dashboard di riepilogo esecutivo](driving-success-with-executive-summary-dashboards.md) e dashboard per ciascuno dei funnel.
 1. Saranno inoltre disponibili informazioni più specifiche per il sito o l’app, ad esempio prestazioni del prodotto o del contenuto.
 1. Distribuiscili alle parti interessate e ricevi feedback sulla progettazione.

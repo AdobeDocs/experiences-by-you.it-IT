@@ -6,11 +6,20 @@ level: Beginner
 doc-type: Article
 solution: Marketo Engage
 duration: 0
-last-substantial-update: 2024-03-01
+last-substantial-update: 2024-03-01T00:00:00.000Z
 jira: KT-14809
 thumbnail: KT-14809.jpeg
 exl-id: bd5d102b-0810-43e1-baac-fbef43817d50
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -19,7 +28,7 @@ ht-degree: 0%
 
 Quando si attiva una nuova istanza di [!DNL Marketo Engage], è ora di portare i team rilevanti al passo con i tempi per sfruttare [!DNL Marketo Engage] per i propri lavori.
 
-Queste best practice interne per l’onboarding e la formazione sono state fornite da Naomi Liu, una cliente di Adobe Marketo Engage, che condivide [l’onboarding interno](https://nation.marketo.com/t5/employee-blogs/peer-perspective-orchestrating-onboarding-across-global-teams/ba-p/244931){target=_blank} e [le best practice per la formazione](https://nation.marketo.com/t5/employee-blogs/peer-perspective-how-to-train-internal-users-on-marketo-engage/ba-p/245237){target=_blank} derivanti dalla sua esperienza nell’implementazione di una nuova istanza per l’elettronica per i team globali di Imaging. Segui le sue informazioni per creare un piano di formazione efficace per i tuoi team interni.
+Queste best practice interne per l’onboarding e la formazione sono state fornite da Naomi Liu, una cliente di Adobe Marketo Engage, che condivide [l’onboarding interno](https://nation.marketo.com/t5/employee-blogs/peer-perspective-orchestrating-onboarding-across-global-teams/ba-p/244931){target=&quot;_blank} e [le best practice per la formazione](https://nation.marketo.com/t5/employee-blogs/peer-perspective-how-to-train-internal-users-on-marketo-engage/ba-p/245237){target=&quot;_blank} derivanti dalla sua esperienza nell’implementazione di una nuova istanza per l’elettronica per i team globali di Imaging. Segui le sue informazioni per creare un piano di formazione efficace per i tuoi team interni.
 
 ## Perché sviluppare un piano di onboarding interno durante l’implementazione della nuova istanza?
 

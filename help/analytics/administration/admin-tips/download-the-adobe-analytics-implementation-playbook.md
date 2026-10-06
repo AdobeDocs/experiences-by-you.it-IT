@@ -1,5 +1,5 @@
 ---
-title: 'Scarica il playbook di implementazione  [!DNL Adobe Analytics] '
+title: Scarica il playbook di implementazione di [!DNL Adobe Analytics]
 description: Un documento sui requisiti aziendali (BRD, Business Requirements Doc) è una risorsa molto importante per la cui realizzazione sarà importante coinvolgere le principali parti interessate, utenti aziendali e utenti tecnici. Consente di documentare tutti i KPI desiderati, i requisiti di reporting e tutti i punti dati che desideri visualizzare al termine dell’implementazione di AA.
 solution: Analytics
 feature-set: Analytics
@@ -11,13 +11,26 @@ doc-type: article
 thumbnail: 10530.jpg
 kt: 10530
 exl-id: 42679c86-e08f-4dda-8e47-f9880409bad6
-source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1800'
 ht-degree: 0%
-
 ---
-
 # Scarica il playbook di implementazione di [!DNL Adobe Analytics]
 
 Prima di iniziare, [scarica il playbook](assets/aa-implementation-playbook.xlsx).
@@ -26,7 +39,7 @@ Prima di iniziare, [scarica il playbook](assets/aa-implementation-playbook.xlsx)
 
 **COSA:** Un documento sui requisiti aziendali (BRD, Business Requirements Doc) è una risorsa molto importante per la cui realizzazione sarà importante coinvolgere le principali parti interessate, utenti aziendali e utenti tecnici. Consente di documentare tutti i KPI desiderati, i requisiti di reporting e qualsiasi punto dati che si desidera visualizzare al termine dell&#39;implementazione di [!DNL Adobe Analytics] (AA).
 
-**PERCHÉ:** Questo funge da punto di partenza per la documentazione successiva (SDR, specifiche tecniche, ecc.) ed è una fonte comune di verità per uno stato finale concordato di AA. Questo documento raccoglie le opinioni dei vari team all’interno dell’organizzazione e definisce la direzione da seguire per sviluppare o migliorare l’implementazione.
+**PERCHÉ:** funge da punto di partenza per la documentazione successiva (SDR, specifiche tecniche, ecc.) ed è una fonte comune di verità per uno stato finale concordato di AA. Questo documento raccoglie le opinioni dei vari team all’interno dell’organizzazione e definisce la direzione da seguire per sviluppare o migliorare l’implementazione.
 
 **COME:** La documentazione dei requisiti aziendali è comunemente preparata dagli utenti aziendali finali di AA, ma è importante ottenere feedback dagli utenti tecnici, in quanto ci possono essere problemi tecnici da considerare e alcuni punti dati possono richiedere più lavoro di altri, e sarà necessario tenerne conto nella definizione delle priorità.
 
@@ -46,7 +59,7 @@ Infine, la colonna Stato di implementazione fungerà da controllo dello stato un
 
 **PERCHÉ:** Questo documento ha molti scopi, ma i più importanti sono i seguenti:
 
-* Per tutti i nuovi utenti dell’implementazione (nuovi assunti, responsabili business che desiderano comprendere meglio i rapporti disponibili, ecc.), questo documento fornisce la migliore visione di tutte le variabili implementate e del loro scopo, in modo che gli utenti possano servirsi da soli in termini di apprendimento della configurazione di AA.
+* Per tutti i nuovi utenti dell’implementazione (nuovi assunti, responsabili business che desiderano comprendere meglio i rapporti disponibili, ecc.) questo documento offre una panoramica ottimale di tutte le variabili implementate e del loro scopo, in modo che gli utenti possano servirsene autonomamente in termini di apprendimento della configurazione di AA.
 * Per l’utente tecnico o proprietario del prodotto AA, questo documento fungerà da promemoria della configurazione di altre variabili e delle variabili disponibili che possono essere utilizzate quando si aggiunge una nuova dimensione.
 
 **COME:** Per iniziare, elenca in un documento Excel tutte le [!DNL Adobe] variabili predefinite (page, product, geo, ecc.), nonché eVar, prop, eventi. Deve essere presente una scheda per sito/suite di rapporti.
@@ -68,16 +81,16 @@ Schermata del documento SDR di esempio:
 Si consiglia inoltre di utilizzare questo documento sui tag per tenere traccia di eventuali variabili libere e non più valide. Quando una dimensione non è più utile, in genere è necessario un po’ di tempo per eliminarla. Anche dopo questo evento, può verificarsi la memorizzazione in cache, oppure ti puoi rendere conto che la dimensione era stata impostata anche altrove. Pulire le dimensioni non è facile e spesso richiede pazienza. Di seguito sono riportati alcuni suggerimenti per nascondere la posta indesiderata sotto il letto in modo che i tuoi utenti non si confondano mentre ne tengono traccia.
 
 * Tutte le dimensioni/eventi non utilizzati sono &quot;liberi&quot; o &quot;in eliminazione&quot;
-   * Se negli ultimi 90 giorni la dimensione contiene valori non validi, è &quot;in eliminazione&quot;
-   * Se la dimensione è libera e chiara da almeno 90 giorni, è &quot;libera&quot;
-   * Contrassegna questi elementi come tali in &quot;Nome&quot; nel documento sui tag, in modo da poterli filtrare facilmente. Nel documento sui tag, tengo questi dati deselezionati (filtro dati di Excel) in modo che gli utenti non li vedano
-   * Contrassegna questi elementi come nome eVar nell’interfaccia in modo che gli utenti non li trovino in una ricerca (ad esempio &quot;(v6)&quot;) e rimuovine la descrizione nell’interfaccia
+  * Se negli ultimi 90 giorni la dimensione contiene valori non validi, è &quot;in eliminazione&quot;
+  * Se la dimensione è libera e chiara da almeno 90 giorni, è &quot;libera&quot;
+  * Contrassegna questi elementi come tali in &quot;Nome&quot; nel documento sui tag, in modo da poterli filtrare facilmente. Nel documento sui tag, tengo questi dati deselezionati (filtro dati di Excel) in modo che gli utenti non li vedano
+  * Contrassegna questi elementi come nome eVar nell’interfaccia in modo che gli utenti non li trovino in una ricerca (ad esempio &quot;(v6)&quot;) e rimuovine la descrizione nell’interfaccia
 * In questo modo, quando è necessaria una nuova dimensione, puoi facilmente filtrare per ottenere &quot;gratis&quot; nella colonna &quot;Nome&quot; per trovarne una pulita da utilizzare
 * Per le dimensioni e gli eventi &quot;in eliminazione&quot;, ti consiglio di tenerne traccia utilizzando Workspace:
-   * Crea un progetto visibile agli amministratori che contenga solo 3 tabelle: eVar, prop ed eventi. Ad esempio, io utilizzo &quot;istanze&quot; per le eVar specifiche, mentre per le proprietà creo dei segmenti HIT con, ad esempio, &quot;prop5 esiste&quot;.
-   * Imposta la data sugli ultimi 90 giorni
-   * Usa quanto sopra come righe nelle 3 tabelle, insieme alle occorrenze
-   * Non appena qualcosa arriva a &quot;0&quot;, lo contrassegno come &quot;gratuito&quot; nel documento sui tag e lo rimuovo dal progetto Workspace
+  * Crea un progetto visibile agli amministratori che contenga solo 3 tabelle: eVar, prop ed eventi. Ad esempio, io utilizzo &quot;istanze&quot; per le eVar specifiche, mentre per le proprietà creo dei segmenti HIT con, ad esempio, &quot;prop5 esiste&quot;.
+  * Imposta la data sugli ultimi 90 giorni
+  * Usa quanto sopra come righe nelle 3 tabelle, insieme alle occorrenze
+  * Non appena qualcosa arriva a &quot;0&quot;, lo contrassegno come &quot;gratuito&quot; nel documento sui tag e lo rimuovo dal progetto Workspace
 
 In questo modo i dati sono sempre puliti e hai una chiara idea della tua spazzatura.
 
@@ -105,7 +118,7 @@ Si consiglia di mantenere questo documento il più semplice possibile e di non a
 >
 >Creare una dimensione nome sito/proprietà in [!DNL Adobe Analytics]. Se in [!DNL Adobe Analytics] è presente una dimensione dedicata (in genere un eVar) che identifica il nome del sito o dell&#39;app, sarà possibile eseguire segmentazioni, risolvere problemi, creare suite di rapporti virtuali e così via. I vantaggi sono infiniti, soprattutto quando si combinano più siti in una singola suite di rapporti globale. La chiave consiste nell’assicurarsi che i team di sviluppo impostino sempre questo valore nella dimensione delle proprietà, inclusi tutti i caricamenti di pagina (s.t calls/trackState) e tutti gli eventi personalizzati (s.tl calls/trackAction). Le regole di elaborazione possono essere uno strumento utile per impostare questi valori in modo corretto e coerente.
 
-[Guarda questo video di Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=it){target="_blank"} per ulteriori informazioni sulla compilazione del playbook di implementazione.
+[Guarda questo video di Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html){target="_blank"} per ulteriori informazioni sulla compilazione del playbook di implementazione.
 
 ## Autori
 

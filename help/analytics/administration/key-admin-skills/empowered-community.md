@@ -1,6 +1,6 @@
 ---
 title: Creare una community autonoma
-description: Scopri come creare una community autonoma. Una community autonoma è supportata dai suoi  [!DNL Adobe Analytics]  amministratori, sa in che modo i requisiti di business sono rappresentati nella loro implementazione e dispone dei mezzi per utilizzare con sicurezza l'analisi per prendere decisioni basate sui dati.
+description: Scopri come creare una community autonoma. Una community autonoma è supportata dai suoi amministratori [!DNL Adobe Analytics], sa in che modo i requisiti di business vengono rappresentati nell'implementazione e dispone dei mezzi necessari per utilizzare con sicurezza l'analisi per prendere decisioni basate sui dati.
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -12,16 +12,26 @@ level: Experienced
 thumbnail: 340457.jpg
 kt: 9780
 exl-id: 0e45d8ba-a08d-4b5d-8a12-326e01c29505
-source-git-commit: efd84b4fa04ca4d7bd8f4b8b5ad69b6a24f5e8c6
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1575'
 ht-degree: 2%
-
 ---
-
 # Creazione di una community autonoma
 
->[!VIDEO](https://video.tv.adobe.com/v/341114/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340457/?quality=12&learn=on)
 
 Una community autonoma possiede alcune caratteristiche fondamentali. Innanzitutto, è supportato dai suoi amministratori [!DNL Adobe Analytics]. È a conoscenza di come i requisiti di business sono rappresentati all&#39;interno della loro implementazione. Infine, ma non per importanza, dispone dei mezzi necessari per utilizzare con sicurezza l’analisi per prendere decisioni basate su dati. Molte aziende traggono vantaggio dalla struttura fornita da un gruppo di utenti [!DNL Adobe Analytics] interno o da una community più formale.
 
@@ -39,7 +49,7 @@ Puoi creare una community autonoma all’interno della tua organizzazione. effet
 
 * Comprendere l’implementazione:
 
-  Come best practice, gli utenti devono avere una conoscenza di base dei requisiti di business supportati dalla propria implementazione, che in genere vengono acquisiti tramite un [documento sui requisiti di business](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=it) (BRD) e un [documento di riferimento sulla progettazione della soluzione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html?lang=it) (SDR). Questi requisiti devono includere ciò che è stato implementato e definire i requisiti aziendali, i rapporti, le eVar, gli eventi e così via, per categoria.
+  Come best practice, gli utenti devono avere una conoscenza di base dei requisiti di business supportati dalla propria implementazione, che in genere vengono acquisiti tramite un [documento sui requisiti di business](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en) (BRD) e un [documento di riferimento sulla progettazione della soluzione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html?lang=en) (SDR). Questi requisiti devono includere ciò che è stato implementato e definire i requisiti aziendali, i rapporti, le eVar, gli eventi e così via, per categoria.
 
 * Utilizzare i modelli di rapporto:
 
@@ -53,13 +63,13 @@ Puoi creare una community autonoma all’interno della tua organizzazione. effet
 
 * Definire i soggetti coinvolti, i ruoli e le responsabilità:
 
-   * **Team del progetto di amministrazione:** Il team che gestisce il gruppo di utenti o la community dell&#39;azienda è in genere responsabile della definizione dell&#39;opportunità, ad esempio tramite uno statuto di progetto, della creazione del piano dei contenuti (almeno inizialmente) e della determinazione dei mezzi di comunicazione (ad esempio, team Microsoft®, distribuzione e-mail, chiamate trimestrali e così via).
+  * **Team del progetto di amministrazione:** Il team che gestisce il gruppo di utenti o la community dell&#39;azienda è in genere responsabile della definizione dell&#39;opportunità, ad esempio tramite uno statuto di progetto, della creazione del piano dei contenuti (almeno inizialmente) e della determinazione dei mezzi di comunicazione (ad esempio, team Microsoft®, distribuzione e-mail, chiamate trimestrali e così via).
 
-   * **Sponsor esecutivo:** Uno sponsor esecutivo è una figura chiave in grado di sostenere il successo del gruppo di utenti o della community interna della tua azienda. Questo ruolo è fondamentale per supportare le attività cardine, la comunicazione, la definizione delle priorità all’interno del team più ampio e la gestione dei cambiamenti.
+  * **Sponsor esecutivo:** Uno sponsor esecutivo è una figura chiave in grado di sostenere il successo del gruppo di utenti o della community interna della tua azienda. Questo ruolo è fondamentale per supportare le attività cardine, la comunicazione, la definizione delle priorità all’interno del team più ampio e la gestione dei cambiamenti.
 
-   * **Responsabilità delle funzioni di supporto:** A seconda delle dimensioni e della struttura dell&#39;organizzazione, potrebbe essere utile coinvolgere team di sviluppo Web, Personalization, test e così via.
+  * **Responsabilità delle funzioni di supporto:** A seconda delle dimensioni e della struttura dell&#39;organizzazione, potrebbe essere utile coinvolgere team di sviluppo Web, Personalization, test e così via.
 
-   * **Utenti dello strumento:** Chiunque abbia la capacità di incidere sui dati allineati all&#39;implementazione [!DNL Adobe Analytics] della tua azienda può essere coinvolto, indipendentemente dal suo titolo o ruolo.
+  * **Utenti dello strumento:** Chiunque abbia la capacità di incidere sui dati allineati all&#39;implementazione [!DNL Adobe Analytics] della tua azienda può essere coinvolto, indipendentemente dal suo titolo o ruolo.
 
 * Ricorda: &quot;Cosa ci guadagnano?&quot; Mantenere la community concentrata sui casi d’uso e sulle priorità aziendali contribuisce a garantire il coinvolgimento e il successo.
 
@@ -69,25 +79,25 @@ Puoi creare una community autonoma all’interno della tua organizzazione. effet
 
   Uno statuto di progetto è spesso un ottimo modo per allineare la tua azienda all’opportunità di una community interna e autonoma. Rispondendo alle seguenti domande, avrai ciò di cui hai bisogno per redigere il tuo statuto:
 
-   * Qual è la descrizione del problema che si sta tentando di risolvere? Qual è l’obiettivo della community, e cosa prevedete sia compreso o escluso?
-   * &quot;Cosa ci guadagno?&quot; Quali sono i benefici o i costi potenziali, come misurare il successo e quali sono i rischi?
-   * Quali sono le tempistiche per la creazione di una community? Quale lavoro di configurazione è necessario dal punto di vista di abilitazione, strumento, gruppi di utenti amministratori e così via? In genere, è meglio sviluppare risorse di abilitazione della linea di base prima di avviare un’iniziativa più ampia.
-   * Quanto incidono i membri del gruppo sul successo della community e chi viene sostenuto nell’ambito dell’iniziativa?
-   * Infine, chi è il tuo sponsor esecutivo? Non possiamo enfatizzare abbastanza il valore di un forte sponsor esecutivo, qualcuno che approvi il lavoro e il suo valore.
+  * Qual è la descrizione del problema che si sta tentando di risolvere? Qual è l’obiettivo della community, e cosa prevedete sia compreso o escluso?
+  * &quot;Cosa ci guadagno?&quot; Quali sono i benefici o i costi potenziali, come misurare il successo e quali sono i rischi?
+  * Quali sono le tempistiche per la creazione di una community? Quale lavoro di configurazione è necessario dal punto di vista di abilitazione, strumento, gruppi di utenti amministratori e così via? In genere, è meglio sviluppare risorse di abilitazione della linea di base prima di avviare un’iniziativa più ampia.
+  * Quanto incidono i membri del gruppo sul successo della community e chi viene sostenuto nell’ambito dell’iniziativa?
+  * Infine, chi è il tuo sponsor esecutivo? Non possiamo enfatizzare abbastanza il valore di un forte sponsor esecutivo, qualcuno che approvi il lavoro e il suo valore.
 
 * Creare un piano dei contenuti: anche la community avrà delle idee da proporti, ma anche spunti da cui partire. In generale, una buona regola è disporre di almeno 6-12 mesi di contenuti creati in un dato momento.
 
-   * Esistono argomenti che possono essere allineati a iniziative aziendali più ampie, ad esempio eventi chiave, programmi più ampi, periodi di pianificazione e così via?
-   * Chi potrebbe essere più adatto a trattare tali argomenti? In che modo potrebbero trarre vantaggio dal coinvolgimento nella community?
-   * Quale contenuto dovrebbe includere la presentazione e a quali domande potrebbe rispondere?
+  * Esistono argomenti che possono essere allineati a iniziative aziendali più ampie, ad esempio eventi chiave, programmi più ampi, periodi di pianificazione e così via?
+  * Chi potrebbe essere più adatto a trattare tali argomenti? In che modo potrebbero trarre vantaggio dal coinvolgimento nella community?
+  * Quale contenuto dovrebbe includere la presentazione e a quali domande potrebbe rispondere?
 
 * Creare un piano di comunicazione: un solido piano di comunicazione sarà fondamentale per il coinvolgimento e il successo complessivo della community. Alcune domande da considerare durante la creazione del piano sono:
 
-   * Quali team saranno interessati dalla tua community, chi è il tuo pubblico di destinazione (ad esempio, dirigenti, manager, analisti in prima linea)?
-   * Quali sono i messaggi principali, quali messaggi sono necessari, quali sono destinati al tuo pubblico target (WIIFM) e quali sono le tue richieste?
-   * Quali veicoli di comunicazione dovrebbero essere utilizzati (ad esempio e-mail, Slack, video, riunioni e così via) prima o dopo il lancio della community? Ad esempio, si invieranno e-mail tramite lo strumento di amministrazione [!DNL Adobe Analytics]. Oppure, il nuovo processo di onboarding degli utenti deve ora includere la manutenzione di una lista di distribuzione e-mail interna da utilizzare per newsletter e così via?
-   * Chi invierà la comunicazione?
-   * Quando? È fondamentale considerare sia le comunicazioni prima del lancio della community, sia quelle che devono essere fornite su base continuativa dopo il lancio.
+  * Quali team saranno interessati dalla tua community, chi è il tuo pubblico di destinazione (ad esempio, dirigenti, manager, analisti in prima linea)?
+  * Quali sono i messaggi principali, quali messaggi sono necessari, quali sono destinati al tuo pubblico target (WIIFM) e quali sono le tue richieste?
+  * Quali veicoli di comunicazione dovrebbero essere utilizzati (ad esempio e-mail, Slack, video, riunioni e così via) prima o dopo il lancio della community? Ad esempio, si invieranno e-mail tramite lo strumento di amministrazione [!DNL Adobe Analytics]. Oppure, il nuovo processo di onboarding degli utenti deve ora includere la manutenzione di una lista di distribuzione e-mail interna da utilizzare per newsletter e così via?
+  * Chi invierà la comunicazione?
+  * Quando? È fondamentale considerare sia le comunicazioni prima del lancio della community, sia quelle che devono essere fornite su base continuativa dopo il lancio.
 
 * Utilizza il tuo veicolo per la community per andare &quot;live&quot;. A seconda dello stack tecnologico della tua azienda, scegli uno strumento o un veicolo per la community. Sarà personalizzato per la tua organizzazione, ma spesso Microsoft Teams funziona correttamente.
 
@@ -95,9 +105,9 @@ Puoi creare una community autonoma all’interno della tua organizzazione. effet
 
 * Riserva il tempo necessario: aggiungi le riunioni della community ai calendari per riservare con anticipo il tempo necessario; se possibile, delle riunioni ricorrenti ti aiuteranno a realizzare il piano dei contenuti. Per aiutarti a iniziare, ecco alcune idee da mettere in agenda:
 
-   * Se la tua azienda ospita eventi virtuali, quali insight digitali possono essere condivisi in modo più ampio?
-   * Se il sito web utilizza strumenti interattivi (come chatbot, calcolatori, demo e così via), in che modo vengono utilizzati i dati sulle prestazioni? Quali insight possono essere ottenuti per supportare meglio i clienti e il percorso di clienti?
-   * In che modo la tua azienda sfrutta le funzionalità esistenti per migliorare e sfruttare gli approfondimenti sul pubblico? La tua azienda, ad esempio, utilizza la nuova integrazione di [!DNL Adobe Analytics] e Marketo? Quali insight possono essere condivisi in modo più ampio?
+  * Se la tua azienda ospita eventi virtuali, quali insight digitali possono essere condivisi in modo più ampio?
+  * Se il sito web utilizza strumenti interattivi (come chatbot, calcolatori, demo e così via), in che modo vengono utilizzati i dati sulle prestazioni? Quali insight possono essere ottenuti per supportare meglio i clienti e il percorso di clienti?
+  * In che modo la tua azienda sfrutta le funzionalità esistenti per migliorare e sfruttare gli approfondimenti sul pubblico? La tua azienda, ad esempio, utilizza la nuova integrazione di [!DNL Adobe Analytics] e Marketo? Quali insight possono essere condivisi in modo più ampio?
 
 * Stabilisci le aspettative: continua a sfruttare il tuo statuto di progetto e il piano di comunicazione per definire le aspettative relative alla tua community. La coerenza è fondamentale!
 * Pianifica il coinvolgimento: durante l’avvio della community, può essere utile designare qualcuno con il compito di monitorare e coinvolgere i team tramite chat durante le riunioni e tramite i veicoli della community.
@@ -115,4 +125,4 @@ Creare e gestire una community autonoma è molto impegnativo. È importante fare
 
 * Sviluppo professionale: una community autonoma sposta l’attenzione di molti team di analisti dall’essere reattivi e tattici ad essere prescrittivi e strategici. Ciò offre opportunità di sviluppo per il team di progetto amministrativo della community.
 
-Se disponi di un gruppo di utenti [!DNL Adobe Analytics] interno o di una community più tradizionale, o ti stai adoperando per crearne una, ci piacerebbe conoscere la tua esperienza con [[!DNL Adobe] Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/bd-p/adobe-analytics-discussions?profile.language=it).
+Se disponi di un gruppo di utenti [!DNL Adobe Analytics] interno o di una community più tradizionale, o ti stai adoperando per crearne una, ci piacerebbe conoscere la tua esperienza con [[!DNL Adobe] Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/bd-p/adobe-analytics-discussions).

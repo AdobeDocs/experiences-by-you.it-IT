@@ -1,6 +1,6 @@
 ---
 title: Guadagnarsi un posto al tavolo
-description: Guadagnarsi un posto al tavolo Questa frase popolare è stata un argomento caldo nel mondo degli affari per anni. Ma cosa significa? Ottenere un posto al tavolo significa essere inclusi nelle conversioni decisionali di alto livello. Non solo siete invitati, ma il vostro contributo è apprezzato e apprezzato. Ti mostrerò in che modo ottenere un posto al tavolo aiuterà la tua azienda e la tua carriera di  [!DNL Adobe Analytics] amministratore.
+description: Guadagnarsi un posto al tavolo Questa frase popolare è stata un argomento caldo nel mondo degli affari per anni. Ma cosa significa? Ottenere un posto al tavolo significa essere inclusi nelle conversioni decisionali di alto livello. Non solo siete invitati, ma il vostro contributo è apprezzato e apprezzato. Ti mostrerò come ottenere un posto al tavolo aiuterà la tua azienda e la tua carriera di amministratore di [!DNL Adobe Analytics].
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -10,16 +10,26 @@ level: Experienced
 thumbnail: 342070.jpg
 kt: 10132
 exl-id: fa3190e3-836e-4391-9de6-0b733d55825f
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1306'
 ht-degree: 0%
-
 ---
-
 # Guadagnarsi un posto al tavolo
 
->[!VIDEO](https://video.tv.adobe.com/v/345314/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342070/?quality=12&learn=on)
 
 &quot;Guadagnarsi un posto al tavolo.&quot; Questa frase popolare è stata un argomento caldo nel mondo degli affari per anni. Ma cosa significa? Ottenere un posto al tavolo significa essere inclusi nelle conversioni decisionali di alto livello. Non solo siete invitati, ma il vostro contributo è apprezzato e apprezzato. Ti mostrerò in che modo ottenere un posto al tavolo aiuterà la tua azienda e la tua carriera come utente di [!DNL Adobe Analytics], sia che il tuo ruolo ufficiale sia quello di amministratore, analista di dati o qualsiasi altra cosa che il tuo biglietto da visita dica.
 
@@ -44,7 +54,7 @@ Ora che capisci perché devi essere incluso, è ora di iniziare a prendere provv
 * Questa persona sarà un buon partner? Questo è probabilmente il più difficile da identificare, ma potrebbe essere il più importante. Gli attributi che mi interessano di più sono mentalità aperta e fiducia in se stessi. Considerano seriamente punti di vista alternativi quando vengono presentate prove a loro sostegno? Hanno la fiducia in se stessi necessaria per condividere il merito di un buon lavoro? (Ricorda, se non sei a quel tavolo, è probabile che questa persona si prenda tutto il merito.) Queste sono un paio delle domande che puoi fare quando cerchi un buon partner.
 * BONUS - Questa persona sta svolgendo un lavoro di grande impatto? Ammettiamolo, non tutti fanno un lavoro di grande impatto. Ci sono persone di successo che non hanno un impatto significativo sull&#39;organizzazione. Trova qualcuno che abbia un impatto. Il tuo lavoro sarà molto più soddisfacente quando potrai vedere che il lavoro che fai fa la differenza.
 
-Le domande precedenti dovrebbero aiutare a restringere l’elenco. A questo punto dovresti avere già una o due persone su cui concentrarti per i prossimi due passaggi. Ruberò il contesto dei prossimi due passaggi da Cassie Kozyrkov[&#128279;](https://analyticshour.io/2021/12/14/182-making-better-decisions-and-being-useful-with-cassie-kozyrkov/), ospite di [!DNL Analytics] Power Hour. Lo ha spiegato così perfettamente quando ha detto che bisogna &quot;essere utili ed essere eccellenti&quot;.
+Le domande precedenti dovrebbero aiutare a restringere l’elenco. A questo punto dovresti avere già una o due persone su cui concentrarti per i prossimi due passaggi. Ruberò il contesto dei prossimi due passaggi da Cassie Kozyrkov](https://analyticshour.io/2021/12/14/182-making-better-decisions-and-being-useful-with-cassie-kozyrkov/), ospite di [[!DNL Analytics] Power Hour. Lo ha spiegato così perfettamente quando ha detto che bisogna &quot;essere utili ed essere eccellenti&quot;.
 
 **Passaggio 2: Essere utili -** Il passaggio successivo consiste nel capire come puoi essere quanto più utile possibile ai decision-maker che hai identificato nel passaggio precedente. La chiave è mettersi nei loro panni. A loro che importa? Di cosa sono preoccupati? Su quali incognite sei in grado di fare luce per aiutarli a svolgere meglio il loro lavoro?
 

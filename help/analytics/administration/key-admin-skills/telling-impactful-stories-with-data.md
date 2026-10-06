@@ -1,6 +1,6 @@
 ---
 title: Narrazione efficace attraverso i dati
-description: La narrazione attraverso i dati è il luogo in cui arte e scienza si riuniscono utilizzando dati, visualizzazioni e narrazioni.  Sfruttando questi componenti, la creazione di una narrazione efficace attraverso i dati si articola in tre parti. Raccontando in modo efficace una storia con i dati, [!DNL Analytics] può diventare più accessibile a un pubblico più ampio e puoi aumentare il valore che apporti alla tua organizzazione attraverso processi decisionali basati sui dati.
+description: La narrazione attraverso i dati è il luogo in cui arte e scienza si riuniscono utilizzando dati, visualizzazioni e narrazioni.  Sfruttando questi componenti, la creazione di una narrazione efficace attraverso i dati si articola in tre parti. Utilizzando i dati per presentare una narrazione, [!DNL Analytics] può diventare più accessibile a un pubblico più ampio e puoi aumentare il valore che apporti alla tua organizzazione attraverso processi decisionali basati sui dati.
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -10,13 +10,23 @@ level: Experienced
 thumbnail: impactful-stories.jpg
 kt: 10157
 exl-id: bbbe8514-95d2-4e18-aaa2-6c3bd94816a1
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 6%
-
 ---
-
 # Narrazione efficace attraverso i dati
 
 La narrazione attraverso i dati è il luogo in cui arte e scienza si riuniscono utilizzando dati, visualizzazioni e narrazioni.  Sfruttando questi componenti, la creazione di una narrazione efficace attraverso i dati si articola in tre parti. Utilizzando i dati per presentare una narrazione, [!DNL Analytics] può diventare più accessibile a un pubblico più ampio e puoi aumentare il valore che apporti alla tua organizzazione attraverso processi decisionali basati sui dati.

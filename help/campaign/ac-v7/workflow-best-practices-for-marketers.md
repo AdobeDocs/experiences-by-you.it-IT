@@ -11,17 +11,24 @@ activity: use
 team: TM
 role: User
 level: Beginner
-last-substantial-update: 2022-11-03T00:00:00Z
+last-substantial-update: 2022-11-03T00:00:00.000Z
 exl-id: 1c83cfef-c363-4cdc-838d-19e7110d4fd8
-source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
+product_v2:
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '69'
 ht-degree: 81%
-
 ---
-
 # Da LoyaltyOne: 5 best practice per flussi di lavoro per gli addetti al marketing
 
 I flussi di lavoro, una potente funzionalità di [!DNL Adobe] [!DNL Campaign], consentono di gestire le campagne e raggiungere i clienti in modo più semplice. Scopri cinque best practice essenziali che gli addetti al marketing dovrebbero applicare ai flussi di lavoro, consigliate da Adam Wilson, Associate Director of Marketing presso LoyaltyOne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448147?quality=12&learn=on&captions=ita){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3410837?quality=12&learn=on){transcript=true}

@@ -10,13 +10,20 @@ last: substantial-update- 2024-05-01
 jira: KT-14808
 thumbnail: KT-14808.jpeg
 exl-id: 65119abd-6f13-4acc-9e99-09843369ad28
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 9%
-
 ---
-
 # Pianifica una nuova implementazione di Marketo Engage
 
 L’implementazione di una nuova istanza di Marketo Engage richiede una pianificazione meticolosa, la collaborazione tra i team e l’ottimizzazione continua. Anche se non esiste una ricetta perfetta per implementare una nuova istanza, la maggior parte degli amministratori di Marketo Engage che l’hanno sperimentata concorda sul fatto che la pianificazione futura renderà il processo molto più semplice.
@@ -38,7 +45,7 @@ In questa esercitazione, approfondiremo le attività cardine specifiche, il coin
 
 ### Fase 3 - Creazione della libreria del programma e configurazione della campagna
 
-- Sviluppo di modelli e-mail e pagine di destinazione. A partire da [importazione di programmi iniziali](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) dalla [libreria di importazione programmi](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
+- Sviluppo di modelli e-mail e pagine di destinazione. A partire da [importazione di programmi iniziali](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) dalla [libreria di importazione programmi](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
 - Impostazione delle regole di segmentazione e Personalization
 - Creazione di campagne iniziali per la generazione e lo sviluppo di lead
 
@@ -128,7 +135,7 @@ L’implementazione di una nuova istanza richiede un’attenta pianificazione ed
 
 Ascolta Kyle McCormick, Marketo Engage Champion (2019), sulle sue esperienze di onboarding e implementazione presso Palotos Networks. Scoprirai le sfide che ha dovuto affrontare e i suoi consigli su come gestire in modo efficace e corretto il processo di onboarding.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447938/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428771/?quality=12&learn=on)
 
 ## Cosa succede ora?
 
@@ -294,7 +301,7 @@ Puoi anche scaricare l&#39;esempio per modificare e tenere traccia di attività 
 >[!NOTE]
 >Gli esempi forniti non si basano su una tempistica di implementazione effettiva. Non fare affidamento su questi elementi come tempistica standard per l’onboarding con Marketo Engage, in quanto ogni implementazione è univoca e prevede attività cardine e requisiti diversi in base alle esigenze della tua organizzazione.
 
-Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per la tua istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/it/customers/consulting-services/main.html){target="_blank"}.
+Per assistenza diretta nell&#39;implementazione e personalizzazione del Marketo Engage per la tua istanza, contatta il team dell&#39;account Adobe o contatta [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
 
 ### Autore
 

@@ -1,27 +1,40 @@
 ---
 title: Addio Excel, salve le metriche calcolate
-description: Scopri i vantaggi dell'utilizzo delle metriche calcolate in [!DNL Adobe Analytics] e come possono fornirti una visualizzazione continua e dinamica dei tuoi dati in questo articolo.
+description: Scopri i vantaggi dell'utilizzo delle metriche calcolate in [!DNL Adobe Analytics] e come possono fornire una visualizzazione continua e dinamica dei tuoi dati in questo articolo.
 feature-set: Analytics
 feature: Calculated Metrics
 role: User
 level: Experienced
 doc-type: Article
-last-substantial-update: 2023-05-02T00:00:00Z
+last-substantial-update: 2023-05-02T00:00:00.000Z
 jira: KT-13178
 thumbnail: KT-13178.jpeg
 exl-id: b233d6d0-2e89-473e-b700-9977b402af39
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1277'
 ht-degree: 0%
-
 ---
-
 # Addio Excel, salve le metriche calcolate
 
 Scopri i vantaggi dell&#39;utilizzo delle metriche calcolate in [!DNL Adobe Analytics] e come possono fornire una visualizzazione continua e dinamica dei tuoi dati in questo articolo.
 
-Ehi! Perché sei in Excel in questo momento? Cioè, so il perché. Devi segnalare per arrivare alle persone giuste. L&#39;immissione dei dati da [!DNL Adobe Analytics] e il calcolo dei tassi di conversione, la creazione di grafici e la preparazione per inserire tutti i dati in un PowerPoint destinato ai responsabili delle decisioni. Spero davvero che tu stia almeno usando il Report Builder per farlo, ma so che alcuni di voi stanno copiando e incollando manualmente i dati da un Workspace a Excel.
+Ehi! Perché sei in Excel in questo momento? Cioè, so il perché. Devi segnalare per arrivare alle persone giuste. L&#39;immissione dei dati da [!DNL Adobe Analytics] e il calcolo dei tassi di conversione, la creazione di grafici e la preparazione per inserire tutti i dati in un PowerPoint destinato ai responsabili delle decisioni. Spero davvero che tu stia almeno utilizzando Report Builder per farlo, ma so che alcuni di voi stanno copiando e incollando manualmente i dati da un Workspace a Excel.
 
 Perché?
 

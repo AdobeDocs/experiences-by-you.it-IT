@@ -6,13 +6,26 @@ level: Beginner
 doc-type: overview
 solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
-source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 19%
-
+source-wordcount: '277'
+ht-degree: 22%
 ---
-
 # [!DNL Analytics] da te: risorse per utenti, per utenti.
 
 La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli utenti che prendono i prodotti, li analizzano e li applicano in modi incredibili e innovativi per creare esperienze e risultati significativi. Experience by You include contenuti creati da utenti quotidiani che hanno raggiunto un livello di esperienza e influenza con le loro soluzioni [!DNL Adobe Experience Cloud]. Questa conoscenza peer-to-peer incoraggia la collaborazione e l&#39;individuazione, consentendo a te e a qualsiasi altro utente di trovare l&#39;ispirazione necessaria per migliorare le tue competenze di prodotto.
@@ -32,7 +45,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3422279?captions=ita&format=jpeg" />
+      <img alt="[!DNL Adobe Analytics] Suggerimenti" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +58,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Traduzione del linguaggio tecnico [!DNL Adobe Analytics] in modo non tecnico" src="https://video.tv.adobe.com/v/345329?captions=ita&format=jpeg" />
+      <img alt="Traduzione del linguaggio tecnico [!DNL Adobe Analytics] in modo non tecnico" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md">
@@ -58,7 +71,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Creare convenzioni di denominazione standard" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg?lang=it" />
+      <img alt="Creare convenzioni di denominazione standard" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
@@ -76,7 +89,7 @@ La cosa più potente delle soluzioni [!DNL Adobe Experience Cloud]? Tu. Gli uten
 
 ## Risorse aggiuntive
 
-* [Community Adobe Analytics di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
+* [Community Adobe Analytics di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Documentazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it)
-* [Esercitazioni di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it)
-* [Informazioni sul prodotto Adobe Analytics](https://business.adobe.com/it/products/analytics/adobe-analytics.html)
+* [Tutorial su Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it)
+* [Informazioni sul prodotto Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)
