@@ -80,7 +80,7 @@ In genere, la best practice prevede di sincronizzare solo i campi di gestione de
   * [Veeva](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/veeva-crm-sync/sync-details/default-veeva-field-mapping){target="_blank"}
 
 * Conferma che ogni campo predefinito in Marketo Engage corrisponda al campo nel CRM con cui desideri eseguire la sincronizzazione. Ad esempio, il campo &quot;Annullamento iscrizione&quot; in Marketo Engage potrebbe essere il campo &quot;Rinuncia e-mail&quot; nel CRM.
-* Se necessario, regola il nome API CRM, i privilegi e il tipo di dati [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"}.
+* Se necessario, regola il nome API CRM, i privilegi e il tipo di dati [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"}.
 
 **Passaggio 4:** Aggiungi campi aggiuntivi al dizionario dati
 
