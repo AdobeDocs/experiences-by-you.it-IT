@@ -6,17 +6,36 @@ role: User
 level: Experienced
 doc-type: Article
 duration: 36000
-last-substantial-update: 2024-03-25T00:00:00Z
+last-substantial-update: 2024-03-25T00:00:00.000Z
 jira: KT-15200
 thumbnail: KT-15200.jpeg
 exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
-source-git-commit: 69fa16c1bf38604e4dabc553baee71598be83db3
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ed6be6bb-75bb-4ea9-9a42-3bcaa65e1bcc
+    internal-label: Personalization
+subfeature_v2:
+  - id: a1d50dda-6d94-4e16-8c30-5eb7181c4650
+    internal-label: Segmentation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '4166'
 ht-degree: 1%
-
 ---
-
 # La magia dietro il sipario: segmenti complessi: escludi, contenitori e attribuzione
 
 _Scopri le complessità della segmentazione dati complessa, esplorando le esclusioni, i contenitori e i modelli di attribuzione. Come il gioco di prestigio di un mago, la padronanza di queste tecniche consente agli analisti di eseguire la magia dei dati, trasformando le informazioni con precisione e finezza._
@@ -63,14 +82,14 @@ A prima vista, entrambi suonano allo stesso modo... e sui segmenti/contenitori d
 *Come sopra, ogni hit all&#39;interno della **visita**&#x200B;verrà valutato con lo stesso true / false. Tuttavia, il set di dati restituito è quello dell&#39;intera visita.*
 
 - In ogni hit, &quot;Value&quot; non contiene &quot;Example&quot; (yes), quindi restituisce true; allo stesso modo, &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), quindi restituisce false.
-   - Se l&#39;hit **any** nella visita restituisce **true**, viene restituita la **visita intera**.*
-   - Se la visita è costituita interamente da hit contenenti &quot;Esempio&quot;, nessun hit restituirà true, pertanto la visita **non verrà restituita** nel set di dati.
+  - Se l&#39;hit **any** nella visita restituisce **true**, viene restituita la **visita intera**.*
+  - Se la visita è costituita interamente da hit contenenti &quot;Esempio&quot;, nessun hit restituirà true, pertanto la visita **non verrà restituita** nel set di dati.
 - Anche in questo caso, a ogni hit &quot;Esempio&quot; contiene &quot;Esempio&quot; (sì), quindi restituisce true
-   - Se **qualsiasi hit** restituisce **true**, l&#39;intera visita sarà **esclusa**
-   - Se **tutti gli hit** della visita restituiscono **false**, la visita verrà restituita nel set di dati
+  - Se **qualsiasi hit** restituisce **true**, l&#39;intera visita sarà **esclusa**
+  - Se **tutti gli hit** della visita restituiscono **false**, la visita verrà restituita nel set di dati
 - Ora potete vedere dove questa logica comincia a divergere. Nell’esempio precedente vi sono tre visite distinte:
-   - Quando si utilizza &quot;Does Not Contain / Equal&quot; **verranno restituite due delle tre** visite.
-   - Quando si utilizza &quot;Exclude Contains/Equals&quot; **verrà restituita solo una** di queste visite
+  - Quando si utilizza &quot;Does Not Contain / Equal&quot; **verranno restituite due delle tre** visite.
+  - Quando si utilizza &quot;Exclude Contains/Equals&quot; **verrà restituita solo una** di queste visite
 
 **Figura 3: non contiene / non è uguale a - Ambito visita**
 
@@ -79,14 +98,14 @@ A prima vista, entrambi suonano allo stesso modo... e sui segmenti/contenitori d
 *Come sopra, ogni hit effettuato dal **visitatore**&#x200B;verrà valutato con la stessa logica true/false. Ma ora stiamo esaminando tutti gli hit che questo visitatore ha fatto, per tutte le visite (all&#39;interno dell&#39;intervallo di date selezionato).*
 
 - In ogni hit, &quot;Value&quot; non contiene &quot;Example&quot; (yes), quindi restituisce true; allo stesso modo, &quot;Example&quot; non contiene &quot;Example&quot; (no, lo contiene), quindi restituisce false.
-   - Se **qualsiasi** hit effettuato dal visitatore restituisce **true**, viene restituita la **visita intera**.
-   - Se il visitatore non ha mai fatto alcun hit contenente &quot;Esempio&quot;, nessun hit restituirà true, e quindi quel visitatore **non verrà restituito** nel tuo set di dati.
+  - Se **qualsiasi** hit effettuato dal visitatore restituisce **true**, viene restituita la **visita intera**.
+  - Se il visitatore non ha mai fatto alcun hit contenente &quot;Esempio&quot;, nessun hit restituirà true, e quindi quel visitatore **non verrà restituito** nel tuo set di dati.
 - Anche in questo caso, a ogni hit &quot;Esempio&quot; contiene &quot;Esempio&quot; (sì), quindi restituisce true.
-   - Se **un hit** restituisce **true**, l&#39;intero visitatore (e successivamente tutte le sue visite) sarà **escluso.**
-   - Se **tutti gli hit** della visita restituiscono **false**, il visitatore verrà restituito nel tuo set di dati, restituendo in tal modo i visitatori che non hanno eseguito &quot;X&quot;.
+  - Se **un hit** restituisce **true**, l&#39;intero visitatore (e successivamente tutte le sue visite) sarà **escluso.**
+  - Se **tutti gli hit** della visita restituiscono **false**, il visitatore verrà restituito nel tuo set di dati, restituendo in tal modo i visitatori che non hanno eseguito &quot;X&quot;.
 - Si tratta di un’estensione della logica di visita, in cui sono presenti ulteriori considerazioni. Nell’esempio precedente ci sono due visitatori distinti, con 3 visite ciascuno:
-   - Quando si utilizza &quot;Does Not Contain / Equal&quot; **verranno restituiti entrambi** visitatori e tutte le **tre** visite (che corrispondono a 2 visitatori e 6 visite totali nei report) verranno restituite
-   - Quando si utilizza &quot;Escludi contiene/è uguale a&quot; **verrà restituito solo uno** di questi visitatori e verranno incluse solo le tre visite associate a quel visitatore (considerando 1 visitatore e 3 visite totali nei rapporti)
+  - Quando si utilizza &quot;Does Not Contain / Equal&quot; **verranno restituiti entrambi** visitatori e tutte le **tre** visite (che corrispondono a 2 visitatori e 6 visite totali nei report) verranno restituite
+  - Quando si utilizza &quot;Escludi contiene/è uguale a&quot; **verrà restituito solo uno** di questi visitatori e verranno incluse solo le tre visite associate a quel visitatore (considerando 1 visitatore e 3 visite totali nei rapporti)
 
 >[!TIP]
 >
@@ -260,31 +279,31 @@ Supponiamo di avere due eVar, una delle quali è impostata per la scadenza della
 **Visita 1**
 
 - Pagina A
-   - **eVar1** non è impostato
-   - **eVar2** non è impostato
+  - **eVar1** non è impostato
+  - **eVar2** non è impostato
 - Fai clic sul banner promozionale con ?icid=promo-banner nell’URL
 - Pagina B
-   - **eVar1** e **eVar2** sono impostati su &quot;promo-banner&quot;
-   - **Istanza di eVar1** attivata
-   - **Istanza di eVar2** attivata
+  - **eVar1** e **eVar2** sono impostati su &quot;promo-banner&quot;
+  - **Istanza di eVar1** attivata
+  - **Istanza di eVar2** attivata
 - Pagina C
-   - Sia **eVar1** che **eVar2** mantengono il valore &quot;promo-banner&quot;
-   - Nessuna delle metriche di istanza per le eVar viene attivata, in quanto entrambe le eVar utilizzano valori persistenti
+  - Sia **eVar1** che **eVar2** mantengono il valore &quot;promo-banner&quot;
+  - Nessuna delle metriche di istanza per le eVar viene attivata, in quanto entrambe le eVar utilizzano valori persistenti
 
 **Visita 2**
 
 - Pagina D
-   - **eVar1** non è impostato su alcun valore e non viene attivata alcuna **istanza di eVar1**
-   - **eVar2** mantiene il valore &quot;promo-banner&quot; a causa della scadenza di 30 giorni
-   - **L&#39;istanza di eVar2** non è attivata perché il valore è persistente e non impostato
+  - **eVar1** non è impostato su alcun valore e non viene attivata alcuna **istanza di eVar1**
+  - **eVar2** mantiene il valore &quot;promo-banner&quot; a causa della scadenza di 30 giorni
+  - **L&#39;istanza di eVar2** non è attivata perché il valore è persistente e non impostato
 - Fai clic sulla promozione Side Rail con ?icid=promo-side-rail in the URL
 - Pagina E
-   - **eVar1** e **eVar2** sono impostati su &quot;promo-side-rail&quot;
-   - **Istanza di eVar1** attivata
-   - **Istanza di eVar2** attivata
+  - **eVar1** e **eVar2** sono impostati su &quot;promo-side-rail&quot;
+  - **Istanza di eVar1** attivata
+  - **Istanza di eVar2** attivata
 - Pagina F
-   - Sia **eVar1** che **eVar2** mantengono il valore &quot;promo-side-rail&quot;
-   - Nessuna delle metriche di istanza per le eVar viene attivata, in quanto entrambe le eVar utilizzano valori persistenti
+  - Sia **eVar1** che **eVar2** mantengono il valore &quot;promo-side-rail&quot;
+  - Nessuna delle metriche di istanza per le eVar viene attivata, in quanto entrambe le eVar utilizzano valori persistenti
 
 Attualmente, il risultato atteso di queste due visite è il seguente:
 

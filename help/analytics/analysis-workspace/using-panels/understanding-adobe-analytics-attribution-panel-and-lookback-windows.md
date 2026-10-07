@@ -6,17 +6,30 @@ feature: Attribution
 role: User
 level: Experienced
 doc-type: Article
-last-substantial-update: 2023-06-20T00:00:00Z
+last-substantial-update: 2023-06-20T00:00:00.000Z
 jira: KT-13181
 thumbnail: KT-13181.jpeg
 exl-id: 2a62e563-bad9-424f-94ca-2af68d4a83b5
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 0%
-
 ---
-
 # Informazioni sul pannello di attribuzione e sugli intervalli di lookback di [!DNL Adobe Analytics]
 
 Quando ho pensato per la prima volta al [pannello di attribuzione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/attribution.html?lang=it) e all&#39;**intervallo di lookback**, mi è stato subito ricordato il concetto di &#39;*viaggio nel tempo&#39;*; poi, ovviamente, mi è stato anche ricordato che la nostra tipica risposta a molti nuovi strumenti come questi è semplicemente di rimandare il tentativo di utilizzarli, perché sembrano così complicati.
@@ -76,9 +89,9 @@ Tenendo presente questo aspetto, ecco alcuni esempi di come i ❸ **modelli di a
 
 - **A forma di U**: questo approccio assegna il **40%** del credito alla *prima persona* sulla porta, distribuisce il **20%** del credito tra *tutti tra* e quindi assegna il **40%** al **ultimo** tramite. Questo modello verrà utilizzato il più delle volte in situazioni in cui si dispone di un **lungo ciclo di conversione/vendita** contenente *diversi punti di contatto* lungo il percorso.  In questo caso, l&#39;obiettivo è quello di evidenziare principalmente le tattiche di marketing ***first*** e ***last*** che hanno contribuito alla conversione del cliente.
 - **J**-**A forma** e **J** inversa:
-   - Pensa a **A forma di U**, ma questo modello assegna il credito **60%** alla *ultima persona* che cammina attraverso la porta, **20%** alla *prima*, quindi *divide* il resto **20%** in *tutti gli altri* al centro.  **J** inversa esegue l&#39;esatto contrario.
+  - Pensa a **A forma di U**, ma questo modello assegna il credito **60%** alla *ultima persona* che cammina attraverso la porta, **20%** alla *prima*, quindi *divide* il resto **20%** in *tutti gli altri* al centro.  **J** inversa esegue l&#39;esatto contrario.
 
-     L&#39;obiettivo è quello di mettere la maggior parte della tua enfasi, sia al *inizio* o al *fine* della tua campagna; tuttavia, desideri comunque assegnare un certo importo di credito all&#39;elemento che contribuisce sul lato opposto, riconoscendo i &quot;ragazzi piccoli&quot; lungo il percorso.
+    L&#39;obiettivo è quello di mettere la maggior parte della tua enfasi, sia al *inizio* o al *fine* della tua campagna; tuttavia, desideri comunque assegnare un certo importo di credito all&#39;elemento che contribuisce sul lato opposto, riconoscendo i &quot;ragazzi piccoli&quot; lungo il percorso.
 
 - **Decadimento nel tempo**: se non lo condividessi, verrei licenziato. Questo modello ha letteralmente un&#39;emivita che decade esponenzialmente - nel tempo!  In questo caso, il parametro *default* per l&#39;emivita di questo modello è **7 giorni**.  Funziona in modo da applicare *peso* a ciascun **canale di marketing**, *in base al tempo* trascorso dopo il *punto di contatto iniziale* e al momento della conversione del cliente.
 

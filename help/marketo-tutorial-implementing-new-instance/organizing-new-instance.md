@@ -6,17 +6,24 @@ level: Beginner
 doc-type: Article
 solution: Marketo Engage
 duration: 0
-last-substantial-update: 2024-05-03T00:00:00Z
+last-substantial-update: 2024-05-03T00:00:00.000Z
 jira: KT-14813
 thumbnail: KT-14813.jpeg
 exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
-source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 2%
-
 ---
-
 # Organizzare una nuova istanza e stabilire convenzioni di denominazione
 
 In qualità di amministratore che implementa una nuova istanza di Marketo Engage, stai gettando le basi per consentire ai futuri addetti al marketing all’interno dell’organizzazione di navigare facilmente attraverso l’istanza. Acquisire familiarità con la struttura ad albero delle cartelle e le convenzioni di denominazione manterrà l’istanza ordinata e configurata per il successo a lungo termine. Questo tutorial include alcuni esempi consigliati da Natalie Kremer, Adobe e Marketo Engage Champion(2019-2020), per aiutarti a [organizzare le cartelle e denominare le risorse in modo coerente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
@@ -38,7 +45,7 @@ Di seguito sono riportati alcuni suggerimenti rapidi per strutturare le cartelle
 * Mantenere una struttura di cartelle piatta per l&#39;individuazione.
 * Strutturare le cartelle in modo da riflettere la struttura del team dell&#39;organizzazione (ad esempio Area geografica o Team) o le iniziative (ad esempio Newsletter).
 * Includi etichette temporizzate per abilitare la ricercabilità e segnalare i tempi appropriati per l’archiviazione (ad esempio, 2024).
-   * Si consiglia agli amministratori di archiviare le cartelle almeno una volta all’anno. Utilizzando il nome di una cartella annuale, puoi disattivare facilmente le campagne Smart live e archiviare l’intera cartella alla fine dell’anno.
+  * Si consiglia agli amministratori di archiviare le cartelle almeno una volta all’anno. Utilizzando il nome di una cartella annuale, puoi disattivare facilmente le campagne Smart live e archiviare l’intera cartella alla fine dell’anno.
 
 Di seguito sono riportati alcuni esempi di cartelle che illustrano come mettere in pratica questi suggerimenti.
 
@@ -69,12 +76,12 @@ Ora applichiamo la struttura delle cartelle a livello di programma. Come best pr
 * Campagne - *Cartella per tutte le campagne che gestiscono le interazioni e il tracciamento dello stato.*
 * Assets locale - *Cartella per tutte le risorse specifiche di questo programma.*
 
-   * E-mail
-   * Pagine di destinazione
-   * Campagne avanzate
-   * Elenchi - *Necessario solo in presenza di elenchi specifici del programma.*
-   * Forms - *Necessario solo in presenza di Forms specifici per il programma; la maggior parte dei Forms sono Assets globali.*
-   * Rapporti - *Necessario solo in presenza di rapporti specifici del programma.*
+  * E-mail
+  * Pagine di destinazione
+  * Campagne avanzate
+  * Elenchi - *Necessario solo in presenza di elenchi specifici del programma.*
+  * Forms - *Necessario solo in presenza di Forms specifici per il programma; la maggior parte dei Forms sono Assets globali.*
+  * Rapporti - *Necessario solo in presenza di rapporti specifici del programma.*
 
 ### Passaggio 3: creare convenzioni di denominazione per programmi e risorse
 
@@ -116,7 +123,7 @@ Andando da un livello all’altro per denominare le risorse, è meglio non ripet
 
 * Numera le risorse in base alla loro sequenza nel processo del programma.
 * Utilizza &quot;-&quot; (trattino) per separare i componenti di denominazione invece di &quot;.&quot;(punto) o &quot;\_&quot;(trattino basso).
-   * Perché? Marketo Engage utilizza un punto per separare il nome del programma dal nome della campagna. L&#39;uso di &quot;\_&quot; ti impedirà di visualizzarlo quando la risorsa è collegata tramite un collegamento ipertestuale.
+  * Perché? Marketo Engage utilizza un punto per separare il nome del programma dal nome della campagna. L&#39;uso di &quot;\_&quot; ti impedirà di visualizzarlo quando la risorsa è collegata tramite un collegamento ipertestuale.
 * Utilizza gli acronimi standard nei nomi delle risorse per ridurre il riferimento e consentire comunque un facile riconoscimento.
 
 Tenendo presenti questi suggerimenti, verranno applicati alle seguenti risorse e verranno create formule per generare i nomi:

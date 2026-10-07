@@ -1,22 +1,29 @@
 ---
 title: Suggerimenti per implementare una nuova istanza
-description: Scopri come implementare una nuova istanza  [!DNL Marketo Engage]  per trarre il massimo dalla sua potenza.
+description: Scopri come implementare una nuova istanza di [!DNL Marketo Engage] per sfruttare al massimo la sua potenza.
 solution: Marketo Engage
 role: Admin
 level: Beginner
 doc-type: Tutorial
 duration: 0
-last-substantial-update: 2024-03-01T00:00:00Z
+last-substantial-update: 2024-03-01T00:00:00.000Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: b7e6c53ba2f2345e72f5028472d46596e6c41f58
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 12%
-
+source-wordcount: '577'
+ht-degree: 0%
 ---
-
 # Suggerimenti per l&#39;implementazione di una nuova istanza di [!DNL Marketo Engage]
 
 Ti diamo il benvenuto in Adobe [!DNL Marketo Engage]. La configurazione di una nuova istanza è il primo passo per aggiornare la strategia di marketing digitale con l’automazione del marketing. La chiave per una corretta implementazione di [!DNL Marketo Engage] è la documentazione.
@@ -42,8 +49,8 @@ Questa serie di &quot;Suggerimenti e trucchi per l&#39;implementazione di una nu
 
 * [Sincronizzazione dei campi per i connettori CRM nativi](/help/marketo-tutorial-implementing-new-instance/syncing-fields-for-crm-integration.md)
   *Scopri come semplificare l’integrazione CRM iniziale selezionando strategicamente i campi CRM essenziali per Marketo Engage. Esegui l&#39;esercizio del dizionario dati per identificare i campi necessari per una sincronizzazione CRM fluida che consenta ai team di vendita e marketing di rimanere allineati.*
-   * [Guida introduttiva alla sincronizzazione di Salesforce](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/lead-and-data-management/salesforce-sync-setup){target=_blank}
-   * [Guida introduttiva alla sincronizzazione di Microsoft Dynamics](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/lead-and-data-management/microsoft-dynamics-sync-setup){target=_blank}
+  * [Guida introduttiva alla sincronizzazione di Salesforce](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/lead-and-data-management/salesforce-sync-setup){target=_blank}
+  * [Guida introduttiva alla sincronizzazione di Microsoft Dynamics](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/lead-and-data-management/microsoft-dynamics-sync-setup){target=_blank}
 <br>
 
 * [Organizzazione di una nuova istanza e definizione delle convenzioni di denominazione](/help/marketo-tutorial-implementing-new-instance/organizing-new-instance.md)

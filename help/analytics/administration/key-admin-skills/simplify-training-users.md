@@ -1,6 +1,6 @@
 ---
 title: Suggerimenti su come semplificare la formazione degli utenti e dedicarvi meno tempo
-description: Assicurare che gli utenti aziendali all'interno della tua organizzazione abbiano una buona formazione su [!DNL Adobe Analytics]  è fondamentale per contribuire a creare una cultura del processo decisionale basato sui dati. Gli utenti in grado di trovare facilmente le informazioni all'interno di [!DNL Adobe Analytics] possono rispondere autonomamente a semplici domande aziendali, lasciando agli analisti più tempo per rispondere a domande aziendali complesse. La condivisione delle tue conoscenze contribuisce a promuovere la democrazia dei dati e consente agli utenti aziendali di essere più indipendenti nel prendere decisioni basate sulle prestazioni.
+description: Assicurare che gli utenti aziendali all'interno della tua organizzazione abbiano una buona formazione su [!DNL Adobe Analytics] è fondamentale per contribuire a creare una cultura del processo decisionale basato sui dati. Gli utenti in grado di trovare facilmente le informazioni in [!DNL Adobe Analytics] possono rispondere autonomamente a semplici domande di business, lasciando più tempo agli analisti per rispondere a domande di business complesse. La condivisione delle tue conoscenze contribuisce a promuovere la democrazia dei dati e consente agli utenti aziendali di essere più indipendenti nel prendere decisioni basate sulle prestazioni.
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -11,13 +11,23 @@ level: Experienced
 thumbnail: 340458.jpg
 kt: 9779
 exl-id: 9ceef641-3509-4e5e-8c44-bc76502e389b
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '905'
 ht-degree: 0%
-
 ---
-
 # Suggerimenti su come semplificare la formazione degli utenti e dedicarvi meno tempo
 
 >[!VIDEO](https://video.tv.adobe.com/v/341106/?captions=ita&quality=12&learn=on)

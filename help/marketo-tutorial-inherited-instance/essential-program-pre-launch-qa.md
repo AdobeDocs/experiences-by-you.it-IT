@@ -6,17 +6,35 @@ feature: Administration
 role: Admin
 level: Intermediate, Experienced
 doc-type: Tutorial
-last-substantial-update: 2023-10-16T00:00:00Z
+last-substantial-update: 2023-10-16T00:00:00.000Z
 jira: KT-13888
 thumbnail: KT-13888.jpeg
 exl-id: c377fe5f-2d77-4fd0-9ac4-5ad65506f582
-source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d1d0a9cd-295d-4976-8c39-ddae266f240e
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '6045'
+source-wordcount: '6054'
 ht-degree: 2%
-
 ---
-
 # Processo essenziale di controllo qualità pre-lancio del programma per il successo
 
 Se sei un amministratore di [!DNL Marketo Engage] o fai parte del team dell&#39;operazione di marketing, è fondamentale rivedere correttamente la configurazione del programma per evitare errori che interessano il cliente. Anche se puoi imparare dai tuoi errori nel modo in cui limitare gli errori, non è un processo scalabile. Scopri come progettare ed eseguire un processo di controllo qualità pre-avvio del programma tra i generatori e gli utenti/revisori più esperti per risparmiare tempo, evitare errori e addestrare più rapidamente gli utenti interni.
@@ -183,7 +201,7 @@ Potrebbero esserci elementi mancanti o non applicabili in quanto il team esegue 
 | 18 | **Invii operativi** | <ul><li>Hai impostato l’e-mail su Operativo (ovvero non eseguirà le impostazioni per l’annullamento dell’abbonamento)?<li>In caso affermativo, ne ha una ragione valida?</li> | **Sì o No:**<br> Se rispondi con sì, dovresti avere un motivo valido per inviare un messaggio e-mail come messaggio operativo. In caso di dubbi, rivolgersi all&#39;amministratore [!DNL Marketo Engage]. | [Rendere operativa un&#39;e-mail](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/make-an-email-operational.html?lang=it){target="_blank"} |
 | 19 | **Test A/B e Champ/Challenger** | Stai eseguendo test di campioni/sfidanti sull’e-mail? | **Sì o no:**<br> Se non esegui alcun test, pensa di poter perdere un&#39;opportunità per saperne di più sul pubblico. | [Crea un test A/B](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/ab-testing-watch.html?lang=it)<br><br>[Aggiungi un campione/sfidante e-mail](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/email-tests-champion-challenger/add-an-email-champion-challenger.html?lang=it){target="_blank"} |
 | 20 | **Test client** | Hai eseguito l’e-mail tramite il software di test client?<li>Hai identificato problemi di visualizzazione con i principali client e-mail? <li>Hai corretto o registrato come correzione non urgente dei modelli? <li>Hai identificato problemi di velocità di carico e hai tentato di migliorare?<li>Hai identificato dei problemi nella riga dell’oggetto o della riga di anteprima? Sono risolti? | **Sì o non applicabile:**<br> Se non è possibile rispondere con un sì (a meno che non si disponga di software di test), è necessario eseguire questa operazione prima di inviare. | Esempi di software di test client includono Litmus o Email on Acid o [Marketo Email Deliverability Power Pack](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/deliverability/email-deliverability-power-pack-how-to-import-a-seed-list.html?lang=it)<br><br>[Tutorial sul tracciatore della casella in entrata](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/deliverability/inbox-tracker/inbox-tracker-tutorials.html?lang=it){target="_blank"} |
-| 21 | **Test spam** | Hai eseguito l’e-mail tramite il processo di spam?<li>Ci sono bandiere di segnalazione per la?<li>Hai identificato un flag di posizionamento casella in entrata/client e-mail? <li>Hai cercato le possibili cause e hai tentato di risolverle? | **Sì o non applicabile:**<br> Se non è possibile rispondere con un sì (a meno che non si disponga di software di test), è necessario eseguire questa operazione prima di inviare. | Utilizza la funzionalità di tracciamento della casella in entrata di [Marketo](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/deliverability/inbox-tracker/inbox-tracker-tutorials.html?lang=it){target="_blank"} per questo se ne hai incluso nel contratto o strumenti come Litmus o E-mail su Acid. |
+| 21 | **Test spam** | Hai eseguito l’e-mail tramite il processo di spam?<li>Ci sono delle bandiere di inserire nell&#39;elenco Bloccati alzate per sensibilizzarli?<li>Hai identificato un flag di posizionamento casella in entrata/client e-mail? <li>Hai cercato le possibili cause e hai tentato di risolverle? | **Sì o non applicabile:**<br> Se non è possibile rispondere con un sì (a meno che non si disponga di software di test), è necessario eseguire questa operazione prima di inviare. | Utilizza la funzionalità di tracciamento della casella in entrata di [Marketo](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/deliverability/inbox-tracker/inbox-tracker-tutorials.html?lang=it){target="_blank"} per questo se ne hai incluso nel contratto o strumenti come Litmus o E-mail su Acid. |
 | 22 | **Ulteriori[!DNL Analytics]** | L’e-mail include codice di analisi aggiuntivo? | **Sì o non applicabile:**<br> Se non è possibile rispondere con un sì (a meno che non si disponga di software di analisi aggiuntivo), è necessario farlo prima dell&#39;invio. |  |
 
 >[!TAB Controlli finali]

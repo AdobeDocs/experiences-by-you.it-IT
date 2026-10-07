@@ -1,6 +1,6 @@
 ---
 title: Funzionamento cross-functional
-description: 'Il percorso a  [!DNL Adobe Analytics]  inizia con una buona implementazione. Conosciamo tutti il detto "garbage in, garbage out" (letteralmente: "spazzatura dentro, spazzatura fuori"). Per eliminare un’implementazione "spazzatura", gli amministratori devono monitorare ogni dettaglio dei dati inseriti nel sistema. Detto questo, la strategia di raccolta dei dati è influenzata da molte parti interessate all’interno dell’organizzazione con cui un amministratore dovrà lavorare giorno dopo giorno.'
+description: 'Il percorso a [!DNL Adobe Analytics] inizia con una buona implementazione. Conosciamo tutti il detto "garbage in, garbage out" (letteralmente: "spazzatura dentro, spazzatura fuori"). Per eliminare un’implementazione "spazzatura", gli amministratori devono monitorare ogni dettaglio dei dati inseriti nel sistema. Detto questo, la strategia di raccolta dei dati è influenzata da molte parti interessate all’interno dell’organizzazione con cui un amministratore dovrà lavorare giorno dopo giorno.'
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -10,16 +10,26 @@ level: Experienced
 thumbnail: 342071.jpg
 kt: 10129
 exl-id: 9dbebe7a-0b68-4aea-8a51-6e6bc0f54d09
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # Funzionamento cross-functional
 
->[!VIDEO](https://video.tv.adobe.com/v/345453/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/345453/?captions=ita&quality=12&learn=on)
 
 Il percorso a [!DNL Adobe Analytics] inizia con una buona implementazione. Conosciamo tutti il detto &quot;garbage in, garbage out&quot; (letteralmente: &quot;spazzatura dentro, spazzatura fuori&quot;). Per eliminare un’implementazione &quot;spazzatura&quot;, gli amministratori devono monitorare ogni dettaglio dei dati inseriti nel sistema. Detto questo, la strategia di raccolta dei dati è influenzata da molte parti interessate all’interno dell’organizzazione con cui un amministratore dovrà lavorare giorno dopo giorno.
 
