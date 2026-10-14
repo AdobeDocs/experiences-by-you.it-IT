@@ -1,26 +1,24 @@
 ---
-title: Snippet
+title: Frammenti
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
 source-git-commit: 80fc3ded085ce416e9a26aec96f1293701f7d268
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 0%
-
+ht-degree: 1%
 ---
-
-# Snippet
+# Frammenti
 
 ## Amy Chiu {#amy-chiu}
 
 ![Amy Chiu](/help/marketo-tutorial-implementing-new-instance/assets/amy-chiu.png){width="150"}
 
-**Amy Chiu**, Responsabile Marketing Adozione E Mantenimento, Adobe
+**Amy Chiu**, Responsabile marketing per l&#39;adozione e la conservazione, Adobe
 
 ## Naomi Liu {#naomi-liu}
 
 ![Naomi Liu](/help/marketo-tutorial-implementing-new-instance/assets/naomi-liu.png){width="150"}
 
-**Naomi Liu**, Director, operazioni di marketing globali, elettronica per immagini (EFI)
+**Naomi Liu**, Direttore, Global Marketing Operations, Electronics for Imaging (EFI)
 
 ## Natalie Kremer {#natalie-kremer}
 
@@ -54,7 +52,7 @@ Campione Adobe Marketo Engage (2015)
 
 ![Peter Livadas](/help/marketo-tutorial-implementing-new-instance/assets/peter_livadas.png){width="150"}
 
-**Peter Livadas**, Marketo Engage Consulente Tecnico Senior presso Adobe
+**Peter Livadas**, Marketo Engage Senior Technical Consultant presso Adobe
 
 ## Sara Barriuso {#sara-barriuso}
 
