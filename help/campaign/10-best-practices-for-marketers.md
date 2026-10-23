@@ -65,7 +65,7 @@ Secondo uno [studio di Hubspot](https://www.linkedin.com/pulse/customer-segmenta
 
 In [!DNL Adobe] [!DNL Campaign] è possibile orchestrare la segmentazione in modo rapido e semplice. Tuttavia, per semplificare e facilitare questo processo, gli operatori delle campagne e i professionisti del marketing devono avere una comprensione documentata dei dati sottostanti durante la progettazione e la richiesta di una creazione ed esecuzione di campagne. È fondamentale comprendere i dati correnti e prevedere quali dati potrebbero essere necessari quando si collabora con amministratori e sviluppatori che supportano l&#39;istanza di [!DNL [!DNL Campaign]].
 
-Le campagne sono valide solo quanto lo sono le strutture di dati sottostanti che le supportano. La conoscenza e la documentazione di questa struttura di dati aiuta anche se si verificano problemi durante l’integrazione di piattaforme o il passaggio a una piattaforma di dati di consumo
+Le campagne sono valide solo quanto lo sono le strutture di dati sottostanti che le supportano. La conoscenza e la documentazione di questa struttura di dati sono utili anche se si verificano problemi durante l’integrazione di piattaforme o il passaggio a una piattaforma per dati sui consumatori
 
 ## &#x200B;3. Pianificare la tempistica delle campagne
 
@@ -85,7 +85,7 @@ Sei veloce solo quanto la prossima consegna che il tuo team può configurare. Sp
 
 ## &#x200B;6. Comprendere e gestire gli abbonamenti e le preferenze
 
-La gestione e la manutenzione delle preferenze di abbonamento possono rapidamente complicarsi, causando vari livelli di rischio. Come quando si invia il messaggio sbagliato al cliente tramite un canale a cui non risponde, nove consumatori su dieci affermano che avere un&#39;esperienza negativa li rende meno propensi a fare acquisti con un marchio in futuro. Su scala più ampia, potresti esporti a rischi e sanzioni normativi e di conformità.
+La gestione e la manutenzione delle preferenze di abbonamento possono rapidamente complicarsi, causando vari livelli di rischio. Come quando si invia il messaggio sbagliato al cliente tramite un canale a cui non risponde, nove consumatori su dieci affermano che avere un’esperienza negativa li rende meno propensi a fare acquisti con un marchio in futuro. Su scala più ampia, potresti esporti a rischi e sanzioni normativi e di conformità.
 
 Avere una strategia iniziale per gestire i consenso e coltivare questo ecosistema in continua evoluzione attraverso l&#39;utilizzo esperto di [!DNL [!DNL Adobe] [!DNL Campaign]] e altri strumenti tecnologici di marketing. Spesso, questa è una delle metriche di successo maggiori della campagna, quindi un’attenta pianificazione produce ottimi profitti man mano che la strategia della campagna si sviluppa e matura.
 
@@ -93,7 +93,7 @@ Avere una strategia iniziale per gestire i consenso e coltivare questo ecosistem
 
 Il _recapito messaggi_ spesso sembra un concetto mistico e complicato. Un&#39;importante regola di base del recapito messaggi è la pianificazione strategica. Avviare gli indirizzi IP e costruire una buona reputazione richiede tempo. La diminuzione della reputazione può avvenire rapidamente, rendendo difficile riparare eventuali danni. Infatti, **una e-mail su sei non riesce a raggiungere la casella in entrata**.
 
-I problemi di recapito possono verificarsi a causa di molteplici fattori tecnici o problemi in base al modo in cui i consumatori rispondono al tuo marketing. Tenendo presente il [recapito messaggi](https://business.adobe.com/it/products/campaign/email-deliverability.html) nella creazione e nell’esecuzione di campagne e nel processo retrospettivo, puoi garantire di mantenere un ambiente efficiente e stabile e continuare a fornire ai clienti esperienze positive.
+I problemi di recapitabilità possono verificarsi a causa di molteplici fattori tecnici o problemi in base al modo in cui i consumatori rispondono al tuo marketing. Tenendo presente il [recapito messaggi](https://business.adobe.com/it/products/campaign/email-deliverability.html) nella creazione e nell’esecuzione di campagne e nel processo retrospettivo, puoi garantire di mantenere un ambiente efficiente e stabile e continuare a fornire ai clienti esperienze positive.
 
 ## &#x200B;8. Pianificare e sviluppare un processo retrospettivo della campagna
 
