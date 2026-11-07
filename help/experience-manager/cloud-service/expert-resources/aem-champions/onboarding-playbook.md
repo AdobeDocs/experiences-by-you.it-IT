@@ -48,7 +48,7 @@ Il playbook di onboarding ti aiuterà a gestire e sviluppare AEM as a Cloud Serv
 
 Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh è un campione di Experience Manager per [!DNL Adobe] e condivide alcune idee su come utilizzare il playbook di onboarding.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419299?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3506883?captions=ita&quality=12&learn=on)
 
 ## Risorse aggiuntive {#additional-resources}
 
