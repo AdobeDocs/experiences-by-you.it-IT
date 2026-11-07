@@ -34,7 +34,7 @@ ht-degree: 13%
 
 Consulta questi suggerimenti dal tuo collega tecnico, Rakesh Pasupuleti. Rakesh è un campione Experience Manager di [!DNL Adobe] e spiega come comprendere i tipi di ambiente di [!DNL Cloud Manager].
 
->[!VIDEO](https://video.tv.adobe.com/v/3419297?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3506983?captions=ita&quality=12&learn=on)
 
 ## Risorse aggiuntive {#additional-resources}
 
